@@ -16,4 +16,4 @@ Mint address | Reasons
 
 Example:
 
-'G79qAryn3Urn4pyJyTSiX6XNz3Zk1epwJbsnLA5Yntz5', fake SOL
+G79qAryn3Urn4pyJyTSiX6XNz3Zk1epwJbsnLA5Yntz5, fake SOL
