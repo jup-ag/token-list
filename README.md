@@ -1,9 +1,9 @@
-# Jupiter Token List
+# Jupiter Token List API
 
-This repo is for us to maintain a Verified Mint List (For removing "Unknown" label to new tokens) and also Banned Mint List (Removing scam or duplicate tokens from our token list).
+This repo is for our community to propose and validate tokens into the strict list of Jupiter's Token List API.
 
-## Verified Mint List
-> Adding a new token to the **Verified Mint List** will remove the **"Unknown"** label from the UI and deemed safe to trade. 
+## Validated Tokens List
+> This list contains tokens from the original solana token repo, and well as community validated tokens.
 
 - Verified Mint List - required field
     - Name
@@ -11,15 +11,16 @@ This repo is for us to maintain a Verified Mint List (For removing "Unknown" lab
     - Mint Address
     - Decimals
     - LogoURI
+    - Community Validated
 
-| Name | Symbol | Mint address | Decimals | LogoURI |
-|------|--------|--------------|----------|---------|
+| Name | Symbol | Mint address | Decimals | LogoURI | Community Validated
+|------|--------|--------------|----------|---------|--------------------|
 |**Example:**|
-|Genopets Ki| KI | kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc | 9 | https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png |
+|Genopets Ki| KI | kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc | 9 | https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png | true
 
 
-## Banned Mint List
-> Adding a new token to the **Banned Mint List** will remove the said token from Jupiter token list and made unavailable to trade both from UI and also SDK/API.
+## Banned Tokens List
+> Tokens here will not show up on the Jupiter UI, SDK and API by default.
 
 - Banned Mint List - required field
     - Mint Address
@@ -29,3 +30,4 @@ This repo is for us to maintain a Verified Mint List (For removing "Unknown" lab
 |---|---|
 |**Example:**|
 |G79qAryn3Urn4pyJyTSiX6XNz3Zk1epwJbsnLA5Yntz5| fake SOL|
+
