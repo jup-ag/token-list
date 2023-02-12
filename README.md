@@ -1,33 +1,35 @@
 # Jupiter Token List API
 
-This repo is for our community to propose and validate tokens into the strict list of Jupiter's Token List API.
+Join the Token Revolution -- Together We List!
+
+Our validation process is open. To contribute, open a PR with the guidelines below. PRs are reviewed by our community members, and we ask for your patience. 
+
+<hr>
 
 ## Validated Tokens List
-> This list contains tokens from the original solana token repo, and well as community validated tokens.
 
-- Verified Mint List - required field
-    - Name
-    - Symbol
-    - Mint Address
-    - Decimals
-    - LogoURI
-    - Community Validated
+### Example Fields:  
+- `Name`: Genopets Ki
+- `Symbol`: KI 
+- `Mint Address`: kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc
+- `Decimals`: 9 
+- `LogoURI`: https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png
+- `Community Validated`: true
 
-| Name | Symbol | Mint address | Decimals | LogoURI | Community Validated
-|------|--------|--------------|----------|---------|--------------------|
-|**Example:**|
-|Genopets Ki| KI | kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc | 9 | https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png | true
+### Example PR: 
+- Please follow this [sample PR](https://github.com/jup-ag/token-list/pull/24).
+- When you open a new PR, the template will automatically be populated with [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md). Please fill that up.
 
+<hr>
 
 ## Banned Tokens List
-> Tokens here will not show up on the Jupiter UI, SDK and API by default.
+Tokens here will not show up on the Jupiter UI, SDK and API.
 
-- Banned Mint List - required field
-    - Mint Address
-    - Reasons
+To propose a ban, please open a PR with the reason and related links in the description.
 
-| Mint address | Reasons |
-|---|---|
-|**Example:**|
-|G79qAryn3Urn4pyJyTSiX6XNz3Zk1epwJbsnLA5Yntz5| fake SOL|
 
+<hr>
+
+## Read More
+- API: https://docs.jup.ag/notes/token-lists-beta
+- Blog: https://blog.jup.ag/token-list-api/
