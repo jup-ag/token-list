@@ -1,4 +1,4 @@
-# Jupiter Token List API
+# Jupiter Token List Validation (BETA)
 
 Join the Token Revolution -- Together We List!
 
