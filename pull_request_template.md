@@ -1,0 +1,2 @@
+- Tweet with Mint address: https://twitter.com/{name}/status/{id}
+- Coingecko URL (If available): https://www.coingecko.com/en/coins/{id}
