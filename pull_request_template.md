@@ -1,8 +1,8 @@
-# Validate [Token Symbol](https://solscan.io/token/{mint_address})
+# Validate [Token Symbol](BATT)
 
 ## Attestations:
-- Tweet with Mint address: https://twitter.com/{name}/status/{id}
-- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
+- Tweet with Mint address: https://twitter.com/bonk_bat
+- Coingecko/ CMC URL (If available): Not available. https://batt.finance/#/
 
 ## Validation (Additonal material for reviewers):
 - [x] The metadata provided in the PR matches what is on-chain (Mandatory)
