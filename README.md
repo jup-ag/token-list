@@ -36,10 +36,6 @@ Our design principles are: Safety, Openness, Unopinionated, Collaborative, Commu
 - `LogoURI`: https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png
 - `Community Validated`: true
 
-### Example PR: 
-- Please follow this [sample PR](https://github.com/jup-ag/token-list/pull/24).
-- When you open a new PR, the template will automatically be populated with [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md). Please fill that up.
-
 <hr>
 
 ## Banned Tokens List
