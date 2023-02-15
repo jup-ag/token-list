@@ -1,8 +1,8 @@
-# Validate [Token Symbol](https://solscan.io/token/{mint_address})
+# Validate [Clack](https://solscan.io/token/2Y6sQjp2PiwnQpMPSvGGYFNSQGY24YubNYXtrB9ufon9)
 
 ## Attestations:
-- Tweet from your Twitter Account attesting the Mint address: https://twitter.com/{name}/status/{id}
-- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
+- Tweet from your Twitter Account attesting the Mint address: https://twitter.com/clack_inu/status/1625860533369950208
+- Coingecko/ CMC URL (If available): in progress
 
 ## Validation (Additonal material for reviewers):
 - [x] The metadata provided in the PR matches what is on-chain (Mandatory)
