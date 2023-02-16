@@ -10,5 +10,6 @@
 - [x] Is Listed on Coingecko / CMC (Optional, but is helpful for reviewers to check for duplicates)  
 
 ## Acknowledgement
-- [x] Acknowleged that I did not modify unrelated code.
-- [x] Acknowledged that my change matches the format of other lines in the file (no spaces between fields).
+- [x] I did not modify unrelated code.
+- [x] My tokens are already live on jup.ag
+- [x] My change matches the format of other lines in the file.

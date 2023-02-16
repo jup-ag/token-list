@@ -1,0 +1,22 @@
+name: validate-PR
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8.2" # install the python version needed
+
+      - name: flag any duplicates
+        run: python3 scripts/flag-duplicates.py
+
+

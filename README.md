@@ -10,6 +10,7 @@ Our design principles are: Safety, Openness, Unopinionated, Collaborative, Commu
 ## Contribute:
 
 ### If you are a project with a new token:
+- Your token must already be live on Jup. See [Getting your token on Jupiter](https://docs.jup.ag/notes/getting-your-token-on-jupiter)
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/24)
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) that is generated automatically. This PR should point to `staging`.
 - Tell our community more about your project and get them to validate and upvote your PR.
@@ -20,7 +21,7 @@ Our design principles are: Safety, Openness, Unopinionated, Collaborative, Commu
 
 ### Mechanics (Early, Work in Progress):
 - After community validation and approval, PRs will be merged to `staging` branch. 
-- Tokens will be live when the PRs are merged to `main`. 
+- Tokens will be on the strict list when the PRs are merged to `main`. 
 - There is no timeline on this right now, and we prefer to be cautious while the process is still early. We ask for your patience as we work on this together.
 
 
