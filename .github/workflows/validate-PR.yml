@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner
+        uses: actions/checkout@v3 # checkout the repository content to github runner
 
       - name: setup python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.8.2" # install the python version needed
+          python-version: "3.10" # install the python version needed
 
       - name: flag any duplicates
-        run: python3 scripts/flag-duplicates.py
+        run: python scripts/flag-duplicates.py
 
 
