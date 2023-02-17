@@ -11,7 +11,7 @@ Our design principles are: Safety, Openness, Unopinionated, Collaborative, Commu
 
 ### If you are a project with a new token:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/24)
-- Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) that is generated automatically. This PR should point to `staging`.
+- Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It should be populated automatically when you open the PR with you change. Your PR should point to `staging`.
 - The PRs will not be reviewed by our community until your project is known. Please drop your PR link in our #token-validation discord channel, introduce your project, and get them to help validate you.
 - Your PR will be closed if it does not follow instructions.
 
