@@ -12,7 +12,7 @@ Learn more:
 -  [API docs](https://docs.jup.ag/api/token-list-api)
 
 ## Community-Driven Validation into 'Strict' List:
- The 'Strict' list approach came about to keep our community safe from fake tokens while allowing open access to all projects in the 'All' list. **They are the tokens that our community wants to trade safely. As such, your token has to be known and receive support from the community -- there is no guarantee that itn will be validated into the strict list.**
+ The 'Strict' list approach came about to keep our community safe from fake tokens while allowing open access to all projects in the 'All' list. **They are the tokens that our community wants to trade safely. As such, your token has to be known and receive support from the community -- there is no guarantee that it will be validated into the strict list.**
 
 Please introduce your project in our [token-validation discord channel](https://discord.gg/SJmyW8TG), tell us what excites you about it, and get community support.
   
