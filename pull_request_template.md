@@ -10,7 +10,7 @@
 - [ ] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers)  
 
 ## Acknowledgement
-- [] I did not modify unrelated code.
-- [] My change matches the format in the file (no spaces between fields).
-- [] My token is already live and trading on Jupiter.
-- [] !!! I read the README section on Community-Driven Validation and will introduce my project to the community in discord.
+- [ ] I did not modify unrelated code.
+- [ ] My change matches the format in the file (no spaces between fields).
+- [ ] My token is already live and trading on Jupiter.
+- [ ] !!! I read the README section on Community-Driven Validation and will introduce my project to the community in discord.
