@@ -1,4 +1,4 @@
-# Validate [PLEX](https://solscan.io/token/{4uEUE7NJCbEpo5SGwyyfx7CgapJtMzDd2QFPR27Qi3W1})
+# Validate [PLEX](https://solscan.io/token/4uEUE7NJCbEpo5SGwyyfx7CgapJtMzDd2QFPR27Qi3W1)
 
 ## Attestations:
 - Tweet Mint address: https://twitter.com/neoplex_pro/status/1628478913960677377?s=20
