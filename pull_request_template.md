@@ -1,16 +1,16 @@
-# Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
+# Validate [{PLEX}](https://solscan.io/token/{4uEUE7NJCbEpo5SGwyyfx7CgapJtMzDd2QFPR27Qi3W1})
 
 ## Attestations:
-- Tweet from your Twitter Account attesting the Mint address and tagging @JupiterExchange. Examples: https://twitter.com/LPFinance_/status/1626016173027368960?s=20, https://twitter.com/froggotoken/status/1624958438462701569?s=20
-- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
+- Tweet Mint address: https://twitter.com/neoplex_pro/status/1628478913960677377?s=20
+- Coingecko/ CMC URL (If available): In progress
 
 ## Validation (Additonal material for reviewers):
-- [ ] The metadata provided in the PR matches what is on-chain (Mandatory)
-- [ ] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will de delayed)
+- [x] The metadata provided in the PR matches what is on-chain (Mandatory)
+- [x] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will de delayed)
 - [ ] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers)  
 
 ## Acknowledgement
-- [ ] I did not modify unrelated code.
-- [ ] My change matches the format in the file (no spaces between fields).
-- [ ] My token is already live and trading on Jupiter.
-- [ ] !!! I read the README section on Community-Driven Validation and will introduce my project to the community in discord.
+- [x] I did not modify unrelated code.
+- [x] My change matches the format in the file (no spaces between fields).
+- [x] My token is already live and trading on Jupiter.
+- [x] !!! I read the README section on Community-Driven Validation and will introduce my project to the community in discord.
