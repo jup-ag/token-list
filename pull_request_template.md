@@ -1,4 +1,4 @@
-# Validate [{$BAGS}](https://solscan.io/token/{8wbKU77rWVmpfejfXxGVo5H47fyRQHkpWxZnqUT1Vjd3})
+# Validate [$BAGS](https://solscan.io/token/{8wbKU77rWVmpfejfXxGVo5H47fyRQHkpWxZnqUT1Vjd3})
 
 ## Attestations (Please provide links):
 - Tweet Mint Address: https://twitter.com/bags_inu/status/1628495575074185218?s=20
