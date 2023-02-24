@@ -20,6 +20,7 @@ jobs:
       - name: Validate
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn dev
+        run: |
+          yarn dev
 
 
