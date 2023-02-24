@@ -15,11 +15,11 @@ jobs:
         run: |
           npm install -g yarn # used for act but take out in github actions
           yarn install
-          yarn run dev
+          yarn dev
       
       - name: Validate
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn run dev
+        run: yarn dev
 
 
