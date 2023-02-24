@@ -16,10 +16,4 @@ jobs:
           npm install -g yarn # used for act but take out in github actions
           yarn install
           yarn dev
-      
-      - name: Validate
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          command: |
-            yarn dev
 
