@@ -1,0 +1,28 @@
+{
+  "name": "token-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jup-ag/token-list.git",
+  "author": "raccoons",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn build && node dist/main.js",
+    "build": "yarn tsc",
+    "format": "yarn prettier --write **/*.ts",
+    "format-check": "yarn prettier --check **/*.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.1.1",
+    "@solana/web3.js": "^1.73.2",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/node-fetch": "^2.6.2",
+    "csv-parse": "^5.3.5",
+    "typescript": "^4.9.5"
+  }
+}
