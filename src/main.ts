@@ -49,15 +49,12 @@ async function run(): Promise<void> {
   let validatedSet: ValidatedSet;
   try {
     validatedSet = await getValidated();
-    console.log('mints', validatedSet.names.size)
     parseGitPatch(gitDiff).forEach((patch) =>
     validateGitPatch(patch, validatedSet)
   );
   } catch (error: any) {
     core.setFailed(error.message);
   }
-  
-
 }
 
 run();

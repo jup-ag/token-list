@@ -1,4 +1,3 @@
-import { parse } from "csv-parse/sync";
 import { Token, ValidatedSet } from "./types/types";
 import fetch from "node-fetch";
 
