@@ -6,11 +6,10 @@ import { validateGitPatch } from "./validate";
 import { getValidated } from "./get-validated";
 import { ValidatedSet } from "./types/types";
 
-const { GITHUB_EVENT_PATH } = process.env;
 const token = process.env.GITHUB_TOKEN as string;
+// const token = core.getInput('github-token', {required: true});
+
 const octokit = token && github.getOctokit(token);
-// @ts-ignore
-const GITHUB_EVENT = require(GITHUB_EVENT_PATH);
 
 async function run(): Promise<void> {
   if (!octokit) {
@@ -45,19 +44,17 @@ async function run(): Promise<void> {
     core.setFailed(gitDiffError);
   }
 
-
   let validatedSet: ValidatedSet;
   try {
     validatedSet = await getValidated();
-    console.log('mints', validatedSet.names.size)
-    parseGitPatch(gitDiff).forEach((patch) =>
-    validateGitPatch(patch, validatedSet)
-  );
+    console.log('mints', validatedSet.mints.size)
+    parseGitPatch(gitDiff).forEach((patch) => {
+      console.log('PATCH', patch);
+      validateGitPatch(patch, validatedSet);
+    });
   } catch (error: any) {
     core.setFailed(error.message);
   }
-  
-
 }
 
 run();
