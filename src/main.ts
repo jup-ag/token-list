@@ -4,7 +4,7 @@ import { exec } from "@actions/exec";
 import { parseGitPatch } from "./parse";
 import { validateGitPatch } from "./validate";
 import { getValidated } from "./get-validated";
-import { ValidatedSet } from "./types/types";
+import { ValidatedSet, ValidationError } from "./types/types";
 
 const token = process.env.GITHUB_TOKEN as string;
 // const token = core.getInput('github-token', {required: true});
@@ -47,10 +47,16 @@ async function run(): Promise<void> {
   let validatedSet: ValidatedSet;
   try {
     validatedSet = await getValidated();
-    console.log('mints', validatedSet.mints.size)
+    const errors: ValidationError[] = []
     parseGitPatch(gitDiff).forEach((patch) => {
-      console.log('PATCH', patch);
-      validateGitPatch(patch, validatedSet);
+      const patchErrors = validateGitPatch(patch, validatedSet);
+      if (patchErrors) {
+        errors.concat(patchErrors);
+      }
+    if (errors.length > 0) {
+      console.log("Validation Errors", errors)
+      core.setFailed(errors.join("\n"));
+    }
     });
   } catch (error: any) {
     core.setFailed(error.message);

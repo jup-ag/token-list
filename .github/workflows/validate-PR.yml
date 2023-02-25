@@ -1,7 +1,6 @@
 name: validate-PR
 
 on:
-  push:
   pull_request:
   workflow_dispatch:
 
@@ -11,6 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3 # checkout the repository content to github runner
       - uses: actions/setup-node@v3
+      
+      # For local testing with act, not needed on github actions
+      - run: npm install -g yarn 
+
       - run: yarn install
 
       - name: Validate
@@ -23,13 +26,3 @@ jobs:
           retry_on: error
           command: |
             yarn dev
-
-      # for local testing with act
-      # - name: Setup
-      #   run: |
-      #     npm install -g yarn # used for act but take out in github actions
-      #     yarn install
-      #     yarn dev
-      
-
-

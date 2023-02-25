@@ -1,7 +1,5 @@
 import { Patch, ValidatedSet, ValidationError } from "./types/types";
 import { PublicKey } from "@solana/web3.js";
-import * as core from "@actions/core";
-
 
 export const VALIDATED_TOKENS_FILE = "validated-tokens.csv";
 
@@ -9,8 +7,7 @@ function isValidatedFile(file: string) {
   return file === VALIDATED_TOKENS_FILE;
 }
 
-export async function validateGitPatch(patch: Patch, validatedSet: ValidatedSet) {
-  console.log("Processing patch", patch);
+export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): ValidationError[] {
   const errors: ValidationError[] = [];
 
   // Flag changes to unrelated files
@@ -19,7 +16,8 @@ export async function validateGitPatch(patch: Patch, validatedSet: ValidatedSet)
     !isValidatedFile(patch.added.file)
   ) {
     errors.push(ValidationError.UNRELATED_FILE);
-    return;
+    // Stop validating this patch
+    return errors
   }
 
   // Flag removals
@@ -64,11 +62,6 @@ export async function validateGitPatch(patch: Patch, validatedSet: ValidatedSet)
 
   // TODO: match witih onchain data
   // ....
-
-  if (errors.length > 0) {
-      console.log("Validation Errors", errors);
-      core.setFailed('Failed Validation')
-
-  }
   console.log("Errors", errors);
+  return errors;
 }
