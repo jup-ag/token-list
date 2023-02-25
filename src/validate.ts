@@ -62,6 +62,5 @@ export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): Vali
 
   // TODO: match witih onchain data
   // ....
-  console.log("Errors", errors);
   return errors;
 }

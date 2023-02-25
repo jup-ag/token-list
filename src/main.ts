@@ -53,8 +53,10 @@ async function run(): Promise<void> {
       if (patchErrors) {
         errors.concat(patchErrors);
       }
+    
+    core.info(`Validation Errors: ${errors}`)
+    
     if (errors.length > 0) {
-      console.log("Validation Errors", errors)
       core.setFailed(errors.join("\n"));
     }
     });
