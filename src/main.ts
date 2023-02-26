@@ -9,7 +9,7 @@ import { ValidatedSet, ValidationError } from "./types/types";
 const token = process.env.GITHUB_TOKEN as string;
 // const token = core.getInput('github-token', {required: true});
 
-const octokit = token && github.getOctokit(token);
+const octokit = token && github.getOctokit(token)
 
 async function run(): Promise<void> {
   if (!octokit) {
