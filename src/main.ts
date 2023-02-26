@@ -26,20 +26,21 @@ async function run(): Promise<void> {
   let gitDiffError = "";
 
   try {
+    console.log('Before exec!!')
     await exec("git", ["diff", "-U0", "--color=never"], {
       listeners: {
         stdout: (data: Buffer) => {
-        //  console.log('stdout', data.toString());
           gitDiff += data.toString();
         },
         stderr: (data: Buffer) => {
-      //    console.log('gitdifferror', data.toString());
           gitDiffError += data.toString();
         },
       },
     });
+    console.log(`After exec!!: ${gitDiff}`)
   } catch (error: any) {
     console.log('error getting git diff', error.message)
+    core.debug(error.message)
     core.setFailed(error.message);
   }
 
