@@ -1,7 +1,7 @@
 # Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address and tagging [@JupiterExchange](https://twitter.com/JupiterExchange): https://twitter.com/{your_account}/status/{your_tweet_id}
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
 
 ## Validation (Please check off boxes):
@@ -13,4 +13,4 @@
 - [ ] I did not modify unrelated code.
 - [ ] My change matches the format in the file (no spaces between fields).
 - [ ] My token is already live and trading on Jupiter.
-- [ ] !!! I read the README section on Community-Driven Validation and will introduce my project to the community in discord.
+- [ ] !!! I read the README section on Community-Driven Validation and will get community support on Twitter.
