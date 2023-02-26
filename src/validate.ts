@@ -1,6 +1,5 @@
 import { Patch, ValidatedSet, ValidationError } from "./types/types";
 import { PublicKey } from "@solana/web3.js";
-import * as core from "@actions/core";
 
 
 export const VALIDATED_TOKENS_FILE = "validated-tokens.csv";
