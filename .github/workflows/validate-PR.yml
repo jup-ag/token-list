@@ -26,7 +26,7 @@ jobs:
       - name: Validate
         shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
         run: yarn dev
 
 

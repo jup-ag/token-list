@@ -9,7 +9,7 @@ function isValidatedFile(file: string) {
 }
 
 export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): ValidationError[] {
-  console.log("Processing patch", patch);
+  // console.log("Processing patch", patch);
   const errors: ValidationError[] = [];
 
   // Flag changes to unrelated files
@@ -64,6 +64,6 @@ export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): Vali
   // TODO: match witih onchain data
   // ....
 
-  console.log("Errors", errors);
+  console.log("Patch Errors", errors);
   return errors;
 }
