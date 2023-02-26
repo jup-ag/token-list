@@ -39,6 +39,7 @@ async function run(): Promise<void> {
       },
     });
   } catch (error: any) {
+    console.log('error getting git diff', error.message)
     core.setFailed(error.message);
   }
 
