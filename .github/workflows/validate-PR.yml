@@ -1,0 +1,25 @@
+name: validate-PR
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3 # checkout the repository content to github runner
+      - uses: actions/setup-node@v3
+
+      - name: Setup
+        run: |
+          npm install -g yarn # used for act but take out in github actions
+          yarn install
+          yarn run dev
+      
+      - name: Validate
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        run: yarn run dev
+
+
