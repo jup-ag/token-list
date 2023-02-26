@@ -21,6 +21,7 @@ jobs:
       #   id: github_context_step
       #   run: echo '${{ toJSON(github) }}'
 
+      - run: npm install -g typescript
       - run: yarn install
       
       - name: Validate
