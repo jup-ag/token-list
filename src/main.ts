@@ -44,6 +44,9 @@ async function run(): Promise<void> {
     core.setFailed(gitDiffError);
   }
 
+  core.info(`Git diff: ${gitDiff}`)
+  console.log(`Git diff: ${gitDiff}`)
+
   let validatedSet: ValidatedSet;
   try {
     validatedSet = await getValidated();
