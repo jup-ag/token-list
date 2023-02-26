@@ -11,23 +11,23 @@ jobs:
       - uses: actions/checkout@v3 # checkout the repository content to github runner
       - uses: actions/setup-node@v3
 
-      - name: Setup
-        run: |
-          npm install -g yarn # used for act but take out in github actions
-          yarn install
-          yarn dev
+      # - name: Setup
+      #   run: |
+      #     npm install -g yarn # used for act but take out in github actions
+      #     yarn install
+      #     yarn dev
 
-      # - name: Dump GitHub context
-      #   id: github_context_step
-      #   run: echo '${{ toJSON(github) }}'
+      - name: Dump GitHub context
+        id: github_context_step
+        run: echo '${{ toJSON(github) }}'
 
-      # - run: npm install -g typescript
-      # - run: yarn install
+      - run: npm install -g typescript
+      - run: yarn install
       
-      # - name: Validate
-      #   shell: bash
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
-      #   run: yarn dev
+      - name: Validate
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
+        run: yarn dev
 
 
