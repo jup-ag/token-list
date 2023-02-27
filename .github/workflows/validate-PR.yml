@@ -18,7 +18,9 @@ jobs:
       #   id: github_context_step
       #   run: echo '${{ toJSON(github) }}'
 
+      ## for local act testing
       # - run: npm install -g yarn
+      
       - run: yarn install
 
       - name: Validate PR

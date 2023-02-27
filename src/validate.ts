@@ -51,8 +51,7 @@ export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): Vali
   }
 
   // Flag invalid mint address
-  const TOKEN_MINT = new PublicKey(mint);
-  if(!PublicKey.isOnCurve(new PublicKey(TOKEN_MINT))) {
+  if(!PublicKey.isOnCurve(new PublicKey(mint))) {
       errors.push(ValidationError.INVALID_MINT);
   } 
 
@@ -64,8 +63,9 @@ export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): Vali
     errors.push(ValidationError.INVALID_COMMUNITY_VALIDATED);
   }
 
-  // TODO: match witih onchain data
+  // TODO: match with onchain data
   // ....
+  // ...
 
   // console.log("Patch Errors", errors);
   return errors;

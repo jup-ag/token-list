@@ -37,7 +37,7 @@ async function run(): Promise<void> {
 
     const errors: ValidationError[][] = []
 
-    parseGitPatch(gitDiff).forEach((patch, index) => {
+    parseGitPatch(gitDiff).forEach((patch) => {
       const patchErrors = validateGitPatch(patch, validatedSet);
       if (patchErrors && patchErrors.length > 0) {
         errors.push(patchErrors);
