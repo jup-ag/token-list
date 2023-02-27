@@ -21,15 +21,11 @@ Learn more:
 - Please get your community to support your attestation tweet on Twitter (likes, retweets, comments) and show us what you're about. You can also 
 share about your project in our [token-validation discord channel](https://discord.gg/SJmyW8TG).
 - The PRs will not be reviewed by our community until your project is known and supported. See [Community Driven Validation](#community-driven-validation-into-strict-list)
+- PRs are reviewed in a batch every week and your PR will be closed if there is insufficient community support. 
 
 ## Community Support: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
 - To validate, leave a comment on the PR like [this example](https://github.com/jup-ag/token-list/pull/24#pullrequestreview-1294727250). The approval process is held jointly by the team and moderators right now, but your contribution will show support and speed up the process. Over time, we would like to open it up to community members in a council.
-
-## Mechanics (Early, Work in Progress):
-- After community validation and approval, PRs will be merged to `staging` branch. 
-- Tokens will be live when the PRs are merged to `main`. 
-- There is no timeline on this right now, and we prefer to be cautious while the process is still early and we're iterating. We ask for your patience as we work on this together.
 
 
 <hr>
