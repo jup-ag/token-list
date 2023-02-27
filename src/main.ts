@@ -11,7 +11,7 @@ async function run(): Promise<void> {
   let gitDiffError = "";
 
   try {
-    await exec("git", ["diff", "origin/main", "-U0", "--color=never"], {
+    await exec("git", ["diff", "origin/staging", "-U0", "--color=never"], {
       listeners: {
         stdout: (data: Buffer) => {
           gitDiff += data.toString();
@@ -29,23 +29,24 @@ async function run(): Promise<void> {
     core.setFailed(gitDiffError);
   }
 
-  core.debug(`Git diff: ${gitDiff}`)
+  // core.debug(`Git diff: ${gitDiff}`)
 
   let validatedSet: ValidatedSet;
   try {
     validatedSet = await getValidated();
 
     const errors: ValidationError[][] = []
-    parseGitPatch(gitDiff).forEach((patch) => {
+
+    parseGitPatch(gitDiff).forEach((patch, index) => {
       const patchErrors = validateGitPatch(patch, validatedSet);
-      if (patchErrors) {
+      if (patchErrors && patchErrors.length > 0) {
         errors.push(patchErrors);
       }
+    });
         
     if (errors.length > 0) {
       core.setFailed(errors.join(","));
     }
-    });
   } catch (error: any) {
     core.setFailed(error.message);
   }

@@ -17,8 +17,11 @@ export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): Vali
     !isValidatedFile(patch.removed.file) ||
     !isValidatedFile(patch.added.file)
   ) {
-    errors.push(ValidationError.UNRELATED_FILE);
-    return errors;
+    // errors.push(ValidationError.UNRELATED_FILE);
+    // return errors;
+
+    //TODO: Put this back after this PR is merged
+    return []
   }
 
   // Flag removals

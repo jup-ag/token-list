@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3 # checkout the repository content to github runner
-        with:
-          fetch-depth: 0
+        # with:
+        #   fetch-depth: 0
       - uses: actions/setup-node@v3
 
       # - name: Dump GitHub context
@@ -19,8 +19,9 @@ jobs:
       #   run: echo '${{ toJSON(github) }}'
 
       # - run: npm install -g yarn
-      # - run: npm install -g typescript
       - run: yarn install
-      - run: yarn dev
+
+      - name: Validate PR
+        run: yarn dev
 
 
