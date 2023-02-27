@@ -22,7 +22,6 @@ async function run(): Promise<void> {
       },
     });
   } catch (error: any) {
-    core.debug(error.message)
     core.setFailed(error.message);
   }
 
@@ -30,8 +29,7 @@ async function run(): Promise<void> {
     core.setFailed(gitDiffError);
   }
 
-  core.info(`Git diff: ${gitDiff}`)
-  console.log(`Git diff: ${gitDiff}`)
+  core.debug(`Git diff: ${gitDiff}`)
 
   let validatedSet: ValidatedSet;
   try {
