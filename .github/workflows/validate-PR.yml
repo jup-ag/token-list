@@ -1,0 +1,26 @@
+name: validate-PR
+
+on:
+  # push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3 # checkout the repository content to github runner
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+
+      # - name: Dump GitHub context
+      #   id: github_context_step
+      #   run: echo '${{ toJSON(github) }}'
+
+      # - run: npm install -g yarn
+      # - run: npm install -g typescript
+      - run: yarn install
+      - run: yarn dev
+
+
