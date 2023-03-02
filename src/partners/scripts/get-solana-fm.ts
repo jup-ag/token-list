@@ -2,8 +2,7 @@ import fetch from "node-fetch";
 import { getValidated } from "../../get-validated";
 import { getJupAll } from "./get-jup-all";
 import { SolanaFmToken } from "../../types/types";
-import {createArrayCsvWriter} from  'csv-writer';
-
+import { createArrayCsvWriter } from "csv-writer";
 
 export async function run() {
   const jupMints = await getJupAll();
@@ -49,20 +48,18 @@ export async function run() {
   console.log(
     `Completed fetching Solana.fm tokens: ${solanaFmTokens.length} tokens found against ${jupMints.length} Jup 'All' tokens`
   );
-  console.log(
-    `Verified SolanaFM tokens: ${verifiedCount}`
-  );
-   
+  console.log(`Verified SolanaFM tokens: ${verifiedCount}`);
+
   // Write to file
   const csvWriter = createArrayCsvWriter({
     header: ["NAME", "SYMBOL", "MINT", "DECIMALS", "LOGOURI", "VERIFIED"],
-    path: './src/partners/data/solana-fm.csv'  
+    path: "./src/partners/data/solana-fm.csv",
   });
 
- 
-  csvWriter.writeRecords(solanaFmTokens)       // returns a promise
+  csvWriter
+    .writeRecords(solanaFmTokens) // returns a promise
     .then(() => {
-        console.log('Done writing to file');
+      console.log("Done writing to file");
     });
 }
 
