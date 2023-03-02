@@ -33,6 +33,17 @@ export type Token = {
   logoURI: string;
 };
 
+export type SolanaFmToken = {
+  mint: string;
+  tokenName: string;
+  symbol: string;
+  decimals:number;
+  description: string;
+  logo: string;
+  tags: string[];
+  verified: boolean;
+};
+
 export type ValidatedSet = {
   mints: Set<string>;
   names: Set<string>;
