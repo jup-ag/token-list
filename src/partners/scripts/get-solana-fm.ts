@@ -56,11 +56,9 @@ export async function run() {
     path: "./src/partners/data/solana-fm.csv",
   });
 
-  csvWriter
-    .writeRecords(solanaFmTokens) // returns a promise
-    .then(() => {
-      console.log("Done writing to file");
-    });
+  csvWriter.writeRecords(solanaFmTokens).then(() => {
+    console.log("Done writing to file");
+  });
 }
 
 run();

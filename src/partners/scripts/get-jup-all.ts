@@ -1,7 +1,6 @@
-import { Token, ValidatedSet } from "../../types/types";
+import { Token} from "../../types/types";
 import fetch from "node-fetch";
 
-/** Read existing validated tokens into Set */
 export async function getJupAll(): Promise<string[]> {
   try {
     const data = await fetch(`https://token.jup.ag/all`);
