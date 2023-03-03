@@ -60,7 +60,7 @@ export async function run() {
       { id: "decimals", title: "DECIMALS" },
       { id: "logoURI", title: "LOGOURI" },
       { id: "verified", title: "VERIFIED" },
-      { id: "tags", title: "TAGS" },
+      // { id: "tags", title: "TAGS" },
     ],
     path: "./src/partners/data/solana-fm.csv",
   });

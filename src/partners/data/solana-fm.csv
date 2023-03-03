@@ -1,613 +1,613 @@
-NAME,SYMBOL,MINT,DECIMALS,LOGOURI,VERIFIED,TAGS
-Wrapped Ethereum (Sollet),SOETH,,6,https://assets.coingecko.com/coins/images/24918/large/6250754.png?1649344492,true,
-Solberg,SLB,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2uRFEWRBQLEKpLmF8mohFZGDcFQmrkQEEZmHQvMUBvY7/logo.svg,true,
-XCOPE,XCOPE,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.png,true,
-Swole Doge,SWOLE,,9,https://assets.coingecko.com/coins/images/19643/large/swole.png?1635853067,true,
-Raydium,RAY,,6,https://assets.coingecko.com/coins/images/13928/large/PSigc4ie_400x400.jpg?1612875614,true,
-Solana Inu,INU,,9,https://assets.coingecko.com/coins/images/20020/large/YGid9wMv_400x400.jpg?1636412528,true,
-Bamboo Coin,BMBO,,9,https://assets.coingecko.com/coins/images/19620/large/FC0hnduacAAHYFC.png?1635496724,true,
-JPOOL Solana Token,JSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn/logo.svg,true,
-Cope,COPE,,6,https://assets.coingecko.com/coins/images/14567/large/COPE.png?1617162230,true,
-Frax (Wormhole v1),wFRAX_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU/logo.png,true,
-Rope Token,ROPE,,9,https://assets.coingecko.com/coins/images/14661/large/rope-v6.png?1619606776,true,
-Audius (Wormhole),AUDIO,,8,https://assets.coingecko.com/coins/images/22936/large/AUDIO_wh_small.png?1644224294,true,
-WipeMyAss,WIPE,,9,https://cdn.jsdelivr.net/gh/rxrxrxrx/WipeMyAss/wipemyass.jpg,true,
-Wrapped Bitcoin (Sollet),BTC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E/logo.png,true,
-Solex Finance,SLX,,9,https://assets.coingecko.com/coins/images/19392/large/logo_-_2021-10-25T161153.717.png?1635149522,true,
-FTX,FTT,,6,https://assets.coingecko.com/coins/images/9026/large/F.png?1609051564,true,
-Binance USD (Wormhole v1),wBUSD_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX/logo.png,true,
-Maneki-neko,NEKI,,9,https://assets.coingecko.com/coins/images/21321/large/logo.png?1638944515,true,
-Wrapped SUSHI (Sollet),soSUSHI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png,true,
-Decimated,DIO,,9,https://assets.coingecko.com/coins/images/8271/large/dio_logo_coloured_transparent.png?1640744585,true,
-Boryoku Dragonz,BOKU,,9,https://assets.coingecko.com/coins/images/20820/large/ZdgsxFPV_400x400.png?1637721291,true,
-Wrapped Chainlink (Sollet),soLINK,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG/logo.png,true,
-agEUR (Portal),agEUR,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CbNYA9n3927uXUukee2Hf4tm3xxkffJPPZvGazc2EAH1/logo.png,true,
-Viral Inu,VINU,,6,https://assets.coingecko.com/coins/images/20698/large/vinu.png?1642917940,true,
-Wrapped ALEPH (Sollet),soALEPH,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CsZ5LZkDS7h9TDKjrbL7VAwQZ9nsRu8vJLhRYfmGaN8K/logo.png,true,
-MapMetrics,MMaps,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EFqYVEitSUpUTj2d9LSqun4eZ4BzouFuTPqQzU4hNtsS/logo.png,true,
-HEX (Wormhole v1),wHEX_v1,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ELSnGFd5XnSdYFFSgYQp7n89FEbDqxN4npuRLW4PPPLv/logo.png,true,
-Basic Attention Token (Portal),BAT,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz/logo.png,true,
-USD Coin,USDC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true,
-Media Network,MEDIA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ETAtLmCmsoiEEKfNrHKJ2kYy3MoABhU6NQvpSfij5tDs/logo.png,true,
-FUMoney,FUM,,9,https://assets.coingecko.com/coins/images/21054/large/KuH9TXMM_400x400.jpg?1638263205,true,
-Bonfida,FIDA,,6,https://assets.coingecko.com/coins/images/13395/large/bonfida.png?1658327819,true,
-USDT,USDT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg,true,
-Synex Coin,MINECRAFT,,9,https://assets.coingecko.com/coins/images/21247/large/logo_-_2021-12-06T135451.604.png?1638770098,true,
-SOLA,SOLA,,9,https://assets.coingecko.com/coins/images/18263/large/sola-new.png?1632238376,true,
-Dai Stablecoin (Wormhole v1),wDAI_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1/logo.png,true,
-Wrapped Capsule Coin (Wormhole v1),wCAPS_v1,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeLoyXk8ac2AYVmDhAWEKNWWT63Z9TczeidYbpDvxF3T/logo.svg,true,
-MonkeyBucks,MBS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A/logo.png,true,
-Brazilian Digital,BRZ,,4,https://assets.coingecko.com/coins/images/8472/large/MicrosoftTeams-image_%286%29.png?1674480131,true,
-FTT (Wormhole v1),wFTT_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi/logo.png,true,
-SOL100,SOL100,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GkDg1ZfoFkroLAwLqtJNXhxCDg8gmKxHAGxSUZagYFfE/logo.png,true,
-OOGI,OOGI,,9,https://assets.coingecko.com/coins/images/19714/large/oogi.PNG?1635756218,true,
-Cryowar,CWAR,,9,https://assets.coingecko.com/coins/images/20227/large/CWAR_round_200_200.png?1636689418,true,
-MAPS,MAPS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb/logo.svg,true,
-Serum,SRM,,6,https://assets.coingecko.com/coins/images/11970/large/serum-logo.png?1597121577,true,
-Wrapped SOL,SOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png,true,
-Investin,IVN,,6,https://assets.coingecko.com/coins/images/15588/large/ivn_logo.png?1621267247,true,
-Turtles Token,TRTLS,,9,https://www.turtles.com/turtles.png,true,
-yPRT (Parrot Yield Token),yPRT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM/logo.svg,true,
-Oxygen,OXY,,6,https://assets.coingecko.com/coins/images/13509/large/8DjBZ79V_400x400.jpg?1609236331,true,
-Cheems,CHEEMS,,4,https://assets.coingecko.com/coins/images/18358/large/newlogo.png?1644476666,true,
-wTYNA,TYNA,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3QuAYThYKFXSmrTcSHsdd7sAxaFBobaCkLy2DBYJLMDs/logo.png,true,
-METASEER,METAS,,9,https://metaseer.io/img/home-one/logo256.png,true,
-Only1,LIKE,,9,https://assets.coingecko.com/coins/images/17501/large/like-token.png?1628036165,true,
-Oxbull Solana,OXS,,9,https://assets.coingecko.com/coins/images/17304/large/9xPPXxJC_400x400.jpg?1627269668,true,
-Synthetify,SNY,,6,https://assets.coingecko.com/coins/images/14835/large/synthetify_token.png?1618611507,true,
-LIQ Protocol,LIQ,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj/logo.png,true,
-ApeXit Finance,APEX,,9,https://assets.coingecko.com/coins/images/16864/large/cg.png?1625470996,true,
-APYSwap,APYS,,9,https://assets.coingecko.com/coins/images/14163/large/apys.png?1635831990,true,
-Kugle GU,GU,,9,https://assets.coingecko.com/coins/images/17532/large/Logo_GU_512.png?1628129442,true,
-CATO,CATO,,9,https://assets.coingecko.com/coins/images/17031/large/CATO200newlogo.png?1648448136,true,
-Dino,DINO,,6,https://assets.coingecko.com/coins/images/17770/large/solana_dino.png?1629207162,true,
-Project SEED Token,SHILL,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6cVgJUqo4nmvQpbgrDZwyfd6RwWw5bfnCamS3M9N1fd/logo.png,true,
-SAIL,SAIL,,6,https://assets.coingecko.com/coins/images/16657/large/SAIL.png?1624608515,true,
-QUEST,QUEST,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6ybxMQpMgQhtsTLhvHZqk8uqao7kvoexY6e8JmCTqAB1/logo.png,true,
-Luna Yield,LUNY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7a4cXVvVT7kF6hS5q5LDqtzWfHfys4a9PoK6pf87RKwf/logo.png,true,
-COBAN,COBAN,,3,https://assets.coingecko.com/coins/images/19483/large/coban-logo-pebyyxjzxvebwa8nsvpp9t8iple69h6enp9bdknotq.png?1635285761,true,
-Samoyedcoin,SAMO,,9,https://assets.coingecko.com/coins/images/15051/large/IXeEj5e.png?1619560738,true,
-Solyard Finance,YARD,,9,https://assets.coingecko.com/coins/images/18400/large/IMG_7306.JPG?1631775657,true,
-ChikinCoin,CKC,,6,https://assets.coingecko.com/coins/images/24978/large/Screenshot_from_2022-04-11_15-47-44.png?1649663281,true,
-Grape Protocol,GRAPE,,6,https://assets.coingecko.com/coins/images/18149/large/fRsuAlcV_400x400.png?1632437325,true,
-renLUNA,renLUNA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8wv2KAykQstNAj2oW6AHANGBiFKVFhvMiyyzzjhkmGvE/logo.png,true,
-SolDoge,SDOGE,,0,https://assets.coingecko.com/coins/images/19746/large/2L4aX1r.png?1635822424,true,
-WOOF,WOOF,,6,https://assets.coingecko.com/coins/images/18319/large/woof-logo-svg-true-solana-radient-blackinside.png?1637655115,true,
-Solster,STR,,9,https://assets.coingecko.com/coins/images/18621/large/log-350.png?1632701442,true,
-MOONLANA,MOLA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AMdnw9H5DFtQwZowVFr4kUgSXJzLokKSinvgGiUoLSps/logo.png,true,
-Star Atlas,ATLAS,,8,https://assets.coingecko.com/coins/images/17659/large/Icon_Reverse.png?1628759092,true,
-Boring Protocol,BOP,,8,https://assets.coingecko.com/coins/images/16828/large/imgonline-com-ua-resize-VT59gqn-Bya-WGG.jpg?1625210880,true,
-Solcubator,SOLC,,9,https://assets.coingecko.com/coins/images/18682/large/Solcubator-Logo-Icon.png?1632966591,true,
-renBTC,renBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5/logo.png,true,
-Wrapped USTC,USTC,,9,https://assets.coingecko.com/coins/images/15462/large/ust.png?1620910058,true,
-CropperFinance,CRP,,9,https://assets.coingecko.com/coins/images/17883/large/copperfinance.PNG?1629708744,true,
-Aldrin,RIN,,9,https://assets.coingecko.com/coins/images/16849/large/Aldrin.png?1629959768,true,
-Fabric,FAB,,9,https://assets.coingecko.com/coins/images/16649/large/FABLOGO_TRANS200.png?1624592643,true,
-VentureCapital,VCC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FZgL5motNWEDEa24xgfSdBDfXkB9Ru9KxfEsey9S58bb/logo.svg,true,
-NINJA,NINJA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ/logo.png,true,
-Potato,POTATO,,3,https://assets.coingecko.com/coins/images/18254/large/logocircle.png?1631151305,true,
-SOLAPE,SOLAPE,,9,https://assets.coingecko.com/coins/images/16930/large/128px-coin.png?1625753550,true,
-Solpad Finance,SOLPAD,,9,https://assets.coingecko.com/coins/images/16368/large/solpad.PNG?1623820231,true,
-Dexlab,DXL,,6,https://assets.coingecko.com/coins/images/17276/large/3_GradientSymbol.png?1650936792,true,
-JET,JET,,9,https://assets.coingecko.com/coins/images/18437/large/jet_logomark_color.png?1631972990,true,
-Mercurial,MER,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K/logo.png,true,
-Metaplex,META,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m/logo.png,true,
-Synchrony,SCY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SCYfrGCw8aDiqdgcpdGjV6jp4UVVQLuphxTDLNWu36f/logo.png,true,
-Solrise Finance,SLRS,,6,https://assets.coingecko.com/coins/images/15762/large/9989.png?1621825696,true,
-Step Finance,STEP,,9,https://assets.coingecko.com/coins/images/14988/large/step.png?1619274762,true,
-Tulip Protocol,TULIP,,6,https://assets.coingecko.com/coins/images/15764/large/TqrUdBG.png?1621827144,true,
-Orca,ORCA,,6,https://assets.coingecko.com/coins/images/17547/large/Orca_Logo.png?1628781615,true,
-Star Atlas DAO,POLIS,,8,https://assets.coingecko.com/coins/images/17789/large/POLIS.jpg?1629256006,true,
-Solanium,SLIM,,6,https://assets.coingecko.com/coins/images/15816/large/logo_cg.png?1659000206,true,
-Xverse,XVC,,9,https://assets.coingecko.com/coins/images/17709/large/1_y5qvEWJiA4dFjoQNcqth3g.png?1629081157,true,
-Kurobi,KURO,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn/logo.png,true,
-Million,MM,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2PoF4gqWg97yjJk276yUYaGVkkASE7tqAU7H5faEBkeC/logo.svg,true,
-DINOEGG,DINOEGG,,6,https://assets.coingecko.com/coins/images/22291/large/xOcKL1Fw_400x400.png?1641367958,true,
-Bitspawn,SPWN,,9,https://assets.coingecko.com/coins/images/16513/large/token_logo.png?1631603192,true,
-Socean staked SOL,scnSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm/logo.png,true,
-Waggle Network,WAG,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5tN42n9vMi6ubp67Uy4NnmM5DMZYN8aS8GeB3bEDHr6E/logo.png,true,
-HAPI,HAPI,,9,https://assets.coingecko.com/coins/images/14298/large/R9i2HjAL_400x400.jpg?1615332438,true,
-Wrapped BUSD (Allbridge from BSC),ABBUSD,,9,https://assets.coingecko.com/coins/images/23061/large/logo_-_2022-01-26T091043.556.png?1643159457,true,
-Orbs,Orbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7JnHPPJBBKSTJ7iEmsiGSBcPJgbcKw28uCRXtQgimncp/logo.png,true,
-Weble Ecosystem Token,WET,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7R7rZ7SsLDXkYAfJyRCBScLuZwizeMWaTWrwFhSZU2Jq/logo.png,true,
-Lido Staked SOL,stSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj/logo.png,true,
-SolRazr,SOLR,,6,https://assets.coingecko.com/coins/images/18390/large/Sol-Razr-Logo-TICKER.png?1631759669,true,
-SunnySideUp staked SOL (sSOL),sSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8EDaoeBqpcVACwvkYXh1vAcU29HiBiNhqoF4pRsuUsZS/logo.png,true,
-Solminter,SMRT,,0,https://assets.coingecko.com/coins/images/17937/large/apple-touch-icon.png?1629868107,true,
-pSOL (Parrot SOL),pSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX/logo.svg,true,
-Wrapped DAI (Allbridge from Ethereum),aeDAI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1/logo.png,true,
-SunnySideUp,SSU,,9,https://assets.coingecko.com/coins/images/23369/large/logo.png?1643954242,true,
-MatrixETF DAO Finance,MDF,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALQ9KMWjFmxVbew3vMkJj3ypbAKuorSgGst6svCHEe2z/logo.png,true,
-Wrapped ETH (Allbridge from Ethereum),aeWETH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png,true,
-Wrapped FTT (Allbridge from Ethereum),aeFTT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3/logo.png,true,
-Cykura,CYS,,6,https://assets.coingecko.com/coins/images/18139/large/cyclos-text-logo.png?1630651169,true,
-Wrapped USDT (Allbridge from Ethereum),aeUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg,true,
-HottoShotto,HOTTO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bqd2ujCTEzpKzfjb1FHL7FKrdM6n1rZSnRecJK57EoKz/logo.png,true,
-HUSD Stablecoin (Wormhole v1),wHUSD_v1,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX/logo.png,true,
-Coin98,C98,,6,https://assets.coingecko.com/coins/images/17117/large/logo.png?1626412904,true,
-SolDate,DATE,,9,https://assets.coingecko.com/coins/images/18461/large/date.PNG?1632108952,true,
-Wrapped USDT (Allbridge from Polygon),apUSDT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4/logo.png,true,
-pBTC (Parrot BTC),pBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DYDWu4hE4MN3aH897xQ3sRTs5EAjJDmQsKLNhbpUiKun/logo.svg,true,
-Wrapped USDC (Allbridge from Ethereum),aeUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true,
-Parrot USD,PAI,,6,https://assets.coingecko.com/coins/images/18439/large/pai.png?1632004568,true,
-UPS token (UPFI Network),UPS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EwJN2GqUGXXzYmoAciwuABtorHczTA5LqbukKXV1viH7/logo.png,true,
-Wrapped CUSD (Allbridge from Celo),ACUSD,,9,https://assets.coingecko.com/coins/images/23057/large/7236.png?1643153224,true,
-Lumos Rewards,LRA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FMJotGUW16AzexRD3vXJQ94AL71cwrhtFaCTGtK1QHXm/logo.png,true,
-Sypool,SYP,,9,https://assets.coingecko.com/coins/images/18518/large/sypool.PNG?1632268218,true,
-CoreStarter,CSTR,,9,https://assets.coingecko.com/coins/images/20209/large/cstr.png?1636642782,true,
-Lido DAO (Wormhole),LDO,,8,https://assets.coingecko.com/coins/images/22995/large/LDO_wh_small.png?1644226233,true,
-Crystal,CRY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HbrmyoumgcK6sDFBi6EZQDi4i4ZgoN16eRB2JseKc7Hi/logo.png,true,
-Parasol Finance,PSOL,,7,https://assets.coingecko.com/coins/images/21551/large/icon.png?1642584584,true,
-Larix,LARIX,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC/logo.jpg,true,
-Mango,MNGO,,6,https://assets.coingecko.com/coins/images/14773/large/token-mango.png?1628171237,true,
-Parrot Protocol,PRT,,6,https://assets.coingecko.com/coins/images/18443/large/PRT.png?1634698095,true,
-Port Finance Token,PORT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y/PORT.png,true,
-SynesisOne,SNS,,9,https://raw.githubusercontent.com/Synesis-One/spl-token/main/icon.png,true,
-Sunny Aggregator,SUNNY,,6,https://assets.coingecko.com/coins/images/18039/large/90dbe787-8e5f-473c-b923-fe138a7a30ea.png?1630314924,true,
-Saber,SBR,,6,https://assets.coingecko.com/coins/images/17162/large/oYs_YFz8_400x400.jpg?1626678457,true,
-Lido Wrapped Staked ETH,wstETH,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZScHuTtqZukUrtZS43teTKGs2VqkKL8k4QCouR2n6Uo/logo.png,true,
-Allbridge,ABR,,9,https://assets.coingecko.com/coins/images/18690/large/abr.png?1640742053,true,
-Wrapped USDC (Allbridge from Polygon),apUSDC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png,true,
-Marinade staked SOL (mSOL),mSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So/logo.png,true,
-Sator,SAO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq/Sator_Logo.png,true,
-Matrix Solana Index,MSI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2e7yNwrmTgXp9ABUmcPXvFJTSrEVLj4YMyrb4GUM4Pdd/logo.png,true,
-Binance USD (Portal from Ethereum),BUSDet,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/33fsBLA8djQm82RpHmE3SuVrPGtZBWNYExsEUeKX1HXX/logo.png,true,
-FLOOF,FLOOF,,1,https://assets.coingecko.com/coins/images/19810/large/FLOOF_logo_200x200.png?1635917291,true,
-Final Frontier,FRNT,,9,https://assets.coingecko.com/coins/images/24120/large/Token_Logo_2_720p.png?1646386860,true,
-USDK (Portal),USDK,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/43m2ewFV5nDepieFjT9EmAQnc1HRtAF247RBpLGFem5F/logo.png,true,
-CaveWorld,CAVE,,6,https://assets.coingecko.com/coins/images/19358/large/token.png?1650866628,true,
-DogemonGo,DOGO,,6,https://assets.coingecko.com/coins/images/17480/large/dogemongo.PNG?1627950869,true,
-Tether USD (Portal from Polygon),USDTpo,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5goWRao6a3yNC4d6UjMdQxonkCMvKBwdpubU3qhfcdf1/logo.png,true,
-Huobi BTC (Portal),HBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dVH61ChzgmN9BwG4PkzwRP8PbYwPJ7ZPNF2vamKT2H8/logo.png,true,
-UXD Stablecoin,UXD,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT/uxd-icon-black.png,true,
-Ethereum (Wormhole),ETH,,8,https://assets.coingecko.com/coins/images/22990/large/ETH_wh_small.png?1644225466,true,
-Synthetic USD,XUSD,,6,https://assets.coingecko.com/coins/images/19596/large/uJzDI4j.png?1635488810,true,
-Uniswap (Portal),UNI,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8FU95xFJhUUkyyCLU13HSzDLs7oC4QZdXQHL6SCeab36/logo.png,true,
-Wrapped USDC (Allbridge from Avalanche),aaUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true,
-Synthetic ETH,xETH,,9,https://www.synthetify.io/icons/xeth.svg,true,
-Binance Coin (Wormhole),BNB,,8,https://assets.coingecko.com/coins/images/22884/large/BNB_wh_small.png?1644224553,true,
-UST (Portal),UST,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i/logo.png,true,
-USD Coin (Portal from Ethereum),USDCet,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM/logo.png,true,
-Phant,PNT,,9,https://assets.coingecko.com/coins/images/22799/large/logogradientsm.png?1642583142,true,
-Aurory,AURY,,9,https://assets.coingecko.com/coins/images/19324/large/Ico_Blanc.png?1672824647,true,
-AVAX (Allbridge from Avalanche),AVAX,,9,https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png,true,
-Synthetic SOL,xSOL,,9,https://www.synthetify.io/icons/xsol.svg,true,
-Sushi,SUSHI,,8,https://assets.coingecko.com/coins/images/12271/large/512x512_Logo_no_chop.png?1606986688,true,
-Wrapped USDC (Allbridge from Celo),acUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true,
-Shibalana,SHIBA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dhg9XnzJWzSQqH2aAnhPTEJHGQAkALDfD98MA499A7pa/logo.png,true,
-Tether USD (Portal from Ethereum),USDTet,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dn4noZ5jgGfkntzcQSUZ8czkreiZ1ForXYoV2H8Dm7S1/logo.png,true,
-USD Coin (Portal from Polygon),USDCpo,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E2VmbootbVCBkMNNxKQgCLMS1X3NoGMaYAsufaAsf7M/logo.png,true,
-Dogelana,DGLN,,9,https://assets.coingecko.com/coins/images/21133/large/logo_%285%29.png?1642042028,true,
-Dai Stablecoin (Portal),DAI,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o/logo.png,true,
-FRAKT,FRKT,,8,https://assets.coingecko.com/coins/images/18926/large/logo_-_2021-10-11T132203.751.png?1633929748,true,
-FTX (Wormhole),FTT,,8,https://assets.coingecko.com/coins/images/22996/large/FTT_wh_small.png?1644225637,true,
-Terra Classic (Wormhole),LUNC,,6,https://assets.coingecko.com/coins/images/22951/large/LUNA_wh_small.png?1644226405,true,
-Frax,FRAX,,8,https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png?1669277108,true,
-Wrapped BTC (Allbridge from Avalanche),aaWBTC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png,true,
-Synthetic FTT,XFTT,,8,https://assets.coingecko.com/coins/images/20025/large/BGYHyQ4.png?1636418021,true,
-Soltato FRIES,FRIES,,9,https://assets.coingecko.com/coins/images/19533/large/soltato.png?1635745612,true,
-Wrapped USDT (Allbridge from Avalanche),aaUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg,true,
-GooseFX,GOFX,,9,https://assets.coingecko.com/coins/images/19793/large/0Kjm9f4.png?1635906737,true,
-Wrapped USDT (Allbridge from HECO),ahUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj/logo.png,true,
-Synthetic BTC,xBTC,,10,https://www.synthetify.io/icons/xbtc.svg,true,
-Hxro,HXRO,,8,https://assets.coingecko.com/coins/images/7805/large/Hxro_Profile_Transparent.png?1622443308,true,
-Avalanche (Wormhole),AVAX,,8,https://assets.coingecko.com/coins/images/22943/large/AVAX_wh_small.png?1644224391,true,
-Marinade,MNDE,,9,https://assets.coingecko.com/coins/images/18867/large/MNDE.png?1643187748,true,
-Samusky,SAMU,,9,https://assets.coingecko.com/coins/images/20187/large/tokenlogo200x200.png?1636635312,true,
-Solend,SLND,,6,https://assets.coingecko.com/coins/images/19573/large/i6AMOwun_400x400.jpg?1635458597,true,
-Baby Samo Coin,BABY,,9,https://assets.coingecko.com/coins/images/20262/large/386VuTho_400x400.jpg?1636704021,true,
-Solbank,SBNK,,6,https://assets.coingecko.com/coins/images/18513/large/yo_gS6Hi_400x400.png?1632218794,true,
-Serum (Wormhole from Ethereum),SRMET,,6,https://assets.coingecko.com/coins/images/22978/large/SRMet_wh_small.png?1644224116,true,
-SolPay Finance,SOLPAY,,9,https://assets.coingecko.com/coins/images/22766/large/1_wTkhKXbxhBQxR1BW5WKSNA.png?1642575140,true,
-edeXa Service Token,EDX,,9,https://assets.coingecko.com/coins/images/28646/large/EDX_SERVICE_TOKEN.png?1672883345,true,
-Doggy Style,DoggyStyle,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3in9a9yHtdjDFRjDyGTTpGUwJpT9zZBcyjQ8J7nqqNtq/logo.png,true,
-Sandbox (Portal),SAND,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/49c7WuCZkQgc3M4qH8WuEUNXfgwupZf1xqWkDQ7gjRGt/logo.png,true,
-dYdX (Wormhole),DYDX,,8,https://assets.coingecko.com/coins/images/23039/large/DYDX_wh_small.png?1644225284,true,
-SolClout,SCT,,9,https://assets.coingecko.com/coins/images/21638/large/solclout.jpg?1639630028,true,
-1sol.io (Wormhole),1SOL,,8,https://assets.coingecko.com/coins/images/22923/large/1SOL_wh_small.png?1644222565,true,
-Elumia,ELU,,9,https://assets.coingecko.com/coins/images/24433/large/me4oOqTM_400x400.png?1647662654,true,
-BUSD Token (Portal from BSC),BUSDbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5RpUwQ8wtdPCZHhu6MERp2RGrpobsbZ6MH5dDHkUjs2/logo.png,true,
-Kitty Coin,KITTY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6XWfkyg5mzGtKNftSDgYjyoPyUsLRf2rafj95XSFSFrr/logo.png,true,
-Decentraland (Wormhole),MANA,,8,https://assets.coingecko.com/coins/images/23050/large/MANA_wh_small.png?1644226497,true,
-nom,NOM,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7zhbkbKpGaUsJW7AD4yyAfGGoy53Xx2H3Ai5BKcwGKHw/logo.png,true,
-Saber Wrapped USD Coin (8 decimals),sUSDC-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/88881Hu2jGMfCs9tMu5Rr7Ah7WBNBuXqde4nR5ZmKYYy/icon.png,false,
-Tether USD (Portal from BSC),USDTbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8qJSyQprMC57TWKaYEmetUR3UUiTP2M3hXdcvFhkZdmv/logo.png,true,
-Saber Wrapped Bitcoin (Sollet) (9 decimals),sBTC-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/9999j2A8sXUtHtDoQdk528oVzhaKBsXyRGZ67FKGoi7H/icon.png,false,
-Million Monke,MIMO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9TE7ebz1dsFo1uQ2T4oYAKSm39Y6fWuHrd6Uk6XaiD16/logo.png,true,
-Modul,MODUL,,9,https://raw.githubusercontent.com/parametrise/ParametriseLogo/main/Modul_Logomark_White_Pinky_Background.png,true,
-Realy Metaverse,REAL,,9,https://assets.coingecko.com/coins/images/21448/large/2SIFWp0b_400x400.jpg?1639174188,true,
-Saber Wrapped USDT (9 decimals),sUSDT-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/AEUT5uFm1D575FVCoQd5Yq891FJEqkncZUbBFoFcAhTV/icon.png,false,
-Bitch Of Solana,BITCH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AMNoi4727tzy7adu4wnx3cN2VQbQdG71DqaPoSm7isJ3/logo.png,true,
-Apricot,APRT,,6,https://assets.coingecko.com/coins/images/20636/large/hF_3FMuH_400x400.jpg?1637399870,true,
-aSOL Aggregate Solana Stake Pool,aSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ASoLXbfe7cd6igh5yiEsU8M7FW64QRxPKkxk7sjAfond/logo.svg,true,
-Particle Technology,PART,,9,https://assets.coingecko.com/coins/images/21302/large/logo.png?1638882252,true,
-Jungle,JUNGLE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Aogv6j1wWiBAZcqRNN1Y89eozda2ke6rkc4CYy7c4iCi/logo.png,true,
-The Ticket Finance,TICKET,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AymKzSDznoLT7Vhsb4wSRnCj1gjcG3zkgYFY8fxsHHer/logo.png,true,
-Pussy,PUSSY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BjTUmZjNUUAPKHVdTs8yZsCmecW5isSK4AbuFihXoUwa/logo.png,true,
-Saber Wrapped renBTC (10 decimals),srenBTC-10,,10,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/BtX7AfzEJLnU8KQR1AgHrhGH5s2AHUTbfjhUQP8BhPvi/icon.png,false,
-Capybara,CAPY,,9,https://assets.coingecko.com/coins/images/22000/large/logo_-_2021-12-27T143844.581.png?1640587159,true,
-Cashio Dollar,CASH,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CASHVDm2wsJXfhj6VWxb7GiMdoLc17Du7paH4bNr5woT/icon.png,true,
-Mend,MEND,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ch9NFVk5sqEPQHtw2gJVgnHfTm7FW1JspYwc7SxLi6q3/logo.png,true,
-SHIBA INU (Portal),SHIB,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z/logo.png,true,
-GM Solana,GM,,7,https://cdn.jsdelivr.net/gh/brendanhernou/gm/GMSolana.jpg,true,
-DeFi Land,DFL,,9,https://assets.coingecko.com/coins/images/18910/large/defilend.png?1637190571,true,
-BITXBIT,BITXBIT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DK6PWMyuZ4NMjsm9AWNCTMKrajQYrtfMjMJ3QauX2UH5/logo.png,true,
-Marijuana Joint,MARIJUANA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DYbRXaQcnj44SH9woxvyFdtcKkSoPoCEshRTQDZSjsBm/logo.png,true,
-Chairman Chow,CCC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E9bjYSAqabYAd2Zaev4qAMVNAiX7Z2Dp4Sn1JgsTn2b6/logo.png,true,
-Physis,PHY,,9,https://assets.coingecko.com/coins/images/23087/large/PHY-icon-200x200.png?1643181312,true,
-SolCondoms,CONDOMS,,9,https://assets.coingecko.com/coins/images/21814/large/DboqD2_o_400x400.jpg?1640071580,true,
-USD Coin (Portal from BSC),USDCbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA/logo.png,true,
-Famous Fox Federation,FOXY,,0,https://assets.coingecko.com/coins/images/26191/large/uFYaQEsU_400x400.jpg?1656397523,true,
-Genopets,GENE,,9,https://assets.coingecko.com/coins/images/20360/large/gene-token.png?1636945172,true,
-Space Vizsla,SVIZ,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GV6n9Uow3XzMWSs8vwTCML8SvMA6ozbidaEfdPoSoraQ/VizslaMoonLogo100x100.png,true,
-StarLaunch,STARS,,6,https://assets.coingecko.com/coins/images/20109/large/OP3eksDQ_400x400.png?1636513478,true,
-Axie Infinity Shard (Wormhole),AXSET,,8,https://assets.coingecko.com/coins/images/22952/large/AXSet_wh_small.png?1644224450,true,
-UXP Governance Token,UXP,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M/uxp-icon-black.png,true,
-GMSOL,GMSOL,,9,https://assets.coingecko.com/coins/images/20717/large/gm-logo-200.png?1637584967,true,
-Fancy Diamond ICE,ICE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/icex2Fy2KtXjfiAAUEHLPHu7XKDLvwiyVUPP9PNpSkF/logo.png,true,
-Invictus,IN,,9,https://assets.coingecko.com/coins/images/20097/large/jv2xoOxJ_400x400.jpg?1636494713,true,
-Kineko,KKO,,9,https://kineko.io/img/cat.jpg,true,
-Seeded Network,SEEDED,,9,https://assets.coingecko.com/coins/images/23618/large/seeded.png?1644761600,true,
-SonarWatch,SONAR,,9,https://assets.coingecko.com/coins/images/20494/large/S_7gaWIC_400x400.png?1637131427,true,
-DAWG,DAWG,,9,https://assets.coingecko.com/coins/images/20881/large/143299698-37b637ea-7fce-4bd6-8713-71c42e37629e.png?1637820203,true,
-Wrapped BTC (Allbridge from BSC),abBTCB,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png,true,
-bofb,BOFB,,8,https://assets.coingecko.com/coins/images/24866/large/2qsZgpxd_400x400.jpg?1649166378,true,
-The Suites Token,SUITE,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4h41QKUkQPd2pCAFXNNgZUyGUxQ6E7fMexaZZHziCvhh/logo.png,true,
-Cry Cat Coin,CRYY,,9,https://assets.coingecko.com/coins/images/22128/large/cry_logo_200_200.png?1640870275,true,
-Yorkipoo,YORK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5K1JtWpdSksVKaL6R2DuLpCDAjzxK6sq2CpXaXDWHVLg/logo.png,true,
-Pixels.so Token,PIXL,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5L2YboFbHAUpBDDJjvDB5M6pu9CW2FRjyDB2asZyvjtE/logo.png,true,
-TOYPOODLE COIN,TPC,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5WWRMYPchxgh3VmYGPqoq2kfzCtBLxXB9vFH2TeFeR9m/logo.png,true,
-xHashtag,XTAG,,6,https://assets.coingecko.com/coins/images/20912/large/xtag.png?1637922382,true,
-Run,RUN,,9,https://assets.coingecko.com/coins/images/21374/large/cZoMwlyl_400x400.jpg?1639032079,true,
-Scrap,SCRAP,,3,https://assets.coingecko.com/coins/images/23086/large/bd1b1275fdc0ac1.png?1643181131,true,
-STEPN,GMT,,9,https://assets.coingecko.com/coins/images/23597/large/gmt.png?1644658792,true,
-Super Mario,MARIO,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7rmV64vLfbrbS5rTFvojYWzCVEn8dnJ9RfSRx3nD6C5E/logo.png,true,
-SOL Frens,FREN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7xd71KP4HwQ4sM936xL8JQZCwE4amUko1AdCCf6Znjrt/logo.png,true,
-Garlic,GRLC,,9,https://assets.coingecko.com/coins/images/21011/large/logo.png?1638190406,true,
-Wrapped USDC (Allbridge from BSC),abUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png,true,
-SolChicks Shards,SHARDS,,9,https://assets.coingecko.com/coins/images/23728/large/logo_%282%29.png?1645163819,true,
-RaceFi Token,RACEFI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AAmGoPDFLG6bE82BgZWjVi8k95tj9Tf3vUN7WvtUm2BU/logo.png,true,
-STEPN Green Satoshi Token on Solana,GST-SOL,,9,https://assets.coingecko.com/coins/images/21841/large/gst.png?1640332626,true,
-Shibana,BANA,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BhPXDQio8xtNC6k5Bg5fnUVL9kGN8uvRDNwW8MZBu8DL/Shibana.png,true,
-Wrapped ETH (Allbridge from Fantom),afETH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png,true,
-Saber Wrapped Cashio Dollar (9 decimals),sCASH-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/C9xqJe3gMTUDKidZsZ6jJ7tL9zSLimDUKVpgUbLZnNbi/icon.png,false,
-Wrapped USDT (Allbridge from BSC),abUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4/logo.png,true,
-Wrapped ETH (Allbridge from BSC),abETH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png,true,
-Saber Wrapped renBTC (9 decimals),srenBTC-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FACTQhZBfRzC7A76antnpAoZtiwYmUfdAN8wz7e8rxC5/icon.png,false,
-TabTrader Token,TTT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FNFKRV3V8DtA3gVJN6UshMiLGYA8izxFwkNWmJbFjmRj/logo.svg,true,
-Saber Wrapped FTX Token (Wormhole) (9 decimals),sFTT-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FTT9GrHBVHvDeUTgLU8FxVJouGqg9uiWGmmjETdm32Sx/icon.png,false,
-Saber Wrapped Wrapped FTT (Sollet) (9 decimals),ssoFTT-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FTT9rBBrYwcHam4qLvkzzzhrsihYMbZ3k6wJbdoahxAt/icon.png,false,
-Wrapped BTC (Allbridge from Fantom),afBTC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png,true,
-Fora,FORA,,9,https://www.fora.co/images/Fora+Logo+Solana/icon.png,true,
-Frog,$FROG,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Frog8vt6gmuuUuuerd7ispP6yavssBUtMpEP5DCEuUgD/logo.png,true,
-NftEyez Coin,EYE,,6,https://raw.githubusercontent.com/NftEyez/assets/main/assets/eye-coin.png,true,
-PUFF,PUFF,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G9tt98aYSznRk7jWsfuz9FnTdokxS6Brohdo9hSmjTRB/logo.png,true,
-Pollen Coin,PCN,,9,https://assets.coingecko.com/coins/images/25687/large/97762641.png?1653374572,true,
-Wrapped USDC (Allbridge from Fantom),afUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png,true,
-PIP,PIP,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HHjoYwUp5aU6pnrvN4s2pwEErwXNZKhxKGYjRJMoBjLw/logo.svg,true,
-Trust Wallet (Portal),TWT,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZNpqL7RT9gxf9eWoWsWzC5DfjzQ41XTQgEA7p3VzaaD/logo.png,true,
-Wrapped DAI (Allbridge from Fantom),afDAI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1/logo.png,true,
-Saber Wrapped USD Coin (9 decimals),sUSDC-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/JEFFSQ3s8T3wKsvp4tnRAsUBW7Cqgnf8ukBZC4C8XBm1/icon.png,false,
-Saber Wrapped Ether (Wormhole) (9 decimals),sETH-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/KNVfdSJyq1pRQk9AKKv1g5uyGuk6wpm4WG16Bjuwdma/icon.png,false,
-Saber Wrapped renLUNA (9 decimals),srenLUNA-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/KUANeD8EQvwpT1W7QZDtDqctLEh2FfSTy5pThE9CogT/icon.png,false,
-Blockasset,BLOCK,,6,https://assets.coingecko.com/coins/images/21332/large/Blockasset-Logo-Symbol.png?1648442722,true,
-tudaBirds,BURD,,9,https://assets.coingecko.com/coins/images/22839/large/_TOvRxfx_400x400.jpg?1642745695,true,
-Rollbit Coin,RLB,,2,https://assets.coingecko.com/coins/images/24552/large/unziL6wO_400x400.jpg?1648134494,true,
-Saber Wrapped Bitcoin (Sollet) (8 decimals),sBTC-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/SBTCB6pWqeDo6zGi9WVRMLCsKsN6JiR1RMUqvLtgSRv/icon.png,false,
-Sentre,SNTR,,9,https://assets.coingecko.com/coins/images/19268/large/sentre.PNG?1634866010,true,
-Saber Wrapped Ethereum (Sollet) (8 decimals),ssoETH-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/SL819j8K9FuFPL84UepVcFkEZqDUUvVzwDmJjCHySYj/icon.png,false,
-Saber Wrapped USDT (8 decimals),sUSDT-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/T8KdT8hDzNhbGx5sjpEUxepnbDB1TZoCa7vtC5JjsMw/icon.png,false,
-UNQ,UNQ,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UNQtEecZ5Zb4gSSVHCAWUQEoNnSVEbWiKCi1v9kdUJJ/logo.png,true,
-SolChicks,CHICKS,,9,https://assets.coingecko.com/coins/images/20978/large/chicks.png?1638162821,true,
-Shear Ego Coin,EGO,,0,https://raw.githubusercontent.com/jcards26/sol/main/new-new.png,false,
-Castle Coin,CC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3KTkQJEMJXP741EJBFcAS34Lx9t8GsBYaW2BUUWkeyDH/logo.png,false,
-Aleph.im (Portal),ALEPH,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3UCMiSnkcnkPE1pgQ5ggPCBv6dXgVUy16TmMUe1WpG9x/logo.png,true,
-CopyCats token,PAW,,9,https://imagedelivery.net/aAmca-Po70V1nH4n9cT-uA/98c9b68b-1494-43d1-0c2c-31e5d0129a00/public,true,
-SolPatrol Bail,BAIL,,9,https://assets.coingecko.com/coins/images/25787/large/hammer.png?1653882632,true,
-Dragon War,DRAW,,0,https://assets.coingecko.com/coins/images/23100/large/logo_%284%29.png?1643184693,true,
-Fractionalized WAVE-999,WAV,,2,https://assets.coingecko.com/coins/images/22176/large/IMG-20220101-021048.jpg?1641176801,true,
-Compendium,CMFI,,6,https://assets.coingecko.com/coins/images/22269/large/CMFI-Token-Logo-Compendium-Finance.png?1674728282,true,
-Dingocoin,DINGO,,8,https://assets.coingecko.com/coins/images/15989/large/dingocoin.png?1634699256,true,
-FaniTrade,FANI,,9,https://assets.coingecko.com/coins/images/24029/large/fani_200x200.png?1646115606,true,
-TheSolanDAO,SDO,,5,https://thesolandao.com/logohero.png,true,
-HypeProxy,HYPE,,7,https://raw.githubusercontent.com/hypeproxy/hypeproxy/main/logo.png,false,
-Solanyx,SYX,,9,https://assets.coingecko.com/coins/images/21964/large/logo.png?1640524913,true,
-Force,$FORCE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9MjAmgHXbu5drkNa9XpzfozgsM5Dcq6bSnKZzdNrwscC/logo.png,true,
-GOD,GOD,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9kt93AW5QMjFL6ZxomnSq3FbWiU5ibNeTSgBz9UDFSB6/logo.png,true,
-Wrapped UST (Allbridge from Terra),atUST,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm/logo.png,true,
-DarleyGo Essence,DGE,,9,https://assets.coingecko.com/coins/images/24403/large/DGE.png?1647530006,true,
-Fone,FONE,,2,https://assets.coingecko.com/coins/images/23390/large/Fl-zRI0g_400x400.jpg?1644115198,true,
-Starbots,BOT,,8,https://assets.coingecko.com/coins/images/21823/large/coin_%286%29.png?1640076014,true,
-BRAWNDO,BRWNDO,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/At5j3zhbEj8mfFsSy1MPbjVhrX2uNmRMPEDZiyFcETNX/logo.png,true,
-RAD,RAD,,4,https://raw.githubusercontent.com/NFTBrickLayer/zillaz-assets/main/RAD-logo.png,true,
-SOL Baby Doge,SBABYDOGE,,2,https://assets.coingecko.com/coins/images/21436/large/logo_%282%29.png?1639121887,true,
-Nova Finance,NOVA,,9,https://assets.coingecko.com/coins/images/21672/large/bGVB8h2Q_400x400.jpg?1639710371,true,
-basis.markets,BASIS,,6,https://assets.coingecko.com/coins/images/21444/large/tkQevyc.png?1653297101,true,
-Whalemap,WMP,,9,https://raw.githubusercontent.com/ssi91/crypto/main/logo.svg,true,
-Tiddy Juice Coin,MILK,,9,https://arweave.net/S71DNASA5TYlrK9giRy7QgqFNw1m4mxqY6OdtgY1E7k,true,
-Crowny,CRWNY,,6,https://assets.coingecko.com/coins/images/14958/large/crowny-icon-rounded_2x.png?1619147225,true,
-Solanium Ecosystem Index,SEI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CRkwd2QedqDi5u6W2w6jeAViAUd1pR4AXs2aKvh7GW7M/logo.png,true,
-ConstitutionDAO (Wormhole),PEOPLE,,8,https://assets.coingecko.com/coins/images/23009/large/PEOPLE_wh_small.png?1644226832,true,
-Crypto Health Plus,CHP,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DHVUoxNqv3D7EgktBxUsxFF2Wx83hVDmD2wBBpUaw3jn/logo.png,true,
-VOID Token,VOID,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DjPt6xxMoZx1DyyWUHGs4mwqWWX48Fwf6ZJgqv2F9qwc/logo.png,true,
-Santaclaus,SANTA,,9,https://assets.coingecko.com/coins/images/22211/large/logo_%281%29.png?1641195172,true,
-ALL.ART,AART,,6,https://assets.coingecko.com/coins/images/22012/large/all-art.PNG?1640590472,true,
-Phantasia,FANT,,6,https://assets.coingecko.com/coins/images/21604/large/Phantasia_Logo.png?1639553227,true,
-YETI,$YETI,,9,https://raw.githubusercontent.com/yet777/tokenlogo/main/logo.png,true,
-daoSOL,DAOSOL,,9,https://assets.coingecko.com/coins/images/25488/large/logo_%284%29.png?1652071503,true,
-SouloCoin,SOULO,,9,https://assets.coingecko.com/coins/images/22082/large/logo.png?1640759758,true,
-LOOT,LOOT,,6,https://arttest12312321.s3.us-west-1.amazonaws.com/pics/Bag_Open+(3).png,true,
-Atlas DEX,ATS,,9,https://assets.coingecko.com/coins/images/23002/large/logo.png?1643091340,true,
-TinyBits,TINY,,6,https://tinycolony.io/tinycolonytoken.png,true,
-Breezy Bunnies Carrot,CRRT,,0,https://breezybunnies.com/images/3-p-500.png,true,
-MEAN,MEAN,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MEANeD3XDdUmNMsRGjASkSWdC8prLYsoRJ61pPeHctD/logo.svg,true,
-Solice,SLC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/METAmTMXwdb8gYzyCPfXXFmZZw4rUsXX58PNsDg7zjL/logo.png,true,
-Prism,PRISM,,6,https://assets.coingecko.com/coins/images/21475/large/7KzeGb1.png?1639350211,true,
-Shadow Token,SHDW,,9,https://assets.coingecko.com/coins/images/22271/large/Property_1_Color.png?1666926988,true,
-SuperBonds,SB,,6,https://assets.coingecko.com/coins/images/22743/large/ywws9ojM_400x400.jpg?1642548336,true,
-Saber Wrapped UST (Wormhole) (9 decimals),sUST-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/UST98bfV6EASdTFQrRwCBczpehdMFwYCUdLT5tEbhpW/icon.png,false,
-Charactbit,CHB,,9,https://assets.coingecko.com/coins/images/24863/large/200x_logo.png?1649165917,true,
-BlazeStake Staked SOL,BSOL,,9,https://assets.coingecko.com/coins/images/26636/large/blazesolana.png?1659328728,true,
-Boom Army,BMA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/boomh1LQnwDnHtKxWTFgxcbdRjPypRSjdwxkAEJkFSH/logo.svg,true,
-PozzCoin,POZZ,,0,https://raw.githubusercontent.com/dc215007/pozz1/main/logo1.png,false,
-Sol Gems,SGEM,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2YJH1Y5NbdwJGEUAMY6hoTycKWrRCP6kLKs62xiSKWHM/logo.png,true,
-Vivaion Token,VIVAION,,9,https://arweave.net/Xz7ErS3TZYmBnoh3OPkIQM_O6TPotyEJb6H5WFOe_qc,true,
-CORE,CORE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2x4fH7kWNgSLpBjCuFBKKKiNHMcJb6fHs8ahQZUWJj1p/Core.png,true,
-Onespace,1SP,,9,https://assets.coingecko.com/coins/images/26474/large/1SP_logo.png?1658195640,true,
-Gamify Club,GMFC,,6,https://pbs.twimg.com/profile_images/1444964749897175046/wdz26CzM_400x400.jpg,true,
-AlienUniverse Token,ALIEN,,0,https://raw.githubusercontent.com/alien-universe/assets/main/logo.png,true,
-WHEY,WHEY,,6,https://secureservercdn.net/160.153.138.53/cjm.06a.myftpupload.com/wp-content/uploads/2021/12/whey-coin-2048x2048.png,true,
-ARTE,ARTE,,6,https://assets.coingecko.com/coins/images/23556/large/token_200.png?1644473079,true,
-The Islanders,ISL,,8,https://cdn.jsdelivr.net/gh/koudydev/crypto/main/islIcon.png,false,
-Basic Tokens,BASIC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/76DThuyLHagfkm2ssYw6Lv7k3MYHx6tXcwPBLU9tXm4D/logo.png,true,
-High Roller Hippo Clique,ROLL,,6,https://assets.coingecko.com/coins/images/23458/large/OslGsgzd_400x400.jpg?1644215478,true,
-SolanaLite,SLITE,,9,https://raw.githubusercontent.com/SolanaLite/SolanaLite-Brand-Kit/main/SolanaLite%20(SLITE)%20Logo%20Solana%20Blockchain.svg,true,
-EDO,EDO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7sWMHQaJJPn1rkeizq41iPiW5gG7Ry7PXYAVHaUwY4qu/logo.png,true,
-Maars,MRX,,0,https://raw.githubusercontent.com/maarstoken/crypto/main/maars-800x800.png,false,
-Shuttlecoin,SHUT,,0,https://raw.githubusercontent.com/Mikkel76543/crypto9/main/logo.png,false,
-Positron,POT,,9,https://assets.coingecko.com/coins/images/23910/large/logo.png?1645682226,true,
-MAI,MIMATIC,,9,https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018,true,
-Godz Token,GODZ,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BB33fYoeBVA2uv119be9tKvmXeuwtcx1W25N9KFNd2ca/logo.jpg,true,
-BunnyDucky,BUD,,6,https://assets.coingecko.com/coins/images/25934/large/bdlogo.png?1654758682,true,
-Learning Star,LSTAR,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D3yigvdWq6qobhAwQL6UiSide5W9W7zcJbuVvKa3T231/logo.png,true,
-Saber Wrapped Cashio Dollar (8 decimals),sCASH-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/CASHedBw9NfhsLBXq1WNVfueVznx255j8LLTScto3S6s/icon.png,false,
-Cyborg Apes,BORG,,6,https://assets.coingecko.com/coins/images/23020/large/lgo-head-export.png?1643094853,true,
-Gari Network,GARI,,9,https://assets.coingecko.com/coins/images/22615/large/gari.png?1642313087,true,
-Konstellation,DARC,,8,https://assets.coingecko.com/coins/images/2943/large/darctoken.png?1645230834,true,
-UncleMine,UM,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DMCUFm2ZAnSU7UgsdVq23gRogMU3MEBjPgQF1gK53rEn/logo.png,true,
-DUST Protocol,DUST,,9,https://assets.coingecko.com/coins/images/24289/large/dust-protocol-degod.png?1647306854,true,
-Bitmon,BIT,,9,https://assets.coingecko.com/coins/images/25282/large/BT-logo.png?1651127844,true,
-Saber Wrapped agEUR (Wormhole) (9 decimals),sagEUR-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/EU9aLffrTckFCs16da6CppHy63fAxMPF9ih1erQTuuRt/icon.png,false,
-FTM (Allbridge from Fantom),FTM,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EsPKhGTMf3bGoy4Qm7pCv3UCcWqAmbC1UGHBTDxRjjD4/logo.png,true,
-MOONBURN,MOONBURN,,6,https://raw.githubusercontent.com/Joblo197/Crypto/main/Shroom%20Logo.png,true,
-611Coin,SIXY,,9,https://raw.githubusercontent.com/dc215007/611/main/logo.png,true,
-CELO (Allbridge from Celo),CELO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GNCjk3FmPPgZTkbQRSxr6nCvLtYMbXKMnRxg8BgJs62e/logo.png,true,
-Dasch Coin,DASCH,,0,https://github.com/kennethoqs/dasch/blob/main/logo.png,false,
-GameYoo,GYC,,9,https://assets.coingecko.com/coins/images/24525/large/gameyoo-logo-200x200.png?1648027227,true,
-ILoveU Token,ILU,,0,https://raw.githubusercontent.com/rjdrar/crypto/main/symbol-1.png,false,
-DevCoin,DEV,,9,https://raw.githubusercontent.com/thedevdojo/devcoin/main/logo.png,false,
-Hubble,HBB,,6,https://assets.coingecko.com/coins/images/22070/large/hubble.PNG?1640749942,true,
-Eversol Staked SOL,ESOL,,9,https://assets.coingecko.com/coins/images/23056/large/SUWTLy9j_400x400.jpeg?1657789195,true,
-Honey Finance,HONEY,,6,https://assets.coingecko.com/coins/images/24781/large/honey.png?1648902423,true,
-Space Falcon,FCON,,4,https://raw.githubusercontent.com/spacefalcon-io/crypto/main/logo.svg,true,
-PsyOptions,PSY,,6,https://assets.coingecko.com/coins/images/22784/large/download.png?1642580392,true,
-Rally (Solana),sRLY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RLYv2ubRMDLcGG2UyvPmnPmkfuQTsMbg4Jtygc7dmnq/logo.png,true,
-Taki,TAKI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Taki7fi3Zicv7Du1xNAWLaf6mRK7ikdn77HeGzgwvo4/logo.png,true,
-USDH Hubble Stablecoin,USDH,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USDH1SM1ojwWUga67PGrgFWUHibbjqMvuMaDkRJTgkX/usdh.svg,true,
-Saber Wrapped UST (Wormhole) (8 decimals),sUST-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/UST8SCn7jrqsq51odVLqcmvnC658HkqrKrPL3w2hHQ7/icon.png,false,
-Winerz,$WNZ,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WNZzxM1WqWFH8DpDZSqr6EoHKWXeMx9NLLd2R5RzGPA/logo.png,true,
-Nosana,NOS,,6,https://assets.coingecko.com/coins/images/22553/large/POfb_I4u_400x400.jpg?1642053655,true,
-Bancambios AX,BXS,,9,https://assets.coingecko.com/coins/images/25644/large/81660481.png?1652949329,true,
-Solvent,SVT,,6,https://assets.coingecko.com/coins/images/22387/large/svt.png?1641789503,true,
-RIBBET,RIBBET,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/32gaR4rn9JyzoDVwMzZ5j3NgcHc5RQhMSJby55FFKnq3/logo.png,true,
-FamilySOL,FamSOL,,9,https://raw.githubusercontent.com/solodevo/FamilySOL/main/LOGOFamilySOL.png,true,
-Nasi Lemak,NLTK,,9,https://raw.githubusercontent.com/avaelon/nltk/main/logo.png,true,
-BIJU,BIJU,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4onzDs1X6ubktirorHB8iYbve3K4bBtkGpYehqzGm9So/logo.png,true,
-MetaMall,MALL,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5EbpXhW7t8ypBF3Q1X7odFaHjuh7XJfCohXR3VYAW32i/logo.png,true,
-King's token,KING,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5VQnKaTu522jRQyaawDNBKZjBa5SZoeetyDXEwocYxXN/logo.png,true,
-RICE,RICE,,2,https://raw.githubusercontent.com/kakasonz112/robocock-token/main/assets/logo.png,true,
-ProtoReality Games,PRGC,,9,https://assets.coingecko.com/coins/images/25525/large/Bjh4zRK1_400x400.png?1652235059,true,
-JJC,JJJJC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6FLsSkF4AqQeDuqEmGPyBZvVebc4WWWntnZP2QZyBzG8/logo.png,true,
-QUACK,QUACK,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GP9zY2D8CgMreoUdYQjyn7Fo7XCq9ubVnX3u4ot1wpgt/logo.png,true,
-TownCoin,TOCO,,2,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7FntsntzGjK9PzPBbHLDJAFcKQVU14d2SbQZhgMUf2KA/logo.png,true,
-Mikuko Token,Miku,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7GNyprqrpvJHNwzWSj4KVkqw9cKyV5aR3ehM2HeE5pw/logo.png,true,
-RING,RING,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7SEsxCsiNiYqCpYG16wx4c9u2YGLZphnEFTAU9ENAizD/logo.png,true,
-Good Vibes,GV,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7TQTpG1qBvE9ui7J9yQWKFAYpQahkaKPKqGTsqSm1wUv/logo.png,true,
-Gear,GEAR,,9,https://assets.coingecko.com/coins/images/24653/large/output-onlinepngtools.png?1648524609,true,
-DegenAlley,DGNA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8iSagwHZNj4Hx4CMeoZwLLMVbWt4mUT6qk42TxiHkRtn/DGNA.png,false,
-Jelly eSports,JELLY,,6,https://assets.coingecko.com/coins/images/28572/large/jellylogo.png?1671863817,true,
-SPACEGOLD,SPACEGOLD,,4,https://raw.githubusercontent.com/cosmic-condos/SPACEGOLD/main/logo-icon.png,true,
-JUNK,JUNKz,,9,https://raw.githubusercontent.com/XAGBack/JUNKToken1/main/JunkToken.png,true,
-CRECK,$CRECK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ao94rg8D6oK2TAq3nm8YEQxfS73vZ2GWYw2AKaUihDEY/logo.png,true,
-Chimp,CHIMP,,9,https://raw.githubusercontent.com/tsbsoltn/soltn/main/chimp/logo.png,true,
-FakeBiz,FBZ,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BKydRTNdaMJ8B4zPva3YhwUQcpvAsyZaGJnKA6F44fX7/logo.png,true,
-prtSOL (Parrot Staked SOL),prtSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BdZPG9xWrG3uFrx2KrUW1jT4tZ9VKPDWknYihzoPRJS3/logo.svg,true,
-Tiny Bonez,T1NY,,9,https://assets.coingecko.com/coins/images/24426/large/coin.png?1647848074,true,
-Nest Arcade,NESTA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Czt7Fc4dz6BpLh2vKiSYyotNK2uPPDhvbWrrLeD9QxhV/logo.png,true,
-Playground,PLAYA,,2,https://assets.coingecko.com/coins/images/24387/large/playa.PNG?1647502195,true,
-PerpeTraders,PERP,,2,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EBQ6gWBQNxA2zB4twR5GWP6CkeAhqZZZeDgeP7BTtdM3/logo.jpg,false,
-KRILL,KRILL,,9,https://raw.githubusercontent.com/solanahodlwhales/whitelist/main/Krill_towen.png,true,
-Walken,WLKN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EcQCUYv57C4V6RoPxkVUiDwtX1SP8y8FP5AEToYL8Az/logo.svg,true,
-Saber Wrapped Wrapped FTT (Sollet) (8 decimals),ssoFTT-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FTT8cGNp3rfTC6c44uPTuEFLqmsVDhjd2BhH65v2uppr/icon.png,false,
-Glitter Finance,XGLI,,6,https://assets.coingecko.com/coins/images/23292/large/glitter_finance.png?1660285639,true,
-Lost At Sea WAVE,WAVE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GS6E87SLTioRDG3uSVRwQmuKKMxDmWU7fktCTJ5xkEM8/logo.png,true,
-PEEL,PEEL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GVsdtSe3E2fQoP3TzNT2M1VUchJ7sBmDBuvBZmGDGvmB/logo.png,true,
-Stoned Ape Crew Index,SAC,,2,https://assets.coingecko.com/coins/images/24385/large/stone_ape.PNG?1647501586,true,
-Jungle DeFi,JFI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GePFQaZKHcWE5vpxHfviQtH5jgxokSs51Y5Q4zgBiMDs/logo.png,true,
-Neon Rocket Coin,NRC,,3,https://raw.githubusercontent.com/neontechanoah/neon_rocket_coin/main/asset/NRC_Logo_100px.png,true,
-BLEEP,BLEEP,,4,https://gateway.pinata.cloud/ipfs/QmYjaWwcDx8gaf5rnkzGYLy8qhjjvuuvQXK8RttvXFWUWd?preview=1,true,
-SchimmelPeter Monster,SPM,,9,https://www.schimmelpeter.de/spm_solana.png,false,
-FAC FUD Token,FAC,,9,https://raw.githubusercontent.com/MundoFacu/stuff/038660d9336d647a9d4ede0e3107de9c9481724d/FAC_logo.png,true,
-DREAM TOKEN,DREAM,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HuMShjViKhcfihmHkgvctcFAyeyxAk8hK5K58zWpuRKf/logo.png,true,
-solUST,SOLUST,,6,https://assets.coingecko.com/coins/images/25372/large/solust.png?1651406405,true,
-Saber Wrapped LUNA (Wormhole) (9 decimals),sLUNA-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/LUNGEjUXyP48nrC1GYY5o4eTAkwm4RdX8BxFUxWJBLB/icon.png,false,
-mma,MMA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MMAx26JtJgSWv6yH48nEHCGZcVvRbf9Lt9ALa7jSipe/logo.png,true,
-ROL,ROL,,6,https://assets.blockstars.gg/static/ROL.svg,true,
-Club 420 Token,THC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/THCBB791xLFhRhxPHMDVN9m5KDeBBjwh6dfBbnTuPe9/Logo.png,true,
-Yawww,YAW,,6,https://assets.coingecko.com/coins/images/24233/large/yaw.PNG?1646982198,true,
-Soul Dogs City Bones,BONES,,2,https://assets.coingecko.com/coins/images/25025/large/JEepabYB_400x400.png?1649838257,true,
-DeltaFi,DELFI,,6,https://assets.coingecko.com/coins/images/24085/large/logo.png?1646293860,true,
-Yokoito Crew Hone,HONE,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/hone3CJTYjczb5nJh45KCNMkjrKMt7SCnHkWGWsVfVu/logo.png,true,
-Heavenland HTO,HTO,,9,https://assets.coingecko.com/coins/images/25553/large/rTFh6BD.png?1652420842,true,
-Plutonian DAO,PLD,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2cJgFtnqjaoiu9fKVX3fny4Z4pRzuaqfJ3PBTMk2D9ur/logo.png,true,
-Alien Chicken Farm,ACF,,2,https://assets.coingecko.com/coins/images/25441/large/acf-token_%281%29.png?1651760005,true,
-everwave,WVE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/33MJjPS6H7P2nwD648uiTiUu8v5fJ1zKyjnVqeWZ344F/logo.jpg,true,
-FEED Token on Alien Chicken Farm,FEED,,2,https://shop.alienchickenfarm.com/logos/feed-token.png,true,
-StayFly,$FLY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4h4LvS6NsVjZ87uBwrYyTeppTm1ii5PtRN9A6Ld2kZjw/logo.png,true,
-Playground Waves Floor Index,WAVES,,2,https://i.imgur.com/TMyD8MN.jpg,true,
-PULP,PULP,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5YtGSyQ7YxFgDc9oj4SpZGTjoS5p5Fubkg8sMauQqXoS/logo.png,false,
-Enrex,ENRX,,2,https://assets.coingecko.com/coins/images/24952/large/enrx.png?1649505778,true,
-Gosu,GOSU,,8,https://raw.githubusercontent.com/jGosu/gosu/main/GOSU%20COIN.png,false,
-Plutonium 238,PU238,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7p6zGHdmWHvCH4Lsik2MoMBXqPGhFbSPSceSBXd8KNEC/logo.png,true,
-Project Wisdom,WIZE,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7rrJLRar2WjZwRoF3iJKHKnA7d7d9YJT1X9HAJnwUH3Z/logo.png,true,
-Acacia,ACA,,6,https://raw.githubusercontent.com/qubelabsllc/ACALogo/main/logo.png,true,
-WOOP,WOOP,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A3HyGZqe451CBesNqieNPfJ4A9Mu332ui8ni6dobVSLB/logo.png,true,
-ANA,ANA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ANAxByE6G2WjFp7A4NqtWYXb3mgruyzZYg3spfxe6Lbo/logo.png,true,
-ZIG Coin,ZIG,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ANqY8h3sRSwkC29FvGJenAh7VGRABVVx7Ls6Mq4BuGT/logo.png,true,
-Project Paradise - CHI Token,CHI,,9,https://raw.githubusercontent.com/benthebape/projekt-paradise-chi-token/main/Moneda_1.png,true,
-Hawksight,HAWK,,6,https://assets.coingecko.com/coins/images/24459/large/3CnlKM0x_400x400.jpg?1647679676,true,
-NEAR (Allbridge from Near),NEAR,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BYPsjxa3YuZESQz1dKuBw1QSFCSpecsm8nCQhY5xbU1Z/logo.png,true,
-Astrals GLXY,GLXY,,9,https://assets.coingecko.com/coins/images/25389/large/glxy.png?1651661031,true,
-Agave Zwolf,AGVZ,,9,https://raw.githubusercontent.com/GrupoZwolf/cryptozw/main/logo.png,true,
-FLWRS Token,FLWRS,,6,https://raw.githubusercontent.com/pablolefleur/flwrsimage/main/flwrs%20logo.png,true,
-UMF,UMF,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CZY2dDTb86ARthiLP47hpmEgX1h82XCEr51XWQ5GsZoj/logo.png,true,
-NeonGame Credits,$NEON,,0,https://arweave.net/VPS4BrOgXT4rg-mwGfCLqXL8vtbII0ianMBsw_L2CeE,true,
-Balloonsville AIR,AIR,,9,https://assets.coingecko.com/coins/images/24853/large/9CmgcH6.png?1649134566,true,
-Republic Credits,RPC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EAefyXw6E8sny1cX3LTH6RSvtzH6E5EFy1XsE2AiH1f3/logo.png,true,
-ELIXIR,ELIXIR,,9,https://raw.githubusercontent.com/zaptors/image/main/elixir.png,true,
-Trezarcoin,sTZC,,6,https://trezarcoin.com/wp-content/uploads/2018/02/TZC-1000x.png,false,
-Cricket Star Manager,CSM,,6,https://assets.coingecko.com/coins/images/25774/large/CSM_token.png?1653631158,true,
-BMT,BMT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FanJWA4yEVUJj1r83tR7XybxmDGF6bNH8M81ag9aeUbF/logo.png,false,
-Blocksmith Labs Forge,$FORGE,,9,https://assets.coingecko.com/coins/images/25411/large/Logo_%281%29.png?1651733020,true,
-WATT token,WATT,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GjdreVe7iUG4hyESSweGyFzgekWufhEwGJqAaa1hr7pf/logo.png,false,
-Chimp Frens,FRENS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HNm1VgnyhaMZZF71RjNFNiYLN76zyZTDcBZPjYveWFXX/chimp.png,true,
-Solana Eco Index,SIX,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HWSqJdwemji7TNiKQPudUj86LXyF3vGAtWm5ePk5KzgD/logo.png,false,
-Dead Knight,DKM,,9,https://assets.coingecko.com/coins/images/24442/large/SAq1GaQc_400x400.jpg?1647673953,true,
-Zap,ZAP,,8,https://assets.coingecko.com/coins/images/2180/large/zap.png?1547036476,true,
-OOINK,OOINK,,9,https://raw.githubusercontent.com/danvernon/tiny-dogz-logo/main/oink.png,true,
-Lifinity,LFNTY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp/logo.svg,true,
-Solily Protocol Coin,LILY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LiLyT885cG9xZKYQk9x6VWMzmcui4ueV9J1uzPDDajY/logo.png,true,
-NEO3D TOKEN,NEO,,9,https://raw.githubusercontent.com/minh-git/docusaurus-2/main/static/img/neo3d-logo.jpg,true,
-NIRV,NIRV,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/NRVwhjBQiUPYtfDT5zRBVJajzFQHaBUNtC7SNVvqRFa/NIRV.png,true,
-Nirvana prANA,PRANA,,6,https://assets.coingecko.com/coins/images/26176/large/prANA.png?1656379283,true,
-Solcial,SLCL,,9,https://assets.coingecko.com/coins/images/24583/large/1_N9szP0_400x400.jpg?1648217020,true,
-TOKAMAK ON SOLANA,TKMK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TKMKgSh3aADsmjr4yFWG52tkCQvmDxsQC1he1aBsi65/logo.png,true,
-IDOLZ Token,IDOLZ,,9,https://arweave.net/mdvmPYEgiX_uPGRtiIZA3HrpilDK5JfW2bXkDBRuzVM?ext=png,true,
-Rain Token,RAIN,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/rainH85N1vCoerCi4cQ3w6mCf7oYUdrsTFtFzpaRwjL/logo.png,true,
-Ratio Governance Token,RATIO,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ratioMVg27rSZbSvBopUvsdrGUzeALUfFma61mpxc8J/logo.svg,true,
-SMRAI,SMRAI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/rvxo8t7TKeSmAgpdqK1CY9ddZi3NyowRCh1m2d7KrUc/logo.png,true,
-UNKN,UNKN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/unknXbA1bDg39nuBqVgMNZ5qSZa8pw5HditgkPe5eFA/logo.png,true,
-xLifinity,xLFNTY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/xLfNTYy76B8Tiix3hA51Jyvc1kMSFV4sPdR7szTZsRu/logo.svg,true,
-Zebec Protocol,ZBC,,9,https://assets.coingecko.com/coins/images/24342/large/zbc.PNG?1647400775,true,
-Starbots GEAR,GEAR,,0,https://assets.coingecko.com/coins/images/26651/large/logo_%282%29.png?1659408350,true,
-Style,STYLE,,9,https://assets.coingecko.com/coins/images/28060/large/78oZvtZW_400x400.jpeg?1667442304,true,
-Kreechures Floor Index,KREECHURE,,2,https://i.imgur.com/xR8HIrL.png,false,
-Hydrogencoin,HCOIN,,3,https://raw.githubusercontent.com/dataalg/Hydrogen/main/4B619RbcXbXrKTzNVgDSRiUn9wfxWgA1w1oFLveGacNy/logo.png,false,
-DARK COIN,DMV,,8,https://raw.githubusercontent.com/Shaik-Sirajuddin/RepoForUploadsNeverDelete/master/Images/darkcoin.png,false,
-Random Solpunks,rPUNK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4PJ8yD2hPXVGxnYcmjBoDyDHKAMEAKjGgAfvEqmZUaAw/logo.png,false,
-ICHIGO,ICHIGO,,8,https://ichigo.network/logos/logo.png,false,
-Kleyne Gelt,KLGT,,0,https://raw.githubusercontent.com/klglt/Crypto/main/menorah.png,false,
-Hedge Protocol,HDG,,9,https://assets.coingecko.com/coins/images/25482/large/hdg.png?1652011201,true,
-Degenerate Ape Academy Solvent Droplet,svtDAPE,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6F5A4ZAtQfhvi3ZxNex9E1UN5TK7VM2enDCYG1sx1AXT/logo.png,false,
-GameBeef,GB,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7R4pJpJdzapj2hEfzQR5bp2ApDjqXNRUA5GTngC6xRZX/logo.png,true,
-NECTAR2 Token,NECTAR2,,3,https://raw.githubusercontent.com/agave-com/nectar-token/main/logo-sq.png,false,
-Equinox,ENX,,9,https://assets.coingecko.com/coins/images/25234/large/ReKXsCZUnqSChIZZg4dlCIHQTKU0owxPuvj1feBDWaE.png?1650954548,true,
-Ribh,RIBH,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8UaGbxQbV9v2rsMxy2G2NEh1JYQ8T9dmggq1oesrXD9c/logo.png,false,
-Gary,GARY,,9,https://assets.coingecko.com/coins/images/26448/large/gary_logo_icon.png?1658111709,true,
-Jungle Cats Floor Index,JCATS,,2,https://i.imgur.com/AEPNTTQ.jpg,false,
-DBank Coin,DBC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/98ouGzbMV2DnHfn3Uc7oahwvDP4Cf7Ls77JsBiARdjvn/logo.png,true,
-Hedge USD,USH,,9,https://assets.coingecko.com/coins/images/25481/large/ush.png?1652011029,true,
-Random Blockasset Legends,rLGND,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9m8E1yLHaG1B2TFSNeWahsitQh5yQRnrbyw756HFAcEa/rLGND.png,false,
-ARB Protocol,ARB,,6,https://assets.coingecko.com/coins/images/26046/large/IMG_3600.png?1656916820,true,
-Okay Bears Solvent Droplet,svtOKAY,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AG5j4hhrd1ReYi7d1JsZL8ZpcoHdjXvc8sdpWF74RaQh/logo.png,true,
-Aera Token,AERA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BjZ5Hazjyp9LrzfapAHYZuceWm6zJZDqMH1QPCWtsouq/logo.png,true,
-Decimus Dynamics Token,DEDS,,9,https://github.com/DecimusDynamics/assets/blob/main/decimus-icon-1x1-black.png,true,
-Creamy,CREAMY,,9,https://assets.coingecko.com/coins/images/25285/large/logo200.png?1651128831,true,
-Balloonsville Solvent Droplet,svtBV,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CT1iZ7MJzm8Riy6MTgVht2PowGetEWrnq1SfmUjKvz8c/logo.png,false,
-Hunter Diamond,HUNT,,9,https://assets.coingecko.com/coins/images/27566/large/Token_Hunters__CoinMarketCap.png?1664522159,true,
-Solana Monkey Business Solvent Droplet,svtSMB,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ca5eaXbfQQ6gjZ5zPVfybtDpqWndNdACtKVtxxNHsgcz/logo.png,true,
-DeGods Solvent Droplet,svtDGOD,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DCgRa2RR7fCsD63M3NgHnoQedMtwH1jJCwZYXQqk9x3v/logo.png,true,
-WOB Token,WOB,,9,https://raw.githubusercontent.com/tradefortendies/tokens/master/wobtoken-small.gif,true,
-Dusk,DUSK,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DMbb79fgxR3fKKVKWcbetMCuxNNtJnfjY3qqAE4G4wJf/logo.svg,true,
-WNDO,WNDO,,9,https://static1.squarespace.com/static/6252f1590fac8d79fb6d772e/t/627682f25295251e0967c29c/1651933939477/wndocoin.png,true,
-WEYU,WEYU,,8,https://weyu.io/img/WEYU.png,true,
-Jungle Cats Lioness Index,LIONESS,,2,https://dl.airtable.com/.attachments/5befbef5bb59eb122426dac8db5a0b2f/2327b76a/QueenLion.jpg,false,
-The Dark Token,DARK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FmQ7v2QUqXVVtAXkngBh3Mwx7s3mKT55nQ5Z673dURYS/logo.png,true,
-SMB Index,MONKES,,2,https://i.imgur.com/FczxrLa.png,true,
-VIBEZ,VIBEZ,,9,https://github.com/ArthurPaivaT/token-list/blob/main/assets/mainnet/FyNuYGBBry5LAtPEkh8Y73izjTUNT2td2J3sGCK7E9Ju/logo.png?raw=true,true,
-Bridgesplit Brand Index,BBI,,2,https://assets.coingecko.com/coins/images/25640/large/a.png?1652942415,true,
-DeFi Land Gold,GOLDY,,9,https://assets.coingecko.com/coins/images/25647/large/GODLY.png?1653025856,true,
-qdot,qdot,,8,https://cdn.jsdelivr.net/gh/CleverChuk/qdot@main/assets/logo.png,false,
-Skullbots Biker Gang Floor Index,BOTS,,2,https://i.imgur.com/HSn9q9n.jpg,false,
-MILK,MILK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MLKmUCaj1dpBY881aFsrBwR9RUMoKic8SWT3u1q5Nkj/logo.png,true,
-USN (Allbridge from Near),USN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PUhuAtMHsKavMTwZsLaDeKy2jb7ciETHJP7rhbKLJGY/logo.png,true,
-Tenkai Token,TENKAI,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TKDrcm3n4mfXFfPKZoLp5soRSdFQSmyWLdomdKL3ktU/logo.png,true,
-Trenbolone,TREN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TRENpVRAR9LiZgyYv9zWrQwYqSHa7ThCYdbpFCJixj1/logo.png,true,
-BitLegacy Token,BTL,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/aYZPYgohjK6LYM8o1v6pnr3ZinhuRzSHd6TRDVDUBkK/logo.png,false,
-Genopets KI,KI,,9,https://assets.coingecko.com/coins/images/26135/large/genopets_ki.png?1660017469,true,
-Genopets Ki,KI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/kiTkNc7nYAu8dLKjQFYPx3BqdzwagZGBUrcb7d4nbN5/logo.png,true,
-Rally (Solana),SRLY,,9,https://assets.coingecko.com/coins/images/23239/large/srly.png?1643531979,true,
-Drippies Floor Index,DRIPP,,2,https://creator-hub-prod.s3.us-east-2.amazonaws.com/drippies_pfp_1648415706808.gif,true,
-Wrapped BTC (Portal),WBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh/logo.png,true,
-Cripco,IP3,,9,https://assets.coingecko.com/coins/images/26344/large/f55kBYa2_400x400.jpeg?1657586586,true,
-BIU COIN,BIU,,9,https://assets.coingecko.com/coins/images/28990/large/cat_%281%29.png?1675820407,true,
-Hivemapper,HONEY,,9,https://assets.coingecko.com/coins/images/28388/large/honey.png?1670065511,true,
-Fronk,FRONK,,5,https://assets.coingecko.com/coins/images/28679/large/_7XVXQ46_400x400.jpg?1673340405,true,
-Whole Earth Coin,WEC,,9,https://assets.coingecko.com/coins/images/16313/large/WEC_logo.png?1669459247,true,
-Avenue Hamilton Token,AHT,,9,https://assets.coingecko.com/coins/images/28086/large/7FbZmTSKMsSqtlfe8yH1n3QgdBc3RBBt0B6dsdprVBs.png?1667724654,true,
-Avenue University Token,AUT,,9,https://assets.coingecko.com/coins/images/28087/large/T-R84Zo32rDOA5Wo66T8jAlqcyjD7Folt1oeCfjlizU.png?1667724695,true,
-Hades,HADES,,9,https://assets.coingecko.com/coins/images/28819/large/hadeswap.jpeg?1674624974,true,
-Boxch,BOXCH,,9,https://assets.coingecko.com/coins/images/26119/large/Group_212.png?1667726216,true,
-Secret Skellies Society,$CRYPT,,9,https://assets.coingecko.com/coins/images/28865/large/plain-skull_Large_200x200.png?1674995037,true,
-Epics Token,EPCT,,6,https://assets.coingecko.com/coins/images/28901/large/EpicsCoin200x200.png?1675236360,true,
-Catalina Whales Index,WHALES,,2,https://assets.coingecko.com/coins/images/27053/large/whales.png?1661507402,true,
-Player 2,DEO,,9,https://assets.coingecko.com/coins/images/28811/large/logo_deo_small_200x200.png?1674453399,true,
-Bonk,Bonk,,5,https://arweave.net/hQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I,true,
-DOGGO,DOGGO,,5,https://assets.coingecko.com/coins/images/28740/large/pllp.jpeg?1673839960,true,
-,,,2,,,
-Sollama Utilities,SOLLAMA,,9,https://assets.coingecko.com/coins/images/28902/large/newTPLogoSollama.png?1675237565,true,
-,,,9,,,
-PepeSol,PEPE,,6,https://assets.coingecko.com/coins/images/28996/large/Pepesol_LOGO.png?1675836291,true,
-vBLSH,vBLSH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FNMLmBPkhh7nBFyGHsdrmCuvgEf6ygpaVqFejimHEx9V/logo.png,true,
-Tap Fantasy MC,TFMC,,9,https://assets.coingecko.com/coins/images/26483/large/Tap-Fantasy-MC-Logo.png?1658279327,true,
-Boo,BOO,,6,https://assets.coingecko.com/coins/images/28778/large/circle_BOO_logo.png?1674112115,true,
-CHILI,CHILI,,2,https://assets.coingecko.com/coins/images/28668/large/CHILI_start.png?1672995567,true,
-,,,2,,,
-,,,2,,,
-SHIBONK,SBONK,,9,https://assets.coingecko.com/coins/images/28675/large/bonklogo2.png?1673161859,true,
-HolyGrails.io,HOLY,,9,https://assets.coingecko.com/coins/images/28395/large/HG_Token_Design-07.png?1670290228,true,
-JitoSOL,JitoSOL,,9,https://s2.coinmarketcap.com/static/img/coins/200x200/22533.png,true,
-Laine Stake,LAINESOL,,9,https://assets.coingecko.com/coins/images/28184/large/laineSOL.png?1668257050,true,
-Lambda Markets,LMDA,,6,https://assets.coingecko.com/coins/images/28653/large/XFAIIV1f_400x400.jpg?1672896515,true,
-LP Finance DAO,LPFI,,9,https://assets.coingecko.com/coins/images/27704/large/output-onlinepngtools_%2827%29.png?1666087863,true,
-Gobi Labs,GOBI,,6,https://assets.coingecko.com/coins/images/28554/large/GOBI.png?1671697657,true,
-zSOL,ZSOL,,9,https://assets.coingecko.com/coins/images/29076/large/zSOL.png?1676437344,true,
-Kineko,KNK,,9,https://assets.coingecko.com/coins/images/26597/large/knk-cmc-logo.png?1658974690,true,
-KIN,KIN,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6/logo.png,true,
-Cope Token,COPE,,2,https://assets.coingecko.com/coins/images/28717/large/coingecko.png?1673576722,true,
-Wrapped ALGO,XALGO,,6,https://assets.coingecko.com/coins/images/26335/large/xALGO.png?1657494713,true,
-xLP Finance,XLPFI,,9,https://assets.coingecko.com/coins/images/29042/large/xLPFi-min.png?1676179032,true,
-,,,2,,,
-,,,2,,,
-Access Protocol,ACS,,6,https://assets.coingecko.com/coins/images/28747/large/dR4FovX4_400x400.jpg?1673860839,true,
-KITTI,KITTI,,5,https://assets.coingecko.com/coins/images/29149/large/kittt.jpeg?1676967159,true,
-Clash,CLH,,6,https://assets.coingecko.com/coins/images/27836/large/New-Clash-Icon_copy.png?1665996878,true,
-,,,2,,,
-,,,2,,,
-Amulet Staked SOL,AMTSOL,,9,https://assets.coingecko.com/coins/images/27786/large/amtSOL200x200.png?1665814113,true,
-,,,2,,,
-Extra Reality,XTR,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6ABQdaTwRvmacto7aeRBGghS6Pxctd6cFGL8gDdwV1dd/logo.png,true,
-,,,9,,,
-Poglana,POG,,5,https://assets.coingecko.com/coins/images/28742/large/pog-logo.png?1673840874,true,
-,,,2,,,
-KIN INU,KINU,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/inuXXDC6Tw1Fu6qUAfRbELG5x5pSA4afTskf7MvwjhN/logo.svg,true,
-,,,2,,,
-,,,8,,,
-Particles Index,PARTICLES,,2,https://i.imgur.com/W8Lo4lY.png,false,
-Token DLQo,DLQoZ,,2,,false,
-,,,2,,,
-Token FL9J,FL9J1,,2,,false,
-Liberty Square Filth,FLTH,,9,https://assets.coingecko.com/coins/images/29037/large/FLTH.png?1676100466,true,
-GENZ Token,GENZ,,9,https://assets.coingecko.com/coins/images/28039/large/Qq_rj-aG_400x400.png?1667199323,true,
-MekkaCoin,MEK,,9,https://assets.coingecko.com/coins/images/27530/large/unknown_%2819%29.png?1664372136,true,
-NeoNomad,NNI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/buMnhMd5xSyXBssTQo15jouu8VhuEZJCfbtBUZgRcuW/logo.png,true,
+NAME,SYMBOL,MINT,DECIMALS,LOGOURI,VERIFIED
+Wrapped Ethereum (Sollet),SOETH,,6,https://assets.coingecko.com/coins/images/24918/large/6250754.png?1649344492,true
+Solberg,SLB,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2uRFEWRBQLEKpLmF8mohFZGDcFQmrkQEEZmHQvMUBvY7/logo.svg,true
+XCOPE,XCOPE,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE/logo.png,true
+Swole Doge,SWOLE,,9,https://assets.coingecko.com/coins/images/19643/large/swole.png?1635853067,true
+Raydium,RAY,,6,https://assets.coingecko.com/coins/images/13928/large/PSigc4ie_400x400.jpg?1612875614,true
+Solana Inu,INU,,9,https://assets.coingecko.com/coins/images/20020/large/YGid9wMv_400x400.jpg?1636412528,true
+Bamboo Coin,BMBO,,9,https://assets.coingecko.com/coins/images/19620/large/FC0hnduacAAHYFC.png?1635496724,true
+JPOOL Solana Token,JSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn/logo.svg,true
+Cope,COPE,,6,https://assets.coingecko.com/coins/images/14567/large/COPE.png?1617162230,true
+Frax (Wormhole v1),wFRAX_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU/logo.png,true
+Rope Token,ROPE,,9,https://assets.coingecko.com/coins/images/14661/large/rope-v6.png?1619606776,true
+Audius (Wormhole),AUDIO,,8,https://assets.coingecko.com/coins/images/22936/large/AUDIO_wh_small.png?1644224294,true
+WipeMyAss,WIPE,,9,https://cdn.jsdelivr.net/gh/rxrxrxrx/WipeMyAss/wipemyass.jpg,true
+Wrapped Bitcoin (Sollet),BTC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E/logo.png,true
+Solex Finance,SLX,,9,https://assets.coingecko.com/coins/images/19392/large/logo_-_2021-10-25T161153.717.png?1635149522,true
+FTX,FTT,,6,https://assets.coingecko.com/coins/images/9026/large/F.png?1609051564,true
+Binance USD (Wormhole v1),wBUSD_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX/logo.png,true
+Maneki-neko,NEKI,,9,https://assets.coingecko.com/coins/images/21321/large/logo.png?1638944515,true
+Wrapped SUSHI (Sollet),soSUSHI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AR1Mtgh7zAtxuxGd2XPovXPVjcSdY3i4rQYisNadjfKy/logo.png,true
+Decimated,DIO,,9,https://assets.coingecko.com/coins/images/8271/large/dio_logo_coloured_transparent.png?1640744585,true
+Boryoku Dragonz,BOKU,,9,https://assets.coingecko.com/coins/images/20820/large/ZdgsxFPV_400x400.png?1637721291,true
+Wrapped Chainlink (Sollet),soLINK,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG/logo.png,true
+agEUR (Portal),agEUR,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CbNYA9n3927uXUukee2Hf4tm3xxkffJPPZvGazc2EAH1/logo.png,true
+Viral Inu,VINU,,6,https://assets.coingecko.com/coins/images/20698/large/vinu.png?1642917940,true
+Wrapped ALEPH (Sollet),soALEPH,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CsZ5LZkDS7h9TDKjrbL7VAwQZ9nsRu8vJLhRYfmGaN8K/logo.png,true
+MapMetrics,MMaps,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EFqYVEitSUpUTj2d9LSqun4eZ4BzouFuTPqQzU4hNtsS/logo.png,true
+HEX (Wormhole v1),wHEX_v1,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ELSnGFd5XnSdYFFSgYQp7n89FEbDqxN4npuRLW4PPPLv/logo.png,true
+Basic Attention Token (Portal),BAT,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz/logo.png,true
+USD Coin,USDC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true
+Media Network,MEDIA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ETAtLmCmsoiEEKfNrHKJ2kYy3MoABhU6NQvpSfij5tDs/logo.png,true
+FUMoney,FUM,,9,https://assets.coingecko.com/coins/images/21054/large/KuH9TXMM_400x400.jpg?1638263205,true
+Bonfida,FIDA,,6,https://assets.coingecko.com/coins/images/13395/large/bonfida.png?1658327819,true
+USDT,USDT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg,true
+Synex Coin,MINECRAFT,,9,https://assets.coingecko.com/coins/images/21247/large/logo_-_2021-12-06T135451.604.png?1638770098,true
+SOLA,SOLA,,9,https://assets.coingecko.com/coins/images/18263/large/sola-new.png?1632238376,true
+Dai Stablecoin (Wormhole v1),wDAI_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1/logo.png,true
+Wrapped Capsule Coin (Wormhole v1),wCAPS_v1,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeLoyXk8ac2AYVmDhAWEKNWWT63Z9TczeidYbpDvxF3T/logo.svg,true
+MonkeyBucks,MBS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A/logo.png,true
+Brazilian Digital,BRZ,,4,https://assets.coingecko.com/coins/images/8472/large/MicrosoftTeams-image_%286%29.png?1674480131,true
+FTT (Wormhole v1),wFTT_v1,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi/logo.png,true
+SOL100,SOL100,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GkDg1ZfoFkroLAwLqtJNXhxCDg8gmKxHAGxSUZagYFfE/logo.png,true
+OOGI,OOGI,,9,https://assets.coingecko.com/coins/images/19714/large/oogi.PNG?1635756218,true
+Cryowar,CWAR,,9,https://assets.coingecko.com/coins/images/20227/large/CWAR_round_200_200.png?1636689418,true
+MAPS,MAPS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb/logo.svg,true
+Serum,SRM,,6,https://assets.coingecko.com/coins/images/11970/large/serum-logo.png?1597121577,true
+Wrapped SOL,SOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png,true
+Investin,IVN,,6,https://assets.coingecko.com/coins/images/15588/large/ivn_logo.png?1621267247,true
+Turtles Token,TRTLS,,9,https://www.turtles.com/turtles.png,true
+yPRT (Parrot Yield Token),yPRT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/yPRTUpLDftNej7p6QofNYgRArRXsm6Mvkzohj4bh4WM/logo.svg,true
+Oxygen,OXY,,6,https://assets.coingecko.com/coins/images/13509/large/8DjBZ79V_400x400.jpg?1609236331,true
+Cheems,CHEEMS,,4,https://assets.coingecko.com/coins/images/18358/large/newlogo.png?1644476666,true
+wTYNA,TYNA,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3QuAYThYKFXSmrTcSHsdd7sAxaFBobaCkLy2DBYJLMDs/logo.png,true
+METASEER,METAS,,9,https://metaseer.io/img/home-one/logo256.png,true
+Only1,LIKE,,9,https://assets.coingecko.com/coins/images/17501/large/like-token.png?1628036165,true
+Oxbull Solana,OXS,,9,https://assets.coingecko.com/coins/images/17304/large/9xPPXxJC_400x400.jpg?1627269668,true
+Synthetify,SNY,,6,https://assets.coingecko.com/coins/images/14835/large/synthetify_token.png?1618611507,true
+LIQ Protocol,LIQ,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj/logo.png,true
+ApeXit Finance,APEX,,9,https://assets.coingecko.com/coins/images/16864/large/cg.png?1625470996,true
+APYSwap,APYS,,9,https://assets.coingecko.com/coins/images/14163/large/apys.png?1635831990,true
+Kugle GU,GU,,9,https://assets.coingecko.com/coins/images/17532/large/Logo_GU_512.png?1628129442,true
+CATO,CATO,,9,https://assets.coingecko.com/coins/images/17031/large/CATO200newlogo.png?1648448136,true
+Dino,DINO,,6,https://assets.coingecko.com/coins/images/17770/large/solana_dino.png?1629207162,true
+Project SEED Token,SHILL,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6cVgJUqo4nmvQpbgrDZwyfd6RwWw5bfnCamS3M9N1fd/logo.png,true
+SAIL,SAIL,,6,https://assets.coingecko.com/coins/images/16657/large/SAIL.png?1624608515,true
+QUEST,QUEST,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6ybxMQpMgQhtsTLhvHZqk8uqao7kvoexY6e8JmCTqAB1/logo.png,true
+Luna Yield,LUNY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7a4cXVvVT7kF6hS5q5LDqtzWfHfys4a9PoK6pf87RKwf/logo.png,true
+COBAN,COBAN,,3,https://assets.coingecko.com/coins/images/19483/large/coban-logo-pebyyxjzxvebwa8nsvpp9t8iple69h6enp9bdknotq.png?1635285761,true
+Samoyedcoin,SAMO,,9,https://assets.coingecko.com/coins/images/15051/large/IXeEj5e.png?1619560738,true
+Solyard Finance,YARD,,9,https://assets.coingecko.com/coins/images/18400/large/IMG_7306.JPG?1631775657,true
+ChikinCoin,CKC,,6,https://assets.coingecko.com/coins/images/24978/large/Screenshot_from_2022-04-11_15-47-44.png?1649663281,true
+Grape Protocol,GRAPE,,6,https://assets.coingecko.com/coins/images/18149/large/fRsuAlcV_400x400.png?1632437325,true
+renLUNA,renLUNA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8wv2KAykQstNAj2oW6AHANGBiFKVFhvMiyyzzjhkmGvE/logo.png,true
+SolDoge,SDOGE,,0,https://assets.coingecko.com/coins/images/19746/large/2L4aX1r.png?1635822424,true
+WOOF,WOOF,,6,https://assets.coingecko.com/coins/images/18319/large/woof-logo-svg-true-solana-radient-blackinside.png?1637655115,true
+Solster,STR,,9,https://assets.coingecko.com/coins/images/18621/large/log-350.png?1632701442,true
+MOONLANA,MOLA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AMdnw9H5DFtQwZowVFr4kUgSXJzLokKSinvgGiUoLSps/logo.png,true
+Star Atlas,ATLAS,,8,https://assets.coingecko.com/coins/images/17659/large/Icon_Reverse.png?1628759092,true
+Boring Protocol,BOP,,8,https://assets.coingecko.com/coins/images/16828/large/imgonline-com-ua-resize-VT59gqn-Bya-WGG.jpg?1625210880,true
+Solcubator,SOLC,,9,https://assets.coingecko.com/coins/images/18682/large/Solcubator-Logo-Icon.png?1632966591,true
+renBTC,renBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CDJWUqTcYTVAKXAVXoQZFes5JUFc7owSeq7eMQcDSbo5/logo.png,true
+Wrapped USTC,USTC,,9,https://assets.coingecko.com/coins/images/15462/large/ust.png?1620910058,true
+CropperFinance,CRP,,9,https://assets.coingecko.com/coins/images/17883/large/copperfinance.PNG?1629708744,true
+Aldrin,RIN,,9,https://assets.coingecko.com/coins/images/16849/large/Aldrin.png?1629959768,true
+Fabric,FAB,,9,https://assets.coingecko.com/coins/images/16649/large/FABLOGO_TRANS200.png?1624592643,true
+VentureCapital,VCC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FZgL5motNWEDEa24xgfSdBDfXkB9Ru9KxfEsey9S58bb/logo.svg,true
+NINJA,NINJA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FgX1WD9WzMU3yLwXaFSarPfkgzjLb2DZCqmkx9ExpuvJ/logo.png,true
+Potato,POTATO,,3,https://assets.coingecko.com/coins/images/18254/large/logocircle.png?1631151305,true
+SOLAPE,SOLAPE,,9,https://assets.coingecko.com/coins/images/16930/large/128px-coin.png?1625753550,true
+Solpad Finance,SOLPAD,,9,https://assets.coingecko.com/coins/images/16368/large/solpad.PNG?1623820231,true
+Dexlab,DXL,,6,https://assets.coingecko.com/coins/images/17276/large/3_GradientSymbol.png?1650936792,true
+JET,JET,,9,https://assets.coingecko.com/coins/images/18437/large/jet_logomark_color.png?1631972990,true
+Mercurial,MER,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K/logo.png,true
+Metaplex,META,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m/logo.png,true
+Synchrony,SCY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/SCYfrGCw8aDiqdgcpdGjV6jp4UVVQLuphxTDLNWu36f/logo.png,true
+Solrise Finance,SLRS,,6,https://assets.coingecko.com/coins/images/15762/large/9989.png?1621825696,true
+Step Finance,STEP,,9,https://assets.coingecko.com/coins/images/14988/large/step.png?1619274762,true
+Tulip Protocol,TULIP,,6,https://assets.coingecko.com/coins/images/15764/large/TqrUdBG.png?1621827144,true
+Orca,ORCA,,6,https://assets.coingecko.com/coins/images/17547/large/Orca_Logo.png?1628781615,true
+Star Atlas DAO,POLIS,,8,https://assets.coingecko.com/coins/images/17789/large/POLIS.jpg?1629256006,true
+Solanium,SLIM,,6,https://assets.coingecko.com/coins/images/15816/large/logo_cg.png?1659000206,true
+Xverse,XVC,,9,https://assets.coingecko.com/coins/images/17709/large/1_y5qvEWJiA4dFjoQNcqth3g.png?1629081157,true
+Kurobi,KURO,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2Kc38rfQ49DFaKHQaWbijkE7fcymUMLY5guUiUsDmFfn/logo.png,true
+Million,MM,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2PoF4gqWg97yjJk276yUYaGVkkASE7tqAU7H5faEBkeC/logo.svg,true
+DINOEGG,DINOEGG,,6,https://assets.coingecko.com/coins/images/22291/large/xOcKL1Fw_400x400.png?1641367958,true
+Bitspawn,SPWN,,9,https://assets.coingecko.com/coins/images/16513/large/token_logo.png?1631603192,true
+Socean staked SOL,scnSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm/logo.png,true
+Waggle Network,WAG,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5tN42n9vMi6ubp67Uy4NnmM5DMZYN8aS8GeB3bEDHr6E/logo.png,true
+HAPI,HAPI,,9,https://assets.coingecko.com/coins/images/14298/large/R9i2HjAL_400x400.jpg?1615332438,true
+Wrapped BUSD (Allbridge from BSC),ABBUSD,,9,https://assets.coingecko.com/coins/images/23061/large/logo_-_2022-01-26T091043.556.png?1643159457,true
+Orbs,Orbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7JnHPPJBBKSTJ7iEmsiGSBcPJgbcKw28uCRXtQgimncp/logo.png,true
+Weble Ecosystem Token,WET,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7R7rZ7SsLDXkYAfJyRCBScLuZwizeMWaTWrwFhSZU2Jq/logo.png,true
+Lido Staked SOL,stSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj/logo.png,true
+SolRazr,SOLR,,6,https://assets.coingecko.com/coins/images/18390/large/Sol-Razr-Logo-TICKER.png?1631759669,true
+SunnySideUp staked SOL (sSOL),sSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8EDaoeBqpcVACwvkYXh1vAcU29HiBiNhqoF4pRsuUsZS/logo.png,true
+Solminter,SMRT,,0,https://assets.coingecko.com/coins/images/17937/large/apple-touch-icon.png?1629868107,true
+pSOL (Parrot SOL),pSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX/logo.svg,true
+Wrapped DAI (Allbridge from Ethereum),aeDAI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1/logo.png,true
+SunnySideUp,SSU,,9,https://assets.coingecko.com/coins/images/23369/large/logo.png?1643954242,true
+MatrixETF DAO Finance,MDF,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ALQ9KMWjFmxVbew3vMkJj3ypbAKuorSgGst6svCHEe2z/logo.png,true
+Wrapped ETH (Allbridge from Ethereum),aeWETH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png,true
+Wrapped FTT (Allbridge from Ethereum),aeFTT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3/logo.png,true
+Cykura,CYS,,6,https://assets.coingecko.com/coins/images/18139/large/cyclos-text-logo.png?1630651169,true
+Wrapped USDT (Allbridge from Ethereum),aeUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg,true
+HottoShotto,HOTTO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Bqd2ujCTEzpKzfjb1FHL7FKrdM6n1rZSnRecJK57EoKz/logo.png,true
+HUSD Stablecoin (Wormhole v1),wHUSD_v1,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX/logo.png,true
+Coin98,C98,,6,https://assets.coingecko.com/coins/images/17117/large/logo.png?1626412904,true
+SolDate,DATE,,9,https://assets.coingecko.com/coins/images/18461/large/date.PNG?1632108952,true
+Wrapped USDT (Allbridge from Polygon),apUSDT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4/logo.png,true
+pBTC (Parrot BTC),pBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DYDWu4hE4MN3aH897xQ3sRTs5EAjJDmQsKLNhbpUiKun/logo.svg,true
+Wrapped USDC (Allbridge from Ethereum),aeUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true
+Parrot USD,PAI,,6,https://assets.coingecko.com/coins/images/18439/large/pai.png?1632004568,true
+UPS token (UPFI Network),UPS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EwJN2GqUGXXzYmoAciwuABtorHczTA5LqbukKXV1viH7/logo.png,true
+Wrapped CUSD (Allbridge from Celo),ACUSD,,9,https://assets.coingecko.com/coins/images/23057/large/7236.png?1643153224,true
+Lumos Rewards,LRA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FMJotGUW16AzexRD3vXJQ94AL71cwrhtFaCTGtK1QHXm/logo.png,true
+Sypool,SYP,,9,https://assets.coingecko.com/coins/images/18518/large/sypool.PNG?1632268218,true
+CoreStarter,CSTR,,9,https://assets.coingecko.com/coins/images/20209/large/cstr.png?1636642782,true
+Lido DAO (Wormhole),LDO,,8,https://assets.coingecko.com/coins/images/22995/large/LDO_wh_small.png?1644226233,true
+Crystal,CRY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HbrmyoumgcK6sDFBi6EZQDi4i4ZgoN16eRB2JseKc7Hi/logo.png,true
+Parasol Finance,PSOL,,7,https://assets.coingecko.com/coins/images/21551/large/icon.png?1642584584,true
+Larix,LARIX,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC/logo.jpg,true
+Mango,MNGO,,6,https://assets.coingecko.com/coins/images/14773/large/token-mango.png?1628171237,true
+Parrot Protocol,PRT,,6,https://assets.coingecko.com/coins/images/18443/large/PRT.png?1634698095,true
+Port Finance Token,PORT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y/PORT.png,true
+SynesisOne,SNS,,9,https://raw.githubusercontent.com/Synesis-One/spl-token/main/icon.png,true
+Sunny Aggregator,SUNNY,,6,https://assets.coingecko.com/coins/images/18039/large/90dbe787-8e5f-473c-b923-fe138a7a30ea.png?1630314924,true
+Saber,SBR,,6,https://assets.coingecko.com/coins/images/17162/large/oYs_YFz8_400x400.jpg?1626678457,true
+Lido Wrapped Staked ETH,wstETH,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ZScHuTtqZukUrtZS43teTKGs2VqkKL8k4QCouR2n6Uo/logo.png,true
+Allbridge,ABR,,9,https://assets.coingecko.com/coins/images/18690/large/abr.png?1640742053,true
+Wrapped USDC (Allbridge from Polygon),apUSDC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png,true
+Marinade staked SOL (mSOL),mSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So/logo.png,true
+Sator,SAO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2HeykdKjzHKGm2LKHw8pDYwjKPiFEoXAz74dirhUgQvq/Sator_Logo.png,true
+Matrix Solana Index,MSI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2e7yNwrmTgXp9ABUmcPXvFJTSrEVLj4YMyrb4GUM4Pdd/logo.png,true
+Binance USD (Portal from Ethereum),BUSDet,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/33fsBLA8djQm82RpHmE3SuVrPGtZBWNYExsEUeKX1HXX/logo.png,true
+FLOOF,FLOOF,,1,https://assets.coingecko.com/coins/images/19810/large/FLOOF_logo_200x200.png?1635917291,true
+Final Frontier,FRNT,,9,https://assets.coingecko.com/coins/images/24120/large/Token_Logo_2_720p.png?1646386860,true
+USDK (Portal),USDK,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/43m2ewFV5nDepieFjT9EmAQnc1HRtAF247RBpLGFem5F/logo.png,true
+CaveWorld,CAVE,,6,https://assets.coingecko.com/coins/images/19358/large/token.png?1650866628,true
+DogemonGo,DOGO,,6,https://assets.coingecko.com/coins/images/17480/large/dogemongo.PNG?1627950869,true
+Tether USD (Portal from Polygon),USDTpo,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5goWRao6a3yNC4d6UjMdQxonkCMvKBwdpubU3qhfcdf1/logo.png,true
+Huobi BTC (Portal),HBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7dVH61ChzgmN9BwG4PkzwRP8PbYwPJ7ZPNF2vamKT2H8/logo.png,true
+UXD Stablecoin,UXD,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT/uxd-icon-black.png,true
+Ethereum (Wormhole),ETH,,8,https://assets.coingecko.com/coins/images/22990/large/ETH_wh_small.png?1644225466,true
+Synthetic USD,XUSD,,6,https://assets.coingecko.com/coins/images/19596/large/uJzDI4j.png?1635488810,true
+Uniswap (Portal),UNI,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8FU95xFJhUUkyyCLU13HSzDLs7oC4QZdXQHL6SCeab36/logo.png,true
+Wrapped USDC (Allbridge from Avalanche),aaUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true
+Synthetic ETH,xETH,,9,https://www.synthetify.io/icons/xeth.svg,true
+Binance Coin (Wormhole),BNB,,8,https://assets.coingecko.com/coins/images/22884/large/BNB_wh_small.png?1644224553,true
+UST (Portal),UST,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i/logo.png,true
+USD Coin (Portal from Ethereum),USDCet,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A9mUU4qviSctJVPJdBJWkb28deg915LYJKrzQ19ji3FM/logo.png,true
+Phant,PNT,,9,https://assets.coingecko.com/coins/images/22799/large/logogradientsm.png?1642583142,true
+Aurory,AURY,,9,https://assets.coingecko.com/coins/images/19324/large/Ico_Blanc.png?1672824647,true
+AVAX (Allbridge from Avalanche),AVAX,,9,https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png,true
+Synthetic SOL,xSOL,,9,https://www.synthetify.io/icons/xsol.svg,true
+Sushi,SUSHI,,8,https://assets.coingecko.com/coins/images/12271/large/512x512_Logo_no_chop.png?1606986688,true
+Wrapped USDC (Allbridge from Celo),acUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png,true
+Shibalana,SHIBA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dhg9XnzJWzSQqH2aAnhPTEJHGQAkALDfD98MA499A7pa/logo.png,true
+Tether USD (Portal from Ethereum),USDTet,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Dn4noZ5jgGfkntzcQSUZ8czkreiZ1ForXYoV2H8Dm7S1/logo.png,true
+USD Coin (Portal from Polygon),USDCpo,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E2VmbootbVCBkMNNxKQgCLMS1X3NoGMaYAsufaAsf7M/logo.png,true
+Dogelana,DGLN,,9,https://assets.coingecko.com/coins/images/21133/large/logo_%285%29.png?1642042028,true
+Dai Stablecoin (Portal),DAI,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o/logo.png,true
+FRAKT,FRKT,,8,https://assets.coingecko.com/coins/images/18926/large/logo_-_2021-10-11T132203.751.png?1633929748,true
+FTX (Wormhole),FTT,,8,https://assets.coingecko.com/coins/images/22996/large/FTT_wh_small.png?1644225637,true
+Terra Classic (Wormhole),LUNC,,6,https://assets.coingecko.com/coins/images/22951/large/LUNA_wh_small.png?1644226405,true
+Frax,FRAX,,8,https://assets.coingecko.com/coins/images/13422/large/ethCanonicalFRAX.png?1669277108,true
+Wrapped BTC (Allbridge from Avalanche),aaWBTC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png,true
+Synthetic FTT,XFTT,,8,https://assets.coingecko.com/coins/images/20025/large/BGYHyQ4.png?1636418021,true
+Soltato FRIES,FRIES,,9,https://assets.coingecko.com/coins/images/19533/large/soltato.png?1635745612,true
+Wrapped USDT (Allbridge from Avalanche),aaUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg,true
+GooseFX,GOFX,,9,https://assets.coingecko.com/coins/images/19793/large/0Kjm9f4.png?1635906737,true
+Wrapped USDT (Allbridge from HECO),ahUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GfzU1fLASNV3r4NtEyrnwTyTakJkYzoivnaL3Snh45oj/logo.png,true
+Synthetic BTC,xBTC,,10,https://www.synthetify.io/icons/xbtc.svg,true
+Hxro,HXRO,,8,https://assets.coingecko.com/coins/images/7805/large/Hxro_Profile_Transparent.png?1622443308,true
+Avalanche (Wormhole),AVAX,,8,https://assets.coingecko.com/coins/images/22943/large/AVAX_wh_small.png?1644224391,true
+Marinade,MNDE,,9,https://assets.coingecko.com/coins/images/18867/large/MNDE.png?1643187748,true
+Samusky,SAMU,,9,https://assets.coingecko.com/coins/images/20187/large/tokenlogo200x200.png?1636635312,true
+Solend,SLND,,6,https://assets.coingecko.com/coins/images/19573/large/i6AMOwun_400x400.jpg?1635458597,true
+Baby Samo Coin,BABY,,9,https://assets.coingecko.com/coins/images/20262/large/386VuTho_400x400.jpg?1636704021,true
+Solbank,SBNK,,6,https://assets.coingecko.com/coins/images/18513/large/yo_gS6Hi_400x400.png?1632218794,true
+Serum (Wormhole from Ethereum),SRMET,,6,https://assets.coingecko.com/coins/images/22978/large/SRMet_wh_small.png?1644224116,true
+SolPay Finance,SOLPAY,,9,https://assets.coingecko.com/coins/images/22766/large/1_wTkhKXbxhBQxR1BW5WKSNA.png?1642575140,true
+edeXa Service Token,EDX,,9,https://assets.coingecko.com/coins/images/28646/large/EDX_SERVICE_TOKEN.png?1672883345,true
+Doggy Style,DoggyStyle,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3in9a9yHtdjDFRjDyGTTpGUwJpT9zZBcyjQ8J7nqqNtq/logo.png,true
+Sandbox (Portal),SAND,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/49c7WuCZkQgc3M4qH8WuEUNXfgwupZf1xqWkDQ7gjRGt/logo.png,true
+dYdX (Wormhole),DYDX,,8,https://assets.coingecko.com/coins/images/23039/large/DYDX_wh_small.png?1644225284,true
+SolClout,SCT,,9,https://assets.coingecko.com/coins/images/21638/large/solclout.jpg?1639630028,true
+1sol.io (Wormhole),1SOL,,8,https://assets.coingecko.com/coins/images/22923/large/1SOL_wh_small.png?1644222565,true
+Elumia,ELU,,9,https://assets.coingecko.com/coins/images/24433/large/me4oOqTM_400x400.png?1647662654,true
+BUSD Token (Portal from BSC),BUSDbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5RpUwQ8wtdPCZHhu6MERp2RGrpobsbZ6MH5dDHkUjs2/logo.png,true
+Kitty Coin,KITTY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6XWfkyg5mzGtKNftSDgYjyoPyUsLRf2rafj95XSFSFrr/logo.png,true
+Decentraland (Wormhole),MANA,,8,https://assets.coingecko.com/coins/images/23050/large/MANA_wh_small.png?1644226497,true
+nom,NOM,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7zhbkbKpGaUsJW7AD4yyAfGGoy53Xx2H3Ai5BKcwGKHw/logo.png,true
+Saber Wrapped USD Coin (8 decimals),sUSDC-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/88881Hu2jGMfCs9tMu5Rr7Ah7WBNBuXqde4nR5ZmKYYy/icon.png,false
+Tether USD (Portal from BSC),USDTbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8qJSyQprMC57TWKaYEmetUR3UUiTP2M3hXdcvFhkZdmv/logo.png,true
+Saber Wrapped Bitcoin (Sollet) (9 decimals),sBTC-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/9999j2A8sXUtHtDoQdk528oVzhaKBsXyRGZ67FKGoi7H/icon.png,false
+Million Monke,MIMO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9TE7ebz1dsFo1uQ2T4oYAKSm39Y6fWuHrd6Uk6XaiD16/logo.png,true
+Modul,MODUL,,9,https://raw.githubusercontent.com/parametrise/ParametriseLogo/main/Modul_Logomark_White_Pinky_Background.png,true
+Realy Metaverse,REAL,,9,https://assets.coingecko.com/coins/images/21448/large/2SIFWp0b_400x400.jpg?1639174188,true
+Saber Wrapped USDT (9 decimals),sUSDT-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/AEUT5uFm1D575FVCoQd5Yq891FJEqkncZUbBFoFcAhTV/icon.png,false
+Bitch Of Solana,BITCH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AMNoi4727tzy7adu4wnx3cN2VQbQdG71DqaPoSm7isJ3/logo.png,true
+Apricot,APRT,,6,https://assets.coingecko.com/coins/images/20636/large/hF_3FMuH_400x400.jpg?1637399870,true
+aSOL Aggregate Solana Stake Pool,aSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ASoLXbfe7cd6igh5yiEsU8M7FW64QRxPKkxk7sjAfond/logo.svg,true
+Particle Technology,PART,,9,https://assets.coingecko.com/coins/images/21302/large/logo.png?1638882252,true
+Jungle,JUNGLE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Aogv6j1wWiBAZcqRNN1Y89eozda2ke6rkc4CYy7c4iCi/logo.png,true
+The Ticket Finance,TICKET,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AymKzSDznoLT7Vhsb4wSRnCj1gjcG3zkgYFY8fxsHHer/logo.png,true
+Pussy,PUSSY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BjTUmZjNUUAPKHVdTs8yZsCmecW5isSK4AbuFihXoUwa/logo.png,true
+Saber Wrapped renBTC (10 decimals),srenBTC-10,,10,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/BtX7AfzEJLnU8KQR1AgHrhGH5s2AHUTbfjhUQP8BhPvi/icon.png,false
+Capybara,CAPY,,9,https://assets.coingecko.com/coins/images/22000/large/logo_-_2021-12-27T143844.581.png?1640587159,true
+Cashio Dollar,CASH,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CASHVDm2wsJXfhj6VWxb7GiMdoLc17Du7paH4bNr5woT/icon.png,true
+Mend,MEND,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ch9NFVk5sqEPQHtw2gJVgnHfTm7FW1JspYwc7SxLi6q3/logo.png,true
+SHIBA INU (Portal),SHIB,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z/logo.png,true
+GM Solana,GM,,7,https://cdn.jsdelivr.net/gh/brendanhernou/gm/GMSolana.jpg,true
+DeFi Land,DFL,,9,https://assets.coingecko.com/coins/images/18910/large/defilend.png?1637190571,true
+BITXBIT,BITXBIT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DK6PWMyuZ4NMjsm9AWNCTMKrajQYrtfMjMJ3QauX2UH5/logo.png,true
+Marijuana Joint,MARIJUANA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DYbRXaQcnj44SH9woxvyFdtcKkSoPoCEshRTQDZSjsBm/logo.png,true
+Chairman Chow,CCC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/E9bjYSAqabYAd2Zaev4qAMVNAiX7Z2Dp4Sn1JgsTn2b6/logo.png,true
+Physis,PHY,,9,https://assets.coingecko.com/coins/images/23087/large/PHY-icon-200x200.png?1643181312,true
+SolCondoms,CONDOMS,,9,https://assets.coingecko.com/coins/images/21814/large/DboqD2_o_400x400.jpg?1640071580,true
+USD Coin (Portal from BSC),USDCbs,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FCqfQSujuPxy6V42UvafBhsysWtEq1vhjfMN1PUbgaxA/logo.png,true
+Famous Fox Federation,FOXY,,0,https://assets.coingecko.com/coins/images/26191/large/uFYaQEsU_400x400.jpg?1656397523,true
+Genopets,GENE,,9,https://assets.coingecko.com/coins/images/20360/large/gene-token.png?1636945172,true
+Space Vizsla,SVIZ,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GV6n9Uow3XzMWSs8vwTCML8SvMA6ozbidaEfdPoSoraQ/VizslaMoonLogo100x100.png,true
+StarLaunch,STARS,,6,https://assets.coingecko.com/coins/images/20109/large/OP3eksDQ_400x400.png?1636513478,true
+Axie Infinity Shard (Wormhole),AXSET,,8,https://assets.coingecko.com/coins/images/22952/large/AXSet_wh_small.png?1644224450,true
+UXP Governance Token,UXP,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M/uxp-icon-black.png,true
+GMSOL,GMSOL,,9,https://assets.coingecko.com/coins/images/20717/large/gm-logo-200.png?1637584967,true
+Fancy Diamond ICE,ICE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/icex2Fy2KtXjfiAAUEHLPHu7XKDLvwiyVUPP9PNpSkF/logo.png,true
+Invictus,IN,,9,https://assets.coingecko.com/coins/images/20097/large/jv2xoOxJ_400x400.jpg?1636494713,true
+Kineko,KKO,,9,https://kineko.io/img/cat.jpg,true
+Seeded Network,SEEDED,,9,https://assets.coingecko.com/coins/images/23618/large/seeded.png?1644761600,true
+SonarWatch,SONAR,,9,https://assets.coingecko.com/coins/images/20494/large/S_7gaWIC_400x400.png?1637131427,true
+DAWG,DAWG,,9,https://assets.coingecko.com/coins/images/20881/large/143299698-37b637ea-7fce-4bd6-8713-71c42e37629e.png?1637820203,true
+Wrapped BTC (Allbridge from BSC),abBTCB,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png,true
+bofb,BOFB,,8,https://assets.coingecko.com/coins/images/24866/large/2qsZgpxd_400x400.jpg?1649166378,true
+The Suites Token,SUITE,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4h41QKUkQPd2pCAFXNNgZUyGUxQ6E7fMexaZZHziCvhh/logo.png,true
+Cry Cat Coin,CRYY,,9,https://assets.coingecko.com/coins/images/22128/large/cry_logo_200_200.png?1640870275,true
+Yorkipoo,YORK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5K1JtWpdSksVKaL6R2DuLpCDAjzxK6sq2CpXaXDWHVLg/logo.png,true
+Pixels.so Token,PIXL,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5L2YboFbHAUpBDDJjvDB5M6pu9CW2FRjyDB2asZyvjtE/logo.png,true
+TOYPOODLE COIN,TPC,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5WWRMYPchxgh3VmYGPqoq2kfzCtBLxXB9vFH2TeFeR9m/logo.png,true
+xHashtag,XTAG,,6,https://assets.coingecko.com/coins/images/20912/large/xtag.png?1637922382,true
+Run,RUN,,9,https://assets.coingecko.com/coins/images/21374/large/cZoMwlyl_400x400.jpg?1639032079,true
+Scrap,SCRAP,,3,https://assets.coingecko.com/coins/images/23086/large/bd1b1275fdc0ac1.png?1643181131,true
+STEPN,GMT,,9,https://assets.coingecko.com/coins/images/23597/large/gmt.png?1644658792,true
+Super Mario,MARIO,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7rmV64vLfbrbS5rTFvojYWzCVEn8dnJ9RfSRx3nD6C5E/logo.png,true
+SOL Frens,FREN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7xd71KP4HwQ4sM936xL8JQZCwE4amUko1AdCCf6Znjrt/logo.png,true
+Garlic,GRLC,,9,https://assets.coingecko.com/coins/images/21011/large/logo.png?1638190406,true
+Wrapped USDC (Allbridge from BSC),abUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png,true
+SolChicks Shards,SHARDS,,9,https://assets.coingecko.com/coins/images/23728/large/logo_%282%29.png?1645163819,true
+RaceFi Token,RACEFI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AAmGoPDFLG6bE82BgZWjVi8k95tj9Tf3vUN7WvtUm2BU/logo.png,true
+STEPN Green Satoshi Token on Solana,GST-SOL,,9,https://assets.coingecko.com/coins/images/21841/large/gst.png?1640332626,true
+Shibana,BANA,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BhPXDQio8xtNC6k5Bg5fnUVL9kGN8uvRDNwW8MZBu8DL/Shibana.png,true
+Wrapped ETH (Allbridge from Fantom),afETH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png,true
+Saber Wrapped Cashio Dollar (9 decimals),sCASH-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/C9xqJe3gMTUDKidZsZ6jJ7tL9zSLimDUKVpgUbLZnNbi/icon.png,false
+Wrapped USDT (Allbridge from BSC),abUSDT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4/logo.png,true
+Wrapped ETH (Allbridge from BSC),abETH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png,true
+Saber Wrapped renBTC (9 decimals),srenBTC-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FACTQhZBfRzC7A76antnpAoZtiwYmUfdAN8wz7e8rxC5/icon.png,false
+TabTrader Token,TTT,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FNFKRV3V8DtA3gVJN6UshMiLGYA8izxFwkNWmJbFjmRj/logo.svg,true
+Saber Wrapped FTX Token (Wormhole) (9 decimals),sFTT-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FTT9GrHBVHvDeUTgLU8FxVJouGqg9uiWGmmjETdm32Sx/icon.png,false
+Saber Wrapped Wrapped FTT (Sollet) (9 decimals),ssoFTT-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FTT9rBBrYwcHam4qLvkzzzhrsihYMbZ3k6wJbdoahxAt/icon.png,false
+Wrapped BTC (Allbridge from Fantom),afBTC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/qfnqNqs3nCAHjnyCgLRDbBtq4p2MtHZxw8YjSyYhPoL/logo.png,true
+Fora,FORA,,9,https://www.fora.co/images/Fora+Logo+Solana/icon.png,true
+Frog,$FROG,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Frog8vt6gmuuUuuerd7ispP6yavssBUtMpEP5DCEuUgD/logo.png,true
+NftEyez Coin,EYE,,6,https://raw.githubusercontent.com/NftEyez/assets/main/assets/eye-coin.png,true
+PUFF,PUFF,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/G9tt98aYSznRk7jWsfuz9FnTdokxS6Brohdo9hSmjTRB/logo.png,true
+Pollen Coin,PCN,,9,https://assets.coingecko.com/coins/images/25687/large/97762641.png?1653374572,true
+Wrapped USDC (Allbridge from Fantom),afUSDC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW/logo.png,true
+PIP,PIP,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HHjoYwUp5aU6pnrvN4s2pwEErwXNZKhxKGYjRJMoBjLw/logo.svg,true
+Trust Wallet (Portal),TWT,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HZNpqL7RT9gxf9eWoWsWzC5DfjzQ41XTQgEA7p3VzaaD/logo.png,true
+Wrapped DAI (Allbridge from Fantom),afDAI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FYpdBuyAHSbdaAyD1sKkxyLWbAP8uUW9h6uvdhK74ij1/logo.png,true
+Saber Wrapped USD Coin (9 decimals),sUSDC-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/JEFFSQ3s8T3wKsvp4tnRAsUBW7Cqgnf8ukBZC4C8XBm1/icon.png,false
+Saber Wrapped Ether (Wormhole) (9 decimals),sETH-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/KNVfdSJyq1pRQk9AKKv1g5uyGuk6wpm4WG16Bjuwdma/icon.png,false
+Saber Wrapped renLUNA (9 decimals),srenLUNA-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/KUANeD8EQvwpT1W7QZDtDqctLEh2FfSTy5pThE9CogT/icon.png,false
+Blockasset,BLOCK,,6,https://assets.coingecko.com/coins/images/21332/large/Blockasset-Logo-Symbol.png?1648442722,true
+tudaBirds,BURD,,9,https://assets.coingecko.com/coins/images/22839/large/_TOvRxfx_400x400.jpg?1642745695,true
+Rollbit Coin,RLB,,2,https://assets.coingecko.com/coins/images/24552/large/unziL6wO_400x400.jpg?1648134494,true
+Saber Wrapped Bitcoin (Sollet) (8 decimals),sBTC-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/SBTCB6pWqeDo6zGi9WVRMLCsKsN6JiR1RMUqvLtgSRv/icon.png,false
+Sentre,SNTR,,9,https://assets.coingecko.com/coins/images/19268/large/sentre.PNG?1634866010,true
+Saber Wrapped Ethereum (Sollet) (8 decimals),ssoETH-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/SL819j8K9FuFPL84UepVcFkEZqDUUvVzwDmJjCHySYj/icon.png,false
+Saber Wrapped USDT (8 decimals),sUSDT-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/T8KdT8hDzNhbGx5sjpEUxepnbDB1TZoCa7vtC5JjsMw/icon.png,false
+UNQ,UNQ,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/UNQtEecZ5Zb4gSSVHCAWUQEoNnSVEbWiKCi1v9kdUJJ/logo.png,true
+SolChicks,CHICKS,,9,https://assets.coingecko.com/coins/images/20978/large/chicks.png?1638162821,true
+Shear Ego Coin,EGO,,0,https://raw.githubusercontent.com/jcards26/sol/main/new-new.png,false
+Castle Coin,CC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3KTkQJEMJXP741EJBFcAS34Lx9t8GsBYaW2BUUWkeyDH/logo.png,false
+Aleph.im (Portal),ALEPH,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3UCMiSnkcnkPE1pgQ5ggPCBv6dXgVUy16TmMUe1WpG9x/logo.png,true
+CopyCats token,PAW,,9,https://imagedelivery.net/aAmca-Po70V1nH4n9cT-uA/98c9b68b-1494-43d1-0c2c-31e5d0129a00/public,true
+SolPatrol Bail,BAIL,,9,https://assets.coingecko.com/coins/images/25787/large/hammer.png?1653882632,true
+Dragon War,DRAW,,0,https://assets.coingecko.com/coins/images/23100/large/logo_%284%29.png?1643184693,true
+Fractionalized WAVE-999,WAV,,2,https://assets.coingecko.com/coins/images/22176/large/IMG-20220101-021048.jpg?1641176801,true
+Compendium,CMFI,,6,https://assets.coingecko.com/coins/images/22269/large/CMFI-Token-Logo-Compendium-Finance.png?1674728282,true
+Dingocoin,DINGO,,8,https://assets.coingecko.com/coins/images/15989/large/dingocoin.png?1634699256,true
+FaniTrade,FANI,,9,https://assets.coingecko.com/coins/images/24029/large/fani_200x200.png?1646115606,true
+TheSolanDAO,SDO,,5,https://thesolandao.com/logohero.png,true
+HypeProxy,HYPE,,7,https://raw.githubusercontent.com/hypeproxy/hypeproxy/main/logo.png,false
+Solanyx,SYX,,9,https://assets.coingecko.com/coins/images/21964/large/logo.png?1640524913,true
+Force,$FORCE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9MjAmgHXbu5drkNa9XpzfozgsM5Dcq6bSnKZzdNrwscC/logo.png,true
+GOD,GOD,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9kt93AW5QMjFL6ZxomnSq3FbWiU5ibNeTSgBz9UDFSB6/logo.png,true
+Wrapped UST (Allbridge from Terra),atUST,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm/logo.png,true
+DarleyGo Essence,DGE,,9,https://assets.coingecko.com/coins/images/24403/large/DGE.png?1647530006,true
+Fone,FONE,,2,https://assets.coingecko.com/coins/images/23390/large/Fl-zRI0g_400x400.jpg?1644115198,true
+Starbots,BOT,,8,https://assets.coingecko.com/coins/images/21823/large/coin_%286%29.png?1640076014,true
+BRAWNDO,BRWNDO,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/At5j3zhbEj8mfFsSy1MPbjVhrX2uNmRMPEDZiyFcETNX/logo.png,true
+RAD,RAD,,4,https://raw.githubusercontent.com/NFTBrickLayer/zillaz-assets/main/RAD-logo.png,true
+SOL Baby Doge,SBABYDOGE,,2,https://assets.coingecko.com/coins/images/21436/large/logo_%282%29.png?1639121887,true
+Nova Finance,NOVA,,9,https://assets.coingecko.com/coins/images/21672/large/bGVB8h2Q_400x400.jpg?1639710371,true
+basis.markets,BASIS,,6,https://assets.coingecko.com/coins/images/21444/large/tkQevyc.png?1653297101,true
+Whalemap,WMP,,9,https://raw.githubusercontent.com/ssi91/crypto/main/logo.svg,true
+Tiddy Juice Coin,MILK,,9,https://arweave.net/S71DNASA5TYlrK9giRy7QgqFNw1m4mxqY6OdtgY1E7k,true
+Crowny,CRWNY,,6,https://assets.coingecko.com/coins/images/14958/large/crowny-icon-rounded_2x.png?1619147225,true
+Solanium Ecosystem Index,SEI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CRkwd2QedqDi5u6W2w6jeAViAUd1pR4AXs2aKvh7GW7M/logo.png,true
+ConstitutionDAO (Wormhole),PEOPLE,,8,https://assets.coingecko.com/coins/images/23009/large/PEOPLE_wh_small.png?1644226832,true
+Crypto Health Plus,CHP,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DHVUoxNqv3D7EgktBxUsxFF2Wx83hVDmD2wBBpUaw3jn/logo.png,true
+VOID Token,VOID,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DjPt6xxMoZx1DyyWUHGs4mwqWWX48Fwf6ZJgqv2F9qwc/logo.png,true
+Santaclaus,SANTA,,9,https://assets.coingecko.com/coins/images/22211/large/logo_%281%29.png?1641195172,true
+ALL.ART,AART,,6,https://assets.coingecko.com/coins/images/22012/large/all-art.PNG?1640590472,true
+Phantasia,FANT,,6,https://assets.coingecko.com/coins/images/21604/large/Phantasia_Logo.png?1639553227,true
+YETI,$YETI,,9,https://raw.githubusercontent.com/yet777/tokenlogo/main/logo.png,true
+daoSOL,DAOSOL,,9,https://assets.coingecko.com/coins/images/25488/large/logo_%284%29.png?1652071503,true
+SouloCoin,SOULO,,9,https://assets.coingecko.com/coins/images/22082/large/logo.png?1640759758,true
+LOOT,LOOT,,6,https://arttest12312321.s3.us-west-1.amazonaws.com/pics/Bag_Open+(3).png,true
+Atlas DEX,ATS,,9,https://assets.coingecko.com/coins/images/23002/large/logo.png?1643091340,true
+TinyBits,TINY,,6,https://tinycolony.io/tinycolonytoken.png,true
+Breezy Bunnies Carrot,CRRT,,0,https://breezybunnies.com/images/3-p-500.png,true
+MEAN,MEAN,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MEANeD3XDdUmNMsRGjASkSWdC8prLYsoRJ61pPeHctD/logo.svg,true
+Solice,SLC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/METAmTMXwdb8gYzyCPfXXFmZZw4rUsXX58PNsDg7zjL/logo.png,true
+Prism,PRISM,,6,https://assets.coingecko.com/coins/images/21475/large/7KzeGb1.png?1639350211,true
+Shadow Token,SHDW,,9,https://assets.coingecko.com/coins/images/22271/large/Property_1_Color.png?1666926988,true
+SuperBonds,SB,,6,https://assets.coingecko.com/coins/images/22743/large/ywws9ojM_400x400.jpg?1642548336,true
+Saber Wrapped UST (Wormhole) (9 decimals),sUST-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/UST98bfV6EASdTFQrRwCBczpehdMFwYCUdLT5tEbhpW/icon.png,false
+Charactbit,CHB,,9,https://assets.coingecko.com/coins/images/24863/large/200x_logo.png?1649165917,true
+BlazeStake Staked SOL,BSOL,,9,https://assets.coingecko.com/coins/images/26636/large/blazesolana.png?1659328728,true
+Boom Army,BMA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/boomh1LQnwDnHtKxWTFgxcbdRjPypRSjdwxkAEJkFSH/logo.svg,true
+PozzCoin,POZZ,,0,https://raw.githubusercontent.com/dc215007/pozz1/main/logo1.png,false
+Sol Gems,SGEM,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2YJH1Y5NbdwJGEUAMY6hoTycKWrRCP6kLKs62xiSKWHM/logo.png,true
+Vivaion Token,VIVAION,,9,https://arweave.net/Xz7ErS3TZYmBnoh3OPkIQM_O6TPotyEJb6H5WFOe_qc,true
+CORE,CORE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2x4fH7kWNgSLpBjCuFBKKKiNHMcJb6fHs8ahQZUWJj1p/Core.png,true
+Onespace,1SP,,9,https://assets.coingecko.com/coins/images/26474/large/1SP_logo.png?1658195640,true
+Gamify Club,GMFC,,6,https://pbs.twimg.com/profile_images/1444964749897175046/wdz26CzM_400x400.jpg,true
+AlienUniverse Token,ALIEN,,0,https://raw.githubusercontent.com/alien-universe/assets/main/logo.png,true
+WHEY,WHEY,,6,https://secureservercdn.net/160.153.138.53/cjm.06a.myftpupload.com/wp-content/uploads/2021/12/whey-coin-2048x2048.png,true
+ARTE,ARTE,,6,https://assets.coingecko.com/coins/images/23556/large/token_200.png?1644473079,true
+The Islanders,ISL,,8,https://cdn.jsdelivr.net/gh/koudydev/crypto/main/islIcon.png,false
+Basic Tokens,BASIC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/76DThuyLHagfkm2ssYw6Lv7k3MYHx6tXcwPBLU9tXm4D/logo.png,true
+High Roller Hippo Clique,ROLL,,6,https://assets.coingecko.com/coins/images/23458/large/OslGsgzd_400x400.jpg?1644215478,true
+SolanaLite,SLITE,,9,https://raw.githubusercontent.com/SolanaLite/SolanaLite-Brand-Kit/main/SolanaLite%20(SLITE)%20Logo%20Solana%20Blockchain.svg,true
+EDO,EDO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7sWMHQaJJPn1rkeizq41iPiW5gG7Ry7PXYAVHaUwY4qu/logo.png,true
+Maars,MRX,,0,https://raw.githubusercontent.com/maarstoken/crypto/main/maars-800x800.png,false
+Shuttlecoin,SHUT,,0,https://raw.githubusercontent.com/Mikkel76543/crypto9/main/logo.png,false
+Positron,POT,,9,https://assets.coingecko.com/coins/images/23910/large/logo.png?1645682226,true
+MAI,MIMATIC,,9,https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018,true
+Godz Token,GODZ,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BB33fYoeBVA2uv119be9tKvmXeuwtcx1W25N9KFNd2ca/logo.jpg,true
+BunnyDucky,BUD,,6,https://assets.coingecko.com/coins/images/25934/large/bdlogo.png?1654758682,true
+Learning Star,LSTAR,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/D3yigvdWq6qobhAwQL6UiSide5W9W7zcJbuVvKa3T231/logo.png,true
+Saber Wrapped Cashio Dollar (8 decimals),sCASH-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/CASHedBw9NfhsLBXq1WNVfueVznx255j8LLTScto3S6s/icon.png,false
+Cyborg Apes,BORG,,6,https://assets.coingecko.com/coins/images/23020/large/lgo-head-export.png?1643094853,true
+Gari Network,GARI,,9,https://assets.coingecko.com/coins/images/22615/large/gari.png?1642313087,true
+Konstellation,DARC,,8,https://assets.coingecko.com/coins/images/2943/large/darctoken.png?1645230834,true
+UncleMine,UM,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DMCUFm2ZAnSU7UgsdVq23gRogMU3MEBjPgQF1gK53rEn/logo.png,true
+DUST Protocol,DUST,,9,https://assets.coingecko.com/coins/images/24289/large/dust-protocol-degod.png?1647306854,true
+Bitmon,BIT,,9,https://assets.coingecko.com/coins/images/25282/large/BT-logo.png?1651127844,true
+Saber Wrapped agEUR (Wormhole) (9 decimals),sagEUR-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/EU9aLffrTckFCs16da6CppHy63fAxMPF9ih1erQTuuRt/icon.png,false
+FTM (Allbridge from Fantom),FTM,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EsPKhGTMf3bGoy4Qm7pCv3UCcWqAmbC1UGHBTDxRjjD4/logo.png,true
+MOONBURN,MOONBURN,,6,https://raw.githubusercontent.com/Joblo197/Crypto/main/Shroom%20Logo.png,true
+611Coin,SIXY,,9,https://raw.githubusercontent.com/dc215007/611/main/logo.png,true
+CELO (Allbridge from Celo),CELO,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GNCjk3FmPPgZTkbQRSxr6nCvLtYMbXKMnRxg8BgJs62e/logo.png,true
+Dasch Coin,DASCH,,0,https://github.com/kennethoqs/dasch/blob/main/logo.png,false
+GameYoo,GYC,,9,https://assets.coingecko.com/coins/images/24525/large/gameyoo-logo-200x200.png?1648027227,true
+ILoveU Token,ILU,,0,https://raw.githubusercontent.com/rjdrar/crypto/main/symbol-1.png,false
+DevCoin,DEV,,9,https://raw.githubusercontent.com/thedevdojo/devcoin/main/logo.png,false
+Hubble,HBB,,6,https://assets.coingecko.com/coins/images/22070/large/hubble.PNG?1640749942,true
+Eversol Staked SOL,ESOL,,9,https://assets.coingecko.com/coins/images/23056/large/SUWTLy9j_400x400.jpeg?1657789195,true
+Honey Finance,HONEY,,6,https://assets.coingecko.com/coins/images/24781/large/honey.png?1648902423,true
+Space Falcon,FCON,,4,https://raw.githubusercontent.com/spacefalcon-io/crypto/main/logo.svg,true
+PsyOptions,PSY,,6,https://assets.coingecko.com/coins/images/22784/large/download.png?1642580392,true
+Rally (Solana),sRLY,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/RLYv2ubRMDLcGG2UyvPmnPmkfuQTsMbg4Jtygc7dmnq/logo.png,true
+Taki,TAKI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Taki7fi3Zicv7Du1xNAWLaf6mRK7ikdn77HeGzgwvo4/logo.png,true
+USDH Hubble Stablecoin,USDH,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/USDH1SM1ojwWUga67PGrgFWUHibbjqMvuMaDkRJTgkX/usdh.svg,true
+Saber Wrapped UST (Wormhole) (8 decimals),sUST-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/UST8SCn7jrqsq51odVLqcmvnC658HkqrKrPL3w2hHQ7/icon.png,false
+Winerz,$WNZ,,4,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/WNZzxM1WqWFH8DpDZSqr6EoHKWXeMx9NLLd2R5RzGPA/logo.png,true
+Nosana,NOS,,6,https://assets.coingecko.com/coins/images/22553/large/POfb_I4u_400x400.jpg?1642053655,true
+Bancambios AX,BXS,,9,https://assets.coingecko.com/coins/images/25644/large/81660481.png?1652949329,true
+Solvent,SVT,,6,https://assets.coingecko.com/coins/images/22387/large/svt.png?1641789503,true
+RIBBET,RIBBET,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/32gaR4rn9JyzoDVwMzZ5j3NgcHc5RQhMSJby55FFKnq3/logo.png,true
+FamilySOL,FamSOL,,9,https://raw.githubusercontent.com/solodevo/FamilySOL/main/LOGOFamilySOL.png,true
+Nasi Lemak,NLTK,,9,https://raw.githubusercontent.com/avaelon/nltk/main/logo.png,true
+BIJU,BIJU,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4onzDs1X6ubktirorHB8iYbve3K4bBtkGpYehqzGm9So/logo.png,true
+MetaMall,MALL,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5EbpXhW7t8ypBF3Q1X7odFaHjuh7XJfCohXR3VYAW32i/logo.png,true
+King's token,KING,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5VQnKaTu522jRQyaawDNBKZjBa5SZoeetyDXEwocYxXN/logo.png,true
+RICE,RICE,,2,https://raw.githubusercontent.com/kakasonz112/robocock-token/main/assets/logo.png,true
+ProtoReality Games,PRGC,,9,https://assets.coingecko.com/coins/images/25525/large/Bjh4zRK1_400x400.png?1652235059,true
+JJC,JJJJC,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6FLsSkF4AqQeDuqEmGPyBZvVebc4WWWntnZP2QZyBzG8/logo.png,true
+QUACK,QUACK,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GP9zY2D8CgMreoUdYQjyn7Fo7XCq9ubVnX3u4ot1wpgt/logo.png,true
+TownCoin,TOCO,,2,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7FntsntzGjK9PzPBbHLDJAFcKQVU14d2SbQZhgMUf2KA/logo.png,true
+Mikuko Token,Miku,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7GNyprqrpvJHNwzWSj4KVkqw9cKyV5aR3ehM2HeE5pw/logo.png,true
+RING,RING,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7SEsxCsiNiYqCpYG16wx4c9u2YGLZphnEFTAU9ENAizD/logo.png,true
+Good Vibes,GV,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7TQTpG1qBvE9ui7J9yQWKFAYpQahkaKPKqGTsqSm1wUv/logo.png,true
+Gear,GEAR,,9,https://assets.coingecko.com/coins/images/24653/large/output-onlinepngtools.png?1648524609,true
+DegenAlley,DGNA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8iSagwHZNj4Hx4CMeoZwLLMVbWt4mUT6qk42TxiHkRtn/DGNA.png,false
+Jelly eSports,JELLY,,6,https://assets.coingecko.com/coins/images/28572/large/jellylogo.png?1671863817,true
+SPACEGOLD,SPACEGOLD,,4,https://raw.githubusercontent.com/cosmic-condos/SPACEGOLD/main/logo-icon.png,true
+JUNK,JUNKz,,9,https://raw.githubusercontent.com/XAGBack/JUNKToken1/main/JunkToken.png,true
+CRECK,$CRECK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ao94rg8D6oK2TAq3nm8YEQxfS73vZ2GWYw2AKaUihDEY/logo.png,true
+Chimp,CHIMP,,9,https://raw.githubusercontent.com/tsbsoltn/soltn/main/chimp/logo.png,true
+FakeBiz,FBZ,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BKydRTNdaMJ8B4zPva3YhwUQcpvAsyZaGJnKA6F44fX7/logo.png,true
+prtSOL (Parrot Staked SOL),prtSOL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BdZPG9xWrG3uFrx2KrUW1jT4tZ9VKPDWknYihzoPRJS3/logo.svg,true
+Tiny Bonez,T1NY,,9,https://assets.coingecko.com/coins/images/24426/large/coin.png?1647848074,true
+Nest Arcade,NESTA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Czt7Fc4dz6BpLh2vKiSYyotNK2uPPDhvbWrrLeD9QxhV/logo.png,true
+Playground,PLAYA,,2,https://assets.coingecko.com/coins/images/24387/large/playa.PNG?1647502195,true
+PerpeTraders,PERP,,2,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EBQ6gWBQNxA2zB4twR5GWP6CkeAhqZZZeDgeP7BTtdM3/logo.jpg,false
+KRILL,KRILL,,9,https://raw.githubusercontent.com/solanahodlwhales/whitelist/main/Krill_towen.png,true
+Walken,WLKN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EcQCUYv57C4V6RoPxkVUiDwtX1SP8y8FP5AEToYL8Az/logo.svg,true
+Saber Wrapped Wrapped FTT (Sollet) (8 decimals),ssoFTT-8,,8,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/FTT8cGNp3rfTC6c44uPTuEFLqmsVDhjd2BhH65v2uppr/icon.png,false
+Glitter Finance,XGLI,,6,https://assets.coingecko.com/coins/images/23292/large/glitter_finance.png?1660285639,true
+Lost At Sea WAVE,WAVE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GS6E87SLTioRDG3uSVRwQmuKKMxDmWU7fktCTJ5xkEM8/logo.png,true
+PEEL,PEEL,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GVsdtSe3E2fQoP3TzNT2M1VUchJ7sBmDBuvBZmGDGvmB/logo.png,true
+Stoned Ape Crew Index,SAC,,2,https://assets.coingecko.com/coins/images/24385/large/stone_ape.PNG?1647501586,true
+Jungle DeFi,JFI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GePFQaZKHcWE5vpxHfviQtH5jgxokSs51Y5Q4zgBiMDs/logo.png,true
+Neon Rocket Coin,NRC,,3,https://raw.githubusercontent.com/neontechanoah/neon_rocket_coin/main/asset/NRC_Logo_100px.png,true
+BLEEP,BLEEP,,4,https://gateway.pinata.cloud/ipfs/QmYjaWwcDx8gaf5rnkzGYLy8qhjjvuuvQXK8RttvXFWUWd?preview=1,true
+SchimmelPeter Monster,SPM,,9,https://www.schimmelpeter.de/spm_solana.png,false
+FAC FUD Token,FAC,,9,https://raw.githubusercontent.com/MundoFacu/stuff/038660d9336d647a9d4ede0e3107de9c9481724d/FAC_logo.png,true
+DREAM TOKEN,DREAM,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HuMShjViKhcfihmHkgvctcFAyeyxAk8hK5K58zWpuRKf/logo.png,true
+solUST,SOLUST,,6,https://assets.coingecko.com/coins/images/25372/large/solust.png?1651406405,true
+Saber Wrapped LUNA (Wormhole) (9 decimals),sLUNA-9,,9,https://raw.githubusercontent.com/saber-hq/saber-lp-token-list/master/assets/mainnet/LUNGEjUXyP48nrC1GYY5o4eTAkwm4RdX8BxFUxWJBLB/icon.png,false
+mma,MMA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MMAx26JtJgSWv6yH48nEHCGZcVvRbf9Lt9ALa7jSipe/logo.png,true
+ROL,ROL,,6,https://assets.blockstars.gg/static/ROL.svg,true
+Club 420 Token,THC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/THCBB791xLFhRhxPHMDVN9m5KDeBBjwh6dfBbnTuPe9/Logo.png,true
+Yawww,YAW,,6,https://assets.coingecko.com/coins/images/24233/large/yaw.PNG?1646982198,true
+Soul Dogs City Bones,BONES,,2,https://assets.coingecko.com/coins/images/25025/large/JEepabYB_400x400.png?1649838257,true
+DeltaFi,DELFI,,6,https://assets.coingecko.com/coins/images/24085/large/logo.png?1646293860,true
+Yokoito Crew Hone,HONE,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/hone3CJTYjczb5nJh45KCNMkjrKMt7SCnHkWGWsVfVu/logo.png,true
+Heavenland HTO,HTO,,9,https://assets.coingecko.com/coins/images/25553/large/rTFh6BD.png?1652420842,true
+Plutonian DAO,PLD,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2cJgFtnqjaoiu9fKVX3fny4Z4pRzuaqfJ3PBTMk2D9ur/logo.png,true
+Alien Chicken Farm,ACF,,2,https://assets.coingecko.com/coins/images/25441/large/acf-token_%281%29.png?1651760005,true
+everwave,WVE,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/33MJjPS6H7P2nwD648uiTiUu8v5fJ1zKyjnVqeWZ344F/logo.jpg,true
+FEED Token on Alien Chicken Farm,FEED,,2,https://shop.alienchickenfarm.com/logos/feed-token.png,true
+StayFly,$FLY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4h4LvS6NsVjZ87uBwrYyTeppTm1ii5PtRN9A6Ld2kZjw/logo.png,true
+Playground Waves Floor Index,WAVES,,2,https://i.imgur.com/TMyD8MN.jpg,true
+PULP,PULP,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5YtGSyQ7YxFgDc9oj4SpZGTjoS5p5Fubkg8sMauQqXoS/logo.png,false
+Enrex,ENRX,,2,https://assets.coingecko.com/coins/images/24952/large/enrx.png?1649505778,true
+Gosu,GOSU,,8,https://raw.githubusercontent.com/jGosu/gosu/main/GOSU%20COIN.png,false
+Plutonium 238,PU238,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7p6zGHdmWHvCH4Lsik2MoMBXqPGhFbSPSceSBXd8KNEC/logo.png,true
+Project Wisdom,WIZE,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7rrJLRar2WjZwRoF3iJKHKnA7d7d9YJT1X9HAJnwUH3Z/logo.png,true
+Acacia,ACA,,6,https://raw.githubusercontent.com/qubelabsllc/ACALogo/main/logo.png,true
+WOOP,WOOP,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/A3HyGZqe451CBesNqieNPfJ4A9Mu332ui8ni6dobVSLB/logo.png,true
+ANA,ANA,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ANAxByE6G2WjFp7A4NqtWYXb3mgruyzZYg3spfxe6Lbo/logo.png,true
+ZIG Coin,ZIG,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ANqY8h3sRSwkC29FvGJenAh7VGRABVVx7Ls6Mq4BuGT/logo.png,true
+Project Paradise - CHI Token,CHI,,9,https://raw.githubusercontent.com/benthebape/projekt-paradise-chi-token/main/Moneda_1.png,true
+Hawksight,HAWK,,6,https://assets.coingecko.com/coins/images/24459/large/3CnlKM0x_400x400.jpg?1647679676,true
+NEAR (Allbridge from Near),NEAR,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BYPsjxa3YuZESQz1dKuBw1QSFCSpecsm8nCQhY5xbU1Z/logo.png,true
+Astrals GLXY,GLXY,,9,https://assets.coingecko.com/coins/images/25389/large/glxy.png?1651661031,true
+Agave Zwolf,AGVZ,,9,https://raw.githubusercontent.com/GrupoZwolf/cryptozw/main/logo.png,true
+FLWRS Token,FLWRS,,6,https://raw.githubusercontent.com/pablolefleur/flwrsimage/main/flwrs%20logo.png,true
+UMF,UMF,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CZY2dDTb86ARthiLP47hpmEgX1h82XCEr51XWQ5GsZoj/logo.png,true
+NeonGame Credits,$NEON,,0,https://arweave.net/VPS4BrOgXT4rg-mwGfCLqXL8vtbII0ianMBsw_L2CeE,true
+Balloonsville AIR,AIR,,9,https://assets.coingecko.com/coins/images/24853/large/9CmgcH6.png?1649134566,true
+Republic Credits,RPC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EAefyXw6E8sny1cX3LTH6RSvtzH6E5EFy1XsE2AiH1f3/logo.png,true
+ELIXIR,ELIXIR,,9,https://raw.githubusercontent.com/zaptors/image/main/elixir.png,true
+Trezarcoin,sTZC,,6,https://trezarcoin.com/wp-content/uploads/2018/02/TZC-1000x.png,false
+Cricket Star Manager,CSM,,6,https://assets.coingecko.com/coins/images/25774/large/CSM_token.png?1653631158,true
+BMT,BMT,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FanJWA4yEVUJj1r83tR7XybxmDGF6bNH8M81ag9aeUbF/logo.png,false
+Blocksmith Labs Forge,$FORGE,,9,https://assets.coingecko.com/coins/images/25411/large/Logo_%281%29.png?1651733020,true
+WATT token,WATT,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/GjdreVe7iUG4hyESSweGyFzgekWufhEwGJqAaa1hr7pf/logo.png,false
+Chimp Frens,FRENS,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HNm1VgnyhaMZZF71RjNFNiYLN76zyZTDcBZPjYveWFXX/chimp.png,true
+Solana Eco Index,SIX,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HWSqJdwemji7TNiKQPudUj86LXyF3vGAtWm5ePk5KzgD/logo.png,false
+Dead Knight,DKM,,9,https://assets.coingecko.com/coins/images/24442/large/SAq1GaQc_400x400.jpg?1647673953,true
+Zap,ZAP,,8,https://assets.coingecko.com/coins/images/2180/large/zap.png?1547036476,true
+OOINK,OOINK,,9,https://raw.githubusercontent.com/danvernon/tiny-dogz-logo/main/oink.png,true
+Lifinity,LFNTY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp/logo.svg,true
+Solily Protocol Coin,LILY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/LiLyT885cG9xZKYQk9x6VWMzmcui4ueV9J1uzPDDajY/logo.png,true
+NEO3D TOKEN,NEO,,9,https://raw.githubusercontent.com/minh-git/docusaurus-2/main/static/img/neo3d-logo.jpg,true
+NIRV,NIRV,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/NRVwhjBQiUPYtfDT5zRBVJajzFQHaBUNtC7SNVvqRFa/NIRV.png,true
+Nirvana prANA,PRANA,,6,https://assets.coingecko.com/coins/images/26176/large/prANA.png?1656379283,true
+Solcial,SLCL,,9,https://assets.coingecko.com/coins/images/24583/large/1_N9szP0_400x400.jpg?1648217020,true
+TOKAMAK ON SOLANA,TKMK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TKMKgSh3aADsmjr4yFWG52tkCQvmDxsQC1he1aBsi65/logo.png,true
+IDOLZ Token,IDOLZ,,9,https://arweave.net/mdvmPYEgiX_uPGRtiIZA3HrpilDK5JfW2bXkDBRuzVM?ext=png,true
+Rain Token,RAIN,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/rainH85N1vCoerCi4cQ3w6mCf7oYUdrsTFtFzpaRwjL/logo.png,true
+Ratio Governance Token,RATIO,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/ratioMVg27rSZbSvBopUvsdrGUzeALUfFma61mpxc8J/logo.svg,true
+SMRAI,SMRAI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/rvxo8t7TKeSmAgpdqK1CY9ddZi3NyowRCh1m2d7KrUc/logo.png,true
+UNKN,UNKN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/unknXbA1bDg39nuBqVgMNZ5qSZa8pw5HditgkPe5eFA/logo.png,true
+xLifinity,xLFNTY,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/xLfNTYy76B8Tiix3hA51Jyvc1kMSFV4sPdR7szTZsRu/logo.svg,true
+Zebec Protocol,ZBC,,9,https://assets.coingecko.com/coins/images/24342/large/zbc.PNG?1647400775,true
+Starbots GEAR,GEAR,,0,https://assets.coingecko.com/coins/images/26651/large/logo_%282%29.png?1659408350,true
+Style,STYLE,,9,https://assets.coingecko.com/coins/images/28060/large/78oZvtZW_400x400.jpeg?1667442304,true
+Kreechures Floor Index,KREECHURE,,2,https://i.imgur.com/xR8HIrL.png,false
+Hydrogencoin,HCOIN,,3,https://raw.githubusercontent.com/dataalg/Hydrogen/main/4B619RbcXbXrKTzNVgDSRiUn9wfxWgA1w1oFLveGacNy/logo.png,false
+DARK COIN,DMV,,8,https://raw.githubusercontent.com/Shaik-Sirajuddin/RepoForUploadsNeverDelete/master/Images/darkcoin.png,false
+Random Solpunks,rPUNK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4PJ8yD2hPXVGxnYcmjBoDyDHKAMEAKjGgAfvEqmZUaAw/logo.png,false
+ICHIGO,ICHIGO,,8,https://ichigo.network/logos/logo.png,false
+Kleyne Gelt,KLGT,,0,https://raw.githubusercontent.com/klglt/Crypto/main/menorah.png,false
+Hedge Protocol,HDG,,9,https://assets.coingecko.com/coins/images/25482/large/hdg.png?1652011201,true
+Degenerate Ape Academy Solvent Droplet,svtDAPE,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6F5A4ZAtQfhvi3ZxNex9E1UN5TK7VM2enDCYG1sx1AXT/logo.png,false
+GameBeef,GB,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/7R4pJpJdzapj2hEfzQR5bp2ApDjqXNRUA5GTngC6xRZX/logo.png,true
+NECTAR2 Token,NECTAR2,,3,https://raw.githubusercontent.com/agave-com/nectar-token/main/logo-sq.png,false
+Equinox,ENX,,9,https://assets.coingecko.com/coins/images/25234/large/ReKXsCZUnqSChIZZg4dlCIHQTKU0owxPuvj1feBDWaE.png?1650954548,true
+Ribh,RIBH,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/8UaGbxQbV9v2rsMxy2G2NEh1JYQ8T9dmggq1oesrXD9c/logo.png,false
+Gary,GARY,,9,https://assets.coingecko.com/coins/images/26448/large/gary_logo_icon.png?1658111709,true
+Jungle Cats Floor Index,JCATS,,2,https://i.imgur.com/AEPNTTQ.jpg,false
+DBank Coin,DBC,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/98ouGzbMV2DnHfn3Uc7oahwvDP4Cf7Ls77JsBiARdjvn/logo.png,true
+Hedge USD,USH,,9,https://assets.coingecko.com/coins/images/25481/large/ush.png?1652011029,true
+Random Blockasset Legends,rLGND,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/9m8E1yLHaG1B2TFSNeWahsitQh5yQRnrbyw756HFAcEa/rLGND.png,false
+ARB Protocol,ARB,,6,https://assets.coingecko.com/coins/images/26046/large/IMG_3600.png?1656916820,true
+Okay Bears Solvent Droplet,svtOKAY,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AG5j4hhrd1ReYi7d1JsZL8ZpcoHdjXvc8sdpWF74RaQh/logo.png,true
+Aera Token,AERA,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/BjZ5Hazjyp9LrzfapAHYZuceWm6zJZDqMH1QPCWtsouq/logo.png,true
+Decimus Dynamics Token,DEDS,,9,https://github.com/DecimusDynamics/assets/blob/main/decimus-icon-1x1-black.png,true
+Creamy,CREAMY,,9,https://assets.coingecko.com/coins/images/25285/large/logo200.png?1651128831,true
+Balloonsville Solvent Droplet,svtBV,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CT1iZ7MJzm8Riy6MTgVht2PowGetEWrnq1SfmUjKvz8c/logo.png,false
+Hunter Diamond,HUNT,,9,https://assets.coingecko.com/coins/images/27566/large/Token_Hunters__CoinMarketCap.png?1664522159,true
+Solana Monkey Business Solvent Droplet,svtSMB,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Ca5eaXbfQQ6gjZ5zPVfybtDpqWndNdACtKVtxxNHsgcz/logo.png,true
+DeGods Solvent Droplet,svtDGOD,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DCgRa2RR7fCsD63M3NgHnoQedMtwH1jJCwZYXQqk9x3v/logo.png,true
+WOB Token,WOB,,9,https://raw.githubusercontent.com/tradefortendies/tokens/master/wobtoken-small.gif,true
+Dusk,DUSK,,3,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/DMbb79fgxR3fKKVKWcbetMCuxNNtJnfjY3qqAE4G4wJf/logo.svg,true
+WNDO,WNDO,,9,https://static1.squarespace.com/static/6252f1590fac8d79fb6d772e/t/627682f25295251e0967c29c/1651933939477/wndocoin.png,true
+WEYU,WEYU,,8,https://weyu.io/img/WEYU.png,true
+Jungle Cats Lioness Index,LIONESS,,2,https://dl.airtable.com/.attachments/5befbef5bb59eb122426dac8db5a0b2f/2327b76a/QueenLion.jpg,false
+The Dark Token,DARK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FmQ7v2QUqXVVtAXkngBh3Mwx7s3mKT55nQ5Z673dURYS/logo.png,true
+SMB Index,MONKES,,2,https://i.imgur.com/FczxrLa.png,true
+VIBEZ,VIBEZ,,9,https://github.com/ArthurPaivaT/token-list/blob/main/assets/mainnet/FyNuYGBBry5LAtPEkh8Y73izjTUNT2td2J3sGCK7E9Ju/logo.png?raw=true,true
+Bridgesplit Brand Index,BBI,,2,https://assets.coingecko.com/coins/images/25640/large/a.png?1652942415,true
+DeFi Land Gold,GOLDY,,9,https://assets.coingecko.com/coins/images/25647/large/GODLY.png?1653025856,true
+qdot,qdot,,8,https://cdn.jsdelivr.net/gh/CleverChuk/qdot@main/assets/logo.png,false
+Skullbots Biker Gang Floor Index,BOTS,,2,https://i.imgur.com/HSn9q9n.jpg,false
+MILK,MILK,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/MLKmUCaj1dpBY881aFsrBwR9RUMoKic8SWT3u1q5Nkj/logo.png,true
+USN (Allbridge from Near),USN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/PUhuAtMHsKavMTwZsLaDeKy2jb7ciETHJP7rhbKLJGY/logo.png,true
+Tenkai Token,TENKAI,,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TKDrcm3n4mfXFfPKZoLp5soRSdFQSmyWLdomdKL3ktU/logo.png,true
+Trenbolone,TREN,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TRENpVRAR9LiZgyYv9zWrQwYqSHa7ThCYdbpFCJixj1/logo.png,true
+BitLegacy Token,BTL,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/aYZPYgohjK6LYM8o1v6pnr3ZinhuRzSHd6TRDVDUBkK/logo.png,false
+Genopets KI,KI,,9,https://assets.coingecko.com/coins/images/26135/large/genopets_ki.png?1660017469,true
+Genopets Ki,KI,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/kiTkNc7nYAu8dLKjQFYPx3BqdzwagZGBUrcb7d4nbN5/logo.png,true
+Rally (Solana),SRLY,,9,https://assets.coingecko.com/coins/images/23239/large/srly.png?1643531979,true
+Drippies Floor Index,DRIPP,,2,https://creator-hub-prod.s3.us-east-2.amazonaws.com/drippies_pfp_1648415706808.gif,true
+Wrapped BTC (Portal),WBTC,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh/logo.png,true
+Cripco,IP3,,9,https://assets.coingecko.com/coins/images/26344/large/f55kBYa2_400x400.jpeg?1657586586,true
+BIU COIN,BIU,,9,https://assets.coingecko.com/coins/images/28990/large/cat_%281%29.png?1675820407,true
+Hivemapper,HONEY,,9,https://assets.coingecko.com/coins/images/28388/large/honey.png?1670065511,true
+Fronk,FRONK,,5,https://assets.coingecko.com/coins/images/28679/large/_7XVXQ46_400x400.jpg?1673340405,true
+Whole Earth Coin,WEC,,9,https://assets.coingecko.com/coins/images/16313/large/WEC_logo.png?1669459247,true
+Avenue Hamilton Token,AHT,,9,https://assets.coingecko.com/coins/images/28086/large/7FbZmTSKMsSqtlfe8yH1n3QgdBc3RBBt0B6dsdprVBs.png?1667724654,true
+Avenue University Token,AUT,,9,https://assets.coingecko.com/coins/images/28087/large/T-R84Zo32rDOA5Wo66T8jAlqcyjD7Folt1oeCfjlizU.png?1667724695,true
+Hades,HADES,,9,https://assets.coingecko.com/coins/images/28819/large/hadeswap.jpeg?1674624974,true
+Boxch,BOXCH,,9,https://assets.coingecko.com/coins/images/26119/large/Group_212.png?1667726216,true
+Secret Skellies Society,$CRYPT,,9,https://assets.coingecko.com/coins/images/28865/large/plain-skull_Large_200x200.png?1674995037,true
+Epics Token,EPCT,,6,https://assets.coingecko.com/coins/images/28901/large/EpicsCoin200x200.png?1675236360,true
+Catalina Whales Index,WHALES,,2,https://assets.coingecko.com/coins/images/27053/large/whales.png?1661507402,true
+Player 2,DEO,,9,https://assets.coingecko.com/coins/images/28811/large/logo_deo_small_200x200.png?1674453399,true
+Bonk,Bonk,,5,https://arweave.net/hQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I,true
+DOGGO,DOGGO,,5,https://assets.coingecko.com/coins/images/28740/large/pllp.jpeg?1673839960,true
+,,,2,,
+Sollama Utilities,SOLLAMA,,9,https://assets.coingecko.com/coins/images/28902/large/newTPLogoSollama.png?1675237565,true
+,,,9,,
+PepeSol,PEPE,,6,https://assets.coingecko.com/coins/images/28996/large/Pepesol_LOGO.png?1675836291,true
+vBLSH,vBLSH,,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FNMLmBPkhh7nBFyGHsdrmCuvgEf6ygpaVqFejimHEx9V/logo.png,true
+Tap Fantasy MC,TFMC,,9,https://assets.coingecko.com/coins/images/26483/large/Tap-Fantasy-MC-Logo.png?1658279327,true
+Boo,BOO,,6,https://assets.coingecko.com/coins/images/28778/large/circle_BOO_logo.png?1674112115,true
+CHILI,CHILI,,2,https://assets.coingecko.com/coins/images/28668/large/CHILI_start.png?1672995567,true
+,,,2,,
+,,,2,,
+SHIBONK,SBONK,,9,https://assets.coingecko.com/coins/images/28675/large/bonklogo2.png?1673161859,true
+HolyGrails.io,HOLY,,9,https://assets.coingecko.com/coins/images/28395/large/HG_Token_Design-07.png?1670290228,true
+JitoSOL,JitoSOL,,9,https://s2.coinmarketcap.com/static/img/coins/200x200/22533.png,true
+Laine Stake,LAINESOL,,9,https://assets.coingecko.com/coins/images/28184/large/laineSOL.png?1668257050,true
+Lambda Markets,LMDA,,6,https://assets.coingecko.com/coins/images/28653/large/XFAIIV1f_400x400.jpg?1672896515,true
+LP Finance DAO,LPFI,,9,https://assets.coingecko.com/coins/images/27704/large/output-onlinepngtools_%2827%29.png?1666087863,true
+Gobi Labs,GOBI,,6,https://assets.coingecko.com/coins/images/28554/large/GOBI.png?1671697657,true
+zSOL,ZSOL,,9,https://assets.coingecko.com/coins/images/29076/large/zSOL.png?1676437344,true
+Kineko,KNK,,9,https://assets.coingecko.com/coins/images/26597/large/knk-cmc-logo.png?1658974690,true
+KIN,KIN,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6/logo.png,true
+Cope Token,COPE,,2,https://assets.coingecko.com/coins/images/28717/large/coingecko.png?1673576722,true
+Wrapped ALGO,XALGO,,6,https://assets.coingecko.com/coins/images/26335/large/xALGO.png?1657494713,true
+xLP Finance,XLPFI,,9,https://assets.coingecko.com/coins/images/29042/large/xLPFi-min.png?1676179032,true
+,,,2,,
+,,,2,,
+Access Protocol,ACS,,6,https://assets.coingecko.com/coins/images/28747/large/dR4FovX4_400x400.jpg?1673860839,true
+KITTI,KITTI,,5,https://assets.coingecko.com/coins/images/29149/large/kittt.jpeg?1676967159,true
+Clash,CLH,,6,https://assets.coingecko.com/coins/images/27836/large/New-Clash-Icon_copy.png?1665996878,true
+,,,2,,
+,,,2,,
+Amulet Staked SOL,AMTSOL,,9,https://assets.coingecko.com/coins/images/27786/large/amtSOL200x200.png?1665814113,true
+,,,2,,
+Extra Reality,XTR,,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6ABQdaTwRvmacto7aeRBGghS6Pxctd6cFGL8gDdwV1dd/logo.png,true
+,,,9,,
+Poglana,POG,,5,https://assets.coingecko.com/coins/images/28742/large/pog-logo.png?1673840874,true
+,,,2,,
+KIN INU,KINU,,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/inuXXDC6Tw1Fu6qUAfRbELG5x5pSA4afTskf7MvwjhN/logo.svg,true
+,,,2,,
+,,,8,,
+Particles Index,PARTICLES,,2,https://i.imgur.com/W8Lo4lY.png,false
+Token DLQo,DLQoZ,,2,,false
+,,,2,,
+Token FL9J,FL9J1,,2,,false
+Liberty Square Filth,FLTH,,9,https://assets.coingecko.com/coins/images/29037/large/FLTH.png?1676100466,true
+GENZ Token,GENZ,,9,https://assets.coingecko.com/coins/images/28039/large/Qq_rj-aG_400x400.png?1667199323,true
+MekkaCoin,MEK,,9,https://assets.coingecko.com/coins/images/27530/large/unknown_%2819%29.png?1664372136,true
+NeoNomad,NNI,,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/buMnhMd5xSyXBssTQo15jouu8VhuEZJCfbtBUZgRcuW/logo.png,true
