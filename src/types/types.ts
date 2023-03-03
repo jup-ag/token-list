@@ -25,31 +25,43 @@ export type Patch = {
   added: PatchObj;
 };
 
-export type Token = {
+export interface Token {
   name: string;
   symbol: string;
   address: string;
-  decimals:number;
+  decimals: number;
   logoURI: string;
-};
+}
 
-export type SolanaFmToken = {
+export interface SolanaFmToken extends Token {
+  verified: boolean;
+  tags: string;
+}
+
+export interface SolanaFmResult {
+  tokenHash: string;
+  data: SolanaFmData;
+}
+
+export interface SolanaFmData {
   mint: string;
   tokenName: string;
   symbol: string;
-  decimals:number;
+  decimals: number;
   description: string;
   logo: string;
   tags: string[];
   verified: boolean;
-};
+  network: string[];
+  metadataToken: string;
+}
 
 export type ValidatedSet = {
   mints: Set<string>;
   names: Set<string>;
   symbols: Set<string>;
   logoURL: Set<string>;
-}
+};
 
 export enum ValidationError {
   UNRELATED_FILE = "Changes made to unrelated files",
@@ -61,5 +73,5 @@ export enum ValidationError {
   INVALID_MINT = "Invalid mint address, not on ed25519 curve",
   INVALID_DECIMALS = "Invalid decimals",
   INVALID_IMAGE_URL = "Invalid image URL",
-  INVALID_COMMUNITY_VALIDATED = "Invalid community validated"
+  INVALID_COMMUNITY_VALIDATED = "Invalid community validated",
 }

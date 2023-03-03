@@ -1,8 +1,7 @@
 import fetch from "node-fetch";
-import { getValidated } from "../../get-validated";
 import { getJupAll } from "./get-jup-all";
-import { SolanaFmToken } from "../../types/types";
-import { createArrayCsvWriter } from "csv-writer";
+import { SolanaFmToken, SolanaFmResult, SolanaFmData } from "../../types/types";
+import { createObjectCsvWriter } from "csv-writer";
 
 export async function run() {
   const jupMints = await getJupAll();
@@ -10,7 +9,7 @@ export async function run() {
   let startIndex = 0;
   let endIndex = 50;
   let QUERY_SIZE = 50;
-  let solanaFmTokens: SolanaFmToken[][] = [];
+  let solanaFmTokens: SolanaFmToken[] = [];
   let verifiedCount = 0;
   try {
     while (endIndex <= jupMints.length) {
@@ -19,24 +18,26 @@ export async function run() {
         method: "POST",
         body: JSON.stringify({ tokenHashes: tokensToQuery }),
       });
-      let tokens = (await response.json()).result;
+      let results: SolanaFmResult[] = (await response.json()).result;
 
-      solanaFmTokens = solanaFmTokens.concat(
-        tokens.map((tokenData: any) => {
-          let token: SolanaFmToken = tokenData.data;
-          if (token.verified) {
+      const tokens: SolanaFmToken[] = results.map(
+        (fmResult: SolanaFmResult) => {
+          const data: SolanaFmData = fmResult.data;
+          if (data.verified) {
             verifiedCount++;
           }
-          return [
-            token.tokenName,
-            token.symbol,
-            token.mint,
-            token.decimals,
-            token.logo,
-            token.verified,
-          ];
-        })
+          return {
+            name: data.tokenName,
+            symbol: data.symbol,
+            address: data.mint,
+            decimals: data.decimals,
+            logoURI: data.logo,
+            tags: JSON.stringify(data.tags),
+            verified: data.verified,
+          };
+        }
       );
+      solanaFmTokens = solanaFmTokens.concat(tokens);
       startIndex += QUERY_SIZE;
       endIndex += QUERY_SIZE;
     }
@@ -51,8 +52,16 @@ export async function run() {
   console.log(`Verified SolanaFM tokens: ${verifiedCount}`);
 
   // Write to file
-  const csvWriter = createArrayCsvWriter({
-    header: ["NAME", "SYMBOL", "MINT", "DECIMALS", "LOGOURI", "VERIFIED"],
+  const csvWriter = createObjectCsvWriter({
+    header: [
+      { id: "name", title: "NAME" },
+      { id: "symbol", title: "SYMBOL" },
+      { id: "mint", title: "MINT" },
+      { id: "decimals", title: "DECIMALS" },
+      { id: "logoURI", title: "LOGOURI" },
+      { id: "verified", title: "VERIFIED" },
+      { id: "tags", title: "TAGS" },
+    ],
     path: "./src/partners/data/solana-fm.csv",
   });
 
