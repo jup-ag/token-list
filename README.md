@@ -12,20 +12,21 @@ Learn more:
 -  [API docs](https://docs.jup.ag/api/token-list-api)
 
 ## Community-Driven Validation into 'Strict' List:
- The 'Strict' list approach helps to keep our community safe from fake tokens while allowing open access to all projects in the 'All' list. **They are the tokens that our community wants to trade safely. As such, your token has to be known and receive support from the community-- there is no guarantee that it will be validated into the strict list.**
+ The 'Strict' list approach helps to keep our community safe from fake tokens while allowing open access to all projects in the 'All' list. **They are the tokens that our community wants to trade safely. Your token has to be known and receive support from known accounts in the community -- there is no guarantee that it will be validated into the strict list.**
 
   Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
 ## Open a PR to Request Validation:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It will be populated automatically in the draft description when you open the PR. Your PR should point to `staging`.
-- Please get your community to support your attestation tweet on Twitter (likes, retweets, comments) and show us what you're about. You can also 
+- Please get your community to support your attestation tweet on Twitter -- comments and retweets by known accounts in the Solana ecosystem would be more credible. You can also 
 share about your project in our [token-validation discord channel](https://discord.gg/jup).
 - The PRs will not be reviewed by our community until your project is known and supported. See [Community Driven Validation](#community-driven-validation-into-strict-list)
 - PRs are reviewed in a batch every week and your PR will be closed if there is insufficient community support. 
 
 ## Community Support: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
-- To validate, leave a comment on the PR like those in [this example](https://github.com/jup-ag/token-list/pull/76). The approval process is held jointly by the team and moderators right now, but your contribution will show support and speed up the process. Over time, we would like to open it up to community members in a council.
+- To validate, leave a comment on the PR like those in [this example](https://github.com/jup-ag/token-list/pull/76). The approval process is held jointly by the team and moderators right now, but attestation from known accounts will show support and speed up the process. Over time, we would like to open it up to community members in a council.
+
 
 
 <hr>
