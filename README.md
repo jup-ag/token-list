@@ -16,16 +16,16 @@ Learn more:
 
   Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
 ## Open a PR to Request Validation:
-- Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/24) with your addition in the validated-tokens file.
+- Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It will be populated automatically in the draft description when you open the PR. Your PR should point to `staging`.
 - Please get your community to support your attestation tweet on Twitter (likes, retweets, comments) and show us what you're about. You can also 
-share about your project in our [token-validation discord channel](https://discord.gg/SJmyW8TG).
+share about your project in our [token-validation discord channel](https://discord.gg/jup).
 - The PRs will not be reviewed by our community until your project is known and supported. See [Community Driven Validation](#community-driven-validation-into-strict-list)
 - PRs are reviewed in a batch every week and your PR will be closed if there is insufficient community support. 
 
 ## Community Support: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
-- To validate, leave a comment on the PR like [this example](https://github.com/jup-ag/token-list/pull/24#pullrequestreview-1294727250). The approval process is held jointly by the team and moderators right now, but your contribution will show support and speed up the process. Over time, we would like to open it up to community members in a council.
+- To validate, leave a comment on the PR like those in [this example](https://github.com/jup-ag/token-list/pull/76). The approval process is held jointly by the team and moderators right now, but your contribution will show support and speed up the process. Over time, we would like to open it up to community members in a council.
 
 
 <hr>
