@@ -35,7 +35,7 @@ export interface Token {
 
 export interface SolanaFmToken extends Token {
   verified: boolean;
-  tags: string;
+  // tags: string[];
 }
 
 export interface SolanaFmResult {

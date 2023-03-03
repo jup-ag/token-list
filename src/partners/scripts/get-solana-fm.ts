@@ -32,7 +32,7 @@ export async function run() {
             address: data.mint,
             decimals: data.decimals,
             logoURI: data.logo,
-            tags: JSON.stringify(data.tags),
+            // tags: data.tags,
             verified: data.verified,
           };
         }
