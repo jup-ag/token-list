@@ -56,7 +56,7 @@ export async function run() {
     header: [
       { id: "name", title: "NAME" },
       { id: "symbol", title: "SYMBOL" },
-      { id: "mint", title: "MINT" },
+      { id: "address", title: "ADDRESS" },
       { id: "decimals", title: "DECIMALS" },
       { id: "logoURI", title: "LOGOURI" },
       { id: "verified", title: "VERIFIED" },
