@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *" # Everyday midnight 12
+  push:
 
 jobs:
   build:
@@ -27,7 +28,7 @@ jobs:
         uses: technote-space/get-diff-action@v6
         with:
           SET_ENV_NAME_COUNT: DIFF_COUNT
-          FROM: main
+          FROM: "main"
 
       - name: Create Pull Request
         if: always() && env.DIFF_COUNT > 0
