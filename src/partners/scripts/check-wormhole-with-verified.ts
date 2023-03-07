@@ -1,18 +1,18 @@
 import { parse } from "csv-parse/sync";
 import { readFileSync } from "fs";
 import path from "path";
-import { ValidatedTokensData, WormholeData } from "./types/types";
+import { ValidatedTokensData, WormholeData } from "../../types/types";
 
 export const checkWormholeWithVerified = () => {
   const wormholeTokens: WormholeData[] = parse(
-    readFileSync(path.join(__dirname, "./partners/data/wormhole.csv")),
+    readFileSync(path.join(__dirname, "../../../src/partners/data/wormhole.csv")),
     {
       columns: true,
     }
   );
 
   const verifiedData: ValidatedTokensData[] = parse(
-    readFileSync(path.join(__dirname, "../validated-tokens.csv")),
+    readFileSync(path.join(__dirname, "../../../validated-tokens.csv")),
     {
       columns: true,
     }
