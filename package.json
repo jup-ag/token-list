@@ -8,6 +8,9 @@
   "scripts": {
     "dev": "yarn build && node dist/main.js",
     "build": "yarn tsc",
+    "update-partners": "yarn build && node dist/partners/scripts/get-wormhole.js && node dist/partners/scripts/get-solana-fm.js",
+    "get-wormhole": "yarn build && node dist/partners/scripts/get-wormhole.js",
+    "get-solana-fm": "yarn build && node dist/partners/scripts/get-solana-fm.js",
     "format": "yarn prettier --write **/*.ts",
     "format-check": "yarn prettier --check **/*.ts",
     "lint": "eslint src/**/*.ts"
@@ -17,6 +20,8 @@
     "@actions/exec": "^1.1.1",
     "@actions/github": "^5.1.1",
     "@solana/web3.js": "^1.73.2",
+    "csv-writer": "^1.6.0",
+    "node-downloader-helper": "^2.1.6",
     "node-fetch": "^2.6.6"
   },
   "devDependencies": {
