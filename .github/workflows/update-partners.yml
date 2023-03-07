@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *" # Everyday midnight 12
-  push:
 
 jobs:
   build:
