@@ -75,3 +75,27 @@ export enum ValidationError {
   INVALID_IMAGE_URL = "Invalid image URL",
   INVALID_COMMUNITY_VALIDATED = "Invalid community validated",
 }
+
+export interface WormholeData {
+  dest: string;
+  symbol: string;
+  name: string;
+  address: string;
+  decimals: string;
+  origin: string;
+  sourceAddress: string;
+  sourceDecimals: string;
+  coingeckoId: string;
+  logo: string;
+  serumV3Usdc: string;
+  serumV3Usdt: string;
+}
+
+export interface ValidatedTokensData {
+  Name: string;
+  Symbol: string;
+  Mint: string;
+  Decimals: string;
+  LogoURI: string;
+  "Community Validated": "false" | "true";
+}
