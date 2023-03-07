@@ -505,6 +505,7 @@ Kreechures Floor Index,KREECHURE,3XwZtyP5g2ku5cNzLXYcBYygvToXKdjw73GSRq73QYLQ,2,
 Hydrogencoin,HCOIN,4B619RbcXbXrKTzNVgDSRiUn9wfxWgA1w1oFLveGacNy,3,https://raw.githubusercontent.com/dataalg/Hydrogen/main/4B619RbcXbXrKTzNVgDSRiUn9wfxWgA1w1oFLveGacNy/logo.png,false
 DARK COIN,DMV,4JWktLr39ZbyutVnym7wKxV1RDoJz7ifDYxMUHDmAbPB,8,https://raw.githubusercontent.com/Shaik-Sirajuddin/RepoForUploadsNeverDelete/master/Images/darkcoin.png,false
 Random Solpunks,rPUNK,4PhPtyBhmMYBLjiJPr3wef2syoMSJYn5WcNgXxvmG3NZ,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/4PJ8yD2hPXVGxnYcmjBoDyDHKAMEAKjGgAfvEqmZUaAw/logo.png,false
+AIO Exchange Token,AIO,4nhQdXfoHvCCVnyZQg3awXqPrKL89Ys7Rbe77oXM47GG,9,https://raw.githubusercontent.com/adminesc/AIO_EXCHANGE_Token/main/logo.png,false
 ICHIGO,ICHIGO,4tejdaGTug9xWg58f92zmFMrsoWqCnvt8WaVuCiP3uUy,8,https://ichigo.network/logos/logo.png,false
 Kleyne Gelt,KLGT,519W6ZZnduudeo6tp1YMgeWiNFeoq4kTVS4uMZggKE5r,0,https://raw.githubusercontent.com/klglt/Crypto/main/menorah.png,false
 Hedge Protocol,HDG,5PmpMzWjraf3kSsGEKtqdUsCoLhptg4yriZ17LKKdBBy,9,https://assets.coingecko.com/coins/images/25482/large/hdg.png?1652011201,true
@@ -544,7 +545,6 @@ USN (Allbridge from Near),USN,PUhuAtMHsKavMTwZsLaDeKy2jb7ciETHJP7rhbKLJGY,9,http
 Tenkai Token,TENKAI,TKDrcm3n4mfXFfPKZoLp5soRSdFQSmyWLdomdKL3ktU,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TKDrcm3n4mfXFfPKZoLp5soRSdFQSmyWLdomdKL3ktU/logo.png,true
 Trenbolone,TREN,TRENpVRAR9LiZgyYv9zWrQwYqSHa7ThCYdbpFCJixj1,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/TRENpVRAR9LiZgyYv9zWrQwYqSHa7ThCYdbpFCJixj1/logo.png,true
 BitLegacy Token,BTL,aYZPYgohjK6LYM8o1v6pnr3ZinhuRzSHd6TRDVDUBkK,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/aYZPYgohjK6LYM8o1v6pnr3ZinhuRzSHd6TRDVDUBkK/logo.png,false
-Genopets KI,KI,kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc,9,https://assets.coingecko.com/coins/images/26135/large/genopets_ki.png?1660017469,true
 Genopets Ki,KI,kiTkNc7nYAu8dLKjQFYPx3BqdzwagZGBUrcb7d4nbN5,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/kiTkNc7nYAu8dLKjQFYPx3BqdzwagZGBUrcb7d4nbN5/logo.png,true
 Rally (Solana),SRLY,sRLY3migNrkC1HLgqotpvi66qGkdNedqPZ9TJpAQhyh,9,https://assets.coingecko.com/coins/images/23239/large/srly.png?1643531979,true
 Drippies Floor Index,DRIPP,uL2qhMckUAroJPt2MLHwEeppJNYE3wBAGFMCs3anwXn,2,https://creator-hub-prod.s3.us-east-2.amazonaws.com/drippies_pfp_1648415706808.gif,true
@@ -581,33 +581,34 @@ Laine Stake,LAINESOL,LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X,9,https://asset
 Lambda Markets,LMDA,LMDAmLNduiDmSiMxgae1gW7ubArfEGdAfTpKohqE5gn,6,https://assets.coingecko.com/coins/images/28653/large/XFAIIV1f_400x400.jpg?1672896515,true
 LP Finance DAO,LPFI,LPFiNAybMobY5oHfYVdy9jPozFBGKpPiEGoobK2xCe3,9,https://assets.coingecko.com/coins/images/27704/large/output-onlinepngtools_%2827%29.png?1666087863,true
 Gobi Labs,GOBI,MarcoPaG4dV4qit3ZPGPFm4qt4KKNBKvAsm2rPGNF72,6,https://assets.coingecko.com/coins/images/28554/large/GOBI.png?1671697657,true
-zSOL,ZSOL,So111DzVTTNpDq81EbeyKZMi4SkhU9yekqB8xmMpqzA,9,https://assets.coingecko.com/coins/images/29076/large/zSOL.png?1676437344,true
 Kineko,KNK,kNkT1RDnexWqYP3EYGyWv5ZtazB8CfgGAfJtv9AQ3kz,9,https://assets.coingecko.com/coins/images/26597/large/knk-cmc-logo.png?1658974690,true
+Genopets KI,KI,kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc,9,https://assets.coingecko.com/coins/images/26135/large/genopets_ki.png?1660017469,true
 KIN,KIN,kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6/logo.png,true
 Cope Token,COPE,o1Mw5Y3n68o8TakZFuGKLZMGjm72qv4JeoZvGiCLEvK,2,https://assets.coingecko.com/coins/images/28717/large/coingecko.png?1673576722,true
 Wrapped ALGO,XALGO,xALGoH1zUfRmpCriy94qbfoMXHtK6NDnMKzT4Xdvgms,6,https://assets.coingecko.com/coins/images/26335/large/xALGO.png?1657494713,true
 xLP Finance,XLPFI,xLPFiPmWve5rUnAYcHZSZWjwgyqEdcV6dDzoBJRtNw9,9,https://assets.coingecko.com/coins/images/29042/large/xLPFi-min.png?1676179032,true
 ,,3RCVCywxSs8pDRU1hw8fo7xTUCpNuX86w8cKTM6fgWBY,2,,
+Restack Coin,RESTACK,48ntzCLdm9apLbZ8JV5b2s3teMZ1ij1XqokJiqiRYmb3,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/48ntzCLdm9apLbZ8JV5b2s3teMZ1ij1XqokJiqiRYmb3/logo.png,false
 ,,57Pu2vR7QzXQJUjyPmiFCTtqVsTi1wy6NReWSLah7Pic,2,,
 Access Protocol,ACS,5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y,6,https://assets.coingecko.com/coins/images/28747/large/dR4FovX4_400x400.jpg?1673860839,true
 KITTI,KITTI,B5Fvzd2RL5ctrmFsvDafXiNGbBqbxapiryJo8JfoSEcA,5,https://assets.coingecko.com/coins/images/29149/large/kittt.jpeg?1676967159,true
 Clash,CLH,CLAsHPfTPpsXmzZzdexdEuKeRzZrWjZFRHQEPu2kSgWM,6,https://assets.coingecko.com/coins/images/27836/large/New-Clash-Icon_copy.png?1665996878,true
 Dual DAO Token,DUAL,DUALa4FC2yREwZ59PHeu1un4wis36vHRv5hWVBmzykCJ,6,https://img.raydium.io/icon/DUALa4FC2yREwZ59PHeu1un4wis36vHRv5hWVBmzykCJ.png,false
 ,,FwrfWVbDq2X7sb9tEFyVVExxFyMEDUP4Ta2PkYyeCGoZ,2,,
+SOL Flowers,FLWR,HDVR9Edy2o8uRdf5xFUDSGVLo556UjAaNR9BrwZ8QeMJ,9,https://assets.coingecko.com/coins/images/23534/large/FLWR-Token-Front-ALPHA.png?1644387944,true
 ,,HqFG17V7wNfEDV3k5K2AuY3rmM5n2np4rhbGV21hp4as,2,,
+zSOL,ZSOL,So111DzVTTNpDq81EbeyKZMi4SkhU9yekqB8xmMpqzA,9,https://assets.coingecko.com/coins/images/29076/large/zSOL.png?1676437344,true
 Amulet Staked SOL,AMTSOL,SoLW9muuNQmEAoBws7CWfYQnXRXMVEG12cQhy6LE2Zf,9,https://assets.coingecko.com/coins/images/27786/large/amtSOL200x200.png?1665814113,true
-,,dwnkQmmfLjkYZjTkpQk6wP6aeoBFCVNxQLtEkWeVGjC,2,,
 Extra Reality,XTR,6ABQdaTwRvmacto7aeRBGghS6Pxctd6cFGL8gDdwV1dd,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/6ABQdaTwRvmacto7aeRBGghS6Pxctd6cFGL8gDdwV1dd/logo.png,true
 ,,CXL7AAheUM8AnSyBvf9b2TtPeqTTALJVqDDdfwNdKZHt,9,,
 Poglana,POG,DfCqzB3mV3LuF2FWZ1GyXer4U5X118g8oUBExeUqzPss,5,https://assets.coingecko.com/coins/images/28742/large/pog-logo.png?1673840874,true
 ,,EQQK5Pk2tXoxaJy29ghTSpT1D3p5mfaxYeVi83F1wzcy,2,,
+,,dwnkQmmfLjkYZjTkpQk6wP6aeoBFCVNxQLtEkWeVGjC,2,,
 KIN INU,KINU,inuXXDC6Tw1Fu6qUAfRbELG5x5pSA4afTskf7MvwjhN,5,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/inuXXDC6Tw1Fu6qUAfRbELG5x5pSA4afTskf7MvwjhN/logo.svg,true
 ,,46cCLt1TcdmeMr8xmEshLapyENRQtfDh3npmbN91ohE6,2,,
 ,,5KtxfEpgBXkqsGZZytzt3Z7cWhnSWyyWoYNGiGTectna,8,,
-Coin98 Dollar,CUSD,CUSDvqAQLbt7fRofcmV2EXfPA2t36kzj7FjzdmqDiNQL,6,https://assets.coingecko.com/coins/images/26588/large/CUSD-01.png?1658909049,true
 Token DLQo,DLQoZ,DLQoZ14o43XkT5C57QHTtxATMmty3khY8LpPyiMcsufk,2,,false
 Liberty Square Filth,FLTH,FLTHudk5B5zag7JmGXqrYrFfey6otevLQA6jm1UHHLEE,9,https://assets.coingecko.com/coins/images/29037/large/FLTH.png?1676100466,true
 GENZ Token,GENZ,GENZexWRRGNS2Ko5rEgGG1snRXpaa3CDDGYnhTSmE3kd,9,https://assets.coingecko.com/coins/images/28039/large/Qq_rj-aG_400x400.png?1667199323,true
-SOL Flowers,FLWR,HDVR9Edy2o8uRdf5xFUDSGVLo556UjAaNR9BrwZ8QeMJ,9,https://assets.coingecko.com/coins/images/23534/large/FLWR-Token-Front-ALPHA.png?1644387944,true
 MekkaCoin,MEK,MekkANZkBpzbGeTWsD1cRRuQxZMTFfBJyLrKywGQRss,9,https://assets.coingecko.com/coins/images/27530/large/unknown_%2819%29.png?1664372136,true
 NeoNomad,NNI,buMnhMd5xSyXBssTQo15jouu8VhuEZJCfbtBUZgRcuW,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/buMnhMd5xSyXBssTQo15jouu8VhuEZJCfbtBUZgRcuW/logo.png,true
