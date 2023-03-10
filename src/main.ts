@@ -1,17 +1,18 @@
 import * as core from "@actions/core";
 import { exec } from "@actions/exec";
-import { parseGitPatch } from "./parse";
-import { validateGitPatch } from "./validate";
-import { getValidated } from "./get-validated";
+import { parseGitPatch } from "./utils/parse";
+import { validateGitPatch } from "./utils/validate";
+import { getValidated } from "./utils/get-jup-strict";
 import { ValidatedSet, ValidationError } from "./types/types";
 
-async function run(): Promise<void> {
+// Validates diff between validated-tokens.csv in the branch vs origin/main
+async function getDiffAndValidate(): Promise<void> {
 
   let gitDiff = "";
   let gitDiffError = "";
 
   try {
-    await exec("git", ["diff", "origin/main", "-U0", "--color=never"], {
+    await exec("git", ["diff", "origin/main", "validated-tokens.csv"], {
       listeners: {
         stdout: (data: Buffer) => {
           gitDiff += data.toString();
@@ -31,6 +32,7 @@ async function run(): Promise<void> {
 
   // core.debug(`Git diff: ${gitDiff}`)
 
+  // Get Jup tokens that are in the strict list to check for duplicates.
   let validatedSet: ValidatedSet;
   try {
     validatedSet = await getValidated();
@@ -52,4 +54,4 @@ async function run(): Promise<void> {
   }
 }
 
-run();
+getDiffAndValidate();
