@@ -28,8 +28,8 @@ Learn more:
 - To validate, leave a comment on the PR like those in [this example](https://github.com/jup-ag/token-list/pull/76). The approval process is held jointly by the team and moderators right now, but attestation from known accounts will show support and speed up the process. Over time, we would like to open it up to community members in a council.
 
 ## Developers: 
-- Feel free to contribute by opening a PR! We would like this to be community owned over time. 
-- Some open issues can be found in the "Issues" tab and we're working on cleaning up our documentation.
+- Feel free to contribute by opening a PR! We would like this to be community owned over time. Check out the "Issues" tab for some ideas on how to contribute!
+- A technical walkthrough of how the inputs feed the Token List API can be found in `src/README.md`
 - Ideas? Feedback? Comment or talk to us in discord. ❤️
 
 
