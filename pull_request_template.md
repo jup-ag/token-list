@@ -5,7 +5,7 @@
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
 
 ## Validation (Please check off boxes):
-- [ ] The metadata provided in the PR matches what is on-chain (Mandatory)
+- [x] The metadata provided in the PR matches what is on-chain (Mandatory)
 - [ ] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will be delayed)
 - [ ] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers)  
 
