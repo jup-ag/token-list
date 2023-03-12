@@ -1,7 +1,7 @@
-import { Token, ValidatedSet } from "./types/types";
+import { Token, ValidatedSet } from "../types/types";
 import fetch from "node-fetch";
 
-/** Read existing validated tokens into Set */
+// Read existing JUP validated tokens into Set
 export async function getValidated(): Promise<ValidatedSet> {
   const names = new Set<string>();
   const symbols = new Set<string>();
