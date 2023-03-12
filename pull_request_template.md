@@ -2,7 +2,7 @@
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/madbearsclub/status/1634206274601590784
-- Coingecko/ CMC URL (If available): no
+- Coingecko/ CMC URL (If available): not
 
 ## Validation (Please check off boxes):
 - [x] The metadata provided in the PR matches what is on-chain (Mandatory)
