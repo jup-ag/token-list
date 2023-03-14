@@ -12,13 +12,13 @@ Learn more:
 -  [API docs](https://docs.jup.ag/api/token-list-api)
 
 ## Address Validation into 'Strict' List:
-`Is this token that I'm trying to trade the right one?`
+`If I'm trying to trade this token from this project, am I looking at the right one?`
 
 The true identity of a token is its mint address. Scammers often try to impersonate a token by imitating the more commonly human referenced metadata such as its name and logo. 
 
 By validating into the 'Strict' list, we are asserting that the addresses and metadata shown in this list is from the original project team. It makes no claims about the quality of a project.
 
-As this is a community owned list, we leave some space for public discovery and discussion when new projects are trying to validate into the list. PRs are prioritized by the community -- the more you can show them that you are legit, the faster your PR would be approved. This could include:
+As this is a community owned list, we leave space for public discovery and discussion when new projects are trying to validate into the list. PRs are prioritized by the community -- the more you can show them that you are legit, the faster your PR would be approved. This could include:
  - Support from known accounts on your attestation tweet: [Example](https://twitter.com/Cogent_Crypto/status/1630963084037869569?s=20) 
 - Attestation from known developers on your validation PR: [Example](https://github.com/jup-ag/token-list/pull/76)
 -  Support from your community in Jupiter's [#community-validation discord channel](https://discord.gg/jup)
