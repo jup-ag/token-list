@@ -33,6 +33,7 @@ As this is a community owned list, we leave space for public discovery and discu
 ## Community Support: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
 - To validate, leave a comment on the PR like those in [this example](https://github.com/jup-ag/token-list/pull/76). The approval process is held jointly by the team and moderators right now, but attestation from known accounts will show support and speed up the process. Over time, we would like to open it up to community members in a council.
+- To allow time for discussion and community support, reviews are generally done on a weekly basis.
 
 ## Developers: 
 - Feel free to contribute by opening a PR! We would like this to be community owned over time. Check out the "Issues" tab for some ideas on how to contribute!
