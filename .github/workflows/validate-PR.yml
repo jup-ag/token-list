@@ -24,6 +24,6 @@ jobs:
       - run: yarn install
 
       - name: Validate PR
-        run: yarn dev
+        run: yarn validate-PR
 
 

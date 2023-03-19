@@ -3,7 +3,7 @@ name: update-partners
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # Everyday midnight 12
+    - cron: "0 0 * * 1" # Midnight on monday
 
 jobs:
   build:
