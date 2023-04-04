@@ -1,4 +1,4 @@
-# Jupiter's Community Validated Token List (BETA)
+# Universal Token List API (BETA)
 
 A key part of our JUP Promise (Best Price, Best Token Selection, Best UX) is the idea that users should be able to trade any token they want on Jupiter, while having the peace of mind that the token they are trading is the right one.
 
@@ -11,25 +11,35 @@ Learn more:
 -  [Blog post](https://blog.jup.ag/token-list-api/)
 -  [API docs](https://docs.jup.ag/api/token-list-api)
 
-## Community-Driven Validation into 'Strict' List:
- The 'Strict' list approach helps to keep our community safe from fake tokens while allowing open access to all projects in the 'All' list. Validation is prioritized by the community -- the more you can show them that you are legit, the faster and easier it is for them to support you. This could include:
+## Address Validation into 'Strict' List:
+`If I'm trying to trade this token from this project, am I looking at the right one?`
+
+The true identity of a token is its mint address. Scammers often try to impersonate a token by imitating metadata such as its name and logo. 
+
+To help users stay safe from fake tokens, we provide a 'Strict' list with a trusted set of addresses and metadata from the original project team.
+
+## Community Discussion and Prioritization 
+We encourage discussion when new projects are trying to validate into the list. This gives new projects more visibility and the community a chance to get to know them. PRs are prioritized by the community -- the more you can show them that you are legit, the faster your PR would be approved. 
+
+This could include:
  - Support from known accounts on your attestation tweet: [Example](https://twitter.com/Cogent_Crypto/status/1630963084037869569?s=20) 
 - Attestation from known developers on your validation PR: [Example](https://github.com/jup-ag/token-list/pull/76)
 -  Support from your community in Jupiter's [#community-validation discord channel](https://discord.gg/jup)
 
   Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
-## Open a PR to Request Validation:
+
+## Projects -- Open a PR to Request Validation:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It will be populated automatically in the draft description when you open the PR.
-- PRs are reviewed in a batch every week and your PR will be closed if there is insufficient community support. See [Community Driven Validation](#community-driven-validation-into-strict-list).
+- To allow time for community discovery, discussion and support, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support.
 
-## Community Support: 
+## Community -- Support projects: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
 - To validate, leave a comment on the PR like those in [this example](https://github.com/jup-ag/token-list/pull/76). The approval process is held jointly by the team and moderators right now, but attestation from known accounts will show support and speed up the process. Over time, we would like to open it up to community members in a council.
 
-## Developers: 
-- Feel free to contribute by opening a PR! We would like this to be community owned over time. 
-- Some open issues can be found in the "Issues" tab and we're working on cleaning up our documentation.
+## Developers -- Contribute to this Repo: 
+- Feel free to contribute by opening a PR! We would like this to be community owned over time. Check out the "Issues" tab for some ideas on how to contribute!
+- A technical walkthrough of how the inputs feed the Token List API can be found in `README-developers.md`
 - Ideas? Feedback? Comment or talk to us in discord. ❤️
 
 

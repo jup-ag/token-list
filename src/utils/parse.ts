@@ -1,5 +1,6 @@
-import {Patch} from './types/types';
+import {Patch} from '../types/types';
 
+// This is a util function to parse a git diff patch into a more usable format
 export function parseGitPatch(patch: string): Patch[] {
   const lines = patch.split('\n');
 
