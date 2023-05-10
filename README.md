@@ -23,7 +23,7 @@ We encourage discussion when new projects are trying to validate into the list. 
 
 This could include:
  - Support from known accounts on your attestation tweet: [Example](https://twitter.com/Cogent_Crypto/status/1630963084037869569?s=20) 
-- Attestation from known developers on your validation PR: [Example](https://github.com/jup-ag/token-list/pull/76)
+- Attestation from known developers on your validation PR: [Example1](https://github.com/jup-ag/token-list/pull/165), [Example2](https://github.com/jup-ag/token-list/pull/76)
 -  Support from your community in Jupiter's [#community-validation discord channel](https://discord.gg/jup)
 
   Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
