@@ -1,28 +1,14 @@
-import { Patch, ValidatedSet, ValidationError } from "./types/types";
+import { Patch, ValidatedSet, ValidationError } from "../types/types";
 import { PublicKey } from "@solana/web3.js";
 
-
-export const VALIDATED_TOKENS_FILE = "validated-tokens.csv";
-
-function isValidatedFile(file: string) {
-  return file === VALIDATED_TOKENS_FILE;
-}
-
+// Validates PR changes to the validated tokens csv file.
+// Checks duplicates to JUP strict list and invalid inputs.
 export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): ValidationError[] {
   // console.log("Processing patch", patch);
   const errors: ValidationError[] = [];
 
-  // Flag changes to unrelated files
-  if (
-    !isValidatedFile(patch.removed.file) ||
-    !isValidatedFile(patch.added.file)
-  ) {
-    // errors.push(ValidationError.UNRELATED_FILE);
-    // return errors;
-
-    //TODO: Put this back after this PR is merged
-    return []
-  }
+  // TODO: Flag changes to unrelated files
+  // ...
 
   // Flag removals
   if (patch.removed.lines.length > 0) {

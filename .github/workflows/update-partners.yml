@@ -3,7 +3,7 @@ name: update-partners
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # Everyday midnight 12
+    - cron: "0 0 * * 1" # Midnight on monday
 
 jobs:
   build:
@@ -19,15 +19,10 @@ jobs:
         run: |
           yarn run update-partners
           git config user.name 'Github Bot'
-          git config user.email 'mcsam1216@gmail.com'
+          git config user.email 'bot@raccoons.dev'
           git add .
           git commit -m "Update latest partners' token list"
-
-      - name: Check git diff
-        uses: technote-space/get-diff-action@v6
-        with:
-          SET_ENV_NAME_COUNT: DIFF_COUNT
-          FROM: main
+          echo "DIFF_COUNT=$(echo git whatchanged -1 --format=oneline | wc -l)" >> $GITHUB_ENV
 
       - name: Create Pull Request
         if: always() && env.DIFF_COUNT > 0
