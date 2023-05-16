@@ -1,6 +1,6 @@
 # Dev Guide to the Token List API 
 Hello curious one -- you found the tech README! 🥷
-The [Token List API](https://docs.jup.ag/docs/apis/token-list/token-list-api) consists of the "Strict" list and "All" list. The Strict list is currently made up of tokens from the original solana token list registry, community validated tokens, and wormhole tokens. We also add metadata tags on all tokens from partner APIs.
+The [Token List API](https://station.jup.ag/docs/apis/token-list/token-list-api) consists of the "Strict" list and "All" list. The Strict list is currently made up of tokens from the original solana token list registry, community validated tokens, and wormhole tokens. We also add metadata tags on all tokens from partner APIs.
 
 Everything that feeds the API can be found in this repo, so you know exactly how it's made and what token data is entering the API.
 
@@ -22,4 +22,4 @@ src
 
 ## API outcome:
 - Our 'All' token list API picks up all of the above tokens and tags
-- Our 'Strict' list filters for tokens from the 'All' list with [these tags](https://docs.jup.ag/api/token-list-api): "wormhole", "original-registry", and "community".
+- Our 'Strict' list filters for tokens from the 'All' list with [these tags](https://station.jup.ag/docs/apis/token-list/token-list-api): "wormhole", "original-registry", and "community".
