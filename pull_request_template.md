@@ -13,3 +13,11 @@
 - [ ] My change matches the format in the file (no spaces between fields).
 - [ ] My token is already live and trading on Jupiter.
 - [ ] !!! I read the README section on Community-Driven Validation and understand this PR will be only be reviewed when there is community support on Twitter.
+
+
+name: WOOPA
+Symbol: WOOPA
+Mint Address: 26vSyWdduSXwMRsA6MKbzAvuRUAuLSCKW9HRCLVgbxEm
+Decimals: 9
+LogoURI: https://cdn.discordapp.com/attachments/1083912612925939772/1109958506062282822/WOOPA_LOGO.png
+Community Validated: true
