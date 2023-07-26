@@ -1,7 +1,7 @@
-# Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
+# Validate [{$CB}]([https://solscan.io/token/](https://solscan.io/token/G5vhNd6uwKaCqVzW6F7gJjb2QCHRmzPV1mhmyLSeCtu8){G5vhNd6uwKaCqVzW6F7gJjb2QCHRmzPV1mhmyLSeCtu8})
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{[your_account](https://twitter.com/Cashbag_sol)}/status/{[your_tweet_id](https://twitter.com/Cashbag_sol/status/1682587773734391808?s=20)}
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
 
 ## Validation (Please check off boxes):
