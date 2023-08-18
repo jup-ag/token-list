@@ -10,7 +10,7 @@ Learn more:
 -  [Tweet](https://twitter.com/JupiterExchange/status/1625877026866446337?s=20)
 -  [Blog post](https://blog.jup.ag/token-list-api/)
 -  [API docs](https://station.jup.ag/docs/apis/token-list-api)
--  [Getting on the Strict list docs](https://station.jup.ag/docs/get-your-token-onto-jup#getting-on-the-strict-list
+-  [Getting on the Strict list docs](https://station.jup.ag/docs/get-your-token-onto-jup#getting-on-the-strict-list)
 
 ## Address Validation into 'Strict' List:
 `If I'm trying to trade this token from this project, am I looking at the right one?`
