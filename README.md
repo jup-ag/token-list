@@ -9,7 +9,8 @@ Our design principles are: Safety, Openness, Unopinionated, Collaborative, Commu
 Learn more:
 -  [Tweet](https://twitter.com/JupiterExchange/status/1625877026866446337?s=20)
 -  [Blog post](https://blog.jup.ag/token-list-api/)
--  [API docs](https://docs.jup.ag/api/token-list-api)
+-  [API docs](https://station.jup.ag/docs/apis/token-list-api)
+-  [Getting on the Strict list docs](https://station.jup.ag/docs/get-your-token-onto-jup#getting-on-the-strict-list)
 
 ## Address Validation into 'Strict' List:
 `If I'm trying to trade this token from this project, am I looking at the right one?`
@@ -23,7 +24,7 @@ We encourage discussion when new projects are trying to validate into the list. 
 
 This could include:
  - Support from known accounts on your attestation tweet: [Example](https://twitter.com/Cogent_Crypto/status/1630963084037869569?s=20) 
-- Attestation from known developers on your validation PR: [Example](https://github.com/jup-ag/token-list/pull/76)
+- Attestation from known developers on your validation PR: [Example1](https://github.com/jup-ag/token-list/pull/165), [Example2](https://github.com/jup-ag/token-list/pull/76)
 -  Support from your community in Jupiter's [#community-validation discord channel](https://discord.gg/jup)
 
   Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
@@ -31,7 +32,7 @@ This could include:
 ## Projects -- Open a PR to Request Validation:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It will be populated automatically in the draft description when you open the PR.
-- To allow time for community discovery, discussion and support, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support.
+- ***To allow time for community discovery and discussion, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support. Once there is, it will be reviewed within a week.***
 
 ## Community -- Support projects: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
