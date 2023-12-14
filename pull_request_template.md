@@ -1,4 +1,4 @@
-# Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
+# Validate [{KNOB}](https://solscan.io/token/{5ritAPtFPqQtEFHcHVqNjR5oFNUJqcmgKtZyPd2AyLLy})
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
