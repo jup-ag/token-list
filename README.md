@@ -32,7 +32,7 @@ This could include:
 ## Projects -- Open a PR to Request Validation:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It will be populated automatically in the draft description when you open the PR.
-- ***To allow time for community discovery and discussion, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support. Once there is, it will be reviewed within a week. ALL PRS WITHOUT YOUR TOKEN NAME IN THE TITLE. which just says "Main", WILL BE CLOSED.***
+- ***To allow time for community discovery and discussion, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support. Once there is, it will be reviewed within a week. ALL PRS WITHOUT YOUR TOKEN NAME IN THE TITLE, which just says "Main", WILL BE CLOSED.***
 
 ## Community -- Support projects: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
