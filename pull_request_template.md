@@ -1,7 +1,8 @@
 # Validate [{Token Symbol}](https://solscan.io/token/5VDVcG1c8EFGug3yz4zDE3a2BNxczVoYtRQDySTChx17)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support:
+https://twitter.com/SafeBonk_Sol/status/1738577169339576464?t=NaFYaZXZN9T04WbRUtiiMw&s=19
 - Coingecko/ CMC URL (If available):
 https://www.coingecko.com/en/coins/safebonk
 
