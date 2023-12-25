@@ -1,8 +1,8 @@
-# Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
+# Validate [ANALOS](https://solscan.io/token/7iT1GRYYhEop2nV1dyCwK2MGyLmPHq47WhPGSwiqcUg5)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
-- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/jupiterexchange) and showing community support: https://twitter.com/analos_coin_/status/1739249301694317021
+- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/analos
 
 ## Validation (Please check off boxes):
 - [ ] The metadata provided in the PR matches what is on-chain (Mandatory)
