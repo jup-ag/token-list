@@ -1,7 +1,7 @@
 # Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
+- Tweet from your Twitter Account attesting the Mint address, tagging @JupiterExchange and showing community support: https://twitter.com/pwfsolana/status/1740404951711686823
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
 
 ## Validation (Please check off boxes):
