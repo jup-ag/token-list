@@ -1,8 +1,8 @@
-# Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
+# Validate [USEDCAR](https://solscan.io/token/9gwTegFJJErDpWJKjPfLr2g2zrE3nL1v5zpwbtsk3c6P)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
-- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/1741172167788625998
+- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/a-gently-used-2001-honda
 
 ## Validation (Please check off boxes):
 - [ ] The metadata provided in the PR matches what is on-chain (Mandatory)
