@@ -1,4 +1,4 @@
-# Validate [SOLZILLAl](https://solscan.io/token/31iQsahfa4CMiirU7REygBzuAWg4R4ah7Y4aDu9ZfXJP)
+# Validate [SOLZILLA](https://solscan.io/token/31iQsahfa4CMiirU7REygBzuAWg4R4ah7Y4aDu9ZfXJP)
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/SolzillaCoin/status/1738351084480156146
