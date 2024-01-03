@@ -1,4 +1,4 @@
-# Validate [{Token Symbol}](https://solscan.io/token/FpZWLF31ymwJQNKwdhxAog9HwFEJGWjk6JqQUWYnuHry)
+# Validate [CBTM](https://solscan.io/token/FpZWLF31ymwJQNKwdhxAog9HwFEJGWjk6JqQUWYnuHry)
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/cbtmsol/status/1742412056840577509
