@@ -1,4 +1,4 @@
-# Validate [{URMOM}](https://solscan.io/token/GACxkcy9WDWHhB15oKLHp3PPzQV4zLt2m7dcGPoZLkZY)
+# Validate [URMOM](https://solscan.io/token/GACxkcy9WDWHhB15oKLHp3PPzQV4zLt2m7dcGPoZLkZY)
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/UrMomSol/status/1744389653371744345
