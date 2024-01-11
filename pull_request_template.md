@@ -1,4 +1,4 @@
-# Validate [{Token Symbol}](https://solscan.io/token/{Diego})
+# Validate [{Diego}](https://solscan.io/token/{Diego})
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{https://x.com/Diegocoin398458/status/1745073897504956725?s=20}
