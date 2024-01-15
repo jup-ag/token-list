@@ -1,4 +1,4 @@
-import { Patch, ValidatedSet, ValidationError } from "../types/types";
+import { Patch, Record, ValidatedSet, ValidationError } from "../types/types";
 import { PublicKey } from "@solana/web3.js";
 
 // Validates PR changes to the validated tokens csv file.
@@ -55,4 +55,33 @@ export function validateGitPatch(patch: Patch, validatedSet: ValidatedSet): Vali
 
   // console.log("Patch Errors", errors);
   return errors;
+}
+
+export function detectDuplicateSymbol(tokens: Record[]): Record[] {
+  const map = new Map();
+  tokens.forEach((token) => {
+    if (map.has(token.Symbol)) {
+      console.log(ValidationError.DUPLICATE_SYMBOL)
+      console.log("Existing", map.get(token.Symbol), "Duplicate", token);
+    } else {
+      map.set(token.Symbol, token);
+    }
+  });
+  console.log("# of records in CSV:", tokens.length, "after duplicate filtering:", map.size);
+  return Array.from(map.values());
+}
+
+export function canOnlyAddOneToken(prevTokens: Record[], tokens: Record[]): boolean {
+  const diffLength = tokens.length - prevTokens.length;
+
+  if (diffLength > 1) {
+    console.log(ValidationError.MULTIPLE_TOKENS);
+    const offendingTokens: Record[] = [];
+    for (let i = prevTokens.length; i < tokens.length; i++) {
+      offendingTokens.push(tokens[i]);
+    }
+    console.log('Offending Tokens: ', offendingTokens);
+    return false;
+  }
+  return true;
 }
