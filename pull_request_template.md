@@ -1,7 +1,7 @@
-# Validate [Oregon Trail](ADTZ2icV6QGDkfr7jMaW8qe3FdAPBT5fs1fL8iiEZvEc)
+# Validate [ORG] (ADTZ2icV6QGDkfr7jMaW8qe3FdAPBT5fs1fL8iiEZvEc)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/crkart196503/status/1747009032081092695?s=20
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
 
 ## Validation (Please check off boxes):
