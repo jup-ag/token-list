@@ -2,6 +2,13 @@
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/crkart196503/status/1747009032081092695?s=20
+## Validation (Please check off boxes):
+- [x] The metadata provided in the PR matches what is on-chain (Mandatory)
+- [x] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will be delayed)
+# Validate [ORG] (ADTZ2icV6QGDkfr7jMaW8qe3FdAPBT5fs1fL8iiEZvEc)
+
+## Attestations (Please provide links):
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
 
 ## Validation (Please check off boxes):
