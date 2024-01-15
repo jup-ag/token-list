@@ -33,6 +33,15 @@ export interface Token {
   logoURI: string;
 }
 
+export interface Record {
+  Name: string;
+  Symbol: string;
+  Mint: string;
+  Decimals: string;
+  LogoURI: string;
+  "Community Validated": boolean;
+}
+
 export interface SolanaFmToken extends Token {
   verified: boolean;
   // tags: string[];
@@ -74,6 +83,7 @@ export enum ValidationError {
   INVALID_DECIMALS = "Invalid decimals",
   INVALID_IMAGE_URL = "Invalid image URL",
   INVALID_COMMUNITY_VALIDATED = "Invalid community validated",
+  ADDRESS_MAY_NOT_CHANGE = ""
 }
 
 export interface WormholeData {
