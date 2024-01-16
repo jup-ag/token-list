@@ -33,15 +33,6 @@ export interface Token {
   logoURI: string;
 }
 
-export interface Record {
-  Name: string;
-  Symbol: string;
-  Mint: string;
-  Decimals: string;
-  LogoURI: string;
-  "Community Validated": string;
-}
-
 export interface SolanaFmToken extends Token {
   verified: boolean;
   // tags: string[];
@@ -79,7 +70,7 @@ export enum ValidationError {
   DUPLICATE_NAME = "Token name already exists",
   DUPLICATE_SYMBOL = "Token symbol already exists",
   DUPLICATE_MINT = "Mint already exists",
-  INVALID_MINT = "Invalid mint address",
+  INVALID_MINT = "Invalid mint address, not on ed25519 curve",
   INVALID_DECIMALS = "Invalid decimals",
   INVALID_IMAGE_URL = "Invalid image URL",
   INVALID_COMMUNITY_VALIDATED = "Invalid community validated",
@@ -107,5 +98,5 @@ export interface ValidatedTokensData {
   Mint: string;
   Decimals: string;
   LogoURI: string;
-  "Community Validated": "false" | "true";
+  "Community Validated": boolean;
 }
