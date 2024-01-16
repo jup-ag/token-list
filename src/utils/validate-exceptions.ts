@@ -4472,14 +4472,6 @@ export const communityValidatedExceptions = [
 		"Community Validated": "false"
 	},
 	{
-		"Name": "SMB Index",
-		"Symbol": "MONKES",
-		"Mint": "FmoKY2ERGmE9NzrYphAJcqH5BPRy2Hs4VomRfu8Qgt7Y",
-		"Decimals": "2",
-		"LogoURI": "https://i.imgur.com/FczxrLa.png",
-		"Community Validated": "false"
-	},
-	{
 		"Name": "sRLY (Rally Solana)",
 		"Symbol": "sRLY",
 		"Mint": "sRLY3migNrkC1HLgqotpvi66qGkdNedqPZ9TJpAQhyh",
