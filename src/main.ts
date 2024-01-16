@@ -50,6 +50,7 @@ async function gitPreviousVersion(path: string): Promise<any> {
           gitCmdError += data.toString();
         },
       },
+      silent: true
     });
   } catch (error: any) {
     core.setFailed(error.message);
