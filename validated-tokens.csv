@@ -1,5 +1,4 @@
 Name,Symbol,Mint,Decimals,LogoURI,Community Validated
-BOZO,$BOZO,BoZoQQRAmYkr5iJhqo7DChAs7DPDwEZ5cv1vkYC9yzJG,5,https://arweave.net/QN7RFzy_OqPO_cAbBtBUzcUwObkDuvkRLS16oxJI-s0,false
 agEUR (Portal),agEUR,CbNYA9n3927uXUukee2Hf4tm3xxkffJPPZvGazc2EAH1,8,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/CbNYA9n3927uXUukee2Hf4tm3xxkffJPPZvGazc2EAH1/logo.png,false
 MonkeyBucks,MBS,Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A/logo.png,false
 Cryowar Token,CWAR,HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo/logo.png,false
@@ -1063,6 +1062,7 @@ AI,AI,99ouK5YUK3JPGCPX9joNtHsMU7NPpU7w91JN4kdQ97po,9,https://gateway.irys.xyz/Hn
 catwifhat,$CWIF,7atgF8KQo4wJrD5ATGX7t1V2zVvykPJbFfNeVf1icFv1,2,https://i.postimg.cc/d1QD417z/200x200logo-copy.jpg,true
 A Gently Used 2001 Honda Civic,USEDCAR,9gwTegFJJErDpWJKjPfLr2g2zrE3nL1v5zpwbtsk3c6P,9,https://gateway.irys.xyz/7TTPG48afTZE8Ioeaa4XlZ7F4Q5g4lLYkC7N1Yr1pFo,true
 StarShip🚀,STSHIP,GHtLF7drbYXGTHX73uSxqPKkJUzDqcBNe2M9fzjJzr3j,8,https://gateway.irys.xyz/JUL1T_9NFtLEDZGtY-4pKopYplV7bszLhp5pCl2fKzc,true
+Drako,DRAKO,drakduQWnTS89CdTUdgHmZzEkN6reBLYqrk8rzVhU53,5,https://shdw-drive.genesysgo.net/BKajV6Kxs53iWNuBZW23CXKv2TWwHMtYYRLrTgUVXL6U/drako.jpg,true
 SmoLanO,SLO,E43qU77tnWDwN11o7TtaGMNpxCAqz8RZEZ7PcTCUXSim,9,https://img.fotofolio.xyz/?url=https%3A%2F%2Farweave.net%2F2SMzEgv4IqPaiTkKe09CLodbOWbiC2rmIKRzgkFsFNs,true
 DOGWIFOUTHAT,WIFOUT,2ioyweEeV4xJCkFJvh868X9iP3L6Q31MVCawfbJLRTHq,9,https://i.imgur.com/3642zZD.jpg,true
 OmniCat (Wormhole),OMNI,7mmXL6Et4SbpDs2iXoZQ3oPEeXeAiyETxh1QjDNi5qnV,8,https://raw.githubusercontent.com/mrmeowman/meow-assets/main/omni-logo.jpg,true
@@ -1071,9 +1071,11 @@ Spurdo Spärde, spurdo, 8HJ81sHVsmJMzm6XBfTgywWQXwQTmVdmXaQHm7htGPH2, 9, https:/
 monkeyhaircut,monk,FYa25XnBsXQXAdTnsyKBKd5gZ1VZhChBRF57CqfRxJZX,6,https://bafybeifx7lchopsihh6qhw5nvq4tjbwl4wf2wy745mugvhdq5krk2bwsmi.ipfs.nftstorage.link,true
 LOAF CAT,LOAF,3de2yRhtD4VbJBb8EQAQffYMPLU4EnSHT1eveBwiL3tn,6,https://loaf.cat/img/LOAFLOGO.png,true
 Spurdo Spärde,spurdo,8HJ81sHVsmJMzm6XBfTgywWQXwQTmVdmXaQHm7htGPH2,9,https://bafkreiedrxet7nlt4bcqwkf6eeouhp3r2ioswagyn7dpb4eqao4lwweede.ipfs.nftstorage.link,true
-LessFnGas,LFG,LFG1ezantSY2LPX8jRz2qa31pPEhpwN9msFDzZw4T9Q,7,https://mogos7pjgqvbf3z7kzixpv67uxngkrifdfoddttz2tu6ywphk33q.arweave.net/Y4zpfek0KhLvP1ZRd9ffpdplRQUZXDHOedTp7FnnVvc?ext=png, true 
+LessFnGas,LFG,LFG1ezantSY2LPX8jRz2qa31pPEhpwN9msFDzZw4T9Q,7,https://mogos7pjgqvbf3z7kzixpv67uxngkrifdfoddttz2tu6ywphk33q.arweave.net/Y4zpfek0KhLvP1ZRd9ffpdplRQUZXDHOedTp7FnnVvc?ext=png, true
 Yaku,YAKU,NGK3iHqqQkyRZUj4uhJDQqEyKKcZ7mdawWpqwMffM3s,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EK58dp4mxsKwwuySWQW826i3fwcvUK69jPph22VUcd2H/logo.png,true
 BURRRD,BURRRD,F8qtcT3qnwQ24CHksuRrSELtm5k9ob8j64xAzj3JjsMs,4,https://arweave.net/5qQw9rLaDDQeFJ6-384p8yRmnl_8zK47JBwl3QYmD60,true
 Andrea Von Speed,VONSPEED,DVzrCErBzydh92bBzSJX1dKwVvb4omwhrvNz8CwRyxxV,6,https://i.ibb.co/bmZ6pZP/8338-C1-BC-0745-4201-BE73-D39-ADCCE129-F.jpg,true
 Speero,Speero,C7K4Tot6fnnNwhWpqw9H277QPcP56vHAEeXubRHDyCo9,6,https://assets.coingecko.com/coins/images/34252/standard/speeroLOGO.png,true
+DED,DED,7raHqUrZXAqtxFJ2wcmtpH7SQYLeN9447vD4KhZM7tcP,2,https://cdn.bridgesplit.com/?fit=crop&height=400&width=400&image=https://www.arweave.net/nE_JLSoMnDq5bOuQLO7-UhTvlOmC6264v90IVB7ntjQ?ext=gif,true
 mockJUP,mockJUP,JxxWsvm9jHt4ah7DT9NuLyVLYZcZLUdPD93PcPQ71Ka,9,https://i.pinimg.com/originals/cb/87/f6/cb87f6e8152961be45a5642ef72c391f.jpg,true
+BOZO,$BOZO,BoZoQQRAmYkr5iJhqo7DChAs7DPDwEZ5cv1vkYC9yzJG,5,https://arweave.net/QN7RFzy_OqPO_cAbBtBUzcUwObkDuvkRLS16oxJI-s0,true
