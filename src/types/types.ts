@@ -79,7 +79,7 @@ export enum ValidationError {
   DUPLICATE_NAME = "Token name already exists",
   DUPLICATE_SYMBOL = "Token symbol already exists",
   DUPLICATE_MINT = "Mint already exists",
-  INVALID_MINT = "Invalid mint address, not on ed25519 curve",
+  INVALID_MINT = "Invalid mint address",
   INVALID_DECIMALS = "Invalid decimals",
   INVALID_IMAGE_URL = "Invalid image URL",
   INVALID_COMMUNITY_VALIDATED = "Invalid community validated",
