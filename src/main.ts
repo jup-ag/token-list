@@ -1,7 +1,7 @@
 import * as core from "@actions/core";
 import { exec } from "@actions/exec";
 import { canOnlyAddOneToken, detectDuplicateSymbol, detectDuplicates, validCommunityValidated, validMintAddress } from "./utils/validate";
-import { Record } from "./types/types";
+import { ValidatedTokensData } from "./types/types";
 import { parse } from "csv-parse/sync";
 import fs from "fs";
 
@@ -74,16 +74,16 @@ async function gitPreviousVersion(path: string): Promise<any> {
   return prevVersion;
 }
 
-function csvToRecords(r: any): Record[] {
-  const records: Record[] = [];
+function csvToRecords(r: any): ValidatedTokensData[] {
+  const records: ValidatedTokensData[] = [];
   r.forEach((record: any) => {
-    const rec: Record = {
+    const rec: ValidatedTokensData = {
       Name: record.Name,
       Symbol: record.Symbol,
       Mint: record.Mint,
       Decimals: record.Decimals,
       LogoURI: record.LogoURI,
-      "Community Validated": record["Community Validated"],
+      "Community Validated": JSON.parse(record["Community Validated"]),
     };
     records.push(rec);
   });

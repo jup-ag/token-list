@@ -1,4 +1,4 @@
-import { Record, ValidationError } from "../types/types";
+import { ValidatedTokensData, ValidationError } from "../types/types";
 import { PublicKey } from "@solana/web3.js";
 import { communityValidatedExceptions } from "./validate-exceptions";
 
@@ -6,7 +6,7 @@ function indexToLineNumber(index: number): number {
   return index + 2;
 }
 
-export function detectDuplicates(tokens: Record[]): number {
+export function detectDuplicates(tokens: ValidatedTokensData[]): number {
   let errorCount = 0;
   const map = new Map();
   tokens.forEach((token, i) => {
@@ -21,7 +21,7 @@ export function detectDuplicates(tokens: Record[]): number {
   return errorCount;
 }
 
-export function detectDuplicateSymbol(tokens: Record[]): number {
+export function detectDuplicateSymbol(tokens: ValidatedTokensData[]): number {
   const map = new Map();
   let errorCount = 0;
   tokens.forEach((token, i) => {
@@ -36,13 +36,13 @@ export function detectDuplicateSymbol(tokens: Record[]): number {
   return errorCount;
 }
 
-export function canOnlyAddOneToken(prevTokens: Record[], tokens: Record[]): number {
+export function canOnlyAddOneToken(prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): number {
   let errorCount = 0;
   const diffLength = tokens.length - prevTokens.length;
 
   if (diffLength > 1) {
     console.log(ValidationError.MULTIPLE_TOKENS);
-    const offendingTokens: Record[] = [];
+    const offendingTokens: ValidatedTokensData[] = [];
     for (let i = prevTokens.length; i < tokens.length; i++) {
       offendingTokens.push(tokens[i]);
     }
@@ -52,7 +52,7 @@ export function canOnlyAddOneToken(prevTokens: Record[], tokens: Record[]): numb
   return errorCount;
 }
 
-export function validMintAddress(tokens: Record[]): number {
+export function validMintAddress(tokens: ValidatedTokensData[]): number {
   let errorCount = 0;
 
   tokens.forEach((token, i) => {
@@ -72,7 +72,7 @@ export function validMintAddress(tokens: Record[]): number {
   return errorCount;
 }
 
-export function validDecimals(tokens: Record[]): number {
+export function validDecimals(tokens: ValidatedTokensData[]): number {
   let errorCount = 0;
   tokens.forEach((token) => {
     if (isNaN(Number(token.Decimals)) || Number(token.Decimals) < 0 || Number(token.Decimals) > 9) {
@@ -83,11 +83,11 @@ export function validDecimals(tokens: Record[]): number {
   return errorCount;
 }
 
-export function validCommunityValidated(tokens: Record[]): number {
+export function validCommunityValidated(tokens: ValidatedTokensData[]): number {
   let errorCount = 0;
-  const communityExceptions = communityExceptionsLoad('exceptions.json');
+  const communityExceptions = communityExceptionsLoad();
   tokens.forEach((token, i) => {
-    if (token["Community Validated"] !== "true") {
+    if (token["Community Validated"] !== true) {
       // is it an exception?
       const isException = communityExceptions(token);
       if (!isException) {
@@ -99,13 +99,13 @@ export function validCommunityValidated(tokens: Record[]): number {
   return errorCount;
 }
 
-function communityExceptionsLoad(path: string): any {
+function communityExceptionsLoad(): any {
   // Load the exceptions into a map
   const map = new Map();
-  communityValidatedExceptions.forEach((token: Record) => {
+  communityValidatedExceptions.forEach((token: ValidatedTokensData) => {
     map.set(token.Mint, token);
   });
-  return function (token: Record): boolean {
+  return function (token: ValidatedTokensData): boolean {
     // Check if the token is in the map, but we don't stop there. We also check if the token is deepequal to the record in the map of exceptions.
     if (map.has(token.Mint)) {
       const exceptionRecord = map.get(token.Mint);
@@ -119,7 +119,7 @@ function communityExceptionsLoad(path: string): any {
   }
 }
 
-export function areRecordsEqual(r1: Record, r2: Record): boolean {
+export function areRecordsEqual(r1: ValidatedTokensData, r2: ValidatedTokensData): boolean {
   return (
     r1.Name === r2.Name &&
     r1.Symbol === r2.Symbol &&
