@@ -39,7 +39,7 @@ export interface Record {
   Mint: string;
   Decimals: string;
   LogoURI: string;
-  "Community Validated": boolean;
+  "Community Validated": string;
 }
 
 export interface SolanaFmToken extends Token {
