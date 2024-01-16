@@ -1,5 +1,6 @@
-import { Patch, Record, ValidatedSet, ValidationError } from "../types/types";
+import { Record, ValidationError } from "../types/types";
 import { PublicKey } from "@solana/web3.js";
+import { communityValidatedExceptions } from "./validate-exceptions";
 
 function indexToLineNumber(index: number): number {
   return index + 2;
@@ -84,13 +85,38 @@ export function validDecimals(tokens: Record[]): number {
 
 export function validCommunityValidated(tokens: Record[]): number {
   let errorCount = 0;
+  const communityExceptions = communityExceptionsLoad('exceptions.json');
   tokens.forEach((token, i) => {
     if (token["Community Validated"] !== "true") {
-      console.log(ValidationError.INVALID_COMMUNITY_VALIDATED, `(line ${indexToLineNumber(i)})`, token);
-      errorCount++;
+      // is it an exception?
+      const isException = communityExceptions(token);
+      if (!isException) {
+        console.log(ValidationError.INVALID_COMMUNITY_VALIDATED, `(line ${indexToLineNumber(i)})`, token);
+        errorCount++;
+      }
     }
   });
   return errorCount;
+}
+
+function communityExceptionsLoad(path: string): any {
+  // Load the exceptions into a map
+  const map = new Map();
+  communityValidatedExceptions.forEach((token: Record) => {
+    map.set(token.Mint, token);
+  });
+  return function (token: Record): boolean {
+    // Check if the token is in the map, but we don't stop there. We also check if the token is deepequal to the record in the map of exceptions.
+    if (map.has(token.Mint)) {
+      const exceptionRecord = map.get(token.Mint);
+      if (areRecordsEqual(exceptionRecord, token)) {
+        // console.log('Community Validated Exception:', token.Name, token.Mint);
+        return true;
+      }
+      return false;
+    }
+    return false;
+  }
 }
 
 export function areRecordsEqual(r1: Record, r2: Record): boolean {
