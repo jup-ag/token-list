@@ -1,12 +1,9 @@
 import * as core from "@actions/core";
 import { exec } from "@actions/exec";
-import { parseGitPatch } from "./utils/parse";
-import { canOnlyAddOneToken, detectDuplicateSymbol } from "./utils/validate";
-import { getValidated } from "./utils/get-jup-strict";
-import { Record, ValidatedSet, ValidationError } from "./types/types";
+import { canOnlyAddOneToken, detectDuplicateSymbol, detectDuplicates, validCommunityValidated, validMintAddress } from "./utils/validate";
+import { Record } from "./types/types";
 import { parse } from "csv-parse/sync";
 import fs from "fs";
-import assert from "assert";
 
 (async () => {
   try {
@@ -31,8 +28,23 @@ async function validateValidatedTokensCsv() {
   });
   const records_0 = csvToRecords(r0);
 
-  detectDuplicateSymbol(records);
-  canOnlyAddOneToken(records_0, records);
+  let duplicateSymbols;
+  let duplicates;
+  let attemptsToAddMoreTokens;
+  let invalidMintAddresses;
+  let notCommunityValidated;
+
+  // duplicateSymbols = detectDuplicateSymbol(records);
+  duplicates = detectDuplicates(records);
+  attemptsToAddMoreTokens = canOnlyAddOneToken(records_0, records);
+  invalidMintAddresses = validMintAddress(records);
+  notCommunityValidated = validCommunityValidated(records);
+
+  console.log("Duplicate Symbols:", duplicateSymbols);
+  console.log("Duplicates:", duplicates);
+  console.log("Attempts to Add More Tokens:", attemptsToAddMoreTokens);
+  console.log("Invalid Mint Addresses:", invalidMintAddresses);
+  console.log("Not Community Validated:", notCommunityValidated);
 }
 
 // Get previous version of validated-tokens.csv from last commit
