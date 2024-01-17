@@ -68,36 +68,6 @@ async function gitPreviousVersion(path: string): Promise<any> {
   return prevVersion;
 }
 
-async function diff(oldFile: string, newFile: string): Promise<any> {
-  let diffLines = "";
-  let diffCmdError = "";
-
-  try {
-    await exec("diff", ["--color=never", "-U0", oldFile, newFile], {
-      listeners: {
-        stdout: (data: Buffer) => {
-          diffLines += data.toString();
-        },
-        stderr: (data: Buffer) => {
-          diffCmdError += data.toString();
-        },
-      },
-      silent: false
-    });
-  } catch (error: any) {
-    // if error message includes "exit code 1", it's just diff telling us that
-    // the files are different. ignore.
-    if (!error.message.includes("failed with exit code 1")) {
-      core.setFailed(error.message);
-    }
-  }
-
-  if (diffCmdError) {
-    core.setFailed(diffCmdError);
-  }
-  return diffLines;
-}
-
 function parseCsv(filename: string): [ValidatedTokensData[], string] {
   const recordsRaw = fs.readFileSync(filename, "utf8")
   const r = parse(recordsRaw, {
