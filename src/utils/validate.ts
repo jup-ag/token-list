@@ -1,11 +1,11 @@
 import { ValidatedTokensData, ValidationError } from "../types/types";
 import { PublicKey } from "@solana/web3.js";
 
-function indexToLineNumber(index: number): number {
+export function indexToLineNumber(index: number): number {
   return index + 2;
 }
 
-export function detectDuplicates(tokens: ValidatedTokensData[]): number {
+export function detectDuplicateMints(tokens: ValidatedTokensData[]): number {
   let errorCount = 0;
   const map = new Map();
   tokens.forEach((token, i) => {
@@ -20,32 +20,66 @@ export function detectDuplicates(tokens: ValidatedTokensData[]): number {
   return errorCount;
 }
 
-export function detectDuplicateSymbol(tokens: ValidatedTokensData[]): number {
-  const map = new Map();
-  let errorCount = 0;
-  tokens.forEach((token, i) => {
-    if (map.has(token.Symbol)) {
-      console.log(ValidationError.DUPLICATE_SYMBOL)
-      console.log("Existing", map.get(token.Symbol), "Duplicate", `(line ${indexToLineNumber(i)})`, token);
-      errorCount++;
-    } else {
-      map.set(token.Symbol, token);
+export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], tokens: ValidatedTokensData[]): number {
+  const bySymbol = new Map();
+  const byMint = new Map();
+  // If we put tokens into a map by symbol, only tokens with duplicate symbols will be leftover.
+  tokensPreviously.forEach((token, i) => {
+    if (!bySymbol.has(token.Symbol)) {
+      bySymbol.set(token.Symbol, token);
+      byMint.set(token.Mint, token);
     }
   });
-  return errorCount;
+
+  const duplicateSymbols: ValidatedTokensData[] = [];
+  tokens.forEach((token, i) => {
+    if (!byMint.has(token.Mint)) {
+      duplicateSymbols.push(token);
+    }
+  });
+  // console.log(duplicateSymbols)
+
+  const existingDuplicateSymbols = [
+    'ALL', 'ARB', 'AVAX',
+    'BOO', 'FOOD', 'FUEL',
+    'GEAR', 'GM', 'LILY',
+    'MILK', 'NANA', 'NINJA',
+    'OPOS', 'PEPE', 'ROCKY',
+    'SOUL', 'WHEY', 'sRLY'
+  ]
+  // as of writing this code, we already have 18 tokens with duplicate symbols. the point is to make sure this number doesn't grow.
+  if (duplicateSymbols.length > existingDuplicateSymbols.length) {
+    // we have a problem. we have more duplicate symbols than we did before.
+    // but what exactly was duplicated?
+    const sortedDuplicateSymbols: string[] = duplicateSymbols
+      .map((token) => token.Symbol)
+      .sort()
+
+    const theNewDuplicateSymbol = xorStrings(existingDuplicateSymbols, sortedDuplicateSymbols)
+    console.log(ValidationError.DUPLICATE_SYMBOL, theNewDuplicateSymbol);
+  }
+  return duplicateSymbols.length - existingDuplicateSymbols.length;
 }
+
+function xorStrings(strings1: string[], strings2: string[]): string[] {
+  const set1 = new Set(strings1);
+  const set2 = new Set(strings2);
+
+  const setDifference = new Set([...set1, ...set2].filter(value => !set1.has(value) || !set2.has(value)));
+
+  return Array.from(setDifference);
+};
 
 export function canOnlyAddOneToken(prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): number {
   let errorCount = 0;
   const diffLength = tokens.length - prevTokens.length;
 
   if (diffLength > 1) {
-    console.log(ValidationError.MULTIPLE_TOKENS);
     const offendingTokens: ValidatedTokensData[] = [];
     for (let i = prevTokens.length; i < tokens.length; i++) {
       offendingTokens.push(tokens[i]);
     }
-    console.log('Offending Tokens: ', offendingTokens);
+    console.log(ValidationError.MULTIPLE_TOKENS, offendingTokens);
     errorCount++;
   }
   return errorCount;
