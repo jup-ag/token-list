@@ -11,7 +11,7 @@ export function detectDuplicates(tokens: ValidatedTokensData[]): number {
   tokens.forEach((token, i) => {
     if (map.has(token.Mint)) {
       console.log(ValidationError.DUPLICATE_MINT)
-      console.log("Existing", map.get(token.Mint), "Duplicate", `(line ${indexToLineNumber(i)})`, token);
+      console.log("Existing", map.get(token.Mint), "Duplicate", `(line ${token.Line})`, token);
       errorCount++;
     } else {
       map.set(token.Mint, token);
@@ -60,7 +60,7 @@ export function validMintAddress(tokens: ValidatedTokensData[]): number {
       // a mint doesn't have to be on the edd25519 curve though
       const _ = new PublicKey(token.Mint)
     } catch (error) {
-      console.log(ValidationError.INVALID_MINT, `(line ${indexToLineNumber(i)})`, token, error);
+      console.log(ValidationError.INVALID_MINT, `(line ${token.Line})`, token, error);
       errorCount++;
     }
   });
