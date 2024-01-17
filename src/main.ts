@@ -76,7 +76,7 @@ async function gitPreviousVersion(path: string): Promise<any> {
 
 function csvToRecords(r: any): ValidatedTokensData[] {
   const records: ValidatedTokensData[] = [];
-  r.forEach((record: any) => {
+  r.forEach((record: any, i: number) => {
     const rec: ValidatedTokensData = {
       Name: record.Name,
       Symbol: record.Symbol,
@@ -84,6 +84,7 @@ function csvToRecords(r: any): ValidatedTokensData[] {
       Decimals: record.Decimals,
       LogoURI: record.LogoURI,
       "Community Validated": JSON.parse(record["Community Validated"]),
+      Line: indexToLineNumber(i)
     };
     records.push(rec);
   });

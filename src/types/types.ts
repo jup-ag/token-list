@@ -99,4 +99,5 @@ export interface ValidatedTokensData {
   Decimals: string;
   LogoURI: string;
   "Community Validated": boolean;
+  Line: number;
 }
