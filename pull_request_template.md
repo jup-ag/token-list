@@ -1,11 +1,17 @@
 # Validate [SATC](https://solscan.io/token/C9gt5qABjCudBDnmuN4PJg2fBtbguHD1E4s448XWCFaC)
 
 Validate [SATC](https://solscan.io/token/C9gt5qABjCudBDnmuN4PJg2fBtbguHD1E4s448XWCFaC#metadata)
+
 Name: SEC AND THE CITY
+
 Symbol: SATC
+
 Mint Address: C9gt5qABjCudBDnmuN4PJg2fBtbguHD1E4s448XWCFaC
+
 Decimals: 0 (Fungible Asset - metaplex tokenStandard v.1)
+
 Logo URL: [https://node2.irys.xyz/_zB_ro2jg6KpplPitYV7FqLWK6Aj7T07eH5Ui_4wRpY](https://node2.irys.xyz/_zB_ro2jg6KpplPitYV7FqLWK6Aj7T07eH5Ui_4wRpY)
+
 Tweet: [https://x.com/satc_sol/status/1747665476774138171](https://x.com/satc_sol/status/1747665476774138171)
 Community Validated: true
 
