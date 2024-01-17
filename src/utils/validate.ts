@@ -56,13 +56,9 @@ export function validMintAddress(tokens: ValidatedTokensData[]): number {
 
   tokens.forEach((token, i) => {
     try {
-      // new PublicKey() can throw an error if the mint address is really invalid
-      const pk = new PublicKey(token.Mint)
-      // const isOnCurve = PublicKey.isOnCurve(pk)
-      // if (!isOnCurve) {
-      //   console.log(ValidationError.INVALID_MINT, `(line ${indexToLineNumber(i)})`, token);
-      //   errorCount++;
-      // }
+      // will fail if mint address is not valid base58
+      // a mint doesn't have to be on the edd25519 curve though
+      const _ = new PublicKey(token.Mint)
     } catch (error) {
       console.log(ValidationError.INVALID_MINT, `(line ${indexToLineNumber(i)})`, token, error);
       errorCount++;
