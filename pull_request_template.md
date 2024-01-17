@@ -13,6 +13,7 @@ Decimals: 0 (Fungible Asset - metaplex tokenStandard v.1)
 Logo URL: [https://node2.irys.xyz/_zB_ro2jg6KpplPitYV7FqLWK6Aj7T07eH5Ui_4wRpY](https://node2.irys.xyz/_zB_ro2jg6KpplPitYV7FqLWK6Aj7T07eH5Ui_4wRpY)
 
 Tweet: [https://x.com/satc_sol/status/1747665476774138171](https://x.com/satc_sol/status/1747665476774138171)
+
 Community Validated: true
 
 ## Attestations:
