@@ -1,6 +1,6 @@
 import * as core from "@actions/core";
 import { exec } from "@actions/exec";
-import { canOnlyAddOneToken, detectDuplicateSymbol, detectDuplicateMints as detectDuplicateMints, validMintAddress } from "./utils/validate";
+import { canOnlyAddOneToken, detectDuplicateSymbol, detectDuplicateMints as detectDuplicateMints, validMintAddress, noEditsToPreviousLinesAllowed } from "./utils/validate";
 import { ValidatedTokensData } from "./types/types";
 import { indexToLineNumber } from "./utils/validate";
 import { parse } from "csv-parse/sync";
@@ -12,26 +12,29 @@ import fs from "fs";
   }
   catch (error: any) {
     core.setFailed(error.message);
+    console.log(error.message)
   }
 })();
 
 async function validateValidatedTokensCsv() {
-  const [records, _recordsRaw] = parseCsv("validated-tokens.csv");
+  const [records, recordsRaw] = parseCsv("validated-tokens.csv");
 
   const recordsPreviousRaw = await gitPreviousVersion("validated-tokens.csv");
   fs.writeFileSync(".validated-tokens-0.csv", recordsPreviousRaw);
-  const [recordsPrevious, _recordsPreviousRaw] = parseCsv(".validated-tokens-0.csv")
+  const [recordsPrevious, _] = parseCsv(".validated-tokens-0.csv")
 
   let duplicateSymbols;
   let duplicateMints;
   let attemptsToAddMultipleTokens;
   let invalidMintAddresses;
   let notCommunityValidated;
+  let noEditsAllowed;
 
   duplicateSymbols = detectDuplicateSymbol(recordsPrevious, records);
   duplicateMints = detectDuplicateMints(records);
   attemptsToAddMultipleTokens = canOnlyAddOneToken(recordsPrevious, records)
   invalidMintAddresses = validMintAddress(records);
+  noEditsAllowed = noEditsToPreviousLinesAllowed(recordsPrevious, records);
   // notCommunityValidated = validCommunityValidated(records);
 
   console.log("No More Duplicate Symbols:", duplicateSymbols);
@@ -39,6 +42,7 @@ async function validateValidatedTokensCsv() {
   console.log("Attempts to Add Multiple Tokens:", attemptsToAddMultipleTokens);
   console.log("Invalid Mint Addresses:", invalidMintAddresses);
   console.log("Not Community Validated:", notCommunityValidated);
+  console.log("Edits to Existing Tokens:", noEditsAllowed);
 }
 
 // Get previous version of validated-tokens.csv from last commit
@@ -66,36 +70,6 @@ async function gitPreviousVersion(path: string): Promise<any> {
     core.setFailed(gitCmdError);
   }
   return prevVersion;
-}
-
-async function diff(oldFile: string, newFile: string): Promise<any> {
-  let diffLines = "";
-  let diffCmdError = "";
-
-  try {
-    await exec("diff", ["--color=never", "-U0", oldFile, newFile], {
-      listeners: {
-        stdout: (data: Buffer) => {
-          diffLines += data.toString();
-        },
-        stderr: (data: Buffer) => {
-          diffCmdError += data.toString();
-        },
-      },
-      silent: false
-    });
-  } catch (error: any) {
-    // if error message includes "exit code 1", it's just diff telling us that
-    // the files are different. ignore.
-    if (!error.message.includes("failed with exit code 1")) {
-      core.setFailed(error.message);
-    }
-  }
-
-  if (diffCmdError) {
-    core.setFailed(diffCmdError);
-  }
-  return diffLines;
 }
 
 function parseCsv(filename: string): [ValidatedTokensData[], string] {

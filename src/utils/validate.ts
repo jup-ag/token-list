@@ -122,3 +122,25 @@ export function areRecordsEqual(r1: ValidatedTokensData, r2: ValidatedTokensData
     r1["Community Validated"] === r2["Community Validated"]
   );
 }
+
+// this function only works properly if there are no duplicate mints
+export function noEditsToPreviousLinesAllowed(prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): number {
+  let errorCount = 0;
+  const map = new Map();
+  prevTokens.forEach((token) => {
+    map.set(token.Mint, token)
+  })
+
+  tokens.forEach((token) => {
+    const prevToken = map.get(token.Mint);
+    if (prevToken !== undefined) {
+      // if prevToken is undefined, this means that the new file has a token that
+      // the older one didn't. that's completely normal
+      if (!areRecordsEqual(prevToken, token)) {
+        console.log(ValidationError.CHANGES_DISCOURAGED, prevToken, token)
+        errorCount++;
+      }
+    }
+  })
+  return errorCount;
+}

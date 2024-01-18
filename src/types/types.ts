@@ -74,7 +74,7 @@ export enum ValidationError {
   INVALID_DECIMALS = "Invalid decimals",
   INVALID_IMAGE_URL = "Invalid image URL",
   INVALID_COMMUNITY_VALIDATED = "Invalid community validated",
-  ADDRESS_MAY_NOT_CHANGE = ""
+  CHANGES_DISCOURAGED = "Tokens already in the CSV should not be edited"
 }
 
 export interface WormholeData {
