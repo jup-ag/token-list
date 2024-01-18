@@ -21,25 +21,32 @@ export function detectDuplicateMints(tokens: ValidatedTokensData[]): number {
 }
 
 export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], tokens: ValidatedTokensData[]): number {
-  const bySymbol = new Map();
-  const byMint = new Map();
+  const tokensPrevBySymbol = new Map();
+  const tokensPrevByMint = new Map();
   // If we put tokens into a map by symbol, only tokens with duplicate symbols will be leftover.
+  const duplicateSymbolsPrev: ValidatedTokensData[] = [];
   tokensPreviously.forEach((token, i) => {
-    if (!bySymbol.has(token.Symbol)) {
-      bySymbol.set(token.Symbol, token);
-      byMint.set(token.Mint, token);
+    if (!tokensPrevBySymbol.has(token.Symbol)) {
+      tokensPrevBySymbol.set(token.Symbol, token);
+      tokensPrevByMint.set(token.Mint, token);
+    } else {
+      duplicateSymbolsPrev.push(token);
     }
   });
 
+  const tokensBySymbol = new Map();
+  const tokensByMint = new Map();
   const duplicateSymbols: ValidatedTokensData[] = [];
   tokens.forEach((token, i) => {
-    if (!byMint.has(token.Mint)) {
+    if (!tokensBySymbol.has(token.Symbol)) {
+      tokensBySymbol.set(token.Symbol, token);
+      tokensByMint.set(token.Mint, token);
+    } else {
       duplicateSymbols.push(token);
     }
   });
-  // console.log(duplicateSymbols)
 
-  const existingDuplicateSymbols = [
+  const allowedDuplicateSymbols = [
     'ALL', 'ARB', 'AVAX',
     'BOO', 'FOOD', 'FUEL',
     'GEAR', 'GM', 'LILY',
@@ -48,17 +55,18 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
     'SOUL', 'WHEY', 'sRLY'
   ]
   // as of writing this code, we already have 18 tokens with duplicate symbols. the point is to make sure this number doesn't grow.
-  if (duplicateSymbols.length > existingDuplicateSymbols.length) {
+  if (duplicateSymbols.length > allowedDuplicateSymbols.length) {
     // we have a problem. we have more duplicate symbols than we did before.
     // but what exactly was duplicated?
     const sortedDuplicateSymbols: string[] = duplicateSymbols
       .map((token) => token.Symbol)
       .sort()
 
-    const theNewDuplicateSymbol = xorStrings(existingDuplicateSymbols, sortedDuplicateSymbols)
+    const theNewDuplicateSymbol = xorStrings(allowedDuplicateSymbols, sortedDuplicateSymbols)
     console.log(ValidationError.DUPLICATE_SYMBOL, theNewDuplicateSymbol);
+    console.log(`(the last version of the CSV file had ${duplicateSymbolsPrev.length} duplicates)`)
   }
-  return duplicateSymbols.length - existingDuplicateSymbols.length;
+  return duplicateSymbols.length - allowedDuplicateSymbols.length;
 }
 
 function xorStrings(strings1: string[], strings2: string[]): string[] {
