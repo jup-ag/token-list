@@ -4,7 +4,8 @@ import minimist from "minimist";
 (async () => {
     try {
         const argv = minimist(process.argv.slice(2));
-        await validateValidatedTokensCsv(argv._[0]);
+        const returnCode = await validateValidatedTokensCsv(argv._[0]);
+        process.exit(returnCode);
     }
     catch (error: any) {
         console.log(error.message)

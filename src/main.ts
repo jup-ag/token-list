@@ -3,7 +3,8 @@ import { validateValidatedTokensCsv } from "./logic";
 // Github Actions entrypoint
 (async () => {
   try {
-    await validateValidatedTokensCsv("validated-tokens.csv");
+    const returnCode = await validateValidatedTokensCsv("validated-tokens.csv");
+    process.exit(returnCode);
   }
   catch (error: any) {
     core.setFailed(error.message);

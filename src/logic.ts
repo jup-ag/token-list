@@ -6,7 +6,7 @@ import { indexToLineNumber } from "./utils/validate";
 import { parse } from "csv-parse/sync";
 import fs from "fs";
 
-export async function validateValidatedTokensCsv(filename: string) {
+export async function validateValidatedTokensCsv(filename: string): Promise<number> {
     const [records, recordsRaw] = parseCsv(filename);
 
     const recordsPreviousRaw = await gitPreviousVersion("validated-tokens.csv");
@@ -33,6 +33,7 @@ export async function validateValidatedTokensCsv(filename: string) {
     console.log("Invalid Mint Addresses:", invalidMintAddresses);
     console.log("Not Community Validated:", notCommunityValidated);
     console.log("Edits to Existing Tokens:", noEditsAllowed);
+    return (duplicateSymbols + duplicateMints + attemptsToAddMultipleTokens + invalidMintAddresses + noEditsAllowed)
 }
 
 // Get previous version of validated-tokens.csv from last commit
