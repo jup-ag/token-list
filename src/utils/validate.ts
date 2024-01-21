@@ -1,4 +1,5 @@
-import { ValidatedTokensData, ValidationError } from "../types/types";
+import { DuplicateSymbol, ValidatedTokensData, ValidationError } from "../types/types";
+import { allowedDuplicateSymbols } from "./duplicate-symbols";
 import { PublicKey } from "@solana/web3.js";
 
 export function indexToLineNumber(index: number): number {
@@ -45,15 +46,8 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
       duplicateSymbols.push(token);
     }
   });
+  duplicateSymbols.sort((a, b) => a.Symbol.localeCompare(b.Symbol));
 
-  const allowedDuplicateSymbols = [
-    'ALL', 'ARB', 'AVAX',
-    'BOO', 'FOOD', 'FUEL',
-    'GEAR', 'GM', 'LILY',
-    'MILK', 'NANA', 'NINJA',
-    'OPOS', 'PEPE', 'ROCKY',
-    'SOUL', 'WHEY', 'sRLY'
-  ]
   // as of writing this code, we already have 18 tokens with duplicate symbols. the point is to make sure this number doesn't grow.
   if (duplicateSymbols.length > allowedDuplicateSymbols.length) {
     // we have a problem. we have more duplicate symbols than we did before.
@@ -62,20 +56,34 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
       .map((token) => token.Symbol)
       .sort()
 
-    const theNewDuplicateSymbol = xorStrings(allowedDuplicateSymbols, sortedDuplicateSymbols)
+    const theNewDuplicateSymbol = xorTokens(duplicateSymbols, allowedDuplicateSymbols)
     console.log(ValidationError.DUPLICATE_SYMBOL, theNewDuplicateSymbol);
     console.log(`(the last version of the CSV file had ${duplicateSymbolsPrev.length} duplicates)`)
   }
   return duplicateSymbols.length - allowedDuplicateSymbols.length;
 }
 
-function xorStrings(strings1: string[], strings2: string[]): string[] {
-  const set1 = new Set(strings1);
-  const set2 = new Set(strings2);
+function xorTokens(tokens: ValidatedTokensData[], allowedDuplicates: DuplicateSymbol[]): ValidatedTokensData[] {
+  const tokensSymbolMint = tokens.map((token) => `${token.Symbol}-${token.Mint}`).sort();
+  const allowedDuplicatesSymbolMint = allowedDuplicates.map((token) => `${token.Symbol}-${token.Mint}`).sort();
+
+  const set1 = new Set(tokensSymbolMint);
+  const set2 = new Set(allowedDuplicatesSymbolMint);
 
   const setDifference = new Set([...set1, ...set2].filter(value => !set1.has(value) || !set2.has(value)));
+  // [ 'ARB-9xzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh' ]
 
-  return Array.from(setDifference);
+  const duplicateSymbolMints = Array.from(setDifference).map((x) => x.split("-"))
+  // [['ARB', '9xzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh']...]
+
+  const answer : ValidatedTokensData[] = [];
+  for (const [symbol, mint] of duplicateSymbolMints) {
+    const matchingElement = tokens.find((token) => token.Symbol === symbol && token.Mint === mint);
+    if(matchingElement) {
+      answer.push(matchingElement)
+    }
+  }
+  return answer
 };
 
 export function canOnlyAddOneToken(prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): number {

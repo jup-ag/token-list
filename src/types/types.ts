@@ -101,3 +101,9 @@ export interface ValidatedTokensData {
   "Community Validated": boolean;
   Line: number;
 }
+
+export interface DuplicateSymbol {
+  Name: string;
+  Symbol: string;
+  Mint: string;
+}
