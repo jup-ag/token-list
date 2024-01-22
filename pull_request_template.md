@@ -1,8 +1,8 @@
 # Validate [SSHIB](https://solscan.io/token/6VHL2vMKgrF1YQFSv29Rs1pj9VCRK29bD11NtDqerqHA)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/shibonsolana/status/1741126315565261245?s=46
-- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/solana-shib / https://coinmarketcap.com/currencies/solana-shib/
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/catman_solana/status/1748818867185492066
+- Coingecko/ CMC URL (If available): https://coinmarketcap.com/currencies/catman/
 
 ## Validation (Please check off boxes):
 - [x] The metadata provided in the PR matches what is on-chain (Mandatory)
