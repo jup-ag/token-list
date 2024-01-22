@@ -1,7 +1,7 @@
-# Validate [SSHIB](https://solscan.io/token/6VHL2vMKgrF1YQFSv29Rs1pj9VCRK29bD11NtDqerqHA)
+# Validate [CATMAN](https://solscan.io/token/EavJDLh8cYTAnt3QDitpKGMsPL2hq1My5g9R2P6at6Lc)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/catman_solana/status/1748818867185492066
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/catman_solana/status/1748818867185492066?s=46&t=6atFTC3o0TOdYNWsBrPOGA
 - Coingecko/ CMC URL (If available): https://coinmarketcap.com/currencies/catman/
 
 ## Validation (Please check off boxes):
