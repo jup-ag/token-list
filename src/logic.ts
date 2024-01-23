@@ -5,6 +5,7 @@ import { ValidatedTokensData } from "./types/types";
 import { indexToLineNumber } from "./utils/validate";
 import { parse } from "csv-parse/sync";
 import fs from "fs";
+import { allowedDuplicateSymbols, allowedNotCommunityValidated } from "./utils/duplicate-symbols";
 
 export async function validateValidatedTokensCsv(filename: string): Promise<number> {
     const [records, recordsRaw] = parseCsv(filename);
@@ -27,11 +28,11 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     noEditsAllowed = noEditsToPreviousLinesAllowed(recordsPrevious, records);
     notCommunityValidated = isCommunityValidated(records);
 
-    console.log("No More Duplicate Symbols:", duplicateSymbols);
+    console.log("No More Duplicate Symbols:", duplicateSymbols, `(${allowedDuplicateSymbols.length} exceptions)`);
     console.log("Duplicate Mints:", duplicateMints);
     console.log("Attempts to Add Multiple Tokens:", attemptsToAddMultipleTokens);
     console.log("Invalid Mint Addresses:", invalidMintAddresses);
-    console.log("Not Community Validated:", notCommunityValidated);
+    console.log("Not Community Validated:", notCommunityValidated, `(${allowedNotCommunityValidated.length} exceptions)`);
     console.log("Edits to Existing Tokens:", noEditsAllowed);
     return (duplicateSymbols + duplicateMints + attemptsToAddMultipleTokens + invalidMintAddresses + noEditsAllowed)
 }
