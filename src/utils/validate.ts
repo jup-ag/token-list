@@ -1,4 +1,4 @@
-import { DuplicateSymbol, ValidatedTokensData, ValidationError } from "../types/types";
+import { AllowedException, ValidatedTokensData, ValidationError } from "../types/types";
 import { allowedDuplicateSymbols } from "./duplicate-symbols";
 import { PublicKey } from "@solana/web3.js";
 
@@ -63,7 +63,7 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
   return duplicateSymbols.length - allowedDuplicateSymbols.length;
 }
 
-function xorTokens(tokens: ValidatedTokensData[], allowedDuplicates: DuplicateSymbol[]): ValidatedTokensData[] {
+function xorTokens(tokens: ValidatedTokensData[], allowedDuplicates: AllowedException[]): ValidatedTokensData[] {
   const tokensSymbolMint = tokens.map((token) => `${token.Symbol}-${token.Mint}`).sort();
   const allowedDuplicatesSymbolMint = allowedDuplicates.map((token) => `${token.Symbol}-${token.Mint}`).sort();
 

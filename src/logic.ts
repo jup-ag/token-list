@@ -1,6 +1,6 @@
 import * as core from "@actions/core";
 import { exec } from "@actions/exec";
-import { canOnlyAddOneToken, detectDuplicateSymbol, detectDuplicateMints as detectDuplicateMints, validMintAddress, noEditsToPreviousLinesAllowed } from "./utils/validate";
+import { detectDuplicateSymbol, detectDuplicateMints, canOnlyAddOneToken, validMintAddress, noEditsToPreviousLinesAllowed, isCommunityValidated } from "./utils/validate";
 import { ValidatedTokensData } from "./types/types";
 import { indexToLineNumber } from "./utils/validate";
 import { parse } from "csv-parse/sync";
@@ -25,7 +25,7 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     attemptsToAddMultipleTokens = canOnlyAddOneToken(recordsPrevious, records)
     invalidMintAddresses = validMintAddress(records);
     noEditsAllowed = noEditsToPreviousLinesAllowed(recordsPrevious, records);
-    // notCommunityValidated = validCommunityValidated(records);
+    notCommunityValidated = isCommunityValidated(records);
 
     console.log("No More Duplicate Symbols:", duplicateSymbols);
     console.log("Duplicate Mints:", duplicateMints);
