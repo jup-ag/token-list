@@ -10,6 +10,7 @@
       "strict": true /* Enable all strict type-checking options. */,
       "skipLibCheck": true /* Skip type checkng all .d.ts files. */,
       "allowJs": true,
+      "sourceMap": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
