@@ -21,7 +21,9 @@
     "@actions/exec": "^1.1.1",
     "@actions/github": "^5.1.1",
     "@solana/web3.js": "^1.73.2",
+    "@types/minimist": "^1.2.5",
     "csv-writer": "^1.6.0",
+    "minimist": "^1.2.8",
     "node-downloader-helper": "^2.1.6",
     "node-fetch": "^2.6.6"
   },
