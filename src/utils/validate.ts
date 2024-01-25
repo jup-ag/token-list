@@ -1,5 +1,5 @@
-import { DuplicateSymbol, ValidatedTokensData, ValidationError } from "../types/types";
-import { allowedDuplicateSymbols } from "./duplicate-symbols";
+import { AllowedException, ValidatedTokensData, ValidationError } from "../types/types";
+import { allowedDuplicateSymbols, allowedNotCommunityValidated} from "./duplicate-symbols";
 import { PublicKey } from "@solana/web3.js";
 
 export function indexToLineNumber(index: number): number {
@@ -63,7 +63,7 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
   return duplicateSymbols.length - allowedDuplicateSymbols.length;
 }
 
-function xorTokens(tokens: ValidatedTokensData[], allowedDuplicates: DuplicateSymbol[]): ValidatedTokensData[] {
+function xorTokens(tokens: ValidatedTokensData[], allowedDuplicates: AllowedException[]): ValidatedTokensData[] {
   const tokensSymbolMint = tokens.map((token) => `${token.Symbol}-${token.Mint}`).sort();
   const allowedDuplicatesSymbolMint = allowedDuplicates.map((token) => `${token.Symbol}-${token.Mint}`).sort();
 
@@ -158,5 +158,22 @@ export function noEditsToPreviousLinesAllowed(prevTokens: ValidatedTokensData[],
       }
     }
   })
+  return errorCount;
+}
+
+export function isCommunityValidated(tokens: ValidatedTokensData[]): number {
+  let errorCount = 0;
+  let allowedNotCommunityValidatedAsMap = new Map();
+  allowedNotCommunityValidated.forEach((e) => {
+    allowedNotCommunityValidatedAsMap.set(e.Mint, e)
+  });
+
+  tokens.forEach((token, i) => {
+    if (token["Community Validated"] !== true && !allowedNotCommunityValidatedAsMap.has(token.Mint)) {
+      console.log(ValidationError.INVALID_COMMUNITY_VALIDATED, `(line ${indexToLineNumber(i)})`, token);
+      errorCount++;
+    }
+  });
+
   return errorCount;
 }
