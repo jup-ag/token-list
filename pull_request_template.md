@@ -1,7 +1,7 @@
 # Validate [HARAMBE](https://solscan.io/token/Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/harambeonsolana/status/1751759710330515542?s=20
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/harambeonsolana/status/1751759710330515542?s=20
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/harambe-on-solana
 
 ## Validation (Please check off boxes):
