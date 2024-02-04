@@ -1,6 +1,6 @@
 import * as core from "@actions/core";
 import { exec } from "@actions/exec";
-import { detectDuplicateSymbol, detectDuplicateMints, canOnlyAddOneToken, validMintAddress, noEditsToPreviousLinesAllowed, isCommunityValidated } from "./utils/validate";
+import { detectDuplicateSymbol, detectDuplicateMints, canOnlyAddOneToken, validMintAddress, noEditsToPreviousLinesAllowed, isCommunityValidated, isSymbolConfusing } from "./utils/validate";
 import { ValidatedTokensData } from "./types/types";
 import { indexToLineNumber } from "./utils/validate";
 import { parse } from "csv-parse/sync";
@@ -20,6 +20,7 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     let invalidMintAddresses;
     let notCommunityValidated;
     let noEditsAllowed;
+    let potentiallyConfusingSymbols;
 
     duplicateSymbols = detectDuplicateSymbol(recordsPrevious, records);
     duplicateMints = detectDuplicateMints(records);
@@ -27,6 +28,7 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     invalidMintAddresses = validMintAddress(records);
     noEditsAllowed = noEditsToPreviousLinesAllowed(recordsPrevious, records);
     notCommunityValidated = isCommunityValidated(records);
+    potentiallyConfusingSymbols = isSymbolConfusing(recordsPrevious, records);
 
     console.log("No More Duplicate Symbols:", duplicateSymbols, `(${allowedDuplicateSymbols.length} exceptions)`);
     console.log("Duplicate Mints:", duplicateMints);
@@ -34,6 +36,7 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     console.log("Invalid Mint Addresses:", invalidMintAddresses);
     console.log("Not Community Validated:", notCommunityValidated, `(${allowedNotCommunityValidated.length} exceptions)`);
     console.log("Edits to Existing Tokens:", noEditsAllowed);
+    console.log("Issues with Symbols in Added Tokens:", potentiallyConfusingSymbols);
     return (duplicateSymbols + duplicateMints + attemptsToAddMultipleTokens + invalidMintAddresses + noEditsAllowed)
 }
 
