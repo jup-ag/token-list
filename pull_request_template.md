@@ -1,4 +1,4 @@
-# Validate [$PEPEL](https://solscan.io/token/{Dzbe85Wc7xAvZnYBwWMe17hgMrbTYjVTCWMiTerqkqk1)
+# Validate [$PEPEL](https://solscan.io/token/Dzbe85Wc7xAvZnYBwWMe17hgMrbTYjVTCWMiTerqkqk1)
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: [https://twitter.com/PepeLightSOL/status/1754978418821661122](https://twitter.com/PepeLightSOL/status/1754978418821661122)
