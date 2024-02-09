@@ -2,7 +2,7 @@
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/Elmentals_NFT_/status/1755969689107185946?s=20
-- Coingecko/ CMC URL (If available): Still working to get coin gecko set up for ELMNT
+- Coingecko/ CMC URL (If available): Still working to get coingecko set up for ELMNT
 
 ## Validation (Please check off boxes):
 - [x] The metadata provided in the PR matches what is on-chain (Mandatory)
