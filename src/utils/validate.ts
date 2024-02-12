@@ -228,3 +228,53 @@ export function isCommunityValidated(tokens: ValidatedTokensData[]): number {
 
   return errorCount;
 }
+
+export async function newTokensHaveMatchingOnchainMeta(connection: Connection, prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): Promise<number> {
+  let errors = 0
+  // const newTokens = xor(prevTokens, tokens);
+  const newTokens: ValidatedTokensData[] = [{
+    Name: "KiKI Token",
+    Symbol: "KIKI",
+    Mint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    Decimals: "9",
+    LogoURI: "https://arweave.net/8mAKLjGGmjKTnmcXeyr3pr7iX13xXVjJJiL6RujDbSPV",
+    Line: 1085,
+    "Community Validated": true,
+  }]
+  const metaplex = Metaplex.make(connection);
+
+  for (const token of newTokens) {
+    const mintAddress = new PublicKey(token.Mint);
+    const metadataPda = metaplex.nfts().pdas().metadata({ mint: mintAddress })
+
+    try {
+      let mint = await getMint(connection, mintAddress, "confirmed");
+      if (mint.decimals !== Number(token.Decimals)) {
+        console.error(ValidationError.INVALID_METADATA, `${token.Mint} should have decimals = ${mint.decimals} (source: Solana) but was registered as ${token.Decimals} (source: CSV)`);
+        errors += 1;
+      }
+    } catch (error) {
+      console.error(`Failed to fetch mint data for token '${token.Mint}'`, error);
+      return 1
+    }
+
+    try {
+      let metadata = await Metadata.fromAccountAddress(connection, metadataPda);
+      if (metadata.data.symbol.trim() !== token.Symbol) {
+        console.error(ValidationError.INVALID_METADATA, `${token.Mint} should have symbol = ${metadata.data.symbol.trim()} (source: Solana) but was registered as ${token.Symbol} (source: CSV)`);
+        errors += 1;
+      }
+      if (metadata.data.name.trim() !== token.Name) {
+        console.error(ValidationError.INVALID_METADATA, `${token.Mint} should have name = ${metadata.data.name.trim()} (source: Solana) but was registered as ${token.Name} (source: CSV)`);
+        errors += 1;
+      }
+
+    } catch (error) {
+      console.error(`Failed to fetch token metadata (Metaplex) for token ${token.Mint}`, error);
+      return 1
+    }
+
+  }
+
+  return errors;
+}
