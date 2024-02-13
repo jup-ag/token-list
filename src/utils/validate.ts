@@ -235,16 +235,7 @@ export function isCommunityValidated(tokens: ValidatedTokensData[]): number {
 
 export async function newTokensHaveMatchingOnchainMeta(connection: Connection, prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): Promise<number> {
   let errors = 0
-  // const newTokens = xor(prevTokens, tokens);
-  const newTokens: ValidatedTokensData[] = [{
-    Name: "KiKI Token",
-    Symbol: "KIKI",
-    Mint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
-    Decimals: "9",
-    LogoURI: "https://arweave.net/8mAKLjGGmjKTnmcXeyr3pr7iX13xXVjJJiL6RujDbSPV",
-    Line: 1085,
-    "Community Validated": true,
-  }]
+  const newTokens = findAddedTokens(prevTokens, tokens);
   const metaplex = Metaplex.make(connection);
 
   for (const token of newTokens) {
@@ -277,8 +268,6 @@ export async function newTokensHaveMatchingOnchainMeta(connection: Connection, p
       console.error(`Failed to fetch token metadata (Metaplex) for token ${token.Mint}`, error);
       return 1
     }
-
   }
-
   return errors;
 }
