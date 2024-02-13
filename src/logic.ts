@@ -1,7 +1,8 @@
 import * as core from "@actions/core";
 import { exec } from "@actions/exec";
-import { detectDuplicateSymbol, detectDuplicateMints, canOnlyAddOneToken, validMintAddress, noEditsToPreviousLinesAllowed, isCommunityValidated, isSymbolConfusing } from "./utils/validate";
+import { detectDuplicateSymbol, detectDuplicateMints, canOnlyAddOneToken, validMintAddress, noEditsToPreviousLinesAllowed, isCommunityValidated, isSymbolConfusing, newTokensHaveMatchingOnchainMeta} from "./utils/validate";
 import { ValidatedTokensData } from "./types/types";
+import { Connection, clusterApiUrl } from "@solana/web3.js";
 import { indexToLineNumber } from "./utils/validate";
 import { parse } from "csv-parse/sync";
 import fs from "fs";
@@ -13,14 +14,15 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     const recordsPreviousRaw = await gitPreviousVersion("validated-tokens.csv");
     fs.writeFileSync(".validated-tokens-0.csv", recordsPreviousRaw);
     const [recordsPrevious, _] = parseCsv(".validated-tokens-0.csv")
-
-    let duplicateSymbols;
-    let duplicateMints;
-    let attemptsToAddMultipleTokens;
-    let invalidMintAddresses;
-    let notCommunityValidated;
-    let noEditsAllowed;
-    let potentiallyConfusingSymbols;
+    const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
+    let duplicateSymbols = 0;
+    let duplicateMints = 0;
+    let attemptsToAddMultipleTokens = 0;
+    let invalidMintAddresses = 0;
+    let notCommunityValidated = 0;
+    let noEditsAllowed = 0;
+    let potentiallyConfusingSymbols = 0;
+    let doubleCheckMetadataOnChain = 0;
 
     duplicateSymbols = detectDuplicateSymbol(recordsPrevious, records);
     duplicateMints = detectDuplicateMints(records);
@@ -29,6 +31,7 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     noEditsAllowed = noEditsToPreviousLinesAllowed(recordsPrevious, records);
     notCommunityValidated = isCommunityValidated(records);
     potentiallyConfusingSymbols = isSymbolConfusing(recordsPrevious, records);
+    doubleCheckMetadataOnChain = await newTokensHaveMatchingOnchainMeta(connection, recordsPrevious, records);
 
     console.log("No More Duplicate Symbols:", duplicateSymbols, `(${allowedDuplicateSymbols.length} exceptions)`);
     console.log("Duplicate Mints:", duplicateMints);
@@ -37,7 +40,8 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     console.log("Not Community Validated:", notCommunityValidated, `(${allowedNotCommunityValidated.length} exceptions)`);
     console.log("Edits to Existing Tokens:", noEditsAllowed);
     console.log("Issues with Symbols in Added Tokens:", potentiallyConfusingSymbols);
-    return (duplicateSymbols + duplicateMints + attemptsToAddMultipleTokens + invalidMintAddresses + noEditsAllowed)
+    console.log("Onchain Metadata Mismatches:", doubleCheckMetadataOnChain);
+    return (duplicateSymbols + duplicateMints + attemptsToAddMultipleTokens + invalidMintAddresses + noEditsAllowed + doubleCheckMetadataOnChain)
 }
 
 // Get previous version of validated-tokens.csv from last commit

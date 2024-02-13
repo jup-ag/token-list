@@ -1,7 +1,9 @@
 import { AllowedException, ValidatedTokensData, ValidationError } from "../types/types";
-import { allowedDuplicateSymbols, allowedNotCommunityValidated} from "./duplicate-symbols";
-import { PublicKey } from "@solana/web3.js";
-
+import { allowedDuplicateSymbols, allowedNotCommunityValidated } from "./duplicate-symbols";
+import { PublicKey, Connection } from "@solana/web3.js";
+import { getMint, getAccount, Mint } from "@solana/spl-token";
+import { Metaplex } from "@metaplex-foundation/js";
+import { Metadata } from "@metaplex-foundation/mpl-token-metadata";
 export function indexToLineNumber(index: number): number {
   return index + 2;
 }
@@ -76,10 +78,10 @@ function xorTokensWithExceptions(tokens: ValidatedTokensData[], allowedDuplicate
   const duplicateSymbolMints = Array.from(setDifference).map((x) => x.split("-"))
   // [['ARB', '9xzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh']...]
 
-  const answer : ValidatedTokensData[] = [];
+  const answer: ValidatedTokensData[] = [];
   for (const [symbol, mint] of duplicateSymbolMints) {
     const matchingElement = tokens.find((token) => token.Symbol === symbol && token.Mint === mint);
-    if(matchingElement) {
+    if (matchingElement) {
       answer.push(matchingElement)
     }
   }
@@ -88,7 +90,7 @@ function xorTokensWithExceptions(tokens: ValidatedTokensData[], allowedDuplicate
 
 export function isSymbolConfusing(tokensPreviously: ValidatedTokensData[], tokens: ValidatedTokensData[]): number {
   let problems = 0;
-  const newTokens = xor(tokensPreviously, tokens);
+  const newTokens = findAddedTokens(tokensPreviously, tokens);
 
   // please no more weird symbols. Only alphanumeric, no $/- pre/suffixes, and certainly no emojis either
   const REGEX_NON_ALPHANUMERIC = /[^a-zA-Z0-9]/;
@@ -112,8 +114,10 @@ export function isSymbolConfusing(tokensPreviously: ValidatedTokensData[], token
   return problems
 }
 
-// xor finds the new tokens that were added
-function xor(tokensPreviously: ValidatedTokensData[], tokens: ValidatedTokensData[]):  ValidatedTokensData[] {
+// findAddedTokens returns lines which are in the second list but not in the
+// first list. It does not include lines which were in the first list but aren't
+// in the second.
+export function findAddedTokens(tokensPreviously: ValidatedTokensData[], tokens: ValidatedTokensData[]): ValidatedTokensData[] {
   const answer: ValidatedTokensData[] = [];
   const byMint = new Map();
   tokensPreviously.forEach((token) => {
@@ -205,7 +209,7 @@ export function noEditsToPreviousLinesAllowed(prevTokens: ValidatedTokensData[],
       // the older one didn't. that's completely normal
       if (!areRecordsEqual(prevToken, token)) {
         console.log(ValidationError.CHANGES_DISCOURAGED, prevToken, token)
-        errorCount++;
+        errorCount++
       }
     }
   })
