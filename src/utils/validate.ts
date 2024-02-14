@@ -1,9 +1,11 @@
 import { AllowedException, ValidatedTokensData, ValidationError } from "../types/types";
 import { allowedDuplicateSymbols, allowedNotCommunityValidated } from "./duplicate-symbols";
-import { PublicKey, Connection } from "@solana/web3.js";
-import { getMint, getAccount, Mint } from "@solana/spl-token";
+import { PublicKey, Connection, clusterApiUrl, AccountInfo } from "@solana/web3.js";
+import { getMint, unpackMint, getAccount, Account, Mint, TOKEN_2022_PROGRAM_ID, getMetadataPointerState, TOKEN_PROGRAM_ID, getExtensionData, ExtensionType } from "@solana/spl-token";
+import { TokenMetadata as T2022Metadata, unpack } from "@solana/spl-token-metadata";
 import { Metaplex } from "@metaplex-foundation/js";
-import { Metadata } from "@metaplex-foundation/mpl-token-metadata";
+import { Metadata as MetaplexMetadata } from "@metaplex-foundation/mpl-token-metadata";
+import { expect, test } from 'vitest';
 export function indexToLineNumber(index: number): number {
   return index + 2;
 }
@@ -236,38 +238,129 @@ export function isCommunityValidated(tokens: ValidatedTokensData[]): number {
 export async function newTokensHaveMatchingOnchainMeta(connection: Connection, prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): Promise<number> {
   let errors = 0
   const newTokens = findAddedTokens(prevTokens, tokens);
-  const metaplex = Metaplex.make(connection);
 
   for (const token of newTokens) {
     const mintAddress = new PublicKey(token.Mint);
-    const metadataPda = metaplex.nfts().pdas().metadata({ mint: mintAddress })
 
-    try {
-      let mint = await getMint(connection, mintAddress, "confirmed");
-      if (mint.decimals !== Number(token.Decimals)) {
-        console.error(ValidationError.INVALID_METADATA, `${token.Mint} should have decimals = ${mint.decimals} (source: Solana) but was registered as ${token.Decimals} (source: CSV)`);
-        errors += 1;
-      }
-    } catch (error) {
-      console.error(`Failed to fetch mint data for token '${token.Mint}'`, error);
-      return 1
-    }
+    let metadata = findMetadata(connection, mintAddress);
+    console.log("metadata", metadata);
 
-    try {
-      let metadata = await Metadata.fromAccountAddress(connection, metadataPda);
-      if (metadata.data.symbol.trim() !== token.Symbol) {
-        console.error(ValidationError.INVALID_METADATA, `${token.Mint} should have symbol = ${metadata.data.symbol.trim()} (source: Solana) but was registered as ${token.Symbol} (source: CSV)`);
-        errors += 1;
-      }
-      if (metadata.data.name.trim() !== token.Name) {
-        console.error(ValidationError.INVALID_METADATA, `${token.Mint} should have name = ${metadata.data.name.trim()} (source: Solana) but was registered as ${token.Name} (source: CSV)`);
-        errors += 1;
-      }
-
-    } catch (error) {
-      console.error(`Failed to fetch token metadata (Metaplex) for token ${token.Mint}`, error);
-      return 1
-    }
   }
   return errors;
+}
+
+async function findMetadata(connection: Connection, address: PublicKey): Promise<CommonTokenMetadata> {
+  let answer: CommonTokenMetadata;
+  // prefer to fetch Token 2022 metadata
+  let accInfo = await connection.getAccountInfo(address);
+  if (!accInfo) {
+    throw new Error(`Could not find account info for ${address}`)
+  }
+  if (accInfo.owner.equals(TOKEN_2022_PROGRAM_ID)) {
+    answer = await findToken2022Metadata(connection, address, accInfo)
+  }
+  else if (accInfo.owner.equals(TOKEN_PROGRAM_ID)) {
+    answer = await findMetaplexMetadata(connection, address, accInfo)
+  }
+  else {
+    throw new Error(`findMetadata() failed: ${address}'s owner was not TOKEN_PROGRAM_ID or TOKEN_2022_PROGRAM_ID`);
+  }
+  return answer
+}
+const removeEmptyChars = (value: string) => value.replace(/\u0000/g, '');
+async function findMetaplexMetadata(connection: Connection, address: PublicKey, accInfo: AccountInfo<Buffer>): Promise<CommonTokenMetadata> {
+  // You could use getMint(), and tell it it's either the Token or Token2022
+  // program, but it makes an extra RPC call to getAccountInfo(), which we have
+  // to do before anyway (above, in findMetadata()). So using unpackMint() saves
+  // us one RPC call.
+  const mintInfo = unpackMint(address, accInfo, accInfo.owner);
+  const metaplex = Metaplex.make(connection);
+  const metadataPda = metaplex.nfts().pdas().metadata({ mint: address });
+  const metaplexMetadata = await MetaplexMetadata.fromAccountAddress(connection, metadataPda);
+  if (!address.equals(mintInfo.address)){
+    throw new Error(`findMetaplexMetadata(${address}): sanity check failed: the Mint's address and the address you told me to look up (${address}) should be the same, but they aren't.`)
+  }
+  const answer: CommonTokenMetadata = {
+    mint: mintInfo.address,
+    name: removeEmptyChars(metaplexMetadata.data.name.trim()),
+    decimals: mintInfo.decimals,
+    symbol: removeEmptyChars(metaplexMetadata.data.symbol.trim()),
+    uri: removeEmptyChars(metaplexMetadata.data.uri.trim())
+  }
+  return answer
+}
+
+export async function findToken2022Metadata(connection: Connection, address: PublicKey, accInfo: AccountInfo<Buffer>): Promise<CommonTokenMetadata> {
+  // You could use getMint(), and tell it it's either the Token or Token2022
+  // program, but it makes an extra RPC call to getAccountInfo(), which we have
+  // to do before anyway (above, in findMetadata()). So using unpackMint() saves
+  // us one RPC call.
+  const mintInfo = unpackMint(address, accInfo, accInfo.owner);
+  const metadataPointer = getMetadataPointerState(mintInfo);
+  const metadata = getTokenMetadata(mintInfo);
+  // make sure that the metadata pointer points to the mint account (embedded metadata). Externally hosted metadata is not supported now.
+  if (metadataPointer?.metadataAddress?.equals(address) && metadata && metadata.mint.equals(address)) {
+    let answer: CommonTokenMetadata = {
+      mint: address,
+      name: removeEmptyChars(metadata.name.trim()),
+      decimals: mintInfo.decimals,
+      symbol: removeEmptyChars(metadata.symbol.trim()),
+      uri: removeEmptyChars(metadata.uri.trim())
+    }
+    return answer
+  }
+  let debug = `error in findToken2022Metadata(${address}), debug info: Metadata pointer should point to mint account: ${metadataPointer?.metadataAddress?.equals(address)}; Metadata should not be null: ${metadata}; Metadata.mint.equals(mint) should be true: ${metadata?.mint.equals(address)}`
+  throw new Error(debug)
+}
+
+function getTokenMetadata(mint: Mint): T2022Metadata | null {
+  const data = getExtensionData(ExtensionType.TokenMetadata, mint.tlvData);
+  if (data === null) {
+    return null;
+  }
+  return unpack(data);
+}
+
+const JUP = new PublicKey('JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN'); // Metaplex metadata
+const BERN = new PublicKey('CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo'); // Community metadata
+const GHOST = new PublicKey('HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH'); // Token2022 Metadata extension
+test('should work with a Token2022 mint', async () => {
+  const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
+  let t2022Meta = await findMetadata(connection, GHOST)
+  expect(t2022Meta).toMatchInlineSnapshot(`
+  {
+    "decimals": 9,
+    "mint": "HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH",
+    "name": "GH0ST",
+    "symbol": "GH0ST",
+    "uri": "https://bafybeialzeyqbeg7fzhebnknqxancgx3fi7n6xa4uq5lny62sa4xsuouiy.ipfs.dweb.link",
+  }
+  `)
+})
+test('should work with a Token/Metaplex-metadata mint', async () => {
+  const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
+  let t2022Meta = await findMetadata(connection, JUP)
+  expect(t2022Meta).toMatchInlineSnapshot(`
+  {
+    "decimals": 6,
+    "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "name": "Jupiter",
+    "symbol": "JUP",
+    "uri": "https://static.jup.ag/jup/metadata.json",
+  }
+  `)
+})
+test('should work with a Token2022/Community-metadata mint', async () => {
+  const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
+  let t2022Meta = await findMetadata(connection, BERN)
+  expect(t2022Meta).toMatchSnapshot()
+})
+
+// TokenMetadata is agnostic across Token 2022, Metaplex or Fluxbeam type metadata
+interface CommonTokenMetadata {
+  mint: PublicKey;
+  name: string;
+  decimals: number,
+  symbol: string;
+  uri: string;
 }

@@ -1,6 +1,6 @@
 import { ValidatedTokensData } from '../types/types';
 import { findAddedTokens } from './validate';
-import assert from 'assert';
+import { expect, test } from 'vitest'
 
 const tok1: ValidatedTokensData = {
     Name: "KiKI Token",
@@ -30,20 +30,18 @@ const tok3: ValidatedTokensData = {
     "Community Validated": true,
 }
 
-describe('xor', () => {
-    it('should find the tokens that are not in one list vs the other', () => {
-        const prevTokens = [tok1];
-        const tokens = [tok1, tok2, tok3];
-        const result = findAddedTokens(prevTokens, tokens);
-        assert.strictEqual(result.length,2);
-        assert.strictEqual(result[0], tok2);
-        assert.strictEqual(result[1], tok3);
-    });
-    it('does not count tokens missing from the newer list', () => {
-        const prevTokens = [tok1, tok3];
-        const tokens = [tok1, tok2];
-        const result = findAddedTokens(prevTokens, tokens);
-        assert.strictEqual(result.length,1);
-        assert.strictEqual(result[0], tok2);
-    });
+test('xor() should find the tokens that are not in one list vs the other', () => {
+    const prevTokens = [tok1];
+    const tokens = [tok1, tok2, tok3];
+    const result = findAddedTokens(prevTokens, tokens);
+    expect(result.length).toBe(2);
+    expect(result[0]).toBe(tok2);
+    expect(result[1]).toBe(tok3);
+});
+test('xor() does not count tokens missing from the newer list', () => {
+    const prevTokens = [tok1, tok3];
+    const tokens = [tok1, tok2];
+    const result = findAddedTokens(prevTokens, tokens);
+    expect(result.length).toBe(1);
+    expect(result[0]).toBe(tok2);
 });
