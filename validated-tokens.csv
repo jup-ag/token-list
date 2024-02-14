@@ -1099,19 +1099,3 @@ GH0ST,GH0ST,HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH,9,https://bafybeievcwt2
 Honk,HONK,3ag1Mj9AKz9FAkCQ6gAEhpLSX8B2pUbPdkb9iBsDLZNB,9,https://bafkreia5nmyxbrxshpiebsakviidhkfuoevpcyzonwov7bmaovce5ekzym.ipfs.nftstorage.link,true
 K-Pop,KPOP,DcUoGUeNTLhhzyrcz49LE7z3MEFwca2N9uSw1xbVi1gm,9,https://arweave.net/rzUo3sj5mtF5Q1ceUp0R7X_BOdULgdbL9OhzaFoP11U,true
 Tholana,THOL,EKCW975DWdt1roK1NVQDf4QGfaGTcQPU5tFD1DMcMe9Q,7,https://arweave.net/qOW4Inn_tDPZI3rQ-OtRa8gSZ0d5pgGV6vRY9D1T5zU,true
-# Validate [MARTY](https://solscan.io/token/5KhJ3fvCoQ4ybq237jLSgshSWsy942CpQPiPfrDPz2NM)
-
-## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/MartyInuToken/status/1750949981467386294
-- Coingecko/ CMC URL (If available):  [https://www.coingecko.com/en/coins/marty-inu](https://www.coingecko.com/en/coins/marty-inu)
-
-## Validation (Please check off boxes):
-- [x] The metadata provided in the PR matches what is on-chain (Mandatory)
-- [x] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will be delayed)
-- [x] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers)  
-
-## Acknowledgement (Please check off boxes)
-- [x] My change matches the format in the file (no spaces between fields).
-- [x] My token is already live and trading on Jupiter.
-- [x] !!! I read the README section on Community-Driven Validation and understand this PR will be only be reviewed when there is community support on Twitter.
-- [x] Please make sure your pull request title has your token name. If it just says "Main", or "Validate", it will automatically be closed. PRs containing broken attestation or solscan links will also be closed.
