@@ -232,19 +232,81 @@ export function isCommunityValidated(tokens: ValidatedTokensData[]): number {
   return errorCount;
 }
 
-export async function newTokensHaveMatchingOnchainMeta(connection: Connection, prevTokens: ValidatedTokensData[], tokens: ValidatedTokensData[]): Promise<number> {
-  const newTokens = findAddedTokens(prevTokens, tokens);
+export async function newTokensHaveMatchingOnchainMeta(connection: Connection, newTokens: ValidatedTokensData[]): Promise<number> {
   const mintAddresses = newTokens.map((token) => new PublicKey(token.Mint));
 
   let [metadatas, errors] = await findMetadata(connection, mintAddresses);
   for (let [i, newToken] of newTokens.entries()) {
     const metadata = metadatas[i];
     if (metadata) {
-      if (metadata.name !== newToken.Name || metadata.symbol !== newToken.Symbol || metadata.mint.toString() !== newToken.Mint || metadata.uri !== newToken.LogoURI || metadata.decimals !== Number(newToken.Decimals)) {
-        console.log(ValidationError.INVALID_METADATA, `(line ${newToken.Line})`, newToken, metadata);
+      // Name mismatch
+      if (metadata.name !== newToken.Name) {
+        console.log(`${ValidationError.INVALID_METADATA}: ${newToken.Mint} Name mismatch Expected: ${newToken.Name}, Found: ${metadata.name}`);
+        errors += 1;
+      }
+
+      // Symbol mismatch
+      if (metadata.symbol !== newToken.Symbol) {
+        console.log(`${ValidationError.INVALID_METADATA}: ${newToken.Mint} Symbol mismatch Expected: ${newToken.Symbol}, Found: ${metadata.symbol}`);
+        errors += 1;
+      }
+
+      // Mint mismatch
+      if (metadata.mint.toString() !== newToken.Mint) {
+        console.log(`${ValidationError.INVALID_METADATA}: ${newToken.Mint} Mint mismatch Expected: ${newToken.Mint}, Found: ${metadata.mint.toString()}`);
+        errors += 1;
+      }
+
+      // URI mismatch
+      // what a mess. On-chain metadata URIs are actually a JSON to a URL
+      // which has the actual Logo URL. So we have to try and fetch before we
+      // make an actual comparison.
+      if (metadata.uri !== newToken.LogoURI) {
+        let uriMismatch = true; // Assume there's a mismatch initially
+        // it might be a JSON. Let's try to fetch it and see if it has an image key
+        if (await checkContentType(metadata.uri) === 'application/json') {
+          const newLogoURI = await getLogoURIFromJson(metadata.uri);
+          if (newLogoURI === newToken.LogoURI) {
+            uriMismatch = false; // The URIs match after fetching the JSON, so no mismatch
+          }
+        }
+
+        if (uriMismatch) {
+          console.log(`${ValidationError.INVALID_METADATA}: ${newToken.Mint} URI mismatch Expected: ${newToken.LogoURI}, Found: ${metadata.uri}`);
+          errors += 1;
+        }
+      }
+
+      // Decimals mismatch
+      if (metadata.decimals !== Number(newToken.Decimals)) {
+        console.log(`${ValidationError.INVALID_METADATA}: ${newToken.Mint} Decimals mismatch Expected: ${newToken.Decimals}, Found: ${metadata.decimals}`);
         errors += 1;
       }
     }
   }
   return errors;
+}
+
+type contentType = 'application/json' | 'image' | 'other';
+// checkContentType returns true if the URL points to an image, false if it points to a JSON file
+async function checkContentType(uri: string): Promise<contentType> {
+  const response = await fetch(uri, { method: 'HEAD' });
+  const contentType = response.headers.get('Content-Type');
+  if (contentType === null) {
+    throw new Error(`HTTP HEAD ${uri} failed while checking token.LogoURI`);
+  }
+  if (contentType.startsWith('image/')) {
+    // console.log(`${uri} points to an image.`);
+    return 'image';
+  } else if (contentType === 'application/json') {
+    // console.log(`${uri} points to a JSON file.`);
+    return 'application/json';
+  }
+  return "other"
+}
+
+async function getLogoURIFromJson(uri: string): Promise<string> {
+  const response = await fetch(uri);
+  const json = await response.json();
+  return json.image;
 }
