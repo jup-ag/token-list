@@ -15,8 +15,7 @@ jobs:
             repo-token: ${{ secrets.PAT }}
             # ====== for pr
             exempt-pr-labels: pinned,security,good-first-issue,in-progress
-            operations-per-run: 250
-            enable-statistics: true
+
             ascending: true # gets in ascending order
             stale-issue-label: "stale"
             days-before-pr-stale: 21
@@ -28,4 +27,5 @@ jobs:
             close-pr-message: |
               This pull request has not seen any activity since it was marked stale.
               Closing.
-            debug-only: true # true for dry run, false to actually perform the operations
+            operations-per-run: 250
+            debug-only: false # true for dry run, false to actually perform the operations
