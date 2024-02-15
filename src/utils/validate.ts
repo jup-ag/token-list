@@ -236,6 +236,11 @@ export async function newTokensHaveMatchingOnchainMeta(connection: Connection, n
   const mintAddresses = newTokens.map((token) => new PublicKey(token.Mint));
 
   let [metadatas, errors] = await findMetadata(connection, mintAddresses);
+  if (metadatas.length !== newTokens.length) {
+    console.error(`FATAL ERROR: could not find metadata for one of these tokens (${mintAddresses}). This means there was an account that wasn't a token mint.`)
+    return 1;
+  }
+
   for (let [i, newToken] of newTokens.entries()) {
     const metadata = metadatas[i];
     if (metadata) {

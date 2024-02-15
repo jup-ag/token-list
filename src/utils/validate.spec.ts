@@ -76,3 +76,19 @@ test('newTokensHaveMatchingOnchainMeta() works', async () => {
     mismatches = await newTokensHaveMatchingOnchainMeta(connection, [jupL]);
     expect(mismatches).toEqual(0);
 });
+test('newTokensHaveMatchingOnchainMeta() errors if the mint doesn\'t exist', async () => {
+    const fake: ValidatedTokensData = {
+        Name: "FAKETOKEN", // onchain says Elementum, so we should have 1 mismatch
+        Symbol: "FAKE",
+        Mint: "6JQq2qS67K4L5xQ3xUTinCyxzdPeZQG1R1ipK8jrY7gc",
+        Decimals: "9",
+        LogoURI: "https://elementerra.s3.amazonaws.com/images/elementum.png", // onchain says JSON file, which we must parse to eventually find this .png file
+        Line: 1,
+        "Community Validated": true,
+    }
+    const tokens = [fake];
+    const connection = new Connection(clusterApiUrl("mainnet-beta"));
+    let mismatches = await newTokensHaveMatchingOnchainMeta(connection, tokens);
+    expect(mismatches).toEqual(1);
+
+});

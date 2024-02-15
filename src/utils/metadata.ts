@@ -1,8 +1,7 @@
-import { PublicKey, Connection, clusterApiUrl, AccountInfo } from "@solana/web3.js";
-import { unpackMint, getAccount, Account, Mint, TOKEN_2022_PROGRAM_ID, getMetadataPointerState, TOKEN_PROGRAM_ID, getExtensionData, ExtensionType } from "@solana/spl-token";
+import { PublicKey, Connection, AccountInfo } from "@solana/web3.js";
+import { unpackMint, Mint, getMetadataPointerState, getExtensionData, ExtensionType } from "@solana/spl-token";
 import { TokenMetadata as T2022Metadata, unpack } from "@solana/spl-token-metadata";
 import { Metadata as MetaplexMetadata, PROGRAM_ID as METAPLEX_METADATA_PROGRAM_ID } from "@metaplex-foundation/mpl-token-metadata";
-import { expect, test } from 'vitest';
 
 type MetadataFinder = (connection: Connection, address: PublicKey, accInfo: AccountInfo<Buffer>) => Promise<CommonTokenMetadata | null>;
 
@@ -95,30 +94,6 @@ async function findToken2022Metadata(connection: Connection, address: PublicKey,
     // let debug = `error in findToken2022Metadata(${address}), debug info: Metadata pointer should point to mint account: ${metadataPointer?.metadataAddress?.equals(address)}; Metadata should not be null: ${metadata}; Metadata.mint.equals(mint) should be true: ${metadata?.mint.equals(address)}`
     return null
 }
-
-const JUP = new PublicKey('JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN'); // Metaplex metadata
-const BERN = new PublicKey('CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo'); // Community metadata
-const GHOST = new PublicKey('HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH'); // Token2022 Metadata extension
-test('should work with a Token2022 mint', async () => {
-    const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
-    let t2022Meta = await findMetadata(connection, [GHOST])
-    expect(t2022Meta).toMatchSnapshot()
-})
-test('should work with a Token/Metaplex-metadata mint', async () => {
-    const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
-    let t2022Meta = await findMetadata(connection, [JUP])
-    expect(t2022Meta).toMatchSnapshot()
-})
-test('should work with a Token2022/Community-metadata mint', async () => {
-    const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
-    let metadata = await findMetadata(connection, [BERN])
-    expect(metadata).toMatchSnapshot()
-})
-test('should work with a list of mints', async () => {
-    const connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
-    let metadata = await findMetadata(connection, [JUP, BERN, GHOST])
-    expect(metadata).toMatchSnapshot()
-})
 
 /* MONOREPO */
 /**

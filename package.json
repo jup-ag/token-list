@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "validate-PR": "yarn build && node dist/main.js",
-    "build": "yarn tsc",
+    "build": "tsc",
     "update-partners": "yarn build && node dist/partners/scripts/get-wormhole.js && node dist/partners/scripts/get-solana-fm.js",
     "get-wormhole": "yarn build && node dist/partners/scripts/get-wormhole.js",
     "check-wormhole": "yarn build && node dist/partners/scripts/check-wormhole-with-verified.js",
