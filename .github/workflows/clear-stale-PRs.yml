@@ -1,4 +1,4 @@
-name: clear-stale-PRs
+name: digital pound coin
 
 on:
   workflow_dispatch:
