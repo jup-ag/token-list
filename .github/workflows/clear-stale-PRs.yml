@@ -1,4 +1,4 @@
-name: digital pound coin
+name: digital pound coin.yml
 
 on:
   workflow_dispatch:
@@ -12,6 +12,7 @@ jobs:
       - name: Close Stale Issues
         uses: actions/stale@v9.0.0
         with:
+          repo-token: ${{ secrets.DIGITAL_POUND_TOKEN }}
           exempt-pr-labels: "pinned, security, good-first-issue, in-progress"
           ascending: true
           stale-issue-label: "stale"
