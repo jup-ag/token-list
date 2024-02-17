@@ -1,5 +1,5 @@
 
-```yaml
+yaml
 name: clear-stale-PRs
 
 on:
