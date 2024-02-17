@@ -12,17 +12,16 @@ jobs:
       - name: Close Stale Issues
         uses: actions/stale@v9.0.0
         with:
-          repo-token: ${{ secrets.DIGITAL_POUND_COIN_TOKEN }}
-          exempt-pr-labels: "pinned,security,good-first-issue,in-progress"
+          exempt-pr-labels: "pinned, security, good-first-issue, in-progress"
           ascending: true
           stale-issue-label: "stale"
-          days-before-stale: 21
-          stale-pr-message: |
+          days-before-pr-stale: 21
+          stale-pr-message: >
             This pull request has been automatically marked as stale because it
             has not had recent activity. It will be closed if no further activity
             occurs - please feel free to re-open when your project has more traction.
-          days-before-close: 7
-          close-pr-message: |
+          days-before-pr-close: 7
+          close-pr-message: >
             This pull request has not seen any activity since it was marked stale.
             Closing.
           operations-per-run: 250
