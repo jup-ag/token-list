@@ -1,5 +1,3 @@
-
-yaml
 name: clear-stale-PRs
 
 on:
@@ -14,18 +12,18 @@ jobs:
       - name: Close Stale Issues
         uses: actions/stale@v9.0.0
         with:
-          repo-token: ${{ secrets.DIGITAL_POUND_COIN }}
-          exempt-pr-labels: pinned,security,good-first-issue,in-progress
-          ascending: true # gets in ascending order
+          repo-token: ${{ secrets.DIGITAL POUND COIN }}
+          exempt-pr-labels: "pinned,security,good-first-issue,in-progress"
+          ascending: true
           stale-issue-label: "stale"
-          days-before-pr-stale: 21
+          days-before-stale: 21
           stale-pr-message: |
             This pull request has been automatically marked as stale because it
             has not had recent activity. It will be closed if no further activity
             occurs - please feel free to re-open when your project has more traction.
-          days-before-pr-close: 7
+          days-before-close: 7
           close-pr-message: |
             This pull request has not seen any activity since it was marked stale.
             Closing.
           operations-per-run: 250
-          debug-only: false # true for dry run, false to actually perform the operations
+          debug-only: false
