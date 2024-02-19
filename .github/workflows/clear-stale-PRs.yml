@@ -1,29 +1,67 @@
-name: digital pound coin.yml
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *" # UTC Midnight everyday
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Close Stale Issues
-        uses: actions/stale@v9.0.0
-        with:
-          repo-token: ${{ secrets.DIGITAL_POUND_TOKEN }}
-          exempt-pr-labels: "pinned, security, good-first-issue, in-progress"
-          ascending: true
-          stale-issue-label: "stale"
-          days-before-pr-stale: 21
-          stale-pr-message: >
-            This pull request has been automatically marked as stale because it
-            has not had recent activity. It will be closed if no further activity
-            occurs - please feel free to re-open when your project has more traction.
-          days-before-pr-close: 7
-          close-pr-message: >
-            This pull request has not seen any activity since it was marked stale.
-            Closing.
-          operations-per-run: 250
-          debug-only: false
+"root":{18 items
+"name":string"digital pound coin"
+"symbol":string"DPC"
+"description":string"This is a digital pound coin!"
+"image":string"https://ipfs.io/ipfs/QmUrgHXWntDnbbWCpKuDxMkeNmzvX5QcqcmdvA9d1htEAD"
+"address":string"AG5UpqUR7zhfK7wYK6jsAwYQqwsnCSFSgeubw4HjbBSX"
+"icon":string"https://ipfs.io/ipfs/QmUrgHXWntDnbbWCpKuDxMkeNmzvX5QcqcmdvA9d1htEAD"
+"decimals":int8
+"priceUsdt":NULL
+"extensions":{1 item
+"description":string"This is a digital pound coin!"
+}
+"onChainExtensions":string""
+"key":int4
+"updateAuthority":string"61minTQprcni5S2dTuF3MtqzV6tW9pzFhsfy1QmLRwK7"
+"mint":string"AG5UpqUR7zhfK7wYK6jsAwYQqwsnCSFSgeubw4HjbBSX"
+"data":{5 items
+"name":string"Digital pound coin"
+"symbol":string"dpc"
+"uri":string"https://ipfs.io/ipfs/QmZGsbH3VMK3uyzjewYEtrHmmwPWj3fLeGzjz1CtnxZSWw"
+"sellerFeeBasisPoints":int0
+"creators":[1 item
+0:{3 items
+"address":string"61minTQprcni5S2dTuF3MtqzV6tW9pzFhsfy1QmLRwK7"
+"verified":int1
+"share":int100
+}
+]
+}
+"primarySaleHappened":int0
+"isMutable":int1
+"editionNonce":int255
+"tokenStandard":int2
+}"root":{18 items
+"name":string"digital pound coin"
+"symbol":string"DPC"
+"description":string"This is a digital pound coin!"
+"image":string"https://ipfs.io/ipfs/QmUrgHXWntDnbbWCpKuDxMkeNmzvX5QcqcmdvA9d1htEAD"
+"address":string"AG5UpqUR7zhfK7wYK6jsAwYQqwsnCSFSgeubw4HjbBSX"
+"icon":string"https://ipfs.io/ipfs/QmUrgHXWntDnbbWCpKuDxMkeNmzvX5QcqcmdvA9d1htEAD"
+"decimals":int8
+"priceUsdt":NULL
+"extensions":{1 item
+"description":string"This is a digital pound coin!"
+}
+"onChainExtensions":string""
+"key":int4
+"updateAuthority":string"61minTQprcni5S2dTuF3MtqzV6tW9pzFhsfy1QmLRwK7"
+"mint":string"AG5UpqUR7zhfK7wYK6jsAwYQqwsnCSFSgeubw4HjbBSX"
+"data":{5 items
+"name":string"Digital pound coin"
+"symbol":string"dpc"
+"uri":string"https://ipfs.io/ipfs/QmZGsbH3VMK3uyzjewYEtrHmmwPWj3fLeGzjz1CtnxZSWw"
+"sellerFeeBasisPoints":int0
+"creators":[1 item
+0:{3 items
+"address":string"61minTQprcni5S2dTuF3MtqzV6tW9pzFhsfy1QmLRwK7"
+"verified":int1
+"share":int100
+}
+]
+}
+"primarySaleHappened":int0
+"isMutable":int1
+"editionNonce":int255
+"tokenStandard":int2
+}
