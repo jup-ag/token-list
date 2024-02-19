@@ -68,7 +68,7 @@ export enum ValidationError {
   UNRELATED_CODE = "Changes to unrelated code are not allowed",
   MULTIPLE_TOKENS = "Only one token can be added at a time",
   DUPLICATE_NAME = "Token name already exists",
-  DUPLICATE_SYMBOL = "Token symbol already exists, please forbid even more duplicates",
+  DUPLICATE_SYMBOL = "Token symbol already exists",
   DUPLICATE_MINT = "Mint already exists",
   INVALID_MINT = "Invalid mint address, not base58 decodable",
   INVALID_DECIMALS = "Invalid decimals",
