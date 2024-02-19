@@ -278,9 +278,9 @@ export async function newTokensHaveMatchingOnchainMeta(connection: Connection, n
         }
 
         if (uriMismatch) {
-          let errorMessage = `${ValidationError.INVALID_METADATA}: ${newToken.Mint} URI mismatch CSV: ${newToken.LogoURI}, Onchain: `;
+          let errorMessage = `${ValidationError.INVALID_METADATA}: ${newToken.Mint} URI mismatch Expected: ${newToken.LogoURI}, Found Onchain: `;
           if (newLogoURI) {
-            errorMessage += `JSON ${metadata.uri} which points to ${newLogoURI}`;
+            errorMessage += `${newLogoURI} (from JSON ${metadata.uri})`;
           } else {
             errorMessage += `${metadata.uri}`;
           }
