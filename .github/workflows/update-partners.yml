@@ -1,36 +1,34 @@
-name: update-partners
-
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 1" # Midnight on monday
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout main
-        uses: actions/checkout@v3 # checkout the repository content to github runner
-
-      - name: Install dependencies
-        run: yarn install
-
-      - name: Compare latest wormhole
-        run: |
-          yarn run update-partners
-          git config user.name 'Github Bot'
-          git config user.email 'bot@raccoons.dev'
-          git add .
-          git commit -m "Update latest partners' token list"
-          echo "DIFF_COUNT=$(echo git whatchanged -1 --format=oneline | wc -l)" >> $GITHUB_ENV
-
-      - name: Create Pull Request
-        if: always() && env.DIFF_COUNT > 0
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.PAT }}
-          title: "Partner token list update"
-          reviewers: meijiao
-          branch: "new-partner-token-list-update-${{ github.sha }}"
-          base: main
-          delete-branch: true
+"root":{18 items
+"name":string"digital pound coin"
+"symbol":string"DPC"
+"description":string"This is a digital pound coin!"
+"image":string"https://ipfs.io/ipfs/QmUrgHXWntDnbbWCpKuDxMkeNmzvX5QcqcmdvA9d1htEAD"
+"address":string"AG5UpqUR7zhfK7wYK6jsAwYQqwsnCSFSgeubw4HjbBSX"
+"icon":string"https://ipfs.io/ipfs/QmUrgHXWntDnbbWCpKuDxMkeNmzvX5QcqcmdvA9d1htEAD"
+"decimals":int8
+"priceUsdt":NULL
+"extensions":{1 item
+"description":string"This is a digital pound coin!"
+}
+"onChainExtensions":string""
+"key":int4
+"updateAuthority":string"61minTQprcni5S2dTuF3MtqzV6tW9pzFhsfy1QmLRwK7"
+"mint":string"AG5UpqUR7zhfK7wYK6jsAwYQqwsnCSFSgeubw4HjbBSX"
+"data":{5 items
+"name":string"Digital pound coin"
+"symbol":string"dpc"
+"uri":string"https://ipfs.io/ipfs/QmZGsbH3VMK3uyzjewYEtrHmmwPWj3fLeGzjz1CtnxZSWw"
+"sellerFeeBasisPoints":int0
+"creators":[1 item
+0:{3 items
+"address":string"61minTQprcni5S2dTuF3MtqzV6tW9pzFhsfy1QmLRwK7"
+"verified":int1
+"share":int100
+}
+]
+}
+"primarySaleHappened":int0
+"isMutable":int1
+"editionNonce":int255
+"tokenStandard":int2
+}
