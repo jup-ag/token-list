@@ -27,7 +27,7 @@ This could include:
 - Attestation from known developers on your validation PR: [Example1](https://github.com/jup-ag/token-list/pull/165), [Example2](https://github.com/jup-ag/token-list/pull/76)
 -  Support from your community in Jupiter's [#community-validation discord channel](https://discord.gg/jup)
 
-  Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
+  Reminder: Tokens that meet [minimum liquidity criteria](https://station.jup.ag/docs/get-your-token-onto-jup) will always be available for trading on the 'All' list even without immediate validation.
 
 ## Projects -- Open a PR to Request Validation:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.

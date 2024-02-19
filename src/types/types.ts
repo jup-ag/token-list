@@ -70,10 +70,11 @@ export enum ValidationError {
   DUPLICATE_NAME = "Token name already exists",
   DUPLICATE_SYMBOL = "Token symbol already exists",
   DUPLICATE_MINT = "Mint already exists",
-  INVALID_MINT = "Invalid mint address, not on ed25519 curve",
+  INVALID_MINT = "Invalid mint address, not base58 decodable",
   INVALID_DECIMALS = "Invalid decimals",
   INVALID_IMAGE_URL = "Invalid image URL",
   INVALID_COMMUNITY_VALIDATED = "Invalid community validated",
+  CHANGES_DISCOURAGED = "Tokens already in the CSV should not be edited"
 }
 
 export interface WormholeData {
@@ -97,5 +98,13 @@ export interface ValidatedTokensData {
   Mint: string;
   Decimals: string;
   LogoURI: string;
-  "Community Validated": "false" | "true";
+  "Community Validated": boolean;
+  Line: number;
+}
+
+export interface AllowedException {
+  Name: string;
+  Symbol: string;
+  Mint: string;
+  "Community Validated": boolean;
 }
