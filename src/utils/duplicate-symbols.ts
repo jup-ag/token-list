@@ -104,6 +104,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": false
   },
   {
+    Name: 'Whales Market',
+    Symbol: 'WHALES',
+    Mint: 'GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1',
+    "Community Validated": true
+  },
+  {
     Name: 'WHEY',
     Symbol: 'WHEY',
     Mint: 'Ue4yjkPjA4QGis37eWbBsnqfzyK83BtY4AioDETp3Ab',
