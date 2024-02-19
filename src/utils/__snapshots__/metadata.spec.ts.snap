@@ -1,0 +1,75 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should work with a Token/Metaplex-metadata mint 1`] = `
+[
+  [
+    {
+      "decimals": 6,
+      "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "name": "Jupiter",
+      "symbol": "JUP",
+      "uri": "https://static.jup.ag/jup/metadata.json",
+    },
+  ],
+  0,
+]
+`;
+
+exports[`should work with a Token2022 mint 1`] = `
+[
+  [
+    {
+      "decimals": 9,
+      "mint": "HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH",
+      "name": "GH0ST",
+      "symbol": "GH0ST",
+      "uri": "https://bafybeialzeyqbeg7fzhebnknqxancgx3fi7n6xa4uq5lny62sa4xsuouiy.ipfs.dweb.link",
+    },
+  ],
+  0,
+]
+`;
+
+exports[`should work with a Token2022/Community-metadata mint 1`] = `
+[
+  [
+    {
+      "decimals": 5,
+      "mint": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo",
+      "name": "BonkEarn",
+      "symbol": "BERN",
+      "uri": "https://api.npoint.io/6276c0cc3ab046e9b770",
+    },
+  ],
+  0,
+]
+`;
+
+exports[`should work with a list of mints 1`] = `
+[
+  [
+    {
+      "decimals": 6,
+      "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "name": "Jupiter",
+      "symbol": "JUP",
+      "uri": "https://static.jup.ag/jup/metadata.json",
+    },
+    {
+      "decimals": 5,
+      "mint": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo",
+      "name": "BonkEarn",
+      "symbol": "BERN",
+      "uri": "https://api.npoint.io/6276c0cc3ab046e9b770",
+    },
+    {
+      "decimals": 9,
+      "mint": "HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH",
+      "name": "GH0ST",
+      "symbol": "GH0ST",
+      "uri": "https://bafybeialzeyqbeg7fzhebnknqxancgx3fi7n6xa4uq5lny62sa4xsuouiy.ipfs.dweb.link",
+    },
+  ],
+  0,
+]
+`;
