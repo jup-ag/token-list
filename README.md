@@ -8,8 +8,8 @@ Our design principles are: Safety, Openness, Unopinionated, Collaborative, Commu
 
 Learn more:
 -  [Tweet](https://twitter.com/JupiterExchange/status/1625877026866446337?s=20)
--  [Blog post](https://blog.jup.ag/token-list-api/)
--  [API docs](https://station.jup.ag/docs/apis/token-list-api)
+-  [Blog post](https://station.jup.ag/blog/jupiter-token-list-api)
+-  [API docs](https://station.jup.ag/docs/token-list/token-list-api)
 -  [Getting on the Strict list docs](https://station.jup.ag/docs/get-your-token-onto-jup#getting-on-the-strict-list)
 
 ## Address Validation into 'Strict' List:
@@ -27,12 +27,12 @@ This could include:
 - Attestation from known developers on your validation PR: [Example1](https://github.com/jup-ag/token-list/pull/165), [Example2](https://github.com/jup-ag/token-list/pull/76)
 -  Support from your community in Jupiter's [#community-validation discord channel](https://discord.gg/jup)
 
-  Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
+  Reminder: Tokens that meet [minimum liquidity criteria](https://station.jup.ag/docs/get-your-token-onto-jup) will always be available for trading on the 'All' list even without immediate validation.
 
 ## Projects -- Open a PR to Request Validation:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It will be populated automatically in the draft description when you open the PR.
-- ***To allow time for community discovery and discussion, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support. Once there is, it will be reviewed within a week. ALL PRS WITHOUT YOUR TOKEN NAME IN THE TITLE WILL BE CLOSED.***
+- ***To allow time for community discovery and discussion, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support. Once there is, it will be reviewed within a week. ALL PRS WITHOUT YOUR TOKEN NAME IN THE TITLE, which just says "Main", WILL BE CLOSED.***
 
 ## Community -- Support projects: 
 - Support the projects you want to see on the list by supporting their tweets and helping to review their PR.
