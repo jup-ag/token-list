@@ -90,5 +90,19 @@ test('newTokensHaveMatchingOnchainMeta() errors if the mint doesn\'t exist', asy
     const connection = new Connection(clusterApiUrl("mainnet-beta"));
     let mismatches = await newTokensHaveMatchingOnchainMeta(connection, tokens);
     expect(mismatches).toEqual(1);
-
+});
+test('newTokensHaveMatchingOnchainMeta() should point out, if the onchain LogoURI doesn\'t match the CSV, that the onchain linked to a JSON which had the actual image link', async () => {
+    const fake: ValidatedTokensData = {
+        Name: "You Looked",
+        Symbol: "CIRCLE",
+        Mint: "EkHr62PC6Y1axrLS7cR8YC4BZeW19mtHxQLCLMrf9vnq",
+        Decimals: "3",
+        LogoURI: "https://i.imgur.com/fEFVS51.png", // they submitted this link, but the onchain JSON links to a different image link
+        Line: 1,
+        "Community Validated": true,
+    }
+    const tokens = [fake];
+    const connection = new Connection(clusterApiUrl("mainnet-beta"));
+    let mismatches = await newTokensHaveMatchingOnchainMeta(connection, tokens);
+    expect(mismatches).toEqual(1);
 });
