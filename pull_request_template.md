@@ -1,8 +1,8 @@
-# Validate [CATMAN](https://solscan.io/token/EavJDLh8cYTAnt3QDitpKGMsPL2hq1My5g9R2P6at6Lc)
+# Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/catman_solana/status/1748818867185492066?s=46&t=6atFTC3o0TOdYNWsBrPOGA
-- Coingecko/ CMC URL (If available): https://coinmarketcap.com/currencies/catman/
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/{your_account}/status/{your_tweet_id}
+- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/{id}
 
 ## Validation (Please check off boxes):
 - [ ] The metadata provided in the PR matches what is on-chain (Mandatory)
