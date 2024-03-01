@@ -49,11 +49,11 @@ This could include:
 ## Validated Tokens List
 
 ### Example Fields:  
-- `Name`: Genopets Ki
-- `Symbol`: KI 
-- `Mint Address`: kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc
-- `Decimals`: 9 
-- `LogoURI`: https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png
+- `Name`: Jack Russell Network 
+- `Symbol`: JACK 
+- `Mint Address`: 2LS9fb1aD1XecR4CsiFoJDiDdAnVZacVptM46KoAzBVe
+- `Decimals`: 8 
+- `LogoURI`: (https://bafkreifikbwp45kdcz324uzz4h5ukkziumeqs4dafpdfyn2mulb4xezfte.ipfs.nftstorage.link/)
 - `Community Validated`: true
 
 <hr>
