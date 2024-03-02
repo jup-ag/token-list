@@ -1,7 +1,7 @@
-# Validate [{KPOP}](https://solscan.io/token/{DcUoGUeNTLhhzyrcz49LE7z3MEFwca2N9uSw1xbVi1gm})
+# Validate [{KPOP}](https://solscan.io/nyether/{A2zmhp9g8Ybck3jc4oUqP2cVLiszUvzVeSB14C4iET7V})
 
 ## Attestations (Please provide links):
-- Tweet from Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: (https://x.com/kpopsolana/status/1738601649499693512?s=20)
+- Tweet from Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: (https://x.com/_nyether/status/1763899915447484829?s=46)
 - Coingecko/ CMC URL (If available): [https://www.coingecko.com/en/coins/{id}](https://www.coingecko.com/en/coins/k-pop-on-solana)
 
 ## Validation (Please check off boxes):
