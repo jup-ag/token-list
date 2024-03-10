@@ -142,7 +142,7 @@ SolRazr,SOLR,7j7H7sgsnNDeCngAPjpaCN4aaaru4HS7NAFYSEUyzJ3k,6,https://raw.githubus
 Xverse Token,XVC,25Vu6457o2gdZRGVVt5K8NbAvaP3esYaQNHbNDitVtw1,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/25Vu6457o2gdZRGVVt5K8NbAvaP3esYaQNHbNDitVtw1/logo.png,false
 Bitspawn Token,SPWN,5U9QqCPhqXAJcEv9uyzFJd5zhN93vuPk1aNNkXnUfPnt,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5U9QqCPhqXAJcEv9uyzFJd5zhN93vuPk1aNNkXnUfPnt/logo.png,false
 SynesisOne,SNS,SNSNkV9zfG5ZKWQs6x4hxvBRV6s8SqMfSGCtECDvdMd,9,https://raw.githubusercontent.com/Synesis-One/spl-token/main/icon.png,false
-Socean staked SOL,scnSOL,5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm/logo.png,false
+Infinity,INF,5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm,9,https://cloudflare-ipfs.com/ipfs/bafkreiflz2xxkfn33qjch2wj55bvbn33q3s4mmb6bye5pt3mpgy4t2wg4e,false
 Allbridge,ABR,a11bdAAuV8iB2fu7X6AxAvDTo1QZ8FXB3kk5eecdasp,9,https://raw.githubusercontent.com/allbridge-io/media/main/token.svg,false
 Wrapped BUSD (Allbridge from BSC),abBUSD,6nuaX3ogrr2CaoAPjtaKHAoBNWok32BMcRozuf32s2QF,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX/logo.png,false
 Wrapped ETH (Allbridge from Ethereum),aeWETH,AaAEw2VCw1XzgvKB8Rj2DyK2ZVau9fbt2bE8hZFWsMyE,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FeGn77dhg1KXRRFeSwwMiykZnZPw5JXW6naf2aQgZDQf/logo.png,false
@@ -1107,6 +1107,7 @@ Spodermen,SPOODY,8Nd3TZJfxt9yYKiPiPmYp6S5DhLftG3bwSqdW3KJwArb,6,https://raw.gith
 Voodoo,LDZ,E5ZVeBMazQAYq4UEiSNRLxfMeRds9SKL31yPan7j5GJK,9,https://shdw-drive.genesysgo.net/5QGtUB5S2RKa2QyXYcEaXnoDEDN1VswZ5YZkgZ8Zf81S/FB062705-73CE-42C7-9C6F-4C7679DAF01A.jpeg,true
 Moutai,Moutai,45EgCwcPXYagBC7KqBin4nCFgEZWN7f3Y6nACwxqMCWX,6,https://bafybeihn5s2ykzqwpmb6d4dbowecovc7vo2wjx7zjltur7sl4ykfhbmoaq.ipfs.nftstorage.link/,true
 Jupiter,JUP,JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN,6,https://static.jup.ag/jup/icon.png,true
+HampterFi,HMTR,7JhmUcZrrfhyt5nTSu3AfsrUq2L9992a7AhwdSDxdoL2,0,https://arweave.net/A6llvg1Lo9SXQYC4RQXVrTfwJ-eZpLl4_eZhJVGQfOg,true
 Dragy,DRAGY,3JoKpqE4kowVTR3Po3gr3sxzLF6vKCvjGx48g8DRx9oN,9,https://imgur.com/3XfriZN,true
 Lost,LOST,4riQPy1yXQ2d1FfzgLy9eJy6yoUdZuQkMj7JsVKr4bGu,5,https://bafybeigqh27u3ug2pui56t3h6bhu7pkojozoqzwamnnj7rdix5avtujse4.ipfs.nftstorage.link/,true
 sealwifhat,SI,Fxgdfsy1Z5Mvh53o69s2Ev6TGxtAJ1RQ5RJ5moCpKmQZ,9,https://bafybeiay63g7wqdbndfp6yxuvonuigsp4qrgm22ultyndxurnuu7tkkbbi.ipfs.nftstorage.link/,true
@@ -1123,6 +1124,7 @@ KIWI Token,KIWI,66Qq2qS67K4L5xQ3xUTinCyxzdPeZQG1R1ipK8jrY7gc,5,https://bafkreibc
 Smog,SMOG,FS66v5XYtJAFo14LiPz5HT93EUMAHmYipCfQhLpU4ss8,6,https://cloudflare-ipfs.com/ipfs/QmXXiyBNz4PWiP73JicWvQBPvsKJG2uwsvF5obyNvUvL9h,true
 Evolve,EVOL,EVoLsbmQXT6R3b11WjPpGEXyCjw1zmmir271XqDbKRsg,9,https://bafkreidpaebbynfkp2zpljslaugedn2fkvlujoanerpcifgppxdxhm4kxm.ipfs.nftstorage.link,true
 Bit Harvest Studio Token,BHST,BHSTv1nsz57fsXZzcsYWXhEygyqAaQu63DUJd3Rcp5Jo,9,https://gitlab.com/bitharveststudio/bhs_governance/-/raw/main/Luna-token.png,true
+TurboMoon,TMOON,7Cx1fMabGWgm86xvv73WzSAcwtLppKf39Ywe8e6Qq4T6,5,https://bafkreiejjzcetjeauph77cgxrrx73btwjvd6v2sbwwygnleg2mzir6k2zi.ipfs.nftstorage.link,true
 samo wif hat,SAMOWIF,GS1VjXDZmDFsiqzBFYoACgRQBmXYuvdPJ88NQcXxg3qM,6,https://bafybeigf4vhdjusff3au3piubpdiz2xq5lya67vt3ofp4afg5sfl3wweoe.ipfs.nftstorage.link,true
 Myra,MYRA,H1aN3vcvB68eaFPbMkoAss3vnfi4AhP5C2dpnrZzdBc7,9,https://bafkreieakw6eo745t2l46h2lii3n4sych5jl4v4ldumngslnjph53r6m5y.ipfs.nftstorage.link,true
 Dither,DITH,E1kvzJNxShvvWTrudokpzuc789vRiDXfXG3duCuY6ooE,9,https://zxejrbfcjk7fa67anpyuavtssrkgvbek4onzbza2v56flew72cta.arweave.net/zciYhKJKvlB74GvxQFZylFRqhIrjm5DkGq98VZLf0KY?ext=png,true
@@ -1131,10 +1133,12 @@ GH0ST,GH0ST,HbxiDXQxBKMNJqDsTavQE7LVwrTR36wjV2EaYEqUw6qH,9,https://bafybeievcwt2
 Honk,HONK,3ag1Mj9AKz9FAkCQ6gAEhpLSX8B2pUbPdkb9iBsDLZNB,9,https://bafkreia5nmyxbrxshpiebsakviidhkfuoevpcyzonwov7bmaovce5ekzym.ipfs.nftstorage.link,true
 K-Pop,KPOP,DcUoGUeNTLhhzyrcz49LE7z3MEFwca2N9uSw1xbVi1gm,9,https://arweave.net/rzUo3sj5mtF5Q1ceUp0R7X_BOdULgdbL9OhzaFoP11U,true
 Tholana,THOL,EKCW975DWdt1roK1NVQDf4QGfaGTcQPU5tFD1DMcMe9Q,7,https://arweave.net/qOW4Inn_tDPZI3rQ-OtRa8gSZ0d5pgGV6vRY9D1T5zU,true
+sinDAO,SIN,sin1uRe1cMCWR7VPLdZrGrvKs8UvKMsGzhvpJLg4Ld9,6,https://nftstorage.link/ipfs/bafkreibne6m5rh42mgvud2womqc2zordzqvki5w4c2yasa76klz7dzwuve,true
 Retire on Sol,$RETIRE,HXkbUADfocGyz2WrzJpjEfry8qyNDm5Kwiiq3Mz3tTi1,6,https://i.imgur.com/k1zkuJa.png,true
 Dog Of Wisdom,WISDM,53ctv3wwFXQbXruKWsbQcCe7sefowyu96pXK6FRLTjfv,4,https://gateway.irys.xyz/aUIj5AIANJ9w7TIWSCDIws1UBtewzaz_ZRhDF5GbljI,true
 SIZE,SIZE,HqLRjru6pD6GFGnQ7TwSSGQRuPhF8UZNey9T4yCsZzuq,6,https://bafybeidjk54m3p4mvfrvvgsyx6uszovxszwlvucupxfjbso3t3u2kfalja.ipfs.nftstorage.link,true
 Guild Saga Gems,$GGEM,GGEMxCsqM74URiXdY46VcaSW73a4yfHfJKrJrUmDVpEF,9,https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://gs-token.s3.us-west-2.amazonaws.com/guild-saga-gems-logo.png,true
+Duko,DUKO,HLptm5e6rTgh4EKgDpYFrnRHbjpkMyVdEeREEa2G7rf9,6,https://bafkreicncfoowhhwrvtkajpivg6lbi5qsktrsfhs3x264k4kgdil5hv26q.ipfs.nftstorage.link/,true
 ps1 hagrid,HAGGORD,AYyYgh3i43s1QSpvG4vwhJ6s3gewfN7uteFwYrswgMGw,9,https://bafkreiak2a2gbdqqnz77xup3bi72lon5fe4ri4cpozxp5o4ekjnugm77wm.ipfs.nftstorage.link,true
 CATMAN,CATMAN,EavJDLh8cYTAnt3QDitpKGMsPL2hq1My5g9R2P6at6Lc,9,https://bafkreieawm4zgovoxfbgkifdyiyagsieaa6cns4jb4jafxolc5z3lqysju.ipfs.nftstorage.link,true
 :moyai:(MOAI),MOAI,7NQSHjuEGENZDWfSvPZz7oP2D6c5Jc3LjFC6uh179ufr,9,https://node2.irys.xyz/z-DMnyxOt4FgHKdQq-05tIJOyarmt7Tg1QUqUeEOdew,true
@@ -1146,8 +1150,14 @@ GameStop,GME,8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB,9,https://nftstorage.l
 Compass SOL,compassSOL,Comp4ssDzXcLeu2MnLuGNNFC4cmLPMng8qWHPvzAMU1h,9,https://solanacompass.com/compass.png,true
 Emmy,EMMY,8Qrc2pf9p24NyJVG1FagnqJXwKw6h5L5McxnMfJoUxev,9,https://gateway.irys.xyz/ssZtKHuRF1VRdRBZ5Oo5PdrPVvQ_c94EnCzR0CdtVPw,true
 COC,COC,cocvP5K8DsDYbJkRGasSg69xWFenrVVdBLLKjJKPJSo,5,https://shdw-drive.genesysgo.net/B7zYUoJVxzhi25zRWPniu4keY4ogmswMRnra1SQMsBnw/coc-logo.png,true
-croc cat,croc,5V9qpFo8NMFyhYHbrqY2c1TJrvzZSnRJAdj4ryPVB18n,6,https://imgur.com/a/6PC6XK6,true
+croc cat,croc,5V9qpFo8NMFyhYHbrqY2c1TJrvzZSnRJAdj4ryPVB18n,6,https://i.imgur.com/An0PFAu.jpeg,true
 GIGACHAD,GIGA,63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9,5,https://bafybeifiyvpbr3kd6wepax4qxdlxbjrpz2de4lqsuwwuihirvaal6kqwba.ipfs.nftstorage.link,true
+botman,BOTMAN,2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK,6,https://thebotman.xyz/images/botman_pfp.png,true
 Cramer Coin (Wormhole),CRAMER,E3tHHRa9Y1TWAA1nPZo8FAyVFgBDnXrS8u8nmMShL3M3,8,https://i.imgur.com/6ERdMOo.png,true
 D2,D2X,GyuP7chtXSRB6erApifBxFvuTtz94x3zQo3JdWofBTgy,3,https://scpri.me/files/logo.png,true
 birb,BIRB,2EBjqPYGLUExdWwJJRLqtGPawzb2aMjE1wTpUYKhy2UQ,9,https://arweave.net/qkyn_nVLFuJx1mphiPH5pb5jSnnRc52ATLZXzwmqXGY,true
+VICE,VICE,AWeL8nCXxJm3GZkEVRqxeeT5KWT2KwDa1shgQFeBogkC,9,https://bafybeieprtdo3xgvk2ezdlqd47lhcnwdqneoig7jiiiuodoy36jmu6jhte.ipfs.dweb.link,true
+Nyxia Coin,NYXC,HrLx8MLKegpbmbmWePZiuvf3AbJNx1CJyjBwUHwicEgW,7,http://nyxia.ai/NYXC_coin-200.png,true
+pepewifhat,PIF,8vRnnknwERunJEEDtEFoxzaxbxGnEY61FPbx8uTVKsUD,6,https://v2.akord.com/public/vaults/active/crc1z0v2OurbSFWHPx6khAKm_ui8_NLAHl3Ho_SgsGU/gallery#2a08f614-9d37-4dec-bfe6-1e4b93123ff4,true
+PopDog,POPDOG,EATGZHJViJsk7nEKkrdJicwNbfpkJfAtmrEmrjXR8NBj,6,https://i.postimg.cc/SRb6fSps/SBZ5KM3L.png,true
+BULB Token,BULB,A6JVLMAjR1aeCfz3X2z4vVQ9GafYWVT75tC5V5qefja2,9,https://www.arweave.net/3UIriLHyPZSzz637FQjn5kNm72Sc-2DG5vK45Vkmx3o?ext=png,true
