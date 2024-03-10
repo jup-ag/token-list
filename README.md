@@ -30,7 +30,7 @@ This could include:
   Reminder: Tokens that meet [minimum liquidity criteria](https://station.jup.ag/docs/get-your-token-onto-jup) will always be available for trading on the 'All' list even without immediate validation.
 
 ## Projects -- Open a PR to Request Validation:
-- Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
+- Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file. Please open a new branch on this repo, do not make a PR from your forked repo.
 - Fill up [the markdown template](https://github.com/jup-ag/token-list/blob/main/pull_request_template.md) in your PR description. It will be populated automatically in the draft description when you open the PR.
 - ***To allow time for community discovery and discussion, reviews are generally done on a weekly basis. Your PR will not be reviewed until there is some community support. Once there is, it will be reviewed within a week. ALL PRS WITHOUT YOUR TOKEN NAME IN THE TITLE, which just says "Main", WILL BE CLOSED.***
 
