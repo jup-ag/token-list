@@ -2,6 +2,12 @@ import { AllowedException } from "../types/types";
 
 export const allowedDuplicateSymbols: AllowedException[] = [
   {
+    Name: 'Any Inu (Wormhole)',
+    Symbol: 'AI',
+    Mint: 'ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6',
+    "Community Validated": true
+  },
+  {
     Name: 'Sallar',
     Symbol: 'ALL',
     Mint: '5EjMX8pZkJtkbJwT5vzJhzTexBPhECFUrq5ndD3UkQD1',
@@ -102,6 +108,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'sRLY',
     Mint: 'sRLY3migNrkC1HLgqotpvi66qGkdNedqPZ9TJpAQhyh',
     "Community Validated": false
+  },
+  {
+    Name: 'Whales Market',
+    Symbol: 'WHALES',
+    Mint: 'GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1',
+    "Community Validated": true
   },
   {
     Name: 'WHEY',
