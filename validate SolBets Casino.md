@@ -1,0 +1,23 @@
+# Validate [TOKEN_SYMBOL_HERE](https://solscan.io/token/MINT_ADDRES_HERE)
+
+## Attestations (Please provide links):
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: (https://x.com/SolBetsCasino/status/1770992593653944589?s=20)
+- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/YOUR_ID_HERE
+
+## Validation (Please check off boxes):
+- [x] The metadata provided in the PR matches what is on-chain (Mandatory)
+- [x] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will be delayed)
+- [ ] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers)  
+
+## Acknowledgement (Please check off boxes)
+- [x] My change matches the format in the file (no spaces between fields).
+- [x] My token is already live and trading on Jupiter.
+- [x] !!! I read the README section on Community-Driven Validation and understand this PR will be only be reviewed when there is community support on Twitter.
+- [x] Please make sure your pull request title has your token name. If it just says "Main", or "Validate", it will automatically be closed. PRs containing broken attestation or solscan links will also be closed.
+
+Name: SolBets
+Symbol: SBC
+Mint Address: AAWGz6ufbwssULAzdSpkrK9UTFhkf3Nfg9j2WqJFvBDk
+Decimals: 9
+LogoURI: https://www.iloveimg.com/download/4A8r8v7py9mw8xgqgfAsdmny1A9ykcyhsb4cty7l3hg4gpl74k33sp5y4Atbhwhbbr8087gx06smcs4p6f83h9hvhs4z5s8wj5kq2jzmt64k0wc6czjvh7th5rqyyf84pg2z4lvqjAkAkccmnc1jzy9px3yhxtAh81mwnAhplcz59zj39q1q/1
+Community Validated: true
