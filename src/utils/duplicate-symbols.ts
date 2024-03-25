@@ -116,6 +116,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'SolCard',
+    Symbol: 'SOLC',
+    Mint: 'DLUNTKRQt7CrpqSX1naHUYoBznJ9pvMP65uCeWQgYnRK',
+    "Community Validated": true,
+  },
+  {
     Name: 'sRLY (Rally Solana)',
     Symbol: 'sRLY',
     Mint: 'sRLY3migNrkC1HLgqotpvi66qGkdNedqPZ9TJpAQhyh',
