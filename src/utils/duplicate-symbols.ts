@@ -26,6 +26,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": false
   },
   {
+    Name: 'Baby',
+    Symbol: 'BABY',
+    Mint: '5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
