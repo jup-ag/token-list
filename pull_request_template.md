@@ -9,7 +9,7 @@
 
 - [x] The metadata provided in the PR matches what is on-chain (Mandatory)
 - [x] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will be delayed)
-- [x] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers) - We have submitted and waiting on listing for Coingecko. Added CoinMarketCap URL above.
+- [ ] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers) - We have submitted and waiting on listing for Coingecko. Added CoinMarketCap URL above.
 
 ## Acknowledgement (Please check off boxes)
 
