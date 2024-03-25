@@ -32,6 +32,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Eggdog',
+    Symbol: 'EGG',
+    Mint: 'EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE',
+    'Community Validated': true,
+  },
+  {
     Name: 'Food',
     Symbol: 'FOOD',
     Mint: 'foodQJAztMzX1DKpLaiounNe2BDMds5RNuPC6jsNrDG',
