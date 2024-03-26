@@ -61,7 +61,8 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
     console.log(ValidationError.DUPLICATE_SYMBOL, theNewDuplicateSymbol);
     console.log(`(the last version of the CSV file had ${duplicateSymbolsPrev.length} duplicates)`)
   }
-  return duplicateSymbols.length - allowedDuplicateSymbols.length;
+  let return_code = duplicateSymbols.length - allowedDuplicateSymbols.length;
+  return return_code < 0 ? 0 : return_code; // this can be negative when we add exceptions for tokens that haven't been merged yet (because we can't merge them without this test first passing)
 }
 
 function xorTokensWithExceptions(tokens: ValidatedTokensData[], allowedDuplicates: AllowedException[]): ValidatedTokensData[] {
