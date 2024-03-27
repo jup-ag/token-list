@@ -68,6 +68,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'HarambeCoin (Wormhole)',
+    Symbol: 'HARAMBE',
+    Mint: 'CNL2opdqaQDY7yudm5V4MAaTwuuY32LTKqNP93jZM8X6',
+    'Community Validated': true,
+  },
+  {
     Name: 'LILY',
     Symbol: 'LILY',
     Mint: '7FYvphuZtRxB7BZd8PZ65yZmEEuWYYdxiHubthyd38BE',
