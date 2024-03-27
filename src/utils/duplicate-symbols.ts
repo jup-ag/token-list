@@ -116,6 +116,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Solbank',
+    Symbol: 'SB',
+    Mint: '8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM',
+    'Community Validated': true,
+  },
+  {
     Name: 'Soul Scanner',
     Symbol: 'SOUL',
     Mint: 'J4ywFdm8H7hjwKzCaEQujhkDRfCnRviVnHMvFNDAoLNQ',
