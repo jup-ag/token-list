@@ -1,4 +1,4 @@
-# Validate [TOKEN_SYMBOL_HERE](https://solscan.io/token/MINT_ADDRES_HERE)
+# Validate [SBC][https://solscan.io/token/AAWGz6ufbwssULAzdSpkrK9UTFhkf3Nfg9j2WqJFvBDk#markets]
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: (https://x.com/SolBetsCasino/status/1770992593653944589?s=20)
