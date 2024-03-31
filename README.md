@@ -49,11 +49,11 @@ This could include:
 ## Validated Tokens List
 
 ### Example Fields:  
-- `Name`: Genopets Ki
-- `Symbol`: KI 
-- `Mint Address`: kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc
-- `Decimals`: 9 
-- `LogoURI`: https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png
+- `Name`: CORN DOG
+- `Symbol`: CDOG 
+- `Mint Address`: FPBZ6A3YfcFXLpq9pEmwrNokexQn7yfMffyfwoxoXRiJ
+- `Decimals`: 6 
+- `LogoURI`: [https://arweave.net/WfPR8w5dEoerG_bI3S2o2_nuSfWY3p8M4YbQ6ijd1cQ?ext=png](https://bafkreievfik5w3jfmtzppwzyibt35vrx267iyo5ocg5pvjfufke37zbnaq.ipfs.nftstorage.link/)
 - `Community Validated`: true
 
 <hr>
