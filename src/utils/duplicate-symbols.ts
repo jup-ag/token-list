@@ -68,6 +68,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'HarambeCoin (Wormhole)',
+    Symbol: 'HARAMBE',
+    Mint: 'CNL2opdqaQDY7yudm5V4MAaTwuuY32LTKqNP93jZM8X6',
+    'Community Validated': true,
+  },
+  {
     Name: 'LILY',
     Symbol: 'LILY',
     Mint: '7FYvphuZtRxB7BZd8PZ65yZmEEuWYYdxiHubthyd38BE',
@@ -108,6 +114,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'ROCKY',
     Mint: '4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z',
     "Community Validated": true
+  },
+  {
+    Name: 'Solbank',
+    Symbol: 'SB',
+    Mint: '8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM',
+    'Community Validated': true,
   },
   {
     Name: 'Soul Scanner',
