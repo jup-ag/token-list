@@ -26,10 +26,22 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": false
   },
   {
+    Name: 'Baby',
+    Symbol: 'BABY',
+    Mint: '5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
     "Community Validated": true
+  },
+  {
+    Name: 'Eggdog',
+    Symbol: 'EGG',
+    Mint: 'EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE',
+    'Community Validated': true,
   },
   {
     Name: 'Food',
@@ -54,6 +66,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'GM',
     Mint: '3acxNNmfdKKZj9i35P4VDBFm74Ufdt8ojKWceVGynwC5',
     "Community Validated": true
+  },
+  {
+    Name: 'HarambeCoin (Wormhole)',
+    Symbol: 'HARAMBE',
+    Mint: 'CNL2opdqaQDY7yudm5V4MAaTwuuY32LTKqNP93jZM8X6',
+    'Community Validated': true,
   },
   {
     Name: 'LILY',
@@ -98,10 +116,22 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Solbank',
+    Symbol: 'SB',
+    Mint: '8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM',
+    'Community Validated': true,
+  },
+  {
     Name: 'Soul Scanner',
     Symbol: 'SOUL',
     Mint: 'J4ywFdm8H7hjwKzCaEQujhkDRfCnRviVnHMvFNDAoLNQ',
     "Community Validated": true
+  },
+  {
+    Name: 'SolCard',
+    Symbol: 'SOLC',
+    Mint: 'DLUNTKRQt7CrpqSX1naHUYoBznJ9pvMP65uCeWQgYnRK',
+    "Community Validated": true,
   },
   {
     Name: 'sRLY (Rally Solana)',
