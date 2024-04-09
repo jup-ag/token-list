@@ -22,7 +22,7 @@
     "@actions/exec": "^1.1.1",
     "@actions/github": "^5.1.1",
     "@metaplex-foundation/js": "^0.20.1",
-    "@solana/spl-token": "^0.4.0",
+    "@solana/spl-token": "^0.4.1",
     "@solana/web3.js": "^1.90.0",
     "@types/minimist": "^1.2.5",
     "csv-writer": "^1.6.0",
