@@ -263,33 +263,6 @@ export async function newTokensHaveMatchingOnchainMeta(connection: Connection, n
         errors += 1;
       }
 
-      // URI mismatch
-      // what a mess. On-chain metadata URIs are actually a JSON to a URL
-      // which has the actual Logo URL. So we have to try and fetch before we
-      // make an actual comparison.
-      let newLogoURI = null;
-      if (metadata.uri !== newToken.LogoURI) {
-        let uriMismatch = true; // Assume there's a mismatch initially
-        // it might be a JSON. Let's try to fetch it and see if it has an image key
-        if (await checkContentType(metadata.uri) === 'application/json') {
-          newLogoURI = await getLogoURIFromJson(metadata.uri);
-          if (newLogoURI === newToken.LogoURI) {
-            uriMismatch = false; // The URIs match after fetching the JSON, so no mismatch
-          }
-        }
-
-        if (uriMismatch) {
-          let errorMessage = `${ValidationError.INVALID_METADATA}: ${newToken.Mint} URI mismatch Expected: ${newToken.LogoURI}, Found Onchain: `;
-          if (newLogoURI) {
-            errorMessage += `${newLogoURI} (from JSON ${metadata.uri})`;
-          } else {
-            errorMessage += `${metadata.uri}`;
-          }
-          console.log(errorMessage);
-          errors += 1;
-        }
-      }
-
       // Decimals mismatch
       if (metadata.decimals !== Number(newToken.Decimals)) {
         console.log(`${ValidationError.INVALID_METADATA}: ${newToken.Mint} Decimals mismatch Expected: ${newToken.Decimals}, Found: ${metadata.decimals}`);
