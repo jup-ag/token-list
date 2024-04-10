@@ -61,7 +61,8 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
     console.log(ValidationError.DUPLICATE_SYMBOL, theNewDuplicateSymbol);
     console.log(`(the last version of the CSV file had ${duplicateSymbolsPrev.length} duplicates)`)
   }
-  return duplicateSymbols.length - allowedDuplicateSymbols.length;
+  let return_code = duplicateSymbols.length - allowedDuplicateSymbols.length;
+  return return_code < 0 ? 0 : return_code; // this can be negative when we add exceptions for tokens that haven't been merged yet (because we can't merge them without this test first passing)
 }
 
 function xorTokensWithExceptions(tokens: ValidatedTokensData[], allowedDuplicates: AllowedException[]): ValidatedTokensData[] {
@@ -308,10 +309,10 @@ async function checkContentType(uri: string): Promise<contentType> {
     throw new Error(`HTTP HEAD ${uri} failed while checking token.LogoURI`);
   }
   if (contentType.startsWith('image/')) {
-    // console.log(`${uri} points to an image.`);
+    console.log(`${uri} points to an image.`);
     return 'image';
-  } else if (contentType === 'application/json') {
-    // console.log(`${uri} points to a JSON file.`);
+  } else if (contentType.includes('application/json')) {
+    console.log(`${uri} points to a JSON file.`);
     return 'application/json';
   }
   return "other"
