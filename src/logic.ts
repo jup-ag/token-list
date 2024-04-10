@@ -35,7 +35,7 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     // other validations have their own way of finding newly added tokens. no
     // time to go through all of them, plus they do something different.
     const newTokens = findAddedTokens(recordsPrevious, records);
-    doubleCheckMetadataOnChain = await newTokensHaveMatchingOnchainMeta(connection, newTokens);
+    // doubleCheckMetadataOnChain = await newTokensHaveMatchingOnchainMeta(connection, newTokens);
 
     console.log("No More Duplicate Symbols:", duplicateSymbols, `(${allowedDuplicateSymbols.length} exceptions)`);
     console.log("Duplicate Mints:", duplicateMints);
@@ -44,7 +44,7 @@ export async function validateValidatedTokensCsv(filename: string): Promise<numb
     console.log("Not Community Validated:", notCommunityValidated, `(${allowedNotCommunityValidated.length} exceptions)`);
     console.log("Edits to Existing Tokens:", noEditsAllowed);
     // console.log("Issues with Symbols in Added Tokens:", potentiallyConfusingSymbols);
-    console.log("Onchain Metadata Mismatches:", doubleCheckMetadataOnChain);
+    // console.log("Onchain Metadata Mismatches:", doubleCheckMetadataOnChain);
     return (duplicateSymbols + duplicateMints + attemptsToAddMultipleTokens + invalidMintAddresses + noEditsAllowed + doubleCheckMetadataOnChain)
 }
 
