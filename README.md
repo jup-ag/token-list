@@ -8,8 +8,8 @@ Our design principles are: Safety, Openness, Unopinionated, Collaborative, Commu
 
 Learn more:
 -  [Tweet](https://twitter.com/JupiterExchange/status/1625877026866446337?s=20)
--  [Blog post](https://blog.jup.ag/token-list-api/)
--  [API docs](https://station.jup.ag/docs/apis/token-list-api)
+-  [Blog post](https://station.jup.ag/blog/jupiter-token-list-api)
+-  [API docs](https://station.jup.ag/docs/token-list/token-list-api)
 -  [Getting on the Strict list docs](https://station.jup.ag/docs/get-your-token-onto-jup#getting-on-the-strict-list)
 
 ## Address Validation into 'Strict' List:
@@ -27,7 +27,7 @@ This could include:
 - Attestation from known developers on your validation PR: [Example1](https://github.com/jup-ag/token-list/pull/165), [Example2](https://github.com/jup-ag/token-list/pull/76)
 -  Support from your community in Jupiter's [#community-validation discord channel](https://discord.gg/jup)
 
-  Reminder: Tokens that meet minimum liquidity criteria will always be available for trading on the 'All' list even without immediate validation.
+  Reminder: Tokens that meet [minimum liquidity criteria](https://station.jup.ag/docs/get-your-token-onto-jup) will always be available for trading on the 'All' list even without immediate validation.
 
 ## Projects -- Open a PR to Request Validation:
 - Open a PR like this [sample PR](https://github.com/jup-ag/token-list/pull/76) with your addition in the validated-tokens file.
@@ -41,7 +41,7 @@ This could include:
 ## Developers -- Contribute to this Repo: 
 - Feel free to contribute by opening a PR! We would like this to be community owned over time. Check out the "Issues" tab for some ideas on how to contribute!
 - A technical walkthrough of how the inputs feed the Token List API can be found in `README-developers.md`
-- Ideas? Feedback? Comment or talk to us in discord. ❤️
+- Ideas? Feedback? Comment or talk to us in [Discord](https://discord.gg/jup). ❤️
 
 
 <hr>
