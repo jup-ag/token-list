@@ -6,7 +6,7 @@
 
 ## Validation (Please check off boxes):
 - [Y ] The metadata provided in the PR matches what is on-chain (Mandatory)
-- [ ] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will be delayed)
+- [Y] Does not duplicate the symbol of another token on Jupiter's strict list (If not, review will be delayed)
 - [Y] Is Listed on Coingecko / CMC (Optional, but helpful for reviewers)  
 
 ## Acknowledgement (Please check off boxes)
