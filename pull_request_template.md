@@ -2,7 +2,7 @@
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/catcoin/status/1779870997836976164}
-- Coingecko/ CMC URL (If available): [https://www.coingecko.com/en/coins/catcoin]
+- Coingecko/ CMC URL (If available): [https://www.coingecko.com/en/coins/catcoin] [https://coinmarketcap.com/currencies/catcoin/]
 
 ## Validation (Please check off boxes):
 - [Y ] The metadata provided in the PR matches what is on-chain (Mandatory)
