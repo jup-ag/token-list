@@ -145,6 +145,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Mint: '8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM',
     'Community Validated': true,
   },
+   {
+    Name: 'Sharky',
+    Symbol: 'SHARK',
+    Mint: '  SHARKSYJjqaNyxVfrpnBN9pjgkhwDhatnMyicWPnr1s',
+    'Community Validated': true,
+  },
   {
     Name: 'SHIBA INU',
     Symbol: 'SHIB',
