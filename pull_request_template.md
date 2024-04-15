@@ -1,4 +1,4 @@
-# Validate [{Token Symbol}](https://solscan.io/token/{mint_address})
+# Validate [{CAT}](https://solscan.io/token/7hWcHohzwtLddDUG81H2PkWq6KEkMtSDNkYXsso18Fy3)
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/catcoin/status/1779870997836976164}
