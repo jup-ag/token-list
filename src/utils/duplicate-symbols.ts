@@ -32,6 +32,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'BASC',
+    Symbol: 'BASC',
+    Mint: 'DM3Y4R7n1HGhP9AkNT6Ex4w1qQTpgq1TyujrMDX11FMT',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
@@ -41,6 +47,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'Eggdog',
     Symbol: 'EGG',
     Mint: 'EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE',
+    'Community Validated': true,
+  },
+  {
+    Name: 'JustAnEgg',
+    Symbol: 'EGG',
+    Mint: 'wo1zgt8rfrYpvdVi4nidoj1SYfcR4pQx69bmNv2JLhQ',
     'Community Validated': true,
   },
   {
@@ -104,6 +116,18 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Procreation AI',
+    Symbol: 'PAI',
+    Mint: '2TybzwN2X1g7Y6GRbB4cRx4KPK7bqdK9tYCozBXxiTfr',
+    'Community Validated': true,
+  },
+  {
+    Name: 'PayPaw',
+    Symbol: 'PAW',
+    Mint: 'pawSXHWsonrTey4SX7tz1fM9ksuLpE13Y54K57ym4Rg',
+    'Community Validated': true,
+  },
+  {
     Name: 'PEPESOLANA',
     Symbol: 'PEPE',
     Mint: 'CYuXNHURE8cF3rQc1687DZnmsWx9ATNG3mZPFmryu22S',
@@ -119,6 +143,18 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'Solbank',
     Symbol: 'SB',
     Mint: '8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM',
+    'Community Validated': true,
+  },
+   {
+    Name: 'Sharky',
+    Symbol: 'SHARK',
+    Mint: '  SHARKSYJjqaNyxVfrpnBN9pjgkhwDhatnMyicWPnr1s',
+    'Community Validated': true,
+  },
+  {
+    Name: 'SHIBA INU',
+    Symbol: 'SHIB',
+    Mint: '5MBBsoCVddAuF8XixvCcXNbHAw6WfpZ8WyTKMmczxxRN',
     'Community Validated': true,
   },
   {
@@ -138,6 +174,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'sRLY',
     Mint: 'sRLY3migNrkC1HLgqotpvi66qGkdNedqPZ9TJpAQhyh',
     "Community Validated": false
+  },
+  {
+    Name: 'TREN',
+    Symbol: 'TREN',
+    Mint: 'HLnTNCG5RD7jYVduFc1pMCHiuApoWGn9LveqEFanQFZb',
+    'Community Validated': true,
   },
   {
     Name: 'Whales Market',
