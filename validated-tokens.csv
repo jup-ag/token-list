@@ -601,7 +601,7 @@ QuietFire,QF,76ijxiMkj4DX8q9QMtqpzTxFnT4KPmWv47sZf2kKoVwk,9,https://raw.githubus
 Camp Coin,CMP,FnVPD3fRutXcibEHDYP1gv8kuYJx2SNCi2EizcAsR4wN,9,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/FnVPD3fRutXcibEHDYP1gv8kuYJx2SNCi2EizcAsR4wN/logo.png,false
 Mushroom Racers Token,VROOM,KARTdF5K68Q2nGppizG3DeCzp7AhHy6YXf2uTQjBSQx,0,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/KARTdF5K68Q2nGppizG3DeCzp7AhHy6YXf2uTQjBSQx/logo.png,false
 FUJI,FUJI,fujiCeCeP9AFDVCv27P5JRcKLoH7wfs2C9xmDECs24m,3,https://raw.githubusercontent.com/MarkSackerberg/token-list/main/assets/mainnet/fujiCeCeP9AFDVCv27P5JRcKLoH7wfs2C9xmDECs24m/logo.png,false
-Skullbots,SUMMON,skuLLY6NHFrjL3oGpWMrrwjCfWMSvwp6AD7resMF9m7,0,https://raw.githubusercontent.com/Neurologist/assets/main/summon.png,false
+Skullbots,SUMMON,0,https://raw.githubusercontent.com/Neurologist/assets/main/summon.png,false
 Staked MEAN,sMEAN,sMEANebFMnd9uTYpyntGzBmTmzEukRFwCjEcnXT2E8z,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/sMEANebFMnd9uTYpyntGzBmTmzEukRFwCjEcnXT2E8z/logo.svg,false
 NeoNomad,NNI,buMnhMd5xSyXBssTQo15jouu8VhuEZJCfbtBUZgRcuW,6,https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/buMnhMd5xSyXBssTQo15jouu8VhuEZJCfbtBUZgRcuW/logo.png,false
 Synthetic USD (Fabric),fUSD,B7mXkkZgn7abwz1A3HnKkb18Y6y18WcbeSkh1DuLMkee,8,https://imagedelivery.net/9NaZ0y3QBjls8_Ib2N2gQw/ec3521b6-b382-4efb-1d16-7b60c75b9100/public,false
@@ -618,7 +618,7 @@ Genopets Ki,KI,kiGenopAScF8VF31Zbtx2Hg8qA5ArGqvnVtXb83sotc,9,https://arweave.net
 Whole Earth Coin,WEC,6y8W5YwAuzostqrS4YDJufBvksosfSi47Pd8U4A5vrBC,9,https://ipfs.moralis.io:2053/ipfs/QmStqd3JLmEA9bfcUzt2CWF2iPzt7tgPmnkgou7JxauUkz,true
 Ave University Token,AUT,AUT1gfMZw37wMMQqAxk89nfpjZpEEf2XSoBUd8V5ydnS,9,https://arweave.net/T-R84Zo32rDOA5Wo66T8jAlqcyjD7Folt1oeCfjlizU,true
 Catalina Whale Mixer Floor Index,WHALES,DSXWF79VQ3RzFBB67WeNfCzfzAQq5X6m97zi85bq1TRx,2,https://bafkreicadecx3rbffm6tqtgtc67bi6r2xiibtmawcejje7pfu7id2zxwwy.ipfs.dweb.link/,true
-Zalina Finance,ZALINA,CbazZEWMxFoXthk8s347PqvDG4JkvnNiCC3zZkah4aqD,9,https://www.arweave.net/rYIH0g8RO9D_CfAwEcdWa_HT4HnMFXsQ0TxQFWua5jw?ext=png,true
+Zalina Finance,ZALINA,CbazZEWMxFoXthk8s347PqvDG4JkvnfC3zZkah4aqD,9,https://www.arweave.net/rYIH0g8RO9D_CfAwEcdWa_HT4HnMFXsQ0TxQFWua5jw?ext=png,true
 IP3,IP3,3uejHm24sWmniGA5m4j4S1DVuGqzYBR5DJpevND4mivq,9,https://cripco.com/token/image/ip3?ext=png,true
 Wrapped ALGO,xALGO,xALGoH1zUfRmpCriy94qbfoMXHtK6NDnMKzT4Xdvgms,6,https://arweave.net/zZizaipiM5GvJ5upulPUzg9VW9bui0VaMCY6k1QyHgs,true
 Okay Bears Floor Index,OKAYB,Ca9LxRYdZ7jK4QAqjLo4iaYmiV8FNdngtSkzM69hzgDX,2,https://bafkreidgfsdjx4nt4vctch73hcchb3pkiwic2onfw5yr4756adchogk5de.ipfs.dweb.link/,true
