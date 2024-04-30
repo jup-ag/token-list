@@ -176,6 +176,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": false
   },
   {
+    Name: 'SWOLE',
+    Symbol: 'SWOLE',
+    Mint: 'sio28ienC3iABUKJFzkikHknbR3xyhjzhJE34tipyDP',
+    "Community Validated": true
+  },
+  {
     Name: 'TREN',
     Symbol: 'TREN',
     Mint: 'HLnTNCG5RD7jYVduFc1pMCHiuApoWGn9LveqEFanQFZb',
