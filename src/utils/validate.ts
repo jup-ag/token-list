@@ -61,7 +61,8 @@ export function detectDuplicateSymbol(tokensPreviously: ValidatedTokensData[], t
     console.log(ValidationError.DUPLICATE_SYMBOL, theNewDuplicateSymbol);
     console.log(`(the last version of the CSV file had ${duplicateSymbolsPrev.length} duplicates)`)
   }
-  return duplicateSymbols.length - allowedDuplicateSymbols.length;
+  let return_code = duplicateSymbols.length - allowedDuplicateSymbols.length;
+  return return_code < 0 ? 0 : return_code; // this can be negative when we add exceptions for tokens that haven't been merged yet (because we can't merge them without this test first passing)
 }
 
 function xorTokensWithExceptions(tokens: ValidatedTokensData[], allowedDuplicates: AllowedException[]): ValidatedTokensData[] {
@@ -262,33 +263,6 @@ export async function newTokensHaveMatchingOnchainMeta(connection: Connection, n
         errors += 1;
       }
 
-      // URI mismatch
-      // what a mess. On-chain metadata URIs are actually a JSON to a URL
-      // which has the actual Logo URL. So we have to try and fetch before we
-      // make an actual comparison.
-      let newLogoURI = null;
-      if (metadata.uri !== newToken.LogoURI) {
-        let uriMismatch = true; // Assume there's a mismatch initially
-        // it might be a JSON. Let's try to fetch it and see if it has an image key
-        if (await checkContentType(metadata.uri) === 'application/json') {
-          newLogoURI = await getLogoURIFromJson(metadata.uri);
-          if (newLogoURI === newToken.LogoURI) {
-            uriMismatch = false; // The URIs match after fetching the JSON, so no mismatch
-          }
-        }
-
-        if (uriMismatch) {
-          let errorMessage = `${ValidationError.INVALID_METADATA}: ${newToken.Mint} URI mismatch Expected: ${newToken.LogoURI}, Found Onchain: `;
-          if (newLogoURI) {
-            errorMessage += `${newLogoURI} (from JSON ${metadata.uri})`;
-          } else {
-            errorMessage += `${metadata.uri}`;
-          }
-          console.log(errorMessage);
-          errors += 1;
-        }
-      }
-
       // Decimals mismatch
       if (metadata.decimals !== Number(newToken.Decimals)) {
         console.log(`${ValidationError.INVALID_METADATA}: ${newToken.Mint} Decimals mismatch Expected: ${newToken.Decimals}, Found: ${metadata.decimals}`);
@@ -308,10 +282,10 @@ async function checkContentType(uri: string): Promise<contentType> {
     throw new Error(`HTTP HEAD ${uri} failed while checking token.LogoURI`);
   }
   if (contentType.startsWith('image/')) {
-    // console.log(`${uri} points to an image.`);
+    console.log(`${uri} points to an image.`);
     return 'image';
-  } else if (contentType === 'application/json') {
-    // console.log(`${uri} points to a JSON file.`);
+  } else if (contentType.includes('application/json')) {
+    console.log(`${uri} points to a JSON file.`);
     return 'application/json';
   }
   return "other"
