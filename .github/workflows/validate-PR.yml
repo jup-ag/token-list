@@ -25,3 +25,4 @@ jobs:
 
       - name: Validate PR
         run: yarn validate-PR >> $GITHUB_STEP_SUMMARY
+        
