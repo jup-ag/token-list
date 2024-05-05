@@ -1,4 +1,4 @@
-# Validate [TOKEN_SYMBOL_HERE](https://solscan.io/token/MINT_ADDRES_HERE)
+# Validate [FREN](https://solscan.io/token/8WRAisrEyrye313MjNeB2fVAQRAovModQmQ6R1f6RyBo)
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/FrenTrustFren/status/1786902895926837673
