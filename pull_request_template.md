@@ -2,7 +2,7 @@
 
 ## Attestations (Please provide links):
 - Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/TimeonSolana/status/1787034494454657161 : This quoted tweet provides significant evidence of community support. For additional evidence - please check our Twitter TL.
-- Coingecko/ CMC URL (If available): We are still working to get $TIME listed on CG and CMC.
+- Coingecko/ CMC URL (If available): We are still working to get $TIME listed on CG and CMC. 
 
 ## Validation (Please check off boxes):
 - [x] The metadata provided in the PR matches what is on-chain (Mandatory)
