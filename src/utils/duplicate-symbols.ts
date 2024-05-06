@@ -86,6 +86,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'Hide the pain Harold',
+    Symbol: 'Harold',
+    Mint: 'B8AmDZRJeHuq8CPciey6jocq9p4ivc4ZurDXPwtqs2Qg',
+    'Community Validated': true,
+  },
+  {
     Name: 'LILY',
     Symbol: 'LILY',
     Mint: '7FYvphuZtRxB7BZd8PZ65yZmEEuWYYdxiHubthyd38BE',
@@ -155,6 +161,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'SHIBA INU',
     Symbol: 'SHIB',
     Mint: '5MBBsoCVddAuF8XixvCcXNbHAw6WfpZ8WyTKMmczxxRN',
+    'Community Validated': true,
+  },
+  {
+    Name: 'shibwifhat',
+    Symbol: 'SHIB',
+    Mint: 'F6qoefQq4iCBLoNZ34RjEqHjHkD8vtmoRSdw9Nd55J1k',
     'Community Validated': true,
   },
   {
