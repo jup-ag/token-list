@@ -1,8 +1,8 @@
-# Validate [TOKEN_SYMBOL_HERE](https://solscan.io/token/MINT_ADDRES_HERE)
+# Validate [Barron Time Traveler](https://solscan.io/token/HmAgiwjjP9CXqK5wQNsHKtjAt2CH3Kv8Q7xH5kGL2nqZ)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/YOUR_ACCOUNT_NAME_HERE/status/YOUR_TWEET_ID_HERE
-- Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/YOUR_ID_HERE
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/Barronsolana/status/1787035638459728107
+- Coingecko/ CMC URL (If available): https://coinmarketcap.com/currencies/time-traveler/
 
 ## Validation (Please check off boxes):
 - [ ] The metadata provided in the PR matches what is on-chain (Mandatory)
