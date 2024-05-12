@@ -98,6 +98,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Solmedia',
+    Symbol: 'MEDIA',
+    Mint: 'BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu',
+    "Community Validated": true
+  },
+  {
     Name: 'MILK',
     Symbol: 'MILK',
     Mint: 'MLKmUCaj1dpBY881aFsrBwR9RUMoKic8SWT3u1q5Nkj',
@@ -113,6 +119,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'NINJA TURTLES',
     Symbol: 'NINJA',
     Mint: 'DFrJxDoLMYt6bNYeNe8Wrjzj2UPUSLZLEMMYBLuTKcTk',
+    "Community Validated": true
+  },
+  {
+    Name: 'Shinobi',
+    Symbol: 'NINJA',
+    Mint: '2xP43MawHfU7pwPUmvkc6AUWg4GX8xPQLTGMkSZfCEJT',
     "Community Validated": true
   },
   {
