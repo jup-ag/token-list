@@ -97,7 +97,7 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Mint: '7FYvphuZtRxB7BZd8PZ65yZmEEuWYYdxiHubthyd38BE',
     "Community Validated": true
   },
-    {
+  {
     Name: 'Solmedia',
     Symbol: 'MEDIA',
     Mint: 'BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu',
