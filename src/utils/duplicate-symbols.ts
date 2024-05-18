@@ -86,9 +86,21 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'Hide the pain Harold',
+    Symbol: 'Harold',
+    Mint: 'B8AmDZRJeHuq8CPciey6jocq9p4ivc4ZurDXPwtqs2Qg',
+    'Community Validated': true,
+  },
+  {
     Name: 'LILY',
     Symbol: 'LILY',
     Mint: '7FYvphuZtRxB7BZd8PZ65yZmEEuWYYdxiHubthyd38BE',
+    "Community Validated": true
+  },
+  {
+    Name: 'Solmedia',
+    Symbol: 'MEDIA',
+    Mint: 'BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu',
     "Community Validated": true
   },
   {
@@ -107,6 +119,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'NINJA TURTLES',
     Symbol: 'NINJA',
     Mint: 'DFrJxDoLMYt6bNYeNe8Wrjzj2UPUSLZLEMMYBLuTKcTk',
+    "Community Validated": true
+  },
+  {
+    Name: 'Shinobi',
+    Symbol: 'NINJA',
+    Mint: '2xP43MawHfU7pwPUmvkc6AUWg4GX8xPQLTGMkSZfCEJT',
     "Community Validated": true
   },
   {
@@ -155,6 +173,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'SHIBA INU',
     Symbol: 'SHIB',
     Mint: '5MBBsoCVddAuF8XixvCcXNbHAw6WfpZ8WyTKMmczxxRN',
+    'Community Validated': true,
+  },
+  {
+    Name: 'shibwifhat',
+    Symbol: 'SHIB',
+    Mint: 'F6qoefQq4iCBLoNZ34RjEqHjHkD8vtmoRSdw9Nd55J1k',
     'Community Validated': true,
   },
   {
