@@ -32,6 +32,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'BASC',
+    Symbol: 'BASC',
+    Mint: 'DM3Y4R7n1HGhP9AkNT6Ex4w1qQTpgq1TyujrMDX11FMT',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
@@ -41,6 +47,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'Eggdog',
     Symbol: 'EGG',
     Mint: 'EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE',
+    'Community Validated': true,
+  },
+  {
+    Name: 'JustAnEgg',
+    Symbol: 'EGG',
+    Mint: 'wo1zgt8rfrYpvdVi4nidoj1SYfcR4pQx69bmNv2JLhQ',
     'Community Validated': true,
   },
   {
@@ -68,9 +80,27 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'HarambeCoin (Wormhole)',
+    Symbol: 'HARAMBE',
+    Mint: 'CNL2opdqaQDY7yudm5V4MAaTwuuY32LTKqNP93jZM8X6',
+    'Community Validated': true,
+  },
+  {
+    Name: 'Hide the pain Harold',
+    Symbol: 'Harold',
+    Mint: 'B8AmDZRJeHuq8CPciey6jocq9p4ivc4ZurDXPwtqs2Qg',
+    'Community Validated': true,
+  },
+  {
     Name: 'LILY',
     Symbol: 'LILY',
     Mint: '7FYvphuZtRxB7BZd8PZ65yZmEEuWYYdxiHubthyd38BE',
+    "Community Validated": true
+  },
+  {
+    Name: 'Solmedia',
+    Symbol: 'MEDIA',
+    Mint: 'BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu',
     "Community Validated": true
   },
   {
@@ -92,10 +122,28 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Shinobi',
+    Symbol: 'NINJA',
+    Mint: '2xP43MawHfU7pwPUmvkc6AUWg4GX8xPQLTGMkSZfCEJT',
+    "Community Validated": true
+  },
+  {
     Name: 'Only Possible On Solana',
     Symbol: 'OPOS',
     Mint: 'BqVHWpwUDgMik5gbTciFfozadpE2oZth5bxCDrgbDt52',
     "Community Validated": true
+  },
+  {
+    Name: 'Procreation AI',
+    Symbol: 'PAI',
+    Mint: '2TybzwN2X1g7Y6GRbB4cRx4KPK7bqdK9tYCozBXxiTfr',
+    'Community Validated': true,
+  },
+  {
+    Name: 'PayPaw',
+    Symbol: 'PAW',
+    Mint: 'pawSXHWsonrTey4SX7tz1fM9ksuLpE13Y54K57ym4Rg',
+    'Community Validated': true,
   },
   {
     Name: 'PEPESOLANA',
@@ -108,6 +156,30 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'ROCKY',
     Mint: '4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z',
     "Community Validated": true
+  },
+  {
+    Name: 'Solbank',
+    Symbol: 'SB',
+    Mint: '8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM',
+    'Community Validated': true,
+  },
+   {
+    Name: 'Sharky',
+    Symbol: 'SHARK',
+    Mint: '  SHARKSYJjqaNyxVfrpnBN9pjgkhwDhatnMyicWPnr1s',
+    'Community Validated': true,
+  },
+  {
+    Name: 'SHIBA INU',
+    Symbol: 'SHIB',
+    Mint: '5MBBsoCVddAuF8XixvCcXNbHAw6WfpZ8WyTKMmczxxRN',
+    'Community Validated': true,
+  },
+  {
+    Name: 'shibwifhat',
+    Symbol: 'SHIB',
+    Mint: 'F6qoefQq4iCBLoNZ34RjEqHjHkD8vtmoRSdw9Nd55J1k',
+    'Community Validated': true,
   },
   {
     Name: 'Soul Scanner',
@@ -126,6 +198,18 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'sRLY',
     Mint: 'sRLY3migNrkC1HLgqotpvi66qGkdNedqPZ9TJpAQhyh',
     "Community Validated": false
+  },
+  {
+    Name: 'SWOLE',
+    Symbol: 'SWOLE',
+    Mint: 'sio28ienC3iABUKJFzkikHknbR3xyhjzhJE34tipyDP',
+    "Community Validated": true
+  },
+  {
+    Name: 'TREN',
+    Symbol: 'TREN',
+    Mint: 'HLnTNCG5RD7jYVduFc1pMCHiuApoWGn9LveqEFanQFZb',
+    'Community Validated': true,
   },
   {
     Name: 'Whales Market',
