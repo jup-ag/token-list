@@ -32,6 +32,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'BIRKIN',
+    Symbol: 'BAG',
+    Mint: 'Dnpy7ZkE1LvhyTC1hmTb8opJ6g9rgt2oRvN8z7y35WRJ',
+    'Community Validated': true,
+  },
+  {
     Name: 'BASC',
     Symbol: 'BASC',
     Mint: 'DM3Y4R7n1HGhP9AkNT6Ex4w1qQTpgq1TyujrMDX11FMT',
@@ -209,6 +215,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'TREN',
     Symbol: 'TREN',
     Mint: 'HLnTNCG5RD7jYVduFc1pMCHiuApoWGn9LveqEFanQFZb',
+    'Community Validated': true,
+  },
+  {
+    Name: 'TRUMP',
+    Symbol: 'TRUMP',
+    Mint: 'AwRErBEFGTnohzfLeRSBH9HddQEy2oeRxnWLrbvFFh95',
     'Community Validated': true,
   },
   {
