@@ -2,6 +2,12 @@ import { AllowedException } from "../types/types";
 
 export const allowedDuplicateSymbols: AllowedException[] = [
   {
+    Name: 'achi',
+    Symbol: 'ACHI',
+    Mint: '4rUfhWTRpjD1ECGjw1UReVhA8G63CrATuoFLRVRkkqhs',
+    "Community Validated": true
+  },
+  {
     Name: 'Any Inu (Wormhole)',
     Symbol: 'AI',
     Mint: 'ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6',
