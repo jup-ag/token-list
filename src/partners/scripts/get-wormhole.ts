@@ -14,10 +14,7 @@ const run = async () => {
     });
     
     dl.on("end", () => console.log("Download complete"));
-      
-
     dl.start();
-    
   } catch (error: any) {
     core.setFailed(error.message);
   }
