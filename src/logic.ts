@@ -10,7 +10,6 @@ import { allowedDuplicateSymbols, allowedNotCommunityValidated } from "./utils/d
 
 export async function validateValidatedTokensCsv(filename: string): Promise<number> {
     const [records, recordsRaw] = parseCsv(filename);
-
     const recordsPreviousRaw = await gitPreviousVersion("validated-tokens.csv");
     fs.writeFileSync(".validated-tokens-0.csv", recordsPreviousRaw);
     const [recordsPrevious, _] = parseCsv(".validated-tokens-0.csv")
