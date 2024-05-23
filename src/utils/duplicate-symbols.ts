@@ -2,6 +2,12 @@ import { AllowedException } from "../types/types";
 
 export const allowedDuplicateSymbols: AllowedException[] = [
   {
+    Name: 'achi',
+    Symbol: 'ACHI',
+    Mint: '4rUfhWTRpjD1ECGjw1UReVhA8G63CrATuoFLRVRkkqhs',
+    "Community Validated": true
+  },
+  {
     Name: 'Any Inu (Wormhole)',
     Symbol: 'AI',
     Mint: 'ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6',
@@ -29,6 +35,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'Baby',
     Symbol: 'BABY',
     Mint: '5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz',
+    'Community Validated': true,
+  },
+  {
+    Name: 'BIRKIN',
+    Symbol: 'BAG',
+    Mint: 'Dnpy7ZkE1LvhyTC1hmTb8opJ6g9rgt2oRvN8z7y35WRJ',
     'Community Validated': true,
   },
   {
@@ -209,6 +221,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'TREN',
     Symbol: 'TREN',
     Mint: 'HLnTNCG5RD7jYVduFc1pMCHiuApoWGn9LveqEFanQFZb',
+    'Community Validated': true,
+  },
+  {
+    Name: 'TRUMP',
+    Symbol: 'TRUMP',
+    Mint: 'AwRErBEFGTnohzfLeRSBH9HddQEy2oeRxnWLrbvFFh95',
     'Community Validated': true,
   },
   {
