@@ -6,7 +6,7 @@
 - `LogoURI`: https://www.countryflags.com/wp-content/uploads/croatia-flag-png-large.png
 - `Community Validated`: true
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/YOUR_ACCOUNT_NAME_HERE/status/YOUR_TWEET_ID_HERE
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/CroatiaCoin/status/1794494340909220288?t=wJN1n3zsycoSs3Tr2ZaKVw&s=19
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/YOUR_ID_HERE
 
 ## Validation (Please check off boxes):
