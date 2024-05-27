@@ -15,4 +15,5 @@ Tell us if you have a preferred word or acronym for your tag, hopefully short an
 That's it!
 
 Example of tags displayed to the right of the token:
+
 ![Example tags](./sample_token_tags.png)
