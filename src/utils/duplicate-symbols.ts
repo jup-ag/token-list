@@ -134,6 +134,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'NYAN',
+    Symbol: 'NYAN',
+    Mint: 'NYANpAp9Cr7YarBNrby7Xx4xU6No6JKTBuohNA3yscP',
+    "Community Validated": true
+  },
+  {
     Name: 'Shinobi',
     Symbol: 'NINJA',
     Mint: '2xP43MawHfU7pwPUmvkc6AUWg4GX8xPQLTGMkSZfCEJT',
