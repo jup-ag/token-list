@@ -12,7 +12,7 @@ const run = async () => {
       fileName: "wormhole.csv",
       override: true,
     });
-    
+
     dl.on("end", () => console.log("Download complete"));
     dl.start();
   } catch (error: any) {

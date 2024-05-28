@@ -1,7 +1,7 @@
-import { Token} from "../../types/types";
+import { Token } from "../../types/types";
 import fetch from "node-fetch";
 
-export async function getJupAll(): Promise<string[]> {  
+export async function getJupAll(): Promise<string[]> {
   try {
     const data = await fetch(`https://token.jup.ag/all`);
     const tokens = await data.json();
