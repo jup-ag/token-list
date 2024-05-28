@@ -1,4 +1,4 @@
-import { Token } from "../../types/types";
+import { Token} from "../../types/types";
 import fetch from "node-fetch";
 
 export async function getJupAll(): Promise<string[]> {
