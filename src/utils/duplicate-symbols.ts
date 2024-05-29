@@ -110,6 +110,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: "TRUMP'S HAT",
+    Symbol: 'MAGA',
+    Mint: 'AwduJQUJoSCZm5BUdhF99iZkUTUGHU34TPft8w5kNbw1',
+    "Community Validated": true
+  },
+  {
     Name: 'Solmedia',
     Symbol: 'MEDIA',
     Mint: 'BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu',
@@ -198,6 +204,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'SHIB',
     Mint: 'F6qoefQq4iCBLoNZ34RjEqHjHkD8vtmoRSdw9Nd55J1k',
     'Community Validated': true,
+  },
+  {
+    Name: 'Sol Eye',
+    Symbol: 'EYE',
+    Mint: '74Eyos32V2B6ineYgAcRMZsiDpz65z7sXHq7D5MSMYgF',
+    "Community Validated": true
   },
   {
     Name: 'Soul Scanner',
