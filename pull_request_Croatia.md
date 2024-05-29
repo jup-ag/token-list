@@ -1,7 +1,7 @@
-# Validate [TOKEN_SYMBOL_HERE](https://solscan.io/token/MINT_ADDRES_HERE)
+# Validate [CROATIA](https://solscan.io/token/EfAeGjyyPSEpsxHHFT7MuhRZTNdm6vqf1zNNAerR7JWG)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://twitter.com/YOUR_ACCOUNT_NAME_HERE/status/YOUR_TWEET_ID_HERE
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/CroatiaCoin/status/1794494340909220288
 - Coingecko/ CMC URL (If available): https://www.coingecko.com/en/coins/YOUR_ID_HERE
 
 ## Validation (Please check off boxes):
