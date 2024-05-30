@@ -128,6 +128,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": false
   },
   {
+    Name: 'MoonMarket',
+    Symbol: 'MOON',
+    Mint: 'CcPYxgVbSmP9VgNRLdT7KkznZJQ7DyFJ2ZvSPwgdN62e',
+    "Community Validated": true
+  },
+  {
     Name: 'NANA Token',
     Symbol: 'NANA',
     Mint: 'HxRELUQfvvjToVbacjr9YECdfQMUqGgPYB68jVDYxkbr',
