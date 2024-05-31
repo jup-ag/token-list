@@ -2,6 +2,12 @@ import { AllowedException } from "../types/types";
 
 export const allowedDuplicateSymbols: AllowedException[] = [
   {
+    Name: 'achi',
+    Symbol: 'ACHI',
+    Mint: '4rUfhWTRpjD1ECGjw1UReVhA8G63CrATuoFLRVRkkqhs',
+    "Community Validated": true
+  },
+  {
     Name: 'Any Inu (Wormhole)',
     Symbol: 'AI',
     Mint: 'ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6',
@@ -29,6 +35,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'Baby',
     Symbol: 'BABY',
     Mint: '5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz',
+    'Community Validated': true,
+  },
+  {
+    Name: 'BIRKIN',
+    Symbol: 'BAG',
+    Mint: 'Dnpy7ZkE1LvhyTC1hmTb8opJ6g9rgt2oRvN8z7y35WRJ',
     'Community Validated': true,
   },
   {
@@ -98,6 +110,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: "TRUMP'S HAT",
+    Symbol: 'MAGA',
+    Mint: 'AwduJQUJoSCZm5BUdhF99iZkUTUGHU34TPft8w5kNbw1',
+    "Community Validated": true
+  },
+  {
     Name: 'Solmedia',
     Symbol: 'MEDIA',
     Mint: 'BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu',
@@ -110,6 +128,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": false
   },
   {
+    Name: 'MoonMarket',
+    Symbol: 'MOON',
+    Mint: 'CcPYxgVbSmP9VgNRLdT7KkznZJQ7DyFJ2ZvSPwgdN62e',
+    "Community Validated": true
+  },
+  {
     Name: 'NANA Token',
     Symbol: 'NANA',
     Mint: 'HxRELUQfvvjToVbacjr9YECdfQMUqGgPYB68jVDYxkbr',
@@ -119,6 +143,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'NINJA TURTLES',
     Symbol: 'NINJA',
     Mint: 'DFrJxDoLMYt6bNYeNe8Wrjzj2UPUSLZLEMMYBLuTKcTk',
+    "Community Validated": true
+  },
+  {
+    Name: 'NYAN',
+    Symbol: 'NYAN',
+    Mint: 'NYANpAp9Cr7YarBNrby7Xx4xU6No6JKTBuohNA3yscP',
     "Community Validated": true
   },
   {
@@ -182,6 +212,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'Sol Eye',
+    Symbol: 'EYE',
+    Mint: '74Eyos32V2B6ineYgAcRMZsiDpz65z7sXHq7D5MSMYgF',
+    "Community Validated": true
+  },
+  {
     Name: 'Soul Scanner',
     Symbol: 'SOUL',
     Mint: 'J4ywFdm8H7hjwKzCaEQujhkDRfCnRviVnHMvFNDAoLNQ',
@@ -209,6 +245,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'TREN',
     Symbol: 'TREN',
     Mint: 'HLnTNCG5RD7jYVduFc1pMCHiuApoWGn9LveqEFanQFZb',
+    'Community Validated': true,
+  },
+  {
+    Name: 'TRUMP',
+    Symbol: 'TRUMP',
+    Mint: 'AwRErBEFGTnohzfLeRSBH9HddQEy2oeRxnWLrbvFFh95',
     'Community Validated': true,
   },
   {
