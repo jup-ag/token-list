@@ -115,6 +115,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Mint: 'AwduJQUJoSCZm5BUdhF99iZkUTUGHU34TPft8w5kNbw1',
     "Community Validated": true
   },
+    {
+    Name: "MAGA",
+    Symbol: 'MAGA',
+    Mint: 'sfYDFZJguyF4YLZjje7qwwh41NRymFfZ3QXZbVm7Eyg',
+    "Community Validated": true
+  },
   {
     Name: 'Solmedia',
     Symbol: 'MEDIA',
