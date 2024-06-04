@@ -115,6 +115,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Mint: 'AwduJQUJoSCZm5BUdhF99iZkUTUGHU34TPft8w5kNbw1',
     "Community Validated": true
   },
+    {
+    Name: "MAGA",
+    Symbol: 'MAGA',
+    Mint: 'sfYDFZJguyF4YLZjje7qwwh41NRymFfZ3QXZbVm7Eyg',
+    "Community Validated": true
+  },
   {
     Name: 'Solmedia',
     Symbol: 'MEDIA',
@@ -126,6 +132,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'MILK',
     Mint: 'MLKmUCaj1dpBY881aFsrBwR9RUMoKic8SWT3u1q5Nkj',
     "Community Validated": false
+  },
+  {
+    Name: 'MoonMarket',
+    Symbol: 'MOON',
+    Mint: 'CcPYxgVbSmP9VgNRLdT7KkznZJQ7DyFJ2ZvSPwgdN62e',
+    "Community Validated": true
   },
   {
     Name: 'NANA Token',
