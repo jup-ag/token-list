@@ -110,6 +110,18 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: "TRUMP'S HAT",
+    Symbol: 'MAGA',
+    Mint: 'AwduJQUJoSCZm5BUdhF99iZkUTUGHU34TPft8w5kNbw1',
+    "Community Validated": true
+  },
+    {
+    Name: "MAGA",
+    Symbol: 'MAGA',
+    Mint: 'sfYDFZJguyF4YLZjje7qwwh41NRymFfZ3QXZbVm7Eyg',
+    "Community Validated": true
+  },
+  {
     Name: 'Solmedia',
     Symbol: 'MEDIA',
     Mint: 'BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu',
@@ -122,6 +134,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": false
   },
   {
+    Name: 'MoonMarket',
+    Symbol: 'MOON',
+    Mint: 'CcPYxgVbSmP9VgNRLdT7KkznZJQ7DyFJ2ZvSPwgdN62e',
+    "Community Validated": true
+  },
+  {
     Name: 'NANA Token',
     Symbol: 'NANA',
     Mint: 'HxRELUQfvvjToVbacjr9YECdfQMUqGgPYB68jVDYxkbr',
@@ -131,6 +149,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'NINJA TURTLES',
     Symbol: 'NINJA',
     Mint: 'DFrJxDoLMYt6bNYeNe8Wrjzj2UPUSLZLEMMYBLuTKcTk',
+    "Community Validated": true
+  },
+  {
+    Name: 'NYAN',
+    Symbol: 'NYAN',
+    Mint: 'NYANpAp9Cr7YarBNrby7Xx4xU6No6JKTBuohNA3yscP',
     "Community Validated": true
   },
   {
@@ -192,6 +216,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'SHIB',
     Mint: 'F6qoefQq4iCBLoNZ34RjEqHjHkD8vtmoRSdw9Nd55J1k',
     'Community Validated': true,
+  },
+  {
+    Name: 'Sol Eye',
+    Symbol: 'EYE',
+    Mint: '74Eyos32V2B6ineYgAcRMZsiDpz65z7sXHq7D5MSMYgF',
+    "Community Validated": true
   },
   {
     Name: 'Soul Scanner',
