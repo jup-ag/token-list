@@ -187,7 +187,7 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Mint: 'CYuXNHURE8cF3rQc1687DZnmsWx9ATNG3mZPFmryu22S',
     "Community Validated": true
   },
-    {
+  {
     Name: 'PEPE',
     Symbol: 'PEPE',
     Mint: 'B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B',
