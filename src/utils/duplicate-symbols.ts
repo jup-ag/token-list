@@ -115,6 +115,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Mint: 'AwduJQUJoSCZm5BUdhF99iZkUTUGHU34TPft8w5kNbw1',
     "Community Validated": true
   },
+    {
+    Name: "MAGA",
+    Symbol: 'MAGA',
+    Mint: 'sfYDFZJguyF4YLZjje7qwwh41NRymFfZ3QXZbVm7Eyg',
+    "Community Validated": true
+  },
   {
     Name: 'Solmedia',
     Symbol: 'MEDIA',
@@ -179,6 +185,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'PEPESOLANA',
     Symbol: 'PEPE',
     Mint: 'CYuXNHURE8cF3rQc1687DZnmsWx9ATNG3mZPFmryu22S',
+    "Community Validated": true
+  },
+  {
+    Name: 'PEPE',
+    Symbol: 'PEPE',
+    Mint: 'B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B',
     "Community Validated": true
   },
   {
