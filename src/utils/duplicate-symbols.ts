@@ -276,6 +276,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'WHEY',
     Mint: 'Ue4yjkPjA4QGis37eWbBsnqfzyK83BtY4AioDETp3Ab',
     "Community Validated": true
+  },
+  {
+    "Name": "Zoomer",
+    "Symbol": "ZOOMER",
+    "Mint": "9MBzpyMRkj2r5nTQZMMnxnCm5j1MAAFSYUtbSKjAF3WU",
+    "Community Validated": true
   }
 ]
 
