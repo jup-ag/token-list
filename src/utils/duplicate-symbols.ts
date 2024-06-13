@@ -188,6 +188,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'PEPE',
+    Symbol: 'PEPE',
+    Mint: 'B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B',
+    "Community Validated": true
+  },
+  {
     Name: 'Rocky',
     Symbol: 'ROCKY',
     Mint: '4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z',
@@ -269,6 +275,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'WHEY',
     Symbol: 'WHEY',
     Mint: 'Ue4yjkPjA4QGis37eWbBsnqfzyK83BtY4AioDETp3Ab',
+    "Community Validated": true
+  },
+  {
+    "Name": "Zoomer",
+    "Symbol": "ZOOMER",
+    "Mint": "9MBzpyMRkj2r5nTQZMMnxnCm5j1MAAFSYUtbSKjAF3WU",
     "Community Validated": true
   }
 ]
