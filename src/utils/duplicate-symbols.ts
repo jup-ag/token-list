@@ -276,6 +276,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'WHEY',
     Mint: 'Ue4yjkPjA4QGis37eWbBsnqfzyK83BtY4AioDETp3Ab',
     "Community Validated": true
+  },
+  {
+    "Name": "Zoomer",
+    "Symbol": "ZOOMER",
+    "Mint": "9MBzpyMRkj2r5nTQZMMnxnCm5j1MAAFSYUtbSKjAF3WU",
+    "Community Validated": true
   }
 ]
 
@@ -3951,11 +3957,5 @@ export const allowedNotCommunityValidated: AllowedException[] = [
     "Symbol": "Zion",
     "Mint": "A7rqejP8LKN8syXMr4tvcKjs2iJ4WtZjXNs1e6qP3m9g",
     "Community Validated": false
-  },
-  {
-    "Name": "Zoomer",
-    "Symbol": "ZOOMER",
-    "Mint": "9MBzpyMRkj2r5nTQZMMnxnCm5j1MAAFSYUtbSKjAF3WU",
-    "Community Validated": true
   }
 ]
