@@ -56,6 +56,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'DADDY TATE',
+    Symbol: 'DADDY',
+    Mint: '4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump',
+    "Community Validated": true
+  },
+  {
     Name: 'Eggdog',
     Symbol: 'EGG',
     Mint: 'EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE',
@@ -102,6 +108,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'Harold',
     Mint: 'B8AmDZRJeHuq8CPciey6jocq9p4ivc4ZurDXPwtqs2Qg',
     'Community Validated': true,
+  },
+  {
+    Name: 'THE Legend',
+    Symbol: 'LEGEND',
+    Mint: 'EEAy5QjPS5F3Jqqd51MYfHo8enAKtgFZxNnFjbeVpump',
+    "Community Validated": true
   },
   {
     Name: 'LILY',
