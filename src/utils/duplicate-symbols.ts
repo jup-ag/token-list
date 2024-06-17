@@ -8,6 +8,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Anonymous',
+    Symbol: 'ANON',
+    Mint: '8VJ51bdE3xorQ1zB7FEa8CsHdM4kw77xCFiCgbnL2qbT',
+    "Community Validated": true
+  },
+  {
     Name: 'Any Inu (Wormhole)',
     Symbol: 'AI',
     Mint: 'ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6',
@@ -53,6 +59,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
+    "Community Validated": true
+  },
+  {
+    Name: 'DADDY TATE',
+    Symbol: 'DADDY',
+    Mint: '4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump',
     "Community Validated": true
   },
   {
@@ -102,6 +114,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'Harold',
     Mint: 'B8AmDZRJeHuq8CPciey6jocq9p4ivc4ZurDXPwtqs2Qg',
     'Community Validated': true,
+  },
+  {
+    Name: 'THE Legend',
+    Symbol: 'LEGEND',
+    Mint: 'EEAy5QjPS5F3Jqqd51MYfHo8enAKtgFZxNnFjbeVpump',
+    "Community Validated": true
   },
   {
     Name: 'LILY',
@@ -263,6 +281,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'TRUMP',
     Symbol: 'TRUMP',
     Mint: 'AwRErBEFGTnohzfLeRSBH9HddQEy2oeRxnWLrbvFFh95',
+    'Community Validated': true,
+  },
+  {
+    Name: 'UPROCK',
+    Symbol: 'UPT',
+    Mint: 'UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG',
     'Community Validated': true,
   },
   {
