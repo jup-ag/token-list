@@ -212,7 +212,7 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
-    Name: 'Pepe on Sol',
+    Name: 'Pepe',
     Symbol: 'PEPE',
     Mint: 'ox698TZsZAN2miNQj1FQb48A58FZ546c4sWqq9Y9vmU',
     "Community Validated": true
