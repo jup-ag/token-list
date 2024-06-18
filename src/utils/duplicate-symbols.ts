@@ -212,6 +212,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Pepe',
+    Symbol: 'PEPE',
+    Mint: 'ox698TZsZAN2miNQj1FQb48A58FZ546c4sWqq9Y9vmU',
+    "Community Validated": true
+  },
+  {
     Name: 'Rocky',
     Symbol: 'ROCKY',
     Mint: '4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z',
@@ -288,6 +294,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'UPT',
     Mint: 'UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG',
     'Community Validated': true,
+  },
+  {
+    Name: 'Wall Street Bets',
+    Symbol: 'WSB',
+    Mint: 'AkVt31h8vgji5wF4nVbq1QmBV5wBoe8JdSoDTkDhQwEw',
+    "Community Validated": true
   },
   {
     Name: 'Whales Market',
