@@ -296,6 +296,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'LandWolf',
+    Symbol: 'WOLF',
+    Mint: 'Faf89929Ni9fbg4gmVZTca7eW6NFg877Jqn6MizT3Gvw',
+    "Community Validated": true
+  },
+  {
     Name: 'Wall Street Bets',
     Symbol: 'WSB',
     Mint: 'AkVt31h8vgji5wF4nVbq1QmBV5wBoe8JdSoDTkDhQwEw',
