@@ -56,6 +56,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'Buisness Cat',
+    Symbol: 'BCAT',
+    Mint: '7ABhUfzLKT7acJ9rFRZJUBvcqYfCfHLakTvZM75kAVPS',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
