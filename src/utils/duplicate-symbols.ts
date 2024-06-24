@@ -290,6 +290,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'MoonTrump',
+    Symbol: 'TRUMP',
+    Mint: 'BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT',
+    'Community Validated': true,
+  },
+  {
     Name: 'UPROCK',
     Symbol: 'UPT',
     Mint: 'UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG',
