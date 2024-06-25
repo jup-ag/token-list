@@ -56,6 +56,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'Buisness Cat',
+    Symbol: 'BCAT',
+    Mint: '7ABhUfzLKT7acJ9rFRZJUBvcqYfCfHLakTvZM75kAVPS',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
@@ -287,6 +293,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'TRUMP',
     Symbol: 'TRUMP',
     Mint: 'AwRErBEFGTnohzfLeRSBH9HddQEy2oeRxnWLrbvFFh95',
+    'Community Validated': true,
+  },
+  {
+    Name: 'MoonTrump',
+    Symbol: 'TRUMP',
+    Mint: 'BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT',
     'Community Validated': true,
   },
   {
