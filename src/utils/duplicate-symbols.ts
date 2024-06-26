@@ -8,6 +8,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Anonymous',
+    Symbol: 'ANON',
+    Mint: '8VJ51bdE3xorQ1zB7FEa8CsHdM4kw77xCFiCgbnL2qbT',
+    "Community Validated": true
+  },
+  {
     Name: 'Any Inu (Wormhole)',
     Symbol: 'AI',
     Mint: 'ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6',
@@ -50,9 +56,21 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'Buisness Cat',
+    Symbol: 'BCAT',
+    Mint: '7ABhUfzLKT7acJ9rFRZJUBvcqYfCfHLakTvZM75kAVPS',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
+    "Community Validated": true
+  },
+  {
+    Name: 'DADDY TATE',
+    Symbol: 'DADDY',
+    Mint: '4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump',
     "Community Validated": true
   },
   {
@@ -102,6 +120,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Symbol: 'Harold',
     Mint: 'B8AmDZRJeHuq8CPciey6jocq9p4ivc4ZurDXPwtqs2Qg',
     'Community Validated': true,
+  },
+  {
+    Name: 'THE Legend',
+    Symbol: 'LEGEND',
+    Mint: 'EEAy5QjPS5F3Jqqd51MYfHo8enAKtgFZxNnFjbeVpump',
+    "Community Validated": true
   },
   {
     Name: 'LILY',
@@ -194,6 +218,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Pepe',
+    Symbol: 'PEPE',
+    Mint: 'ox698TZsZAN2miNQj1FQb48A58FZ546c4sWqq9Y9vmU',
+    "Community Validated": true
+  },
+  {
     Name: 'Rocky',
     Symbol: 'ROCKY',
     Mint: '4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z',
@@ -266,6 +296,36 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'MoonTrump',
+    Symbol: 'TRUMP',
+    Mint: 'BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT',
+    'Community Validated': true,
+  },
+  {
+    Name: 'DONALD TRUMP',
+    Symbol: 'TRUMP',
+    Mint: '4h8LjZWUfUQVgbEZ29UzTuGXNW6rwrJis78ZU66ekkPV',
+    'Community Validated': true,
+  },
+  {
+    Name: 'UPROCK',
+    Symbol: 'UPT',
+    Mint: 'UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG',
+    'Community Validated': true,
+  },
+  {
+    Name: 'LandWolf',
+    Symbol: 'WOLF',
+    Mint: 'Faf89929Ni9fbg4gmVZTca7eW6NFg877Jqn6MizT3Gvw',
+    "Community Validated": true
+  },
+  {
+    Name: 'Wall Street Bets',
+    Symbol: 'WSB',
+    Mint: 'AkVt31h8vgji5wF4nVbq1QmBV5wBoe8JdSoDTkDhQwEw',
+    "Community Validated": true
+  },
+  {
     Name: 'Whales Market',
     Symbol: 'WHALES',
     Mint: 'GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1',
@@ -275,6 +335,18 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'WHEY',
     Symbol: 'WHEY',
     Mint: 'Ue4yjkPjA4QGis37eWbBsnqfzyK83BtY4AioDETp3Ab',
+    "Community Validated": true
+  },
+  {
+    Name: 'ElagabalX Staked SOL',
+    Symbol: 'xSOL',
+    Mint: 'B5GgNAZQDN8vPrQ15jPrXmJxVtManHLqHogj9B9i4zSs',
+    "Community Validated": true
+  },
+  {
+    "Name": "Zoomer",
+    "Symbol": "ZOOMER",
+    "Mint": "9MBzpyMRkj2r5nTQZMMnxnCm5j1MAAFSYUtbSKjAF3WU",
     "Community Validated": true
   }
 ]
