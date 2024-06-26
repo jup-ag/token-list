@@ -98,6 +98,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Golden Celestial Ratio',
+    Symbol: 'GCR',
+    Mint: '7dGbPgUxKpB5qWiLRKcTQSC3om1fPzUpgGAFfwej9hXxD',
+    "Community Validated": true
+  },
+  {
     Name: 'Starbots GEAR',
     Symbol: 'GEAR',
     Mint: '23WuycvPjEuzJTsBPBZqnbFZFcBtBKAMTowUDHwagkuD',
