@@ -56,6 +56,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'Buisness Cat',
+    Symbol: 'BCAT',
+    Mint: '7ABhUfzLKT7acJ9rFRZJUBvcqYfCfHLakTvZM75kAVPS',
+    'Community Validated': true,
+  },
+  {
     Name: 'Boo',
     Symbol: 'BOO',
     Mint: 'FfpyoV365c7iR8QQg5NHGCXQfahbqzY67B3wpzXkiLXr',
@@ -89,6 +95,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'Helios Rising: Fuel',
     Symbol: 'FUEL',
     Mint: 'ZViNy4z9dquon7AVgr6neK1RCohTRFH8WTUMUsjhWhe',
+    "Community Validated": true
+  },
+  {
+    Name: 'Golden Celestial Ratio',
+    Symbol: 'GCR',
+    Mint: '7dGbPgUxKpB5qWiLRKcTQSC3om1fPzUpgGAFfwej9hXxD',
     "Community Validated": true
   },
   {
@@ -290,10 +302,28 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     'Community Validated': true,
   },
   {
+    Name: 'MoonTrump',
+    Symbol: 'TRUMP',
+    Mint: 'BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT',
+    'Community Validated': true,
+  },
+  {
+    Name: 'DONALD TRUMP',
+    Symbol: 'TRUMP',
+    Mint: '4h8LjZWUfUQVgbEZ29UzTuGXNW6rwrJis78ZU66ekkPV',
+    'Community Validated': true,
+  },
+  {
     Name: 'UPROCK',
     Symbol: 'UPT',
     Mint: 'UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG',
     'Community Validated': true,
+  },
+  {
+    Name: 'LandWolf',
+    Symbol: 'WOLF',
+    Mint: 'Faf89929Ni9fbg4gmVZTca7eW6NFg877Jqn6MizT3Gvw',
+    "Community Validated": true
   },
   {
     Name: 'Wall Street Bets',
@@ -311,6 +341,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'WHEY',
     Symbol: 'WHEY',
     Mint: 'Ue4yjkPjA4QGis37eWbBsnqfzyK83BtY4AioDETp3Ab',
+    "Community Validated": true
+  },
+  {
+    Name: 'ElagabalX Staked SOL',
+    Symbol: 'xSOL',
+    Mint: 'B5GgNAZQDN8vPrQ15jPrXmJxVtManHLqHogj9B9i4zSs',
     "Community Validated": true
   },
   {
