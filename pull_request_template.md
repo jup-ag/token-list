@@ -1,7 +1,7 @@
 # Validate [piin](https://solscan.io/token/piinKrjeiUVwhnXzsgNCV2aVGsBc4GwHQ9eCtkAgcTw)
 
 ## Attestations (Please provide links):
-- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: 
+- Tweet from your Twitter Account attesting the Mint address, tagging [@JupiterExchange](https://twitter.com/JupiterExchange) and showing community support: https://x.com/Ming05046757/status/1806917170527604755?s=19
 - CMC URL : https://coinmarketcap.com/currencies/piin/  (piin cross-chained from the Bitcoin chain to Solana. This is the url of piin on the Bitcoin chain. Solana’s information is being updated.)
 
 ## Validation (Please check off boxes):
