@@ -242,6 +242,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'SIUUU',
+    Symbol: 'SIUUU',
+    Mint: 'siuwworrVnkjU3AE6Zj6uieFGC9JSXiGJ7YWxyScGxT',
+    'Community Validated': true,
+  },
+  {
     Name: 'Solbank',
     Symbol: 'SB',
     Mint: '8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM',
