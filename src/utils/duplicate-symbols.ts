@@ -230,6 +230,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'PEPE SKULL',
+    Symbol: 'SKULL',
+    Mint: '3X36yhq35MJnt2JjwodeFDfv2MFPb99RC53yUyNrpump',
+    "Community Validated": true
+  },
+  {
     Name: 'Rocky',
     Symbol: 'ROCKY',
     Mint: '4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z',
