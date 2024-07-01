@@ -284,6 +284,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true,
   },
   {
+    Name: 'STAR CAT',
+    Symbol: 'SC',
+    Mint: 'A2GHnfpZvyeZX5Pr63jdMmo9uYbpaaKqHHuPD5xD2n6v',
+    "Community Validated": true,
+  },
+  {
     Name: 'sRLY (Rally Solana)',
     Symbol: 'sRLY',
     Mint: 'sRLY3migNrkC1HLgqotpvi66qGkdNedqPZ9TJpAQhyh',
