@@ -98,6 +98,18 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Spike',
+    Symbol: 'SPIKE',
+    Mint: 'sPiKEYAqoaGYYBAnPxro8NLSYLu93sr56n352jJRLN5',
+    "Community Validated": true
+  },
+  {
+    Name: 'Spike',
+    Symbol: 'SPIKE',
+    Mint: 'BX9yEgW8WkoWV8SvqTMMCynkQWreRTJ9ZS81dRXYnnR9',
+    "Community Validated": true
+  },
+  {
     Name: 'Golden Celestial Ratio',
     Symbol: 'GCR',
     Mint: '7dGbPgUxKpB5qWiLRKcTQSC3om1fPzUpgGAFfwej9hXxD',
