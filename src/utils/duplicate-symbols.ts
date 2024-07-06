@@ -98,6 +98,18 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'Spike',
+    Symbol: 'SPIKE',
+    Mint: 'sPiKEYAqoaGYYBAnPxro8NLSYLu93sr56n352jJRLN5',
+    "Community Validated": true
+  },
+  {
+    Name: 'Spike',
+    Symbol: 'SPIKE',
+    Mint: 'BX9yEgW8WkoWV8SvqTMMCynkQWreRTJ9ZS81dRXYnnR9',
+    "Community Validated": true
+  },
+  {
     Name: 'Golden Celestial Ratio',
     Symbol: 'GCR',
     Mint: '7dGbPgUxKpB5qWiLRKcTQSC3om1fPzUpgGAFfwej9hXxD',
@@ -230,10 +242,22 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     "Community Validated": true
   },
   {
+    Name: 'PEPE SKULL',
+    Symbol: 'SKULL',
+    Mint: '3X36yhq35MJnt2JjwodeFDfv2MFPb99RC53yUyNrpump',
+    "Community Validated": true
+  },
+  {
     Name: 'Rocky',
     Symbol: 'ROCKY',
     Mint: '4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z',
     "Community Validated": true
+  },
+  {
+    Name: 'SIUUU',
+    Symbol: 'SIUUU',
+    Mint: 'siuwworrVnkjU3AE6Zj6uieFGC9JSXiGJ7YWxyScGxT',
+    'Community Validated': true,
   },
   {
     Name: 'Solbank',
@@ -275,6 +299,12 @@ export const allowedDuplicateSymbols: AllowedException[] = [
     Name: 'SolCard',
     Symbol: 'SOLC',
     Mint: 'DLUNTKRQt7CrpqSX1naHUYoBznJ9pvMP65uCeWQgYnRK',
+    "Community Validated": true,
+  },
+  {
+    Name: 'STAR CAT',
+    Symbol: 'SC',
+    Mint: 'A2GHnfpZvyeZX5Pr63jdMmo9uYbpaaKqHHuPD5xD2n6v',
     "Community Validated": true,
   },
   {
