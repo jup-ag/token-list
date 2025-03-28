@@ -1,0 +1,9 @@
+{
+  "chainId": 101,
+  "address": "D1XtKipxanUn5zuhGyVDAPzhDuozgcX4fNkk5saD7RWe",
+  "symbol": "wUSDT",
+  "name": "Wrapped USDT (wUSDT)",
+  "decimals": 6,
+  "logoURI": "https://gateway.pinata.cloud/ipfs/bafkreicdv5zhduj23i4iipgtv5xeimk4h5w7opwnemnekosjvrjhmjk7z4",
+  "tags": ["stablecoin", "usd", "wrapped"]
+}
