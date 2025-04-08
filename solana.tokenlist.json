@@ -1,0 +1,26 @@
+{
+  "name": "Solana Token List",
+  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/solana-tokenlist.png",
+  "keywords": ["solana", "token"],
+  "timestamp": "2025-04-07T00:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "3oZdCFG3XD18ZrTHNFK8abA3DmGShcyjgEwBYSnJzRWq",
+      "symbol": "BEAN",
+      "name": "Pepe Java Shop",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/pepejavashop/bean-assets/main/logo.png",
+      "tags": ["utility-token", "meme", "coffee"],
+      "extensions": {
+        "website": "https://pepejava.com",
+        "twitter": "https://twitter.com/pepejavashop"
+      }
+    }
+  ]
+}
