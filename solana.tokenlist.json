@@ -1,23 +1,11 @@
 {
-  "name": "Solana Token List",
-  "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/solana-tokenlist.png",
-  "keywords": ["solana", "token"],
-  "timestamp": "2025-04-07T00:00:00+00:00",
-  "version": {
-    "major": 1,
-    "minor": 0,
-    "patch": 0
-  },
-  "tokens": [
-    {
-      {
   "chainId": 101,
   "address": "3oZdCFG3XD18ZrTHNFK8abA3DmGShcyjgEwBYSnJzRWq",
-  "symbol": "PEPEJAVA",
+  "symbol": "GOPEPE",
   "name": "Pepe Java",
   "decimals": 6,
-  "logoURI": "https://raw.githubusercontent.com/PepeJavaShop/bean-assets/main/token-assets/PEPEJAVA_coin_gold.png",
-  "tags": ["community-token", "meme", "coffee"],
+  "logoURI": "https://raw.githubusercontent.com/PepeJavaShop/bean-assets/main/token-assets/GOPEPE_token_logo.png",
+  "tags": ["meme", "coffee", "community-token"],
   "extensions": {
     "website": "https://pepejava.com",
     "twitter": "https://twitter.com/pepejavashop",
@@ -26,7 +14,3 @@
   }
 }
 
-      }
-    }
-  ]
-}
