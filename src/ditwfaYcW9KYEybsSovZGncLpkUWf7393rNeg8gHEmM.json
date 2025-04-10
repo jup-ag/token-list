@@ -1,0 +1,16 @@
+{
+  "chainId": 101,
+  "address": "ditwfaYcW9KYEybsSovZGncLpkUWf7393rNeg8gHEmM",
+  "symbol": "SPSF",
+  "name": "SpaceFuel",
+  "decimals": 9,
+  "logoURI": "https://i.imgur.com/Mb5VCjc_d.webp?maxwidth=760&fidelity=grand",
+  "tags": ["utility-token"],
+  "extensions": {
+    "website": "https://spacesolfuel.com",
+    "twitter": "https://x.com/spacesolfuel",
+    "facebook": "https://www.facebook.com/share/18cRw8VzUi/?mibextid=LQQJ4d",
+    "instagram": "https://www.instagram.com/spacesolfuel?igsh=MTl3NnFrbHhlcm1zcg==",
+    "tiktok": "https://www.tiktok.com/@spacesolcto?_t=ZM-8vPvTUhHL6M&_r=1"
+  }
+}
