@@ -1,0 +1,15 @@
+{
+  "name": "Solana Token List",
+  "logoURI": "https://cryptologos.cc/logos/solana-sol-logo.png",
+  "tags": {
+    "utility-token": {
+      "name": "Utility Token",
+      "description": "General purpose token"
+    }
+  },
+  "timestamp": "2025-03-30T00:00:00+00:00",
+  "tokens": [
+    "tokens/hypeshard.json"
+  ]
+}
+
