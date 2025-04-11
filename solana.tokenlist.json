@@ -1,0 +1,16 @@
+{
+  "chainId": 101,
+  "address": "3oZdCFG3XD18ZrTHNFK8abA3DmGShcyjgEwBYSnJzRWq",
+  "symbol": "GOPEPE",
+  "name": "Pepe Java",
+  "decimals": 6,
+  "logoURI": "https://raw.githubusercontent.com/PepeJavaShop/bean-assets/main/token-assets/GOPEPE_token_logo.png",
+  "tags": ["meme", "coffee", "community-token"],
+  "extensions": {
+    "website": "https://pepejava.com",
+    "twitter": "https://twitter.com/pepejavashop",
+    "github": "https://github.com/PepeJavaShop",
+    "description": "The official token of the Pepe Java Shop — Coffee + Crypto + Community."
+  }
+}
+
