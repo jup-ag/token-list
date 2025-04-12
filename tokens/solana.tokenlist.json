@@ -1,0 +1,17 @@
+{
+  "name": "PasovaCoin Token List",
+  "logoURI": "https://raw.githubusercontent.com/pasovacoin/token-list/main/assets/mainnet/CzH7KrQrZKXai62gBg6pLYUiEQoAH3y2or9fhGALcHai/logo.png",
+  "tags": {},
+  "timestamp": "2025-04-12T17:53:25Z",
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "CzH7KrQrZKXai62gBg6pLYUiEQoAH3y2or9fhGALcHai",
+      "symbol": "PASO",
+      "name": "PasovaCoin",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/pasovacoin/token-list/main/assets/mainnet/CzH7KrQrZKXai62gBg6pLYUiEQoAH3y2or9fhGALcHai/logo.png"
+    }
+  ]
+}
+
