@@ -1,8 +1,15 @@
+
 {
   "name": "PasovaCoin Token List",
-  "logoURI": "https://raw.githubusercontent.com/pasovacoin/token-list/main/assets/mainnet/CzH7KrQrZKXai62gBg6pLYUiEQoAH3y2or9fhGALcHai/logo.png",
+  "timestamp": "2025-04-14T00:00:00Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
   "tags": {},
-  "timestamp": "2025-04-12T17:53:25Z",
+  "logoURI": "https://raw.githubusercontent.com/pasovacoin/token-list/main/assets/mainnet/CzH7KrQrZKXai62gBg6pLYUiEQoAH3y2or9fhGALcHai/logo.png",
+  "keywords": ["pasovaCoin", "solana", "PASO"],
   "tokens": [
     {
       "chainId": 101,
@@ -14,4 +21,3 @@
     }
   ]
 }
-
