@@ -1,7 +1,9 @@
 
 ## Deprecated -- all PRs will be closed.
 
-We have a new site in beta where you can get a tag for your project from Jupiter's community: https://catdetlist.jup.ag/. Please give it a go.
+This has been replaced by Jupiter Verify, our V3 token list system. You no longer need to submit applications. Instead, tokens with a good organic score and community support(measured by smart likes) will be discovered naturally and verified.
 
-- Questions? Go to token-list channel in [Jupiter's discord](https://discord.gg/jup)
-- The archived README for this repo is [here](https://github.com/jup-ag/token-list/blob/main/README-archive.md)  
+To get your community to submit smart likes, go to the token page of your token and like it.
+- Example for SOL token, replace the mint address with yours: https://jup.ag/tokens/So11111111111111111111111111111111111111112
+
+Just a reminder: Verification is our way of helping users find the correct token at the right mint address, and is not an endorsement of any project.
